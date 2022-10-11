@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fff;
+    color: #000;
+    font-family: 'Open Sans',sans-serif;
+    text-align: center;
+}
+
+ul {
+    list-style: disc;
+    padding-left: 1.3em;
+    padding-right: 1.5em;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.site-header {
+    position: relative;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: #000;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.outer {
+    padding: 0 4vw;
+}
+
+.site-header-content {
+    padding: 3vw 1.5vw;
+    min-height:200px;
+    max-height: 450px;
+}
+
+.site-logo {
+    max-height: 45px
+}
+
+.site-title {
+    z-index: 10;
+    margin: 0;
+    padding: 0;
+    font-size: 3.0rem;
+    font-weight: 700;
+}
+
+.site-description {
+    z-index: 10;
+    margin: 0;
+    padding: 5px 0;
+    font-weight: 300;
+    letter-spacing: .5px;
+    opacity: .8;
+}
+
+.site-nav {
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    height: 40px;
+    font-size: 1.2rem;
+    padding: 0 10%;
+}
+
+.site-nav-left {
+    align-items: center;
+    overflow-y: auto;
+    margin-right: 10px;
+    display: flex;
+    letter-spacing: .4px;
+    white-space: nowrap;
+    overflow-y: hidden;
+}
+
+.nav {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav li , .nav li a{
+    display: block;
+    margin: 0;
+}
+
+
+.nav li {
+    padding: 0;
+    text-transform: uppercase;
+}
+
+.nav li a {
+    padding: 10px 12px;
+    color: #15171a;
+    opacity: .8;
+    text-decoration: none;
+}
+
+.nav li :hover{
+    background-color: #EBEBEB;
+    border-radius: 10px;
+}
+
+.site-nav-right, .social-links {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+}
+
+.site-nav-right {
+    height: 40px;
+}
+
+.socialmedia-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 10px;
+    color: black;
+    opacity: .8;
+}

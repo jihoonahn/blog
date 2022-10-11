@@ -3,17 +3,34 @@ import Publish
 import Plot
 
 struct Blog: Website {
-    typealias SectionID = <#type#>
+    enum SectionID: String, WebsiteSectionID {
+        case posts
+        case about
+        case notes
+        
+        var name: String {
+            switch self {
+            case .posts: return "Posts"
+            case .about: return "About"
+            case .notes: return "Notes"
+            }
+        }
+    }
     
-    typealias ItemMetadata = <#type#>
+    struct ItemMetadata: WebsiteItemMetadata {
+        var excerpt: String
+        var topic: String {
+            return excerpt
+        }
+    }
     
-    var name: String
-    
-    var description: String
-    
-    var language: Plot.Language
-    
-    var imagePath: Publish.Path?
-    
-     
+    var url = URL(string: "https://your-website-url.com")!
+    var title = "JiHoon"
+    var name = "JiHoonAHN-Blog"
+    var description = "iOS Developer"
+    var language: Language { .english }
+    var imagePath: Path? { nil }
+    var socialMediaLinks: [SocialMediaLink] {
+        [.github]
+    }
 }
