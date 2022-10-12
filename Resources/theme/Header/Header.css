@@ -7,4 +7,29 @@
     color: #000;
     border-bottom: 1px solid #EDEDED;
 }
+.outer {
+    padding: 0 4vw;
+}
 
+.site-logo {
+    max-height: 45px;
+}
+
+
+.nav {
+    display: inline-flex;
+    list-style: none;
+}
+
+.nav li a {
+    display: block;
+    padding: 10px 12px;
+    color: #15171a;
+    opacity: .8;
+    text-decoration: none;
+}
+
+.nav li :hover{
+    background-color: #EBEBEB;
+    border-radius: 10px;
+}

@@ -20,7 +20,6 @@ extension Node where Context == HTML.BodyContext {
                         )
                     ),
                     .nav(
-                        .class("site-nav"),
                         .ul(
                             .class("nav"),
                             .li(
