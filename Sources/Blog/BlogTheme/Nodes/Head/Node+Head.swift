@@ -10,6 +10,10 @@ extension Node where Context == HTML.DocumentContext {
                 .content("width=device-width, initial-scale=1")
             ),
             .script(
+                .src("/js/main.js"),
+                .defer()
+            ),
+            .script(
                 .src("https://kit.fontawesome.com/662f6d0c39.js"),
                 .crossorigin("anonymous")
             ),

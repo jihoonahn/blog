@@ -24,12 +24,13 @@ ul {
     flex-wrap: wrap;
 }
 
+/*Header*/
 .site-header {
     position: relative;
     padding-top: 12px;
     padding-bottom: 12px;
     color: #000;
-    border-bottom: 1px solid #e1e1e1;
+    border-bottom: 1px solid #EDEDED;
 }
 
 .outer {
@@ -43,7 +44,7 @@ ul {
 }
 
 .site-logo {
-    max-height: 45px
+    max-height: 45px;
 }
 
 .site-title {
@@ -67,19 +68,16 @@ ul {
     display: flex;
     justify-content: space-between;
     align-content: flex-start;
-    height: 40px;
+    height: auto;
     font-size: 1.2rem;
     padding: 0 10%;
 }
 
 .site-nav-left {
     align-items: center;
-    overflow-y: auto;
     margin-right: 10px;
     display: flex;
     letter-spacing: .4px;
-    white-space: nowrap;
-    overflow-y: hidden;
 }
 
 .nav {
@@ -122,6 +120,13 @@ ul {
     height: 40px;
 }
 
+.menu-bar {
+    display: none;
+    position: flex;
+    padding: 10px;
+    color: black;
+}
+
 .socialmedia-item {
     display: flex;
     justify-content: center;
@@ -130,4 +135,110 @@ ul {
     padding: 10px;
     color: black;
     opacity: .8;
+}
+
+
+/*Footer*/
+
+.site-footer {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 50px;
+    color: #fff;
+    background: #2E2E2E;
+}
+
+.site-footer > * {
+    flex: 1 100%;
+}
+
+.site-footer h2 {
+    font-weight: 900;
+    font-size: 16px;
+}
+
+.site-footer ul {
+    list-style: none;
+}
+
+.site-footer li {
+    line-height: 2em;
+}
+
+.site-footer a {
+    text-decoration: none;
+}
+
+.footer-logo {
+    max-height: 40px;
+    filter: invert(1);
+}
+
+.footer-left {
+    margin-right: 1.25em;
+    margin-bottom: 2em;
+}
+
+.footer-left p {
+    color: #fff;
+}
+
+.footer-right {
+    display: flex;
+}
+
+.footer-right > * {
+    flex: 1 50%;
+    margin-right: 1.25em;
+}
+
+.box a {
+    text-decoration: none;
+    color: #999;
+}
+
+.box a:hover {
+    color: #fff;
+}
+
+.footer-bottom {
+    text-align: center;
+    color: #999;
+    padding-top: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    
+    .site-nav {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 8px 12px;
+    }
+    .nav {
+        display: none;
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .nav li {
+        width: 100%;
+        text-align: start;
+    }
+    
+    .social-links {
+        display: none;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .menu-bar {
+        display: block;
+    }
+    
+    .nav.active,
+    .social-links.active
+    {
+        display: flex;
+    }
 }

@@ -3,7 +3,7 @@ import Plot
 extension Node where Context == HTML.BodyContext {
     
     private static var sections: [Blog.SectionID] { [.about,.posts,.notes] }
-    private static var socialMedia: [SocialMediaLink] { [.email,.github] }
+    
     
     static func homeheader(for site: Blog) -> Node {
         return .header(
@@ -32,10 +32,24 @@ extension Node where Context == HTML.BodyContext {
                 ),
                 .nav(
                     .class("site-nav"),
+                    .a(
+                        .class("menu-bar"),
+                        .i(
+                            .class("fas fa-bars")
+                        ),
+                        .href("#")
+                    ),
                     .div(
                         .class("site-nav-left"),
                         .ul(
                             .class("nav"),
+                            .li(
+                                .a(
+                                    .class("menu-item"),
+                                    .text("Home"),
+                                    .href("/")
+                                )
+                            ),
                             .forEach(sections, { section in
                                     .li(
                                         .a(
@@ -51,7 +65,7 @@ extension Node where Context == HTML.BodyContext {
                         .class("site-nav-right"),
                         .div(
                             .class("social-links"),
-                            .forEach(socialMedia, { link in
+                            .forEach(site.socialMediaLinks, { link in
                                 .a(
                                     .class("socialmedia-item"),
                                     .i(

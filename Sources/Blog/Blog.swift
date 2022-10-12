@@ -30,7 +30,6 @@ struct Blog: Website {
     var description = "iOS Developer"
     var language: Language { .english }
     var imagePath: Path? { nil }
-    var socialMediaLinks: [SocialMediaLink] {
-        [.github]
-    }
+    var socialMediaLinks: [SocialMediaLink] { [.github,.email] }
+    var information: [String] { ["Introduce","Project","Service","Open Source"] }
 }

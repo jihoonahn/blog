@@ -7,7 +7,8 @@ struct BlogHTMLFactory: HTMLFactory {
             .lang(context.site.language),
             .head(for: context.site),
             .body(
-                .homeheader(for: context.site)
+                .homeheader(for: context.site),
+                .footer(for: context.site)
             )
         )
     }
@@ -17,8 +18,8 @@ struct BlogHTMLFactory: HTMLFactory {
             .lang(context.site.language),
             .head(for: context.site),
             .body(
-                .header(for: context.site)
-
+                .header(for: context.site),
+                .footer(for: context.site)
             )
         )
     }
@@ -28,8 +29,8 @@ struct BlogHTMLFactory: HTMLFactory {
             .lang(context.site.language),
             .head(for: context.site),
             .body(
-                .header(for: context.site)
-
+                .header(for: context.site),
+                .footer(for: context.site)
             )
         )
     }
@@ -39,8 +40,8 @@ struct BlogHTMLFactory: HTMLFactory {
             .lang(context.site.language),
             .head(for: context.site),
             .body(
-                .header(for: context.site)
-
+                .header(for: context.site),
+                .footer(for: context.site)
             )
         )
     }
@@ -50,8 +51,8 @@ struct BlogHTMLFactory: HTMLFactory {
             .lang(context.site.language),
             .head(for: context.site),
             .body(
-                .header(for: context.site)
-
+                .header(for: context.site),
+                .footer(for: context.site)
             )
         )
     }
@@ -61,8 +62,8 @@ struct BlogHTMLFactory: HTMLFactory {
             .lang(context.site.language),
             .head(for: context.site),
             .body(
-                .header(for: context.site)
-
+                .header(for: context.site),
+                .footer(for: context.site)
             )
         )
     }
