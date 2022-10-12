@@ -8,6 +8,7 @@ struct BlogHTMLFactory: HTMLFactory {
             .head(for: context.site),
             .body(
                 .homeheader(for: context.site),
+                .homeBody(for: context.site),
                 .footer(for: context.site)
             )
         )
@@ -19,6 +20,7 @@ struct BlogHTMLFactory: HTMLFactory {
             .head(for: context.site),
             .body(
                 .header(for: context.site),
+                .body(for: context.site),
                 .footer(for: context.site)
             )
         )

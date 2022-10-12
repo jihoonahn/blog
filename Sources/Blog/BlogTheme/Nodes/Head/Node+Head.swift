@@ -24,7 +24,19 @@ extension Node where Context == HTML.DocumentContext {
             ),
             .link(
                 .rel(.stylesheet),
-                .href("/theme/style.css")
+                .href("/theme/default/default_style.css")
+            ),
+            .link(
+                .rel(.stylesheet),
+                .href("/theme/Header/Header.css")
+            ),
+            .link(
+                .rel(.stylesheet),
+                .href("/theme/Footer/Footer.css")
+            ),
+            .link(
+                .rel(.stylesheet),
+                .href("/theme/Header/HomeHeader.css")
             ),
             .link(
                 .href("https: //fonts.googleapis.com/css2? family= Open+Sans & display=swap"),

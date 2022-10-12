@@ -18,6 +18,28 @@ extension Node where Context == HTML.BodyContext {
                             ),
                             .href("/")
                         )
+                    ),
+                    .nav(
+                        .class("site-nav"),
+                        .ul(
+                            .class("nav"),
+                            .li(
+                                .a(
+                                    .class("menu-item"),
+                                    .text("Home"),
+                                    .href("/")
+                                )
+                            ),
+                            .forEach(sections, { section in
+                                .li(
+                                    .a(
+                                        .class("menu-item"),
+                                        .text(section.name),
+                                        .href(site.path(for: section))
+                                    )
+                                )
+                            })
+                        )
                     )
                 )
             )

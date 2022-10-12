@@ -7,31 +7,31 @@ extension Node where Context == HTML.BodyContext {
     
     static func homeheader(for site: Blog) -> Node {
         return .header(
-            .class("site-header"),
+            .class("site-homeheader"),
             .div(
                 .class("inner"),
                 .div(
-                    .class("site-header-content"),
+                    .class("site-homeheader-content"),
                     .div(
                         .a(
                             .img(
-                                .class("site-logo"),
+                                .class("site-homelogo"),
                                 .src("/images/logo/pelagornis.svg")
                             ),
                             .href("/")
                         )
                     ),
                     .h1(
-                        .class("site-title"),
+                        .class("site-hometitle"),
                         .text("JiHoonAHN's Blog")
                     ),
                     .h2(
-                        .class("site-description"),
+                        .class("site-homedescription"),
                         .text("iOS Learning Blog")
                     )
                 ),
                 .nav(
-                    .class("site-nav"),
+                    .class("site-homenav"),
                     .a(
                         .class("menu-bar"),
                         .i(
@@ -40,9 +40,9 @@ extension Node where Context == HTML.BodyContext {
                         .href("#")
                     ),
                     .div(
-                        .class("site-nav-left"),
+                        .class("site-homenav-left"),
                         .ul(
-                            .class("nav"),
+                            .class("homenav"),
                             .li(
                                 .a(
                                     .class("menu-item"),
@@ -62,7 +62,7 @@ extension Node where Context == HTML.BodyContext {
                         )
                     ),
                     .div(
-                        .class("site-nav-right"),
+                        .class("site-homenav-right"),
                         .div(
                             .class("social-links"),
                             .forEach(site.socialMediaLinks, { link in

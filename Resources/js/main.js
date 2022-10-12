@@ -1,5 +1,5 @@
 const menubutton = document.querySelector('.menu-bar');
-const menu = document.querySelector('.nav');
+const menu = document.querySelector('.homenav');
 const icon = document.querySelector('.social-links');
 
 menubutton.addEventListener('click', () => {

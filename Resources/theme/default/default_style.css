@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fff;
+    color: #000;
+    font-family: 'Open Sans',sans-serif;
+    text-align: center;
+}
+
+ul {
+    list-style: disc;
+    padding-left: 1.3em;
+    padding-right: 1.5em;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
