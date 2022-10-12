@@ -24,7 +24,7 @@ ul {
     flex-wrap: wrap;
 }
 
-/*Header*/
+/*HomeHeader*/
 .site-header {
     position: relative;
     padding-top: 12px;
@@ -32,21 +32,17 @@ ul {
     color: #000;
     border-bottom: 1px solid #EDEDED;
 }
-
 .outer {
     padding: 0 4vw;
 }
-
 .site-header-content {
     padding: 3vw 1.5vw;
     min-height:200px;
     max-height: 450px;
 }
-
 .site-logo {
     max-height: 45px;
 }
-
 .site-title {
     z-index: 10;
     margin: 0;
@@ -54,7 +50,6 @@ ul {
     font-size: 3.0rem;
     font-weight: 700;
 }
-
 .site-description {
     z-index: 10;
     margin: 0;
@@ -63,7 +58,6 @@ ul {
     letter-spacing: .5px;
     opacity: .8;
 }
-
 .site-nav {
     display: flex;
     justify-content: space-between;
@@ -72,27 +66,22 @@ ul {
     font-size: 1.2rem;
     padding: 0 10%;
 }
-
 .site-nav-left {
     align-items: center;
     margin-right: 10px;
     display: flex;
     letter-spacing: .4px;
 }
-
 .nav {
     display: flex;
     margin: 0;
     padding: 0;
     list-style: none;
 }
-
 .nav li , .nav li a{
     display: block;
     margin: 0;
 }
-
-
 .nav li {
     padding: 0;
     text-transform: uppercase;
@@ -104,29 +93,24 @@ ul {
     opacity: .8;
     text-decoration: none;
 }
-
 .nav li :hover{
     background-color: #EBEBEB;
     border-radius: 10px;
 }
-
 .site-nav-right, .social-links {
     display: flex;
     flex-shrink: 0;
     align-items: center;
 }
-
 .site-nav-right {
     height: 40px;
 }
-
 .menu-bar {
     display: none;
     position: flex;
     padding: 10px;
     color: black;
 }
-
 .socialmedia-item {
     display: flex;
     justify-content: center;

@@ -5,7 +5,22 @@ extension Node where Context == HTML.BodyContext {
     
     static func header(for site: Blog) -> Node {
         return .header(
-            
+            .class("site-header"),
+            .div(
+                .class("inner"),
+                .div(
+                    .class("site-header-content"),
+                    .div(
+                        .a(
+                            .img(
+                                .class("site-logo"),
+                                .src("/images/logo/pelagornis.svg")
+                            ),
+                            .href("/")
+                        )
+                    )
+                )
+            )
         )
     }
 }

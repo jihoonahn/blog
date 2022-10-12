@@ -18,6 +18,11 @@ extension Node where Context == HTML.DocumentContext {
                 .crossorigin("anonymous")
             ),
             .link(
+                .rel(.icon),
+                .type("image/x-icon"),
+                .href("/images/Icon/icon.svg")
+            ),
+            .link(
                 .rel(.stylesheet),
                 .href("/theme/style.css")
             ),
