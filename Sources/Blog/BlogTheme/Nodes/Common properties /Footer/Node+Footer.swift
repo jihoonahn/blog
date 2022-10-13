@@ -7,7 +7,7 @@ extension Node where Context == HTML.BodyContext {
         return .footer(
             .class("site-footer"),
             .div(
-                .class("footer-left"),
+                .class("footer-center"),
                 .h1(
                     .img(
                         .class("footer-logo"),
