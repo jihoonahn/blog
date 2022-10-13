@@ -1,0 +1,37 @@
+/* Posts */
+.main-container {
+    padding: 5rem;
+}
+
+.content-subhead {
+    display: flex;
+    
+}
+
+.card-Image {
+    max-width: 100%;
+    display: block;
+    overflow: hidden;
+}
+
+.posts-item {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,400px);
+    place-content: center;
+    gap: 1rem;
+}
+
+.card {
+    border-radius: 20px;
+    background: white;
+    box-shadow: 0 5px 10px -3px rgba($color: #000000, $alpha: 0.5);
+    
+    img {
+        border-radius: 4px;
+    }
+    
+    article {
+        padding 1em;
+    }
+}

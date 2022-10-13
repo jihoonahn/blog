@@ -5,8 +5,8 @@ import Plot
 struct Blog: Website {
     enum SectionID: String, WebsiteSectionID {
         case posts
-        case about
         case notes
+        case about
         
         var name: String {
             switch self {

@@ -1,0 +1,16 @@
+
+.site-homeheader, .site-header {
+    position: relative;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: #000;
+    border-bottom: 1px solid #EDEDED;
+}
+
+.outer {
+    padding: 0 4vw;
+}
+
+.site-homelogo, .site-logo {
+    max-height: 45px;
+}

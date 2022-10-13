@@ -67,3 +67,14 @@
     padding-top: 50px;
 }
 
+@media screen and (max-width: 768px) {
+    .footer-right > * {
+        flex: 1;
+    }
+    .footer-left {
+        flex 1 0px;
+    }
+    .footer-right {
+        flex: 2 0px;
+    }
+}
