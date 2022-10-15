@@ -1,5 +1,4 @@
 /*Header*/
-
 .nav {
     display: inline-flex;
     list-style: none;
@@ -10,7 +9,6 @@
     padding: 10px 12px;
     color: #15171a;
     opacity: .8;
-    text-decoration: none;
 }
 
 .nav li :hover{

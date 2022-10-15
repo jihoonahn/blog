@@ -1,7 +1,7 @@
 /*Footer*/
 
 .site-footer {
-    display: flex;
+    display: fixed;
     flex-flow: row wrap;
     padding: 50px;
     color: #fff;
@@ -22,9 +22,7 @@
     color: #fff;
 }
 
-
 .footer-bottom {
     text-align: center;
     color: #999;
-    padding-top: 50px;
 }

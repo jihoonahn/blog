@@ -2,7 +2,7 @@ import Plot
 
 extension Node where Context == HTML.BodyContext {
     
-    private static var sections: [Blog.SectionID] { [.posts,.notes,.about] }
+    private static var sections: [Blog.SectionID] { [.debate,.notes,.about] }
     
     static func homeheader(for site: Blog) -> Node {
         return .header(
@@ -21,59 +21,55 @@ extension Node where Context == HTML.BodyContext {
                         )
                     ),
                     .h1(
-                        .class("site-hometitle"),
+                        .class("site-home-title"),
                         .text("JiHoonAHN's Blog")
                     ),
                     .h2(
-                        .class("site-homedescription"),
+                        .class("site-home-description"),
                         .text("iOS Learning Blog")
                     )
                 ),
                 .nav(
-                    .class("site-homenav"),
+                    .class("site-home-nav"),
                     .a(
-                        .class("menu-bar"),
+                        .class("site-home-nav-toggleBtn"),
                         .i(
                             .class("fas fa-bars")
                         ),
-                        .href("#")
+                        .href("")
                     ),
-                    .div(
-                        .class("site-homenav-left"),
-                        .ul(
-                            .class("homenav"),
+                    .ul(
+                        .class("site-home-nav-menu"),
+                        .li(
+                            .a(
+                                .class("menu-homeitem"),
+                                .text("Home"),
+                                .href("/")
+                            )
+                        ),
+                        .forEach(sections, { section in
+                                .li(
+                                    .a(
+                                        .class("menu-homeitem"),
+                                        .text(section.name),
+                                        .href(site.path(for: section))
+                                    )
+                                )
+                        })
+                    ),
+                    .ul(
+                        .class("site-home-nav-socialLinks"),
+                        .forEach(site.socialMediaLinks, { socialMediaLink in
                             .li(
                                 .a(
-                                    .class("menu-homeitem"),
-                                    .text("Home"),
-                                    .href("/")
-                                )
-                            ),
-                            .forEach(sections, { section in
-                                    .li(
-                                        .a(
-                                            .class("menu-item"),
-                                            .text(section.name),
-                                            .href(site.path(for: section))
-                                        )
-                                    )
-                            })
-                        )
-                    ),
-                    .div(
-                        .class("site-homenav-right"),
-                        .div(
-                            .class("social-links"),
-                            .forEach(site.socialMediaLinks, { link in
-                                .a(
-                                    .class("socialmedia-item"),
+                                    .class("social-homeitem"),
                                     .i(
-                                        .class(link.icon)
+                                        .class(socialMediaLink.icon)
                                     ),
-                                    .href(link.url)
+                                    .href(socialMediaLink.url)
                                 )
-                            })
-                        )
+                            )
+                        })
                     )
                 )
             )

@@ -17,9 +17,14 @@ ul {
     padding-right: 1.5em;
 }
 
+a {
+    color: black;
+    text-decoration: none;
+}
+
 .wrapper {
+    padding: 5rem;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+    min-height: 100vh;
+    flex-direction: column;
 }

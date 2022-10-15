@@ -1,17 +1,16 @@
 /* Posts */
 .main-container {
-    padding: 5rem;
-}
-
-.content-subhead {
-    display: flex;
-    
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .card-Image {
     max-width: 100%;
     display: block;
     overflow: hidden;
+    filter: contrast(70%);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 .posts-item {
@@ -23,15 +22,62 @@
 }
 
 .card {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
     border-radius: 20px;
-    background: white;
-    box-shadow: 0 5px 10px -3px rgba($color: #000000, $alpha: 0.5);
-    
-    img {
-        border-radius: 4px;
-    }
-    
-    article {
-        padding 1em;
-    }
+    background: #fff;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.125);
+}
+
+.card a {
+    height: 100%;
+}
+
+.content {
+    bottom: 0;
+    padding: 1rem;
+}
+
+.card-item-title {
+    color: black;
+    display: flex;
+    font-weight: 500;
+    padding-top: 5px;
+    text-align: left;
+    font-size: 25px
+}
+
+.card-item-description {
+    padding-top: 20px;
+    display: flex;
+    margin: 0 0 40px;
+    font-weight: 300;
+    color: #999;
+    text-align: left;
+}
+
+.card-item-description {
+    padding-top: 20px;
+    display: flex;
+    font-weight: 300;
+    color: #999;
+    text-align: left;
+}
+
+.card-item-date {
+    display: flex;
+    padding-top: 10px;
+    font-weight: 200;
+    font-size: 10px;
+    color: #000;
+}
+
+.post-category {
+    font-size: 13px;
+    font-weight: 200;
+    padding: 0;
+    margin: 2px;
+    color: black;
+    text-align: left;
 }

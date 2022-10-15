@@ -1,18 +1,12 @@
 /*HomeHeader*/
-.site-homeheader-content {
-    padding: 3vw 1.5vw;
-    min-height:200px;
-    max-height: 450px;
-}
-
-.site-hometitle {
+.site-home-title {
     z-index: 10;
     margin: 0;
     padding: 0;
     font-size: 3.0rem;
     font-weight: 700;
 }
-.site-homedescription {
+.site-home-description {
     z-index: 10;
     margin: 0;
     padding: 5px 0;
@@ -20,102 +14,78 @@
     letter-spacing: .5px;
     opacity: .8;
 }
-.site-homenav {
+
+.site-home-nav {
     display: flex;
     justify-content: space-between;
-    align-content: flex-start;
-    height: auto;
-    font-size: 1.2rem;
-    padding: 0 10%;
-}
-.site-homenav-left {
     align-items: center;
-    margin-right: 10px;
-    display: flex;
-    letter-spacing: .4px;
+    padding: 8px 10%;
 }
-.homenav {
+
+.site-home-nav-menu {
     display: flex;
-    margin: 0;
-    padding: 0;
     list-style: none;
+    padding-left: 0;
 }
-.homenav li , .homenav li a{
-    display: block;
-    margin: 0;
-}
-.homenav li {
-    padding: 0;
+.site-home-nav-menu li  {
+    padding: 10px 12px;
     text-transform: uppercase;
 }
 
-.homenav li a {
+.site-home-nav-menu li a {
     padding: 10px 12px;
-    color: #15171a;
-    opacity: .8;
-    text-decoration: none;
 }
-.homenav li :hover{
+
+.site-home-nav-menu li :hover{
     background-color: #EBEBEB;
     border-radius: 10px;
 }
-.site-homenav-right, .social-links {
+
+.site-home-nav-socialLinks {
+    list-style: none;
+    padding-left: 0;
+    color: black;
     display: flex;
-    flex-shrink: 0;
-    align-items: center;
 }
-.site-homenav-right {
-    height: 40px;
+
+.site-home-nav-socialLinks li{
+    padding: 8px 12px;
 }
-.menu-bar {
+
+.site-home-nav-toggleBtn {
     display: none;
     position: flex;
-    padding: 10px;
-    color: black;
-}
-.socialmedia-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    padding: 10px;
-    color: black;
-    opacity: .8;
+    right: 32px;
+    font-size: 24px;
 }
 
-
-@media screen and (max-width: 768px) {
-    
-    .site-homenav {
+@media  screen and (max-width: 600px) {
+    .site-home-nav {
         flex-direction: column;
         align-items: flex-start;
-        padding: 8px 12px;
+        padding: 8px 24px;
     }
-    .homenav {
+    .site-home-nav-menu {
         display: none;
-        width: 100%;
-        align-items: center;
         flex-direction: column;
-    }
-    
-    .homenav li {
+        align-items: center;
         width: 100%;
-        text-align: start;
     }
-    
-    .social-links {
+    .site-home-nav-menu li {
+        width: 100%;
+        text-align: center;
+    }
+    .site-home-nav-socialLinks {
         display: none;
         justify-content: center;
         width: 100%;
     }
-    
-    .menu-bar {
+    .site-home-nav-toggleBtn {
         display: block;
     }
     
-    .homenav.active,
-    .social-links.active
-    {
+    .site-home-nav-menu.active,
+    .site-home-nav-socialLinks.active {
         display: flex;
     }
 }

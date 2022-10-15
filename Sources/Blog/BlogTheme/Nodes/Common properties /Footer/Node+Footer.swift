@@ -1,8 +1,7 @@
 import Plot
 
 extension Node where Context == HTML.BodyContext {
-    private static var sections: [Blog.SectionID] { [.posts,.notes,.about] }
-
+    
     static func footer(for site: Blog) -> Node {
         return .footer(
             .class("site-footer"),

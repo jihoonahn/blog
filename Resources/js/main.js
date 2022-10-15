@@ -1,8 +1,8 @@
-const menubutton = document.querySelector('.menu-bar');
-const menu = document.querySelector('.homenav');
-const icon = document.querySelector('.social-links');
+const toggleBtn = document.querySelector('.site-home-nav-toggleBtn');
+const menu = document.querySelector('.site-home-nav-menu');
+const icon = document.querySelector('.site-home-nav-socialLinks');
 
-menubutton.addEventListener('click', () => {
+toggleBtn.addEventListener('click', () => {
     menu.classList.toggle('active');
     icon.classList.toggle('active');
 });
