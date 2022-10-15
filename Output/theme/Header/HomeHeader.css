@@ -25,10 +25,10 @@
 .site-home-nav-menu {
     display: flex;
     list-style: none;
-    padding-left: 0;
+    padding: 0;
 }
+
 .site-home-nav-menu li  {
-    padding: 10px 12px;
     text-transform: uppercase;
 }
 
@@ -71,10 +71,16 @@
         align-items: center;
         width: 100%;
     }
-    .site-home-nav-menu li {
+    .site-home-nav-menu li{
         width: 100%;
         text-align: center;
     }
+    
+    .site-home-nav-menu li a {
+        display: flex;
+        width: 100%;
+    }
+    
     .site-home-nav-socialLinks {
         display: none;
         justify-content: center;
