@@ -25,6 +25,10 @@ extension Node where Context == HTML.HeadContext {
             ),
             .link(
                 .rel(.stylesheet),
+                .href("/theme/Posts/Posts.css")
+            ),
+            .link(
+                .rel(.stylesheet),
                 .href("/theme/Post/Post.css")
             ),
             .link(
@@ -34,6 +38,10 @@ extension Node where Context == HTML.HeadContext {
             .link(
                 .rel(.stylesheet),
                 .href("/theme/Page/DefaultPage/Page.css")
+            ),
+            .link(
+                .rel(.stylesheet),
+                .href("/theme/Page/NotesPage/Page.css")
             ),
             .link(
                 .rel(.stylesheet),

@@ -1,5 +1,4 @@
 .post-tags {
-    display: flex;
     height: auto;
     width: 100%;
     padding: 0;
@@ -8,6 +7,7 @@
 }
 
 .tag-all-category {
+    display: inline-block;
     font-size: 13px;
     font-weight: 900;
     padding: 10px;

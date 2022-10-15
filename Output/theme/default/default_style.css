@@ -23,7 +23,6 @@ a {
 }
 
 .wrapper {
-    padding: 5rem;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
