@@ -36,5 +36,4 @@ extension Node where Context == HTML.BodyContext {
             )
         )
     }
-
 }

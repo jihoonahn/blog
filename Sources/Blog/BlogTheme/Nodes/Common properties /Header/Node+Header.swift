@@ -43,6 +43,10 @@ extension Node where Context == HTML.BodyContext {
                         )
                     )
                 )
+            ),
+            .script(
+                .src("/js/Header/header-scroll.js"),
+                .defer()
             )
         )
     }

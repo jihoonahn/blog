@@ -72,6 +72,10 @@ extension Node where Context == HTML.BodyContext {
                         })
                     )
                 )
+            ),
+            .script(
+                .src("/js/Header/header-menu.js"),
+                .defer()
             )
         )
     }
