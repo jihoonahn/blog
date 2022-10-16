@@ -33,6 +33,9 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-/*    padding-bottom: 40px;*/
     color: #fff;
+}
+
+.post-body {
+    color: red;
 }

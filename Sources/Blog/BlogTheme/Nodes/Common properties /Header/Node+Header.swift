@@ -4,9 +4,10 @@ extension Node where Context == HTML.BodyContext {
     
     private static var sections: [Blog.SectionID] { [.debate,.notes,.about] }
     
-    static func header(for site: Blog) -> Node {
+    
+    static func header(for site: Blog, class siteClass: String = "") -> Node {
         return .header(
-            .class("site-header"),
+            .class("site-header \(siteClass)"),
             .div(
                 .class("inner"),
                 .div(

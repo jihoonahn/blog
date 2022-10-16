@@ -29,7 +29,10 @@ extension Node where Context == HTML.BodyContext {
                 )
             ),
             .div(
-                .class("")
+                .class("post-body"),
+                .div(
+                    .contentBody(item.body)
+                )
             )
         )
     }

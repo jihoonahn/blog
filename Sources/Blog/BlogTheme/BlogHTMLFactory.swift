@@ -41,7 +41,7 @@ struct BlogHTMLFactory: HTMLFactory {
             .lang(context.site.language),
             .head(for: context.site),
             .body(
-                .header(for: context.site),
+                .header(for: context.site, class: "site-header-dark"),
                 .wrapper(
                     .post(for: item, on: context.site)
                 ),

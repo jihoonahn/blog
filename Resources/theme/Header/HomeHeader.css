@@ -1,4 +1,9 @@
 /*HomeHeader*/
+.site-homeheader {
+    position: relative;
+    border-bottom: 1px solid #EDEDED;
+}
+
 .site-home-title {
     z-index: 10;
     margin: 0;
