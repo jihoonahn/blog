@@ -1,27 +1,11 @@
 /*Header*/
 .site-header {
-    position: fixed;
     z-index: 50;
     top: 0;
     width: 100%;
     height: auto;
     background color: #fff;
     transition: background-color .9s ease;
-}
-
-.site-header-bottom-bg-transparent {
-    background: transparent;
-}
-
-.site-header-bottom-bg-border {
-    background-color: white;
-}
-
-.site-header-dark {
-    filter: invert(1);
-}
-
-.site-header-bottom-border {
     border-bottom: 1px solid #EDEDED;
 }
 

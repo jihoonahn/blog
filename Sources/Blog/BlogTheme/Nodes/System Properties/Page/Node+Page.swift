@@ -5,8 +5,7 @@ extension Node where Context == HTML.BodyContext {
     
     static func page(for page: Page, context: PublishingContext<Blog>) -> Node {
         switch page.path.string {
-        case Blog.SectionID.debate.rawValue: return .aboutPage(for: page, on: context.site)
-        case Blog.SectionID.about.rawValue: return .aboutPage(for: page, on: context.site)
+        case Blog.SectionID.debate.rawValue: return .defaultPage(for: page, on: context.site)
         case Blog.SectionID.notes.rawValue: return .notesPage(for: page, on: context.site)
         default: return .defaultPage(for: page,on: context.site)
         }
