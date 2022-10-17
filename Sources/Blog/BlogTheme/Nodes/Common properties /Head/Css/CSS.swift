@@ -41,15 +41,15 @@ extension Node where Context == HTML.HeadContext {
             ),
             .link(
                 .rel(.stylesheet),
-                .href("/theme/Page/NotesPage/Page.css")
-            ),
-            .link(
-                .rel(.stylesheet),
                 .href("/theme/Page/DebatePage/Page.css")
             ),
             .link(
                 .rel(.stylesheet),
                 .href("/theme/Page/TagListPage/Page.css")
+            ),
+            .link(
+                .rel(.stylesheet),
+                .href("https://cdnjs.cloudflare.com/ajax/libs/paginationjs/2.1.4/pagination.css")
             )
         )
     }

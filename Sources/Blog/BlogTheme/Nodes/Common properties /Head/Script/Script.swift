@@ -10,4 +10,3 @@ extension Node where Context == HTML.HeadContext {
         )
     }
 }
-

@@ -9,7 +9,7 @@ extension Node where Context == HTML.BodyContext {
                 .div(
                     .class("posts-item"),
                     .forEach(items) { item in
-                        .postExcerpt(for: item, on: site)
+                            .postExcerpt(for: item, on: site)
                     }
                 )
             )
