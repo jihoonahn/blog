@@ -6,7 +6,6 @@ struct Blog: Website {
     enum SectionID: String, WebsiteSectionID {
         case posts
         case debate
-        case notes
         case about
         
         var name: String {
@@ -14,7 +13,6 @@ struct Blog: Website {
             case .posts: return "Posts"
             case .debate: return "Debate"
             case .about: return "About"
-            case .notes: return "Notes"
             }
         }
     }

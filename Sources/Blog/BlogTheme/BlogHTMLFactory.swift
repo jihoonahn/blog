@@ -43,7 +43,7 @@ struct BlogHTMLFactory: HTMLFactory {
             .body(
                 .header(for: context.site),
                 .wrapper(
-                    .post(for: item, on: context.site)
+                    .item(for: item, on: context.site)
                 ),
                 .footer(for: context.site)
             )

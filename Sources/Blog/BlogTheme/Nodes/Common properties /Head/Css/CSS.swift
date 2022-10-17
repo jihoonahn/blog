@@ -45,7 +45,7 @@ extension Node where Context == HTML.HeadContext {
             ),
             .link(
                 .rel(.stylesheet),
-                .href("/theme/Page/AboutPage/Page.css")
+                .href("/theme/Page/DebatePage/Page.css")
             ),
             .link(
                 .rel(.stylesheet),

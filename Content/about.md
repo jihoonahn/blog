@@ -1,5 +1,5 @@
 ---
-title: About
+title: about
 ---
 
 Hey, welcome to my blog! I've been doing software development since 2015, most of it on the iOS platform. Throughout this time I worked as a solo developer, with small and large teams as well as taught iOS development in a coding academy.

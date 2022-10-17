@@ -2,7 +2,7 @@ import Plot
 
 extension Node where Context == HTML.BodyContext {
     
-    private static var sections: [Blog.SectionID] { [.debate,.notes,.about] }
+    private static var sections: [Blog.SectionID] { [.debate,.about] }
     
     
     static func header(for site: Blog, class siteClass: String = "") -> Node {
