@@ -10,5 +10,5 @@ try Blog().publish(using: [
     .generateHTML(withTheme: .blog),
     .generateRSSFeed(including: [.posts]),
     .generateSiteMap(),
-    .deploy(using: .gitHub("JiHoonAHN/JiHoonAHN.github.io"))
+    .deploy(using: .gitHub("JiHoonAHN/Blog"))
 ])
