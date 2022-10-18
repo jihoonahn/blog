@@ -4,11 +4,12 @@
     font-size: 20px;
     line-height: 1.3em;
     background-color: #fff;
+    border-bottom: 1px solid: #EDEDED;
 }
 
 .has-cover:not(.home-template) .blog-head {
-    background-color: #ff0;
-    color: #fff;
+    background-color: #fff;
+    color: #999;
 }
 
 .home-template.has-cover .blog-head {
@@ -84,10 +85,10 @@
     display: inline-flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 32px;
+    gap: 16px;
     list-style: none;
     font-size: 15px;
-    color: #bbb;
+    color: #2E2E2E;
     margin: 0;
     padding: 0;
 }
@@ -101,10 +102,13 @@
     display: inline-block;
     line-height: 1.7;
     color: inherit;
+    padding: 8px;
+    border-radius: 10px;
 }
 
 .blog-head-menu .nav a:hover {
-    opacity: 0.9;
+    opacity: 0.5;
+    background: #EDEDED;
 }
 
 .blog-head-actions {
@@ -160,7 +164,6 @@
     height: 32px;
     padding: 0;
     border: 0;
-    cursor: pointer;
     background-color: transparent;
     cursor: pointer;
     outline: none;

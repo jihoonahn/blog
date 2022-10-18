@@ -11,7 +11,7 @@ extension Node where Context == HTML.BodyContext {
                     .class("copyright"),
                     .a(
                         .text("Pelagornis"),
-                        .href("/")
+                        .href("https://github.com/Pelagornis")
                     ),
                     .text(" © 2022")
                 ),

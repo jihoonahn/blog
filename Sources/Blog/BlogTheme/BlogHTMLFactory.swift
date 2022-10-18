@@ -9,6 +9,10 @@ struct BlogHTMLFactory: HTMLFactory {
             .body(
                 .grid(
                     .header(for: context.site),
+                    .homePage(for: context.allItems(
+                        sortedBy: \.date,
+                        order: .descending
+                    ),on: context),
                     .footer(for: context.site)
                 )
             )
