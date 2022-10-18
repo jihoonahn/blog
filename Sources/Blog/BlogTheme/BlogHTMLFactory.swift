@@ -7,16 +7,6 @@ struct BlogHTMLFactory: HTMLFactory {
             .lang(context.site.language),
             .head(for: context.site),
             .body(
-                .homeheader(for: context.site),
-                .wrapper(
-                    .posts(
-                        for: context.allItems(
-                            sortedBy: \.date,
-                            order: .descending),
-                        on: context.site,
-                        context: context
-                    )
-                ),
                 .footer(for: context.site)
             )
         )
@@ -27,10 +17,6 @@ struct BlogHTMLFactory: HTMLFactory {
             .lang(context.site.language),
             .head(for: context.site),
             .body(
-                .header(for: context.site),
-                .wrapper(
-                    .div(.h1(.text(section.title)))
-                ),
                 .footer(for: context.site)
             )
         )
@@ -41,10 +27,6 @@ struct BlogHTMLFactory: HTMLFactory {
             .lang(context.site.language),
             .head(for: context.site),
             .body(
-                .header(for: context.site),
-                .wrapper(
-                    .item(for: item, on: context.site)
-                ),
                 .footer(for: context.site)
             )
         )
@@ -55,10 +37,6 @@ struct BlogHTMLFactory: HTMLFactory {
             .lang(context.site.language),
             .head(for: context.site),
             .body(
-                .header(for: context.site),
-                .wrapper(
-                    .page(for: page, context: context)
-                ),
                 .footer(for: context.site)
             )
         )
@@ -69,10 +47,6 @@ struct BlogHTMLFactory: HTMLFactory {
             .lang(context.site.language),
             .head(for: context.site),
             .body(
-                .header(for: context.site),
-                .wrapper(
-                    .tagListPage(for: page, context: context)
-                ),
                 .footer(for: context.site)
             )
         )
@@ -83,16 +57,6 @@ struct BlogHTMLFactory: HTMLFactory {
             .lang(context.site.language),
             .head(for: context.site),
             .body(
-                .header(for: context.site),
-                .wrapper(
-                    .posts(for: context.items(
-                        taggedWith: page.tag,
-                        sortedBy: \.date,
-                        order: .descending
-                    ),
-                    on: context.site,
-                    context: context)
-                ),
                 .footer(for: context.site)
             )
         )
