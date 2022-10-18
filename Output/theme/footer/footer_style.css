@@ -8,6 +8,7 @@
 }
 
 .site-footer a {
+    text-decoration: none;
     color: #999;
 }
 
@@ -15,7 +16,7 @@
     grid-gap: 40px;
     color: hsla(0,0%,100%,.7);
     display: grid;
-    font-size: 1.3rem;
+    font-size: 15px;
     grid-template-columns: auto 1fr auto;
 }
 

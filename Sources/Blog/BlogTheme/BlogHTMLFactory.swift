@@ -7,7 +7,10 @@ struct BlogHTMLFactory: HTMLFactory {
             .lang(context.site.language),
             .head(for: context.site),
             .body(
-                .footer(for: context.site)
+                .grid(
+                    .header(for: context.site),
+                    .footer(for: context.site)
+                )
             )
         )
     }
@@ -17,7 +20,10 @@ struct BlogHTMLFactory: HTMLFactory {
             .lang(context.site.language),
             .head(for: context.site),
             .body(
-                .footer(for: context.site)
+                .grid(
+                    .header(for: context.site),
+                    .footer(for: context.site)
+                )
             )
         )
     }
@@ -27,7 +33,10 @@ struct BlogHTMLFactory: HTMLFactory {
             .lang(context.site.language),
             .head(for: context.site),
             .body(
-                .footer(for: context.site)
+                .grid(
+                    .header(for: context.site),
+                    .footer(for: context.site)
+                )
             )
         )
     }
@@ -37,7 +46,10 @@ struct BlogHTMLFactory: HTMLFactory {
             .lang(context.site.language),
             .head(for: context.site),
             .body(
-                .footer(for: context.site)
+                .grid(
+                    .header(for: context.site),
+                    .footer(for: context.site)
+                )
             )
         )
     }
@@ -47,7 +59,10 @@ struct BlogHTMLFactory: HTMLFactory {
             .lang(context.site.language),
             .head(for: context.site),
             .body(
-                .footer(for: context.site)
+                .grid(
+                    .header(for: context.site),
+                    .footer(for: context.site)
+                )
             )
         )
     }
@@ -57,7 +72,10 @@ struct BlogHTMLFactory: HTMLFactory {
             .lang(context.site.language),
             .head(for: context.site),
             .body(
-                .footer(for: context.site)
+                .grid(
+                    .header(for: context.site),
+                    .footer(for: context.site)
+                )
             )
         )
     }
