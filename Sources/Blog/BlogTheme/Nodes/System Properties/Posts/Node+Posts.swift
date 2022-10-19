@@ -3,7 +3,7 @@ import Plot
 import Publish
 
 extension Node where Context == HTML.BodyContext {
-    static func homePost(for item: Item<Blog>, on site: Blog) -> Node {
+    static func posts(for item: Item<Blog>, on site: Blog) -> Node {
         return .article(
             .class("post-card"),
             .a(
@@ -24,7 +24,7 @@ extension Node where Context == HTML.BodyContext {
                         .class("post-card-header"),
                         .span(
                             .class("post-card-tags"),
-                            .text(item.tags.map{ $0.string }.joined(separator: ", "))
+                            .text(item.tags.map{ $0.string }.joined(separator: ". "))
                         ),
                         .h2(
                             .class("post-card-title"),

@@ -12,7 +12,7 @@ struct BlogHTMLFactory: HTMLFactory {
                     .homePage(for: context.allItems(
                         sortedBy: \.date,
                         order: .descending
-                    ),on: context),
+                    ),on: context.site),
                     .footer(for: context.site)
                 )
             )
