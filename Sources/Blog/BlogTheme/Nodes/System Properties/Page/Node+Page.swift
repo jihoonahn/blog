@@ -6,7 +6,7 @@ extension Node where Context == HTML.BodyContext {
         switch page.path.string {
         case Blog.SectionID.debate.rawValue: return debatePage(for: page, on: context)
         case Blog.SectionID.about.rawValue: return aboutPage(for: page, on: context.site)
-        default: return .div()
+        default: return .defaultPage(for: page, on: context.site)
         }
     }
 }

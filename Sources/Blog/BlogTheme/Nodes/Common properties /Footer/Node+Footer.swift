@@ -2,6 +2,8 @@ import Plot
 
 extension Node where Context == HTML.BodyContext {
     
+    private static var sections: [Blog.SectionID] { [.debate,.about] }
+    
     static func footer(for site: Blog) -> Node {
         return .footer(
             .class("site-footer outer"),
@@ -22,24 +24,19 @@ extension Node where Context == HTML.BodyContext {
                         .li(
                             .class("nav-list-item"),
                             .a(
-                                .text("About"),
+                                .text("Home"),
                                 .href("/")
                             )
                         ),
-                        .li(
-                            .class("nav-list-item"),
-                            .a(
-                                .text("About"),
-                                .href("/")
-                            )
-                        ),
-                        .li(
-                            .class("nav-list-item"),
-                            .a(
-                                .text("About"),
-                                .href("/")
-                            )
-                        )
+                        .forEach(sections) { section in
+                                .li(
+                                    .class("nav-list-item"),
+                                    .a(
+                                        .text(section.name),
+                                        .href(site.path(for: section))
+                                    )
+                                )
+                        }
                     )
                 ),
                 .ul(

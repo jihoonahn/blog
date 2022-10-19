@@ -30,6 +30,10 @@ extension Node where Context == HTML.HeadContext {
             .link(
                 .rel(.stylesheet),
                 .href("/theme/page/debate/debate_style.css")
+            ),
+            .link(
+                .rel(.stylesheet),
+                .href("/theme/page/about/about_style.css")
             )
         )
     }
