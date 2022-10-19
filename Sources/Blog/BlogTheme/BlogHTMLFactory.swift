@@ -69,7 +69,7 @@ struct BlogHTMLFactory: HTMLFactory {
             .body(
                 .grid(
                     .header(for: context.site),
-                    .text("Hello"),
+                    
                     .footer(for: context.site)
                 )
             )
