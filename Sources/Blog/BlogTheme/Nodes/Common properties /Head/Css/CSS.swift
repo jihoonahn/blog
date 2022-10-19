@@ -18,6 +18,14 @@ extension Node where Context == HTML.HeadContext {
             .link(
                 .rel(.stylesheet),
                 .href("/theme/home/home_style.css")
+            ),
+            .link(
+                .rel(.stylesheet),
+                .href("/theme/post/post_style.css")
+            ),
+            .link(
+                .rel(.stylesheet),
+                .href("/theme/tagDetail/tagDetail_style.css")
             )
         )
     }

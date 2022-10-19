@@ -26,6 +26,7 @@ struct BlogHTMLFactory: HTMLFactory {
             .body(
                 .grid(
                     .header(for: context.site),
+                    .div(.h1(.text(section.title))),
                     .footer(for: context.site)
                 )
             )
@@ -39,6 +40,7 @@ struct BlogHTMLFactory: HTMLFactory {
             .body(
                 .grid(
                     .header(for: context.site),
+                    .post(for: item, on: context.site),
                     .footer(for: context.site)
                 )
             )
@@ -52,6 +54,7 @@ struct BlogHTMLFactory: HTMLFactory {
             .body(
                 .grid(
                     .header(for: context.site),
+                    .page(for: page, context: context),
                     .footer(for: context.site)
                 )
             )
@@ -65,6 +68,7 @@ struct BlogHTMLFactory: HTMLFactory {
             .body(
                 .grid(
                     .header(for: context.site),
+                    .text("Hello"),
                     .footer(for: context.site)
                 )
             )
@@ -78,6 +82,13 @@ struct BlogHTMLFactory: HTMLFactory {
             .body(
                 .grid(
                     .header(for: context.site),
+                    .tagDetail(
+                        for: context.items(
+                            taggedWith: page.tag,
+                            sortedBy: \.date),
+                        on: context.site,
+                        title: "\(page.tag.string.capitalized)"
+                    ),
                     .footer(for: context.site)
                 )
             )
