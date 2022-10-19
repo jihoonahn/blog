@@ -14,6 +14,10 @@ extension Node where Context == HTML.HeadContext {
             .link(
                 .rel(.stylesheet),
                 .href("/theme/footer/footer_style.css")
+            ),
+            .link(
+                .rel(.stylesheet),
+                .href("/theme/home/home_style.css")
             )
         )
     }

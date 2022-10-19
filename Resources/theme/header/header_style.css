@@ -4,7 +4,6 @@
     font-size: 20px;
     line-height: 1.3em;
     background-color: #fff;
-    border-bottom: 1px solid: #EDEDED;
 }
 
 .has-cover:not(.home-template) .blog-head {
@@ -13,13 +12,16 @@
 }
 
 .home-template.has-cover .blog-head {
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     left: 0;
     z-index: 2000;
-    background-color: transparent;
-    color: #fff;
+    background-color: #fff;
+}
+
+.header-bc {
+    border-bottom: 1px solid #EDEDED;
 }
 
 .blog-head a {
@@ -222,6 +224,7 @@
         display: none;
     }
     .blog-head-open {
+        z-index: 1999;
         overflow: hidden;
         height: 100vh;
     }

@@ -69,6 +69,10 @@ extension Node where Context == HTML.BodyContext {
             .script(
                 .src("/js/Header/header-menu.js"),
                 .defer()
+            ),
+            .script(
+                .src("/js/Header/header-scroll.js"),
+                .defer()
             )
         )
     }
