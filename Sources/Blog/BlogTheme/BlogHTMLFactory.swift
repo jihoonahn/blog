@@ -11,8 +11,9 @@ struct BlogHTMLFactory: HTMLFactory {
                     .header(for: context.site),
                     .homePage(for: context.allItems(
                         sortedBy: \.date,
-                        order: .descending
-                    ),on: context.site),
+                        order: .descending)
+                        .filter { $0.sectionID == .posts },
+                        on: context.site),
                     .footer(for: context.site)
                 )
             )
