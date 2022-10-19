@@ -36,7 +36,8 @@ extension Node where Context == HTML.BodyContext {
                         .p(
                             .text(item.description)
                         )
-                    )
+                    ),
+                    .href("/")
                 ),
                 .footer(
                     .class("post-card-footer"),

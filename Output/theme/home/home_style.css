@@ -21,14 +21,13 @@
     min-height: 300px;
     background: #fff center center;
     background-size: cover;
-/*    box-shadow: rgba(39,44,49,0.08) 8px 14px 38px, rgba(39, 44, 49, 0.05) 1px 3px 8px;*/
     transition: all 0.5s ease;
 }
 
 .post-card:hover {
     box-shadow: 0 0 1px rgba(39,44,49,0.12), 0 3px 16px rgba(39, 44, 49,0.09);
-    transition: all 0.3s ease;
-    transform: translate3D(0, -1px, 0);
+    transition: all 0.4s ease;
+    transform: translate3D(0, -5px, 0);
 }
 
 .post-card-image-link {
@@ -55,10 +54,11 @@
     display: block;
     padding: 25px 25px 0;
     color: #000;
+    text-decoration: none;
 }
 
 .post-card-content-link:hover {
-    text-decoration: none;
+    color: #DB0000;
 }
 
 .post-card-tags {
