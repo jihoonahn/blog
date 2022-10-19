@@ -14,7 +14,7 @@ extension Node where Context == HTML.BodyContext {
                         .src("/images/Image/\(item.path.string).jpg")
                     )
                 ),
-                .href("/")
+                .href(item.path.absoluteString)
             ),
             .div(
                 .class("post-card-content"),
@@ -37,7 +37,7 @@ extension Node where Context == HTML.BodyContext {
                             .text(item.description)
                         )
                     ),
-                    .href("/")
+                    .href(item.path.absoluteString)
                 ),
                 .footer(
                     .class("post-card-footer"),
