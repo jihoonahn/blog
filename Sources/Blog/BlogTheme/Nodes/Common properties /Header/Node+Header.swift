@@ -2,7 +2,6 @@ import Plot
 import Publish
 
 extension Node where Context == HTML.BodyContext {
-    
     private static var sections: [Blog.SectionID] { [.debate,.about] }
     
     static func header(for site: Blog) -> Node {
@@ -29,7 +28,7 @@ extension Node where Context == HTML.BodyContext {
                         .button(
                             .class("blog-menu"),
                             .i(
-                                .class("fa-regular fa-bars")
+                                .class("fa-solid fa-bars")
                             )
                         )
                     )

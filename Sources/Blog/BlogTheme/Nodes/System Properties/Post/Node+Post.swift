@@ -9,9 +9,7 @@ extension Node where Context == HTML.BodyContext {
                 .class("site-post-head"),
                 .div(
                     .class("site-post-head-image"),
-                    .img(
-                        .src("/images/Image/\(item.path.string).svg")
-                    )
+                    .style("background-image: url(/images/Image/\(item.path.string).svg)")
                 )
             ),
             .div(

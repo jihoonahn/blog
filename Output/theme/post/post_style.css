@@ -1,22 +1,22 @@
 .site-post-head {
-    position: relative;
-    align-items: center;
+    flex: 1 1 300px;
     display: flex;
-    margin: 0 auto;
     flex-direction: column;
-    justify-content: flex-start;
-    width: 100%;
-    height: calc(100vh - 20vh);
-    margin-bottom: 120px;
     overflow: hidden;
+    margin: 0 auto;
+    height: 600px;
+    background: #fff center center;
+    background-size: cover;
+    transition: all 0.2s ease;
+    margin-bottom: 120px;
 }
 
 .site-post-head-image {
-    height: 100%;
     width: auto;
-    text-align: center;
+    height: 100%;
+    background: transparent no-repeat center center;
+    background-size: cover;
 }
-
 
 .site-post-head-title {
     position: absolute;
