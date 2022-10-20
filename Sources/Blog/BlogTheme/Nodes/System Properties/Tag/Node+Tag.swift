@@ -3,15 +3,31 @@ import Publish
 
 extension Node where Context == HTML.BodyContext {
     static func tagList(for tags: [Tag], on site: Blog) -> Node {
-        return .div(
-            .class("post-tags"),
-            .forEach(tags, { tag in
-                    .a(
-                        .class("tag-all-category"),
-                        .href(site.path(for: tag)),
-                        .text(tag.string)
+        return .main(
+            .id("site-main"),
+            .class("site-main outer"),
+            .div(
+                .class("inner"),
+                .div(
+                    .class("tag-title"),
+                    .h2(
+                        .text("Tag")
+                    ),
+                    .p(
+                        .text("A collection of \(tags.count) Tags")
                     )
-            })
+                ),
+                .div(
+                    .class("post-tags"),
+                    .forEach(tags) { tag in
+                            .a(
+                                .class("tag-all-category"),
+                                .href(site.path(for: tag)),
+                                .text(tag.string)
+                            )
+                    }
+                )
+            )
         )
     }
     

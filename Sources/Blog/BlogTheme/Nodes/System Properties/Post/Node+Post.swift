@@ -3,36 +3,54 @@ import Plot
 import Publish
 
 extension Node where Context == HTML.BodyContext {
-    
     static func post(for item: Item<Blog>, on site: Blog) -> Node {
         return .article(
             .header(
-                .class("post-header"),
+                .class("site-post-head"),
                 .div(
-                    .class("post-header-div"),
-                    .div(
-                        .class("post-header-img"),
-                        .img(
-                            .src("/images/Image/\(item.path.string).jpg")
-                        )
-                    ),
-                    .div(
-                        .class("post-header-title"),
-                        .h1(
-                            .text(item.title)
-                        ),
-                        .p(
-                            .text(DateFormatter.blog.string(from: item.date))
-                        ),
-                        .tagList(for: item.tags, on: site)
+                    .class("site-post-head-image"),
+                    .img(
+                        .src("/images/Image/\(item.path.string).svg")
                     )
                 )
             ),
             .div(
-                .class("post-body"),
+                .class("site-post-head-title"),
+                .h1(
+                    .text(item.title)
+                ),
+                .section(
+                    .class("site-post-full-meta"),
+                    .time(
+                        .text(DateFormatter.blog.string(from: item.date))
+                    ),
+                    .span(
+                        .class("date-divider"),
+                        .text("|")
+                    ),
+                    .forEach(item.tags) { tag in
+                            .a(
+                                .text("\(tag.string). "),
+                                .href(site.path(for: tag))
+                            )
+                        
+                    }
+                )
+            ),
+            .div(
+                .class("site-post-body"),
                 .div(
                     .contentBody(item.body)
                 )
+            ),
+            .script(
+                .src("https://utteranc.es/client.js"),
+                .repo("JiHoonAHN/Blog"),
+                .issue_term("pathname"),
+                .label("comments"),
+                .theme("github-light"),
+                .crossorigin("anonymous"),
+                .async()
             )
         )
     }

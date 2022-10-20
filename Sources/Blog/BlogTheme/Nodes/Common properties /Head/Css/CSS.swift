@@ -9,47 +9,35 @@ extension Node where Context == HTML.HeadContext {
             ),
             .link(
                 .rel(.stylesheet),
-                .href("/theme/Header/Header.css")
+                .href("/theme/header/header_style.css")
             ),
             .link(
                 .rel(.stylesheet),
-                .href("/theme/Header/HomeHeader.css")
+                .href("/theme/footer/footer_style.css")
             ),
             .link(
                 .rel(.stylesheet),
-                .href("/theme/Header/Basic/HeaderStyle.css")
+                .href("/theme/home/home_style.css")
             ),
             .link(
                 .rel(.stylesheet),
-                .href("/theme/Tag/Tag.css")
+                .href("/theme/post/post_style.css")
             ),
             .link(
                 .rel(.stylesheet),
-                .href("/theme/Posts/Posts.css")
+                .href("/theme/tag/tag_style.css")
             ),
             .link(
                 .rel(.stylesheet),
-                .href("/theme/Post/Post.css")
+                .href("/theme/tagDetail/tagDetail_style.css")
             ),
             .link(
                 .rel(.stylesheet),
-                .href("/theme/Footer/Footer.css")
+                .href("/theme/page/debate/debate_style.css")
             ),
             .link(
                 .rel(.stylesheet),
-                .href("/theme/Page/DefaultPage/Page.css")
-            ),
-            .link(
-                .rel(.stylesheet),
-                .href("/theme/Page/DebatePage/Page.css")
-            ),
-            .link(
-                .rel(.stylesheet),
-                .href("/theme/Page/TagListPage/Page.css")
-            ),
-            .link(
-                .rel(.stylesheet),
-                .href("https://cdnjs.cloudflare.com/ajax/libs/paginationjs/2.1.4/pagination.css")
+                .href("/theme/page/about/about_style.css")
             )
         )
     }
