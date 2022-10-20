@@ -2,10 +2,13 @@
 title: about
 ---
 
-Hey, welcome to my blog! I've been doing software development since 2015, most of it on the iOS platform. Throughout this time I worked as a solo developer, with small and large teams as well as taught iOS development in a coding academy.
+Nice to meet you, welcome to my blog. I am a junior developer who started iOS development in 2021. During this time, I worked with small and large teams on the project.
 
-When working on my own I got the experience of communicating with clients face to face, formulating requirements, making designs, and eventually releasing applications. The work in larger organizations taught me the importance of clear communication both in real-life and in code. I developed in large and fast-growing codebases that required rethinking, coordination, refactoring, and automation efforts to make them suitable for the work of multiple teams. 
+I am interested in various architectures and technologies while developing iOS. 
+And I like to challenge myself. Challenging gives me a lot of difficulties, but it gives me more experience and a sense of accomplishment.
 
-I intend to use this blog as a way to share my learnings, my projects or just to fulfill random bursts of creativity. 
+I want to keep developing this blog and record my growth process.
 
-Feel free to contact me on Twitter, LinkedIn or simply write me an email!
+Although blog posts may be lacking, please take good care of us!
+
+If you have any questions, please feel free to contact us via email!
