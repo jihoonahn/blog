@@ -134,6 +134,7 @@
     background-color: transparent;
     border: 0;
     outline: none;
+    color: #000;
 }
 
 .blog-search:hover {
@@ -170,6 +171,7 @@
     background-color: transparent;
     cursor: pointer;
     outline: none;
+    color: black;
 }
 
 @media (max-width: 991px) {
