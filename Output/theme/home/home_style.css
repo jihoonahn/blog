@@ -39,7 +39,7 @@
 
 .post-card-image {
     width: auto;
-    max-height: 300px;
+    height: 200px;
     background: transparent no-repeat center center;
     background-size: cover;
 }

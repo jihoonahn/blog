@@ -5,14 +5,12 @@ import Publish
 extension Node where Context == HTML.BodyContext {
     static func posts(for item: Item<Blog>, on site: Blog) -> Node {
         return .article(
-            .class("post-card"),
+            .class("post-card home-template"),
             .a(
                 .class("post-card-image-link"),
                 .div(
                     .class("post-card-image"),
-                    .img(
-                        .src("/images/Image/\(item.path.string).svg")
-                    )
+                    .style("background-image: url(/images/Image/\(item.path.string).svg)")
                 ),
                 .href(item.path.absoluteString)
             ),
