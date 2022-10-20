@@ -69,7 +69,7 @@ struct BlogHTMLFactory: HTMLFactory {
             .body(
                 .grid(
                     .header(for: context.site),
-                    
+                    .tagList(for: page.tags.reversed(), on: context.site),
                     .footer(for: context.site)
                 )
             )

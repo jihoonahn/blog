@@ -25,6 +25,10 @@ extension Node where Context == HTML.HeadContext {
             ),
             .link(
                 .rel(.stylesheet),
+                .href("/theme/tag/tag_style.css")
+            ),
+            .link(
+                .rel(.stylesheet),
                 .href("/theme/tagDetail/tagDetail_style.css")
             ),
             .link(
