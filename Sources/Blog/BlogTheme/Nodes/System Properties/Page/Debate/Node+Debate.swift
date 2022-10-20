@@ -15,30 +15,7 @@ extension Node where Context == HTML.BodyContext {
                     .class("site-debate-header"),
                     .div(
                         .class("site-debate-header-inner"),
-                        .div(
-                            .class("site-debate-header-left-view"),
-                            .div(
-                                .class("site-debate-header-view-image"),
-                                .img(
-                                    .src("/images/logo/AppleLogo.svg")
-                                )
-                            )
-                        ),
-                        .div(
-                            .class("site-debate-header-right-view"),
-                            .div(
-                                .class("site-debate-header-view-text-head"),
-                                .h2(
-                                    .text("Debate")
-                                )
-                            ),
-                            .div(
-                                .class("site-debate-header-view-text-foot"),
-                                .p(
-                                    .text("Share all iOS related discussions or issues.")
-                                )
-                            )
-                        )
+                        .debateHeader()
                     )
                  ),
                  .div(
