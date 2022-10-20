@@ -11,7 +11,7 @@ extension Node where Context == HTML.BodyContext {
                 .div(
                     .class("post-card-image"),
                     .img(
-                        .src("/images/Image/\(item.path.string).jpg")
+                        .src("/images/Image/\(item.path.string).svg")
                     )
                 ),
                 .href(item.path.absoluteString)

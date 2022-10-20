@@ -10,7 +10,7 @@ extension Node where Context == HTML.BodyContext {
                 .div(
                     .class("site-post-head-image"),
                     .img(
-                        .src("/images/Image/\(item.path.string).jpg")
+                        .src("/images/Image/\(item.path.string).svg")
                     )
                 )
             ),
