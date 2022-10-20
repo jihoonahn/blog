@@ -42,6 +42,15 @@ extension Node where Context == HTML.BodyContext {
                 .div(
                     .contentBody(item.body)
                 )
+            ),
+            .script(
+                .src("https://utteranc.es/client.js"),
+                .repo("JiHoonAHN/Blog"),
+                .issue_term("pathname"),
+                .label("comments"),
+                .theme("github-light"),
+                .crossorigin("anonymous"),
+                .async()
             )
         )
     }
