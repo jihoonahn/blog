@@ -18,7 +18,7 @@ extension Node where Context == HTML.HeadContext {
             ),
             .meta(
                 .property("og:image"),
-                .content("https://user-images.githubusercontent.com/68891494/197516699-9eff2b66-1470-4777-bfb6-dcbf11e24eb3.svg")
+                .content("https://user-images.githubusercontent.com/68891494/197518065-7cb49e68-79ed-4ab0-93bc-37d55204a8ab.svg")
             ),
             .meta(
                 .property("og:type"),
