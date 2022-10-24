@@ -18,7 +18,7 @@ extension Node where Context == HTML.HeadContext {
             ),
             .meta(
                 .property("og:image"),
-                .content("https://user-images.githubusercontent.com/68891494/197550122-5c52797f-4856-4949-8150-1f78e87d48c5.svg")
+                .content("/images/logo/Pelagornis_dark.jpg")
             ),
             .meta(
                 .property("og:type"),
