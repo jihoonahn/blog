@@ -24,12 +24,10 @@ struct Blog: Website {
         }
     }
     
-    var url = URL(string: "https://your-website-url.com")!
-    var title = "JiHoon"
-    var name = "JiHoonAHN-Blog"
-    var description = "iOS Developer"
+    var url = URL(string: "https://blog.jihoon.me")!
+    var name = "JiHoonAHN"
+    var description = "Blog"
     var language: Language { .english }
     var imagePath: Path? { nil }
     var socialMediaLinks: [SocialMediaLink] { [.github,.email] }
-    var information: [String] { ["Introduce","Project","Service","Open Source"] }
 }
