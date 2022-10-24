@@ -40,7 +40,10 @@ struct BlogHTMLFactory: HTMLFactory {
     func makeItemHTML(for item: Item<Blog>, context: PublishingContext<Blog>) throws -> HTML {
         HTML(
             .lang(context.site.language),
-            .head(for: context.site, description: item.description),
+            .head(
+                for: context.site,
+                description: item.description
+            ),
             .body(
                 .grid(
                     .header(for: context.site),
@@ -54,7 +57,10 @@ struct BlogHTMLFactory: HTMLFactory {
     func makePageHTML(for page: Page, context: PublishingContext<Blog>) throws -> HTML {
         HTML(
             .lang(context.site.language),
-            .head(for: context.site, description: page.description),
+            .head(
+                for: context.site,
+                description: page.description
+            ),
             .body(
                 .grid(
                     .header(for: context.site),
@@ -68,7 +74,10 @@ struct BlogHTMLFactory: HTMLFactory {
     func makeTagListHTML(for page: TagListPage, context: PublishingContext<Blog>) throws -> HTML? {
         HTML(
             .lang(context.site.language),
-            .head(for: context.site),
+            .head(
+                for: context.site,
+                description: "All the tags on JiHoonAHN blog | \(context.allTags.map{ $0.string }.joined(separator: ", "))"
+            ),
             .body(
                 .grid(
                     .header(for: context.site),
@@ -82,7 +91,10 @@ struct BlogHTMLFactory: HTMLFactory {
     func makeTagDetailsHTML(for page: TagDetailsPage, context: PublishingContext<Blog>) throws -> HTML? {
         HTML(
             .lang(context.site.language),
-            .head(for: context.site),
+            .head(
+                for: context.site,
+                description: "\(page.tag.string) | Found \(context.pages.count) posts"
+            ),
             .body(
                 .grid(
                     .header(for: context.site),
