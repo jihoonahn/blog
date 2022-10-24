@@ -7,7 +7,6 @@ struct BlogHTMLFactory: HTMLFactory {
             .lang(context.site.language),
             .head(
                 for: context.site,
-                title: "Home",
                 description: "JihoonAHN Blog records my growth process. I share all my knowledge and experiences with you."
             ),
             .body(
@@ -41,7 +40,7 @@ struct BlogHTMLFactory: HTMLFactory {
     func makeItemHTML(for item: Item<Blog>, context: PublishingContext<Blog>) throws -> HTML {
         HTML(
             .lang(context.site.language),
-            .head(for: context.site),
+            .head(for: context.site, description: item.description),
             .body(
                 .grid(
                     .header(for: context.site),
@@ -55,7 +54,7 @@ struct BlogHTMLFactory: HTMLFactory {
     func makePageHTML(for page: Page, context: PublishingContext<Blog>) throws -> HTML {
         HTML(
             .lang(context.site.language),
-            .head(for: context.site),
+            .head(for: context.site, description: page.description),
             .body(
                 .grid(
                     .header(for: context.site),
