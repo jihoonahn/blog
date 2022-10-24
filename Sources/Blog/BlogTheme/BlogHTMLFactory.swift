@@ -5,7 +5,11 @@ struct BlogHTMLFactory: HTMLFactory {
     func makeIndexHTML(for index: Index, context: PublishingContext<Blog>) throws -> HTML {
         HTML(
             .lang(context.site.language),
-            .head(for: context.site),
+            .head(
+                for: context.site,
+                title: "Home",
+                description: "JihoonAHN Blog records my growth process. I share all my knowledge and experiences with you."
+            ),
             .body(
                 .grid(
                     .header(for: context.site),
