@@ -9,8 +9,8 @@ extension Node where Context == HTML.HeadContext {
                 .content(site.description)
             ),
             .meta(
-                .property("og:title"),
-                .content(title ?? "")
+                .property("og:site_name"),
+                .content(site.name)
             ),
             .meta(
                 .property("og:description"),
@@ -18,7 +18,7 @@ extension Node where Context == HTML.HeadContext {
             ),
             .meta(
                 .property("og:image"),
-                .content("/images/Icon/icon.svg")
+                .content("https://user-images.githubusercontent.com/68891494/197516699-9eff2b66-1470-4777-bfb6-dcbf11e24eb3.svg")
             ),
             .meta(
                 .property("og:type"),
