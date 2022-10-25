@@ -8,6 +8,10 @@ extension Node where Context == HTML.BodyContext {
             .div(
                 .class("viewport"),
                 .group(nodes)
+            ),
+            .script(
+                .src("/js/Channel_talk/Channel_talk.js"),
+                .defer()
             )
         )
     }

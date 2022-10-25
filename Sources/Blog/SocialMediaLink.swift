@@ -17,7 +17,7 @@ extension SocialMediaLink {
     static var email: SocialMediaLink {
         return SocialMediaLink(
             title: "Email",
-            url: "mailto:ahnjh1028@naver.com",
+            url: "mailto:official@jihoon.me",
             icon: "fas fa-envelope-open-text"
         )
     }
