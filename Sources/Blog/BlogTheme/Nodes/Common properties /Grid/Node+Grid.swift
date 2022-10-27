@@ -10,8 +10,7 @@ extension Node where Context == HTML.BodyContext {
                 .group(nodes)
             ),
             .script(
-                .src("/js/Channel_talk/Channel_talk.js"),
-                .defer()
+                .src("/js/Channel_talk/Channel_talk.js")
             )
         )
     }
