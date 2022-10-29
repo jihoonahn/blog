@@ -31,7 +31,6 @@ extension Node where Context == HTML.BodyContext {
                                 .text("\(tag.string). "),
                                 .href(site.path(for: tag))
                             )
-                        
                     }
                 )
             ),
