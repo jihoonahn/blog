@@ -9,6 +9,6 @@ try Blog().publish(using: [
     .copyResources(),
     .generateHTML(withTheme: .blog),
     .generateRSSFeed(including: [.posts]),
-    .generateSiteMap(),
+    .move404FileForBlog(),
     .deploy(using: .gitHub("JiHoonAHN/Blog"))
 ])

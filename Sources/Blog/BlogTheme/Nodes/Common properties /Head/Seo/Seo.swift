@@ -3,7 +3,7 @@ import Plot
 extension Node where Context == HTML.HeadContext {
     static func seo(for site : Blog, description: String? = nil) -> Node {
         return .group(
-            .title("\(site.name)"),
+            .title("\(site.name) - Learn Xcode and swift"),
             .meta(
                 .name("description"),
                 .content(site.description)

@@ -1,0 +1,26 @@
+.error-message {
+    text-align: center;
+}
+
+.error-title {
+    margin: 100px 0 0 0;
+    font-size: 10em;
+    font-weight: 900;
+    color: #292929;
+    letter-spacing: -5px;
+}
+
+.error-description {
+    margin: 0;
+    font-size: 20px;
+    line-height: 1.3em;
+    color: #292929;
+    font-weight: 400;
+}
+
+.error-homebutton {
+    display: inline-block;
+    margin-top: 5px;
+    color: #26a8ed;
+    text-decoration: none;
+}

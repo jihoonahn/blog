@@ -1,5 +1,5 @@
 ---
-title: RIBs
+title: RIBs Introduce
 date: 2022-10-25 14:09
 tags: Swift, Architecture, RIBs, Theory
 description: Let's study the RIBs made by Uber!

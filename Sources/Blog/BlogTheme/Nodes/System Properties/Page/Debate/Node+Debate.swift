@@ -38,7 +38,7 @@ extension Node where Context == HTML.BodyContext {
                                  ),
                                  .p(
                                      .class("debate-post-description"),
-                                     .text(item.metadata.excerpt)
+                                     .text(item.description)
                                  )
                              ),
                              .div(

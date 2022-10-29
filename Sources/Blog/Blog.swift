@@ -18,10 +18,7 @@ struct Blog: Website {
     }
     
     struct ItemMetadata: WebsiteItemMetadata {
-        var excerpt: String
-        var topic: String {
-            return excerpt
-        }
+        // Add any site-specific metadata that you want to use here.
     }
     
     var url = URL(string: "https://blog.jihoon.me")!
