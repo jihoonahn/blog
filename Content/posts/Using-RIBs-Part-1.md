@@ -8,7 +8,7 @@ description: Let's find out how to use RIBs!
 저번 포스트에서는 RIBs에 대해서 이론을 공부했는데요!
 이번 포스트에서는 RIBs의 실전으로 사용해보는 글입니다.
 
-이전 포스트를 안읽으신 분은 [이전 글](https://blog.jihoon.me/posts/4)을 읽어주세요!
+이전 포스트를 안읽으신 분은 [이전 글](https://blog.jihoon.me/posts/RIBs-Introduce)을 읽어주세요!
 
 ---
 
