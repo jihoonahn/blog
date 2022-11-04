@@ -3,7 +3,6 @@ title: Using RIBs Part 1
 date: 2022-10-27 14:05
 tags: Swift, Architecture, RIBs, Actual Use
 description: Let's find out how to use RIBs!
-excerpt: iOS Basic
 ---
 
 저번 포스트에서는 RIBs에 대해서 이론을 공부했는데요!

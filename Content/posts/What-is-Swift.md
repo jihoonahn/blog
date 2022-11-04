@@ -3,7 +3,6 @@ title: What is Swift
 date: 2021-04-11 7:02
 tags: Tutorial, Swift, Theory
 description: Introducing what is Swift!
-excerpt: iOS Basic
 ---
 
 [Apple 공식 Swift](https://developer.apple.com/swift/)

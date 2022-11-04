@@ -3,7 +3,6 @@ title: RIBs Introduce
 date: 2022-10-25 14:09
 tags: Swift, Architecture, RIBs, Theory
 description: Let's study the RIBs made by Uber!
-excerpt: iOS Basic
 ---
 
 Uber에서 만든 RIBs에 대해서 공부해 보겠습니다.

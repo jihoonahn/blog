@@ -3,7 +3,6 @@ title: What is SwiftUI
 date: 2022-10-20 17:02
 tags: Tutorial, SwiftUI, Theory
 description: Introducing what is SwiftUI!
-excerpt: iOS Basic
 ---
 
 

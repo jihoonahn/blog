@@ -3,7 +3,6 @@ title: Swift Compiler
 date: 2022-10-21 00:49
 tags: Swift, Theory
 description: How will Swift be compiled?
-excerpt: iOS Basic
 ---
 
 Swift 툴체인의 중심에는 Swift Compiler가 존재합니다.
