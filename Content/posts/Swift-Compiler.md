@@ -16,7 +16,7 @@ Swift와 같은 high-level 언어를 machine code로 변환하는 과정은 Lowe
 
 둥근 코너의 사각형과 일반 사각형은 데이터의 Input 과 output을 나타내며, high level에서 부터 각각의 단계를 이해하는데 많은 도움을 줄 것입니다.
 
-<img width="100%"  alt="my-option" src="https://user-images.githubusercontent.com/68891494/196997871-4c97c0aa-c87a-475a-b79a-82b76d679bb7.png">
+<img width="50%"  alt="my-option" src="https://user-images.githubusercontent.com/68891494/196997871-4c97c0aa-c87a-475a-b79a-82b76d679bb7.png">
 </img>
 
 1. Parse : Swift 소스는 먼저 token들로 변환되고, AST(abstract syntax tree)에 들어가게 됩니다.
