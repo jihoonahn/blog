@@ -11,7 +11,7 @@ If you have any questions about the blog, please contact [official@jihoon.me](ma
 
 ### Page
 - [Posts](https://blog.jihoon.me/)
-- [Debate](http://localhost:8000/debate/)
+- [Debate](https://blog.jihoon.me/debate)
 - [About](https://blog.jihoon.me/about)
 #### Hidden Page
-- [Tags](http://localhost:8000/tags/)
+- [Tags](https://blog.jihoon.me/tags/)
