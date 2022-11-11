@@ -1,4 +1,76 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>JiHoonAHN Blog</title><description>This is a personal blog for iOS Developer JiHoonAHN.</description><link>https://blog.jihoon.me</link><language>en</language><lastBuildDate>Tue, 8 Nov 2022 20:30:36 +0900</lastBuildDate><pubDate>Tue, 8 Nov 2022 20:30:36 +0900</pubDate><ttl>250</ttl><atom:link href="https://blog.jihoon.me/feed.rss" rel="self" type="application/rss+xml"/><item><guid isPermaLink="true">https://blog.jihoon.me/posts/Using-RIBs-Part-1</guid><title>Using RIBs Part 1</title><description>Let's find out how to use RIBs!</description><link>https://blog.jihoon.me/posts/Using-RIBs-Part-1</link><pubDate>Thu, 27 Oct 2022 14:05:00 +0900</pubDate><content:encoded><![CDATA[<p>저번 포스트에서는 RIBs에 대해서 이론을 공부했는데요! 이번 포스트에서는 RIBs의 실전으로 사용해보는 글입니다.</p><p>이전 포스트를 안읽으신 분은 <a href="https://blog.jihoon.me/posts/RIBs-Introduce">이전 글</a>을 읽어주세요!</p><hr><p>RIBs를 시작하기전에 <a href="https://github.com/uber/RIBs/tree/main/ios/tooling">RIBs Template</a>를 설치해주세요!</p><p>Project를 생성해주고, RIBs를 SwiftPackageManager 로 추가해주도록 하겠습니다!</p><img width="100%"  alt="my-option" src = "https://user-images.githubusercontent.com/68891494/198204193-93a77152-76e3-40ee-97ac-a2a0b0e57998.png"></img><p>RIBs를 추가하면 RxSwift도 같이 온다는 것을 볼 수 있습니다.</p><p>RIBs의 Package 파일을 보면 <a href="https://github.com/uber/RIBs/blob/main/Package.swift">RIBs Package</a></p><img width="70%"  alt="my-option" src = "https://user-images.githubusercontent.com/68891494/198204978-6334786b-34c6-4e45-a346-8b5b4b1f87db.png"></img><p>dependencies에서 RxSwift를 가져오는 것을 알 수 있습니다. 그리고 Target을 보면 RIBs가 RxSwift를 사용한다는 것을 확인할 수 있습니다.</p><p>RxSwift에 대한 글은 나중에 자세히 적도록 하겠습니다.</p><hr><p>이제 본론으로 와서 시작하도록 하겠습니다.</p><p>Root 파일부터 만들고 시작하겠습니다. 설치한 Template으로 Root를 생성해줍니다.</p><img width="50%" alt="my-option" src = "https://user-images.githubusercontent.com/68891494/198207168-2af3819a-d4aa-439f-a451-fa9752812598.png"></img><ul><li>저는 제가 직접 커스텀한 Template을 사용해서 조금 다를 수 있습니다.</li></ul><p>생성을 하셨다면 이렇게 파일 4개가 만들어 질겁니다.</p><img width=30% alt="my-option" src = "https://user-images.githubusercontent.com/68891494/198207667-88667f37-ee87-4aa0-a3d4-6e18b6b265d5.png"></img><p>Root 생성후에 화면을 띄우는 작업을 하겠습니다.</p><p>일단 AppComponentFile을 생성해주세요. 그후에 일단 처음에는 빈 component를 생성해주겠습니다.</p><pre><code><span class="keyword">import</span> RIBs
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>JiHoonAHN Blog</title><description>This is a personal blog for iOS Developer JiHoonAHN.</description><link>https://blog.jihoon.me</link><language>en</language><lastBuildDate>Fri, 11 Nov 2022 16:12:02 +0900</lastBuildDate><pubDate>Fri, 11 Nov 2022 16:12:02 +0900</pubDate><ttl>250</ttl><atom:link href="https://blog.jihoon.me/feed.rss" rel="self" type="application/rss+xml"/><item><guid isPermaLink="true">https://blog.jihoon.me/posts/Using-RIBs-Part-2</guid><title>Using RIBs Part 2</title><description>Let's find out how to use RIBs!</description><link>https://blog.jihoon.me/posts/Using-RIBs-Part-2</link><pubDate>Fri, 4 Nov 2022 01:02:00 +0900</pubDate><content:encoded><![CDATA[<p>저번 포스트에서는 RIBs를 사용하기 위해서 세팅하는 법에 대해서 배웠습니다. 이번 포스트는 저번 글의 연장선입니다.</p><p>혹시 저번 글을 읽지 않으셨다면, <a href="https://blog.jihoon.me/posts/Using-RIBs-Part-1/">Using RIBs Part 1</a> 을 먼저 보고 오시는 것이 도움될 것입니다.</p><p>그럼 다시 시작해보겠습니다</p><hr><p>저희가 간단하게 구현할 앱입니다. 물론 오늘은 Onboarding이랑 Main만 연결할 것입니다.</p><img width = 80% src = "https://user-images.githubusercontent.com/68891494/201262846-f5854953-aa3f-454f-b885-0fbc05ec7cc7.png"></img><p>일단 Onboarding, Main RIB을 생성해줍니다.</p><img width = 50% src = "https://user-images.githubusercontent.com/68891494/201261727-94182b2a-e39b-4937-9955-10a6950dee41.png"></img><p>Root와 Main &amp; Onboarding을 연결해주기 위해서 RootBuilder에서 작업을 해줍니다.</p><pre><code><span class="keyword">func</span> build() -&gt; <span class="type">LaunchRouting</span> {
+    <span class="keyword">let</span> component = <span class="type">RootComponent</span>(dependency: dependency)
+    <span class="keyword">let</span> viewController = <span class="type">RootViewController</span>()
+    <span class="keyword">let</span> interactor = <span class="type">RootInteractor</span>(presenter: viewController)
+    <span class="keyword">let</span> onboardingBuilder = <span class="type">OnboardingBuilder</span>(dependency: component)
+    <span class="keyword">let</span> mainBuilder = <span class="type">MainBuilder</span>(dependency: component)
+    <span class="keyword">return</span> <span class="type">RootRouter</span>(interactor: interactor, viewController: viewController)
+}
+</code></pre><p>이렇게 하시면</p><img width="100%" src="https://user-images.githubusercontent.com/68891494/201265977-313c2925-3f3b-423f-bfae-d977929bb027.png"></img><p>이러한 에러가 발생합니다. 에러가 발생하는 이유는 Component에서 MainDependency와 OnboardingDependency를 상속하지 않았기 때문에 발생합니다.</p><p>RootBuilder 파일 안에 있는 RootComponent에 MainDependency와 OnboardingDependency를 상속해줍니다.</p><pre><code><span class="keyword">extension</span> <span class="type">RootComponent</span>: <span class="type">MainDependency</span>, <span class="type">OnboardingDependency</span> {}
+</code></pre><p>이러면 에러가 사라질 것입니다!</p><p>이후 RootRouter에서 각각 RIB의 Buildable과 Routing을 생성합니다.</p><pre><code><span class="keyword">final class</span> RootRouter: <span class="type">LaunchRouter</span>&lt;<span class="type">RootInteractable</span>, <span class="type">RootViewControllable</span>&gt;, <span class="type">RootRouting</span> {
+    <span class="comment">// MARK: - Onboarding</span>
+    <span class="keyword">private let</span> onboardingBuilder: <span class="type">OnboardingBuildable</span>
+    <span class="keyword">private var</span> onboardingRouter: <span class="type">OnboardingRouting</span>?
+    <span class="comment">// MARK: - Main</span>
+    <span class="keyword">private let</span> mainBuilder: <span class="type">MainBuildable</span>
+    <span class="keyword">private var</span> mainRouter: <span class="type">MainRouting</span>?
+    
+    <span class="keyword">init</span>(
+        onboardingBuilder: <span class="type">OnboardingBuildable</span>,
+        mainBuilder: <span class="type">MainBuildable</span>,
+        interactor: <span class="type">RootInteractable</span>,
+        viewController: <span class="type">RootViewControllable</span>
+    ) {
+        <span class="keyword">self</span>.<span class="property">mainBuilder</span> = mainBuilder
+        <span class="keyword">self</span>.<span class="property">onboardingBuilder</span> = onboardingBuilder
+        <span class="keyword">super</span>.<span class="keyword">init</span>(interactor: interactor, viewController: viewController)
+        interactor.<span class="property">router</span> = <span class="keyword">self</span>
+    }
+</code></pre><p>다시 Builder로 돌아와서</p><pre><code><span class="keyword">func</span> build() -&gt; <span class="type">LaunchRouting</span> {
+    <span class="keyword">let</span> component = <span class="type">RootComponent</span>(dependency: dependency)
+    <span class="keyword">let</span> viewController = <span class="type">RootViewController</span>()
+    <span class="keyword">let</span> interactor = <span class="type">RootInteractor</span>(presenter: viewController)
+    <span class="keyword">let</span> onboardingBuilder = <span class="type">OnboardingBuilder</span>(dependency: component)
+    <span class="keyword">let</span> mainBuilder = <span class="type">MainBuilder</span>(dependency: component)
+    <span class="keyword">return</span> <span class="type">RootRouter</span>(
+        onboardingBuilder: onboardingBuilder,
+        mainBuilder: mainBuilder,
+        interactor: interactor,
+        viewController: viewController
+    )
+}
+</code></pre><p>RootRouter에 미리 만들어 놓은 Builder를 넘겨주시면 됩니다.</p><p>그다음.. (역시 RIBs는 세팅할게 많네요)</p><p>Root에서 Main, Onboarding 화면을 이동시켜보도록 하겠습니다.</p><p>Onboarding부터 attach 해보겠습니다.</p><pre><code><span class="keyword">protocol</span> RootInteractable: <span class="type">Interactable</span>, <span class="type">OnboardingListener</span>, <span class="type">MainListener</span> {
+    <span class="keyword">var</span> router: <span class="type">RootRouting</span>? { <span class="keyword">get set</span> }
+    <span class="keyword">var</span> listener: <span class="type">RootListener</span>? { <span class="keyword">get set</span> }
+}
+</code></pre><p>일단 시작하기 앞서, interactable 부분에 Listener를 상속 시킵니다.</p><p>그리고 Interactor에서 Routing에 무엇을 attach 할지, detach할지 적어줍니다.</p><pre><code><span class="keyword">protocol</span> RootRouting: <span class="type">ViewableRouting</span> {
+    <span class="keyword">func</span> attachOnboarding()
+    <span class="keyword">func</span> attachMain()
+    <span class="keyword">func</span> detachOnboarding()
+    <span class="keyword">func</span> detachMain()
+}
+</code></pre><p>그후 Attach 코드를 작성해주시면 됩니다.</p><pre><code><span class="keyword">func</span> attachOnboarding() {
+    <span class="keyword">guard</span> onboardingRouting == <span class="keyword">nil else</span> { <span class="keyword">return</span> }
+    <span class="keyword">let</span> router = onboardingBuilder.<span class="call">build</span>(withListener: interactor)
+    <span class="keyword">let</span> vc = router.<span class="property">viewControllable</span>.<span class="property">uiviewController</span>
+    vc.<span class="property">modalTransitionStyle</span> = .<span class="dotAccess">crossDissolve</span>
+    vc.<span class="property">modalPresentationStyle</span> = .<span class="dotAccess">overFullScreen</span>
+    viewControllable.<span class="property">uiviewController</span>.<span class="call">present</span>(vc, animated: <span class="keyword">true</span>)
+    <span class="call">attachChild</span>(router)
+    <span class="keyword">self</span>.<span class="property">onboardingRouting</span> = router
+}
+</code></pre><p>그리고 Attach가 되었으면 detach도 시켜줘야겠죠?</p><pre><code><span class="keyword">func</span> detachOnboarding() {
+    <span class="keyword">guard let</span> router = onboardingRouting <span class="keyword">else</span> { <span class="keyword">return</span> }
+    viewController.<span class="property">uiviewController</span>.<span class="call">dismiss</span>(animated: <span class="keyword">true</span>)
+    <span class="keyword">self</span>.<span class="property">onboardingRouting</span> = <span class="keyword">nil</span>
+    detachChild(router)
+}
+</code></pre><p>자 이제 Router 부분은 끝난것 같네요! 이제 정말 실행되는지 확인해보겠습니다!</p><p>Interactor로 가셔서</p><pre><code><span class="keyword">override func</span> didBecomeActive() {
+      <span class="keyword">super</span>.<span class="call">didBecomeActive</span>()
+      router?.<span class="call">attachOnboarding</span>()
+}
+</code></pre><p>이런식으로 테스트하겠습니다.</p><p>그냥 연결만 됬는지 확인하기 위해서 Onboarding에서 background 색상을 바꿔보겠습니다.</p><p>[실행화면]</p><img width = 30% src = "https://user-images.githubusercontent.com/68891494/201284305-3e750a12-3e62-4f19-8163-6fe4d3b3cedc.png">
+</img><p>일단 연결이 됬습니다! 글이 길어지는 관계로 다음 파트에서 작성하도록 하겠습니다!</p><p><a href="https://github.com/JiHoonAHN/Blog-Documment/tree/main/Architecture/RIBs/RIBs-2/ExRIBs">전체코드</a></p>]]></content:encoded></item><item><guid isPermaLink="true">https://blog.jihoon.me/posts/Using-RIBs-Part-1</guid><title>Using RIBs Part 1</title><description>Let's find out how to use RIBs!</description><link>https://blog.jihoon.me/posts/Using-RIBs-Part-1</link><pubDate>Thu, 27 Oct 2022 14:05:00 +0900</pubDate><content:encoded><![CDATA[<p>저번 포스트에서는 RIBs에 대해서 이론을 공부했는데요! 이번 포스트에서는 RIBs의 실전으로 사용해보는 글입니다.</p><p>이전 포스트를 안읽으신 분은 <a href="https://blog.jihoon.me/posts/RIBs-Introduce">이전 글</a>을 읽어주세요!</p><hr><p>RIBs를 시작하기전에 <a href="https://github.com/uber/RIBs/tree/main/ios/tooling">RIBs Template</a>를 설치해주세요!</p><p>Project를 생성해주고, RIBs를 SwiftPackageManager 로 추가해주도록 하겠습니다!</p><img width="100%"  alt="my-option" src = "https://user-images.githubusercontent.com/68891494/198204193-93a77152-76e3-40ee-97ac-a2a0b0e57998.png"></img><p>RIBs를 추가하면 RxSwift도 같이 온다는 것을 볼 수 있습니다.</p><p>RIBs의 Package 파일을 보면 <a href="https://github.com/uber/RIBs/blob/main/Package.swift">RIBs Package</a></p><img width="70%"  alt="my-option" src = "https://user-images.githubusercontent.com/68891494/198204978-6334786b-34c6-4e45-a346-8b5b4b1f87db.png"></img><p>dependencies에서 RxSwift를 가져오는 것을 알 수 있습니다. 그리고 Target을 보면 RIBs가 RxSwift를 사용한다는 것을 확인할 수 있습니다.</p><p>RxSwift에 대한 글은 나중에 자세히 적도록 하겠습니다.</p><hr><p>이제 본론으로 와서 시작하도록 하겠습니다.</p><p>Root 파일부터 만들고 시작하겠습니다. 설치한 Template으로 Root를 생성해줍니다.</p><img width="50%" alt="my-option" src = "https://user-images.githubusercontent.com/68891494/198207168-2af3819a-d4aa-439f-a451-fa9752812598.png"></img><ul><li>저는 제가 직접 커스텀한 Template을 사용해서 조금 다를 수 있습니다.</li></ul><p>생성을 하셨다면 이렇게 파일 4개가 만들어 질겁니다.</p><img width=30% alt="my-option" src = "https://user-images.githubusercontent.com/68891494/198207667-88667f37-ee87-4aa0-a3d4-6e18b6b265d5.png"></img><p>Root 생성후에 화면을 띄우는 작업을 하겠습니다.</p><p>일단 AppComponentFile을 생성해주세요. 그후에 일단 처음에는 빈 component를 생성해주겠습니다.</p><pre><code><span class="keyword">import</span> RIBs
 
 <span class="keyword">class</span> AppComponent : <span class="type">Component</span>&lt;<span class="type">EmptyDependency</span>&gt;, <span class="type">RootDependency</span>{
     <span class="keyword">init</span>(){
