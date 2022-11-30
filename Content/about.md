@@ -1,5 +1,5 @@
 ---
-title: about
+title: About JiHoonAHN's Blog
 description: Nice to meet you, welcome to my blog. I am a junior developer who started iOS development in 2021. During this time, I worked with small and large teams on the project.
 ---
 

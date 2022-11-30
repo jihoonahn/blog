@@ -42,6 +42,7 @@ struct BlogHTMLFactory: HTMLFactory {
             .lang(context.site.language),
             .head(
                 for: context.site,
+                title: item.title,
                 description: item.description
             ),
             .body(
@@ -59,6 +60,7 @@ struct BlogHTMLFactory: HTMLFactory {
             .lang(context.site.language),
             .head(
                 for: context.site,
+                title: page.title,
                 description: page.description
             ),
             .body(
@@ -76,6 +78,7 @@ struct BlogHTMLFactory: HTMLFactory {
             .lang(context.site.language),
             .head(
                 for: context.site,
+                title: "JiHoonAHN blog All Tags",
                 description: "All the tags on JiHoonAHN blog | \(context.allTags.map{ $0.string }.joined(separator: ", "))"
             ),
             .body(
@@ -93,6 +96,7 @@ struct BlogHTMLFactory: HTMLFactory {
             .lang(context.site.language),
             .head(
                 for: context.site,
+                title: "Tags | \(page.tag.string)",
                 description: "\(page.tag.string) | Found \(context.pages.count) posts"
             ),
             .body(
