@@ -7,21 +7,39 @@ struct SiteHeader<Site: Website>: Component {
     
     var body: Component {
         Header {
-            Wrapper {
-                Navigation {
+            Navigation {
+                Div {
                     Node.a(
                         .href("/"),
-                        .img(.alt("Blog Logo"), .src("/images/logo/logo.svg"))
+                        .img(.alt("blog Logo"), .src("/images/logo/logo.svg"))
                     ).class("blog-head-logo")
-                    
+                    Div {
+                        Button {
+                            Node.i(
+                                .class("fa-solid fa-magnifying-glass")
+                            )
+                        }.class("blog-search")
+                        Button {
+                            Node.i(
+                                .class("fa-solid fa-bars")
+                            )
+                        }.class("blog-menu")
+                    }.class("blog-head-brand-wrapper")
+                }.class("blog-head-brand")
+                Div {
                     List(Site.SectionID.allCases) { sectionID in
                         let section = context.sections[sectionID]
-                        
-                        return Link(section.title, url: section.path.absoluteString)
-                            .class("blog-head-menu")
-                    }
-                }
-            }
+                        return Link(
+                            section.title,
+                            url: section.path.absoluteString
+                        ).class("nav-item")
+                    }.class("nav")
+                }.class("blog-head-menu")
+            }.class("blog-head-inner inner")
+            Script(url: "/js/Header/header-menu.js")
+            Script(url: "/js/Header/header-scroll.js")
         }
+        .id("blog-head")
+        .class("blog-head outer")
     }
 }

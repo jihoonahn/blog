@@ -3,6 +3,7 @@ import Plot
 struct Script: Component {
     // MARK: - Properties
     var url: URLRepresentable
+    
     // MARK: - Initalizer
     init(url: URLRepresentable) {
         self.url = url

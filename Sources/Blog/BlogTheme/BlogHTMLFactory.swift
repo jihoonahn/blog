@@ -130,6 +130,9 @@ struct BlogHTMLFactory: HTMLFactory {
             .head(for: context.site),
             .body {
                 SiteHeader(context: context)
+                Wrapper {
+                    Script(url: "/js/Channel_talk/Channel_talk.js")
+                }
                 SiteFooter(context: context)
             }
         )
@@ -142,6 +145,9 @@ struct BlogHTMLFactory: HTMLFactory {
             .head(for: context.site),
             .body {
                 SiteHeader(context: context)
+                Wrapper {
+                    Script(url: "/js/Channel_talk/Channel_talk.js")
+                }
                 SiteFooter(context: context)
             }
         )
@@ -154,6 +160,9 @@ struct BlogHTMLFactory: HTMLFactory {
             .head(for: context.site),
             .body {
                 SiteHeader(context: context)
+                Wrapper {
+                    Script(url: "/js/Channel_talk/Channel_talk.js")
+                }
                 SiteFooter(context: context)
             }
         )
@@ -166,6 +175,9 @@ struct BlogHTMLFactory: HTMLFactory {
             .head(for: context.site),
             .body {
                 SiteHeader(context: context)
+                Wrapper {
+                    Script(url: "/js/Channel_talk/Channel_talk.js")
+                }
                 SiteFooter(context: context)
             }
         )
@@ -178,6 +190,9 @@ struct BlogHTMLFactory: HTMLFactory {
             .head(for: context.site),
             .body {
                 SiteHeader(context: context)
+                Wrapper {
+                    Script(url: "/js/Channel_talk/Channel_talk.js")
+                }
                 SiteFooter(context: context)
             }
         )
@@ -190,6 +205,9 @@ struct BlogHTMLFactory: HTMLFactory {
             .head(for: context.site),
             .body {
                 SiteHeader(context: context)
+                Wrapper {
+                    Script(url: "/js/Channel_talk/Channel_talk.js")
+                }
                 SiteFooter(context: context)
             }
         )
