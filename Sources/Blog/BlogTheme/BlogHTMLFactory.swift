@@ -130,6 +130,7 @@ struct BlogHTMLFactory: HTMLFactory {
             .head(for: context.site),
             .body {
                 SiteHeader(context: context)
+                SiteFooter(context: context)
             }
         )
     }
@@ -141,7 +142,7 @@ struct BlogHTMLFactory: HTMLFactory {
             .head(for: context.site),
             .body {
                 SiteHeader(context: context)
-                
+                SiteFooter(context: context)
             }
         )
     }
@@ -152,7 +153,8 @@ struct BlogHTMLFactory: HTMLFactory {
             .lang(context.site.language),
             .head(for: context.site),
             .body {
-                
+                SiteHeader(context: context)
+                SiteFooter(context: context)
             }
         )
     }
@@ -163,7 +165,8 @@ struct BlogHTMLFactory: HTMLFactory {
             .lang(context.site.language),
             .head(for: context.site),
             .body {
-                
+                SiteHeader(context: context)
+                SiteFooter(context: context)
             }
         )
     }
@@ -174,7 +177,8 @@ struct BlogHTMLFactory: HTMLFactory {
             .lang(context.site.language),
             .head(for: context.site),
             .body {
-                
+                SiteHeader(context: context)
+                SiteFooter(context: context)
             }
         )
     }
@@ -185,7 +189,8 @@ struct BlogHTMLFactory: HTMLFactory {
             .lang(context.site.language),
             .head(for: context.site),
             .body {
-                
+                SiteHeader(context: context)
+                SiteFooter(context: context)
             }
         )
     }
