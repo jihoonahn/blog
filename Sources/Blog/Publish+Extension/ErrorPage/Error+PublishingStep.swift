@@ -21,7 +21,6 @@ extension PublishingStep {
                 throw PublishingError(stepName: stepName,
                                       infoMessage: "Unable find root, output and 404 folders")
             }
-
             try context.copyFileToOutput(from: "\(orig404File.path(relativeTo: rootFolder))")
             try orig404Folder.delete()
         }
