@@ -9,6 +9,14 @@
 >I made this blog because I wanted to have a blog with my own characteristics. I created a blog using Swift language and [Publish](https://github.com/JohnSundell/Publish), which are familiar to iOS developers. I'm going to upload it continuously, and I'm going to add various functions within the blog.
 If you have any questions about the blog, please contact [official@jihoon.me](mailto:official@jihoon.me).
 
+## Install Publish
+
+Make sure you have publish installed:
+
+```bash
+brew install publish
+```
+
 ### Page
 - [Posts](https://blog.jihoon.me/)
 - [Debate](https://blog.jihoon.me/debate)
