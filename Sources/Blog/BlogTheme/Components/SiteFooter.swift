@@ -8,10 +8,7 @@ struct SiteFooter: Component {
         Footer {
             Div {
                 Div {
-                    Node.a(
-                        .href("https://github.com/Pelagornis"),
-                        .text("Pelagornis")
-                    )
+                    Link("Pelagornis", url: "https://github.com/Pelagornis")
                     Text(" © 2022")
                 }.class("copyright")
                 Navigation {

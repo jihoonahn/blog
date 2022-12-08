@@ -131,6 +131,11 @@ struct BlogHTMLFactory: HTMLFactory {
             .body {
                 SiteHeader(context: context)
                 Wrapper {
+                    IndexPage(
+                        pageNumber: 1,
+                        items: context.paginatedItems.first ?? [],
+                        context: context
+                    )
                     Script(url: "/js/Channel_talk/Channel_talk.js")
                 }
                 SiteFooter(context: context)
@@ -146,6 +151,8 @@ struct BlogHTMLFactory: HTMLFactory {
             .body {
                 SiteHeader(context: context)
                 Wrapper {
+                    H1(section.title)
+                    DebateList(items: section.items, site: context.site, dateFormatter: .blog)
                     Script(url: "/js/Channel_talk/Channel_talk.js")
                 }
                 SiteFooter(context: context)
