@@ -27,7 +27,7 @@ struct Blog: Website {
     var language: Language { .english }
     var imagePath: Path? { nil }
     var favicon: Favicon? {
-        Favicon(path: "/images/Icon/icon.svg", type: "image/x-icon")
+        Favicon(path: "/favicon.ico", type: "image/x-icon")
     }
-    var socialMediaLinks: [SocialMediaLink] { [.github,.email] }
+    var socialMediaLinks: [SocialMediaLink] { [.github, .twitter, .email] }
 }
