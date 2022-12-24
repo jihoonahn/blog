@@ -9,10 +9,9 @@ struct SiteHeader<Site: Website>: Component {
         Header {
             Navigation {
                 Div {
-                    Node.a(
-                        .href("/"),
-                        .img(.alt("blog Logo"), .src("/images/logo/logo.svg"))
-                    ).class("blog-head-logo")
+                    Link(url: "/") {
+                        Image("/static/images/logo/logo.svg")
+                    }.class("blog-head-logo")
                     Div {
                         Button {
                             Node.i(
@@ -39,7 +38,5 @@ struct SiteHeader<Site: Website>: Component {
             Script(.src("/js/Header/header-menu.js"))
             Script(.src("/js/Header/header-scroll.js"))
         }
-        .id("blog-head")
-        .class("blog-head outer")
     }
 }

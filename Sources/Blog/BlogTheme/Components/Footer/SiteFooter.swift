@@ -10,7 +10,8 @@ struct SiteFooter: Component {
                 Div {
                     Div {
                         Paragraph {
-                            Text("Copyright © JiHoonAHN")
+                            Text("Copyright © ")
+                            Link("JiHoonAHN", url: "https://github.com/jihoonahn")
                         }
                     }
                     Div {
