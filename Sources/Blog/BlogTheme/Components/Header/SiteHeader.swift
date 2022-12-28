@@ -9,19 +9,22 @@ struct SiteHeader<Site: Website>: Component {
         Header {
             Div {
                 Div {
+                    Button {
+                        Node.i(
+                            .class("fa-solid fa-bars")
+                        )
+                    }.class("blog-menu blog-icon-btn")
                     Link(url: "/") {
-                        Image("/static/images/logo/logo.svg")
+                        Image(
+                            url: "/static/images/Icon/icon.svg",
+                            description: "JiHoonAHN Blog"
+                        )
                     }.class("blog-head-logo")
                     Button {
                         Node.i(
                             .class("fa-solid fa-magnifying-glass")
                         )
                     }.class("blog-search blog-icon-btn")
-                    Button {
-                        Node.i(
-                            .class("fa-solid fa-bars")
-                        )
-                    }.class("blog-menu blog-icon-btn")
                 }.class("blog-head-brand")
                 Navigation {
                     List(Site.SectionID.allCases) { sectionID in
