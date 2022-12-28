@@ -13,7 +13,8 @@ struct BlogHTMLFactory: HTMLFactory {
             .body {
                 SiteHeader(context: context)
                 Wrapper {
-                    Script(.src("/static/scripts/Channel_talk.js"))
+                    H1(context.site.name)
+                    Script(.src("/static/scripts/Channel_talk/Channel_talk.js"))
                 }
                 SiteFooter(context: context)
             }
@@ -29,7 +30,7 @@ struct BlogHTMLFactory: HTMLFactory {
                 SiteHeader(context: context)
                 Wrapper {
                     H1(section.title)
-                    Script(.src("/static/scripts/Channel_talk.js"))
+                    Script(.src("/static/scripts/Channel_talk/Channel_talk.js"))
                 }
                 SiteFooter(context: context)
             }

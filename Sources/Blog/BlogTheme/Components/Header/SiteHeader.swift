@@ -7,35 +7,40 @@ struct SiteHeader<Site: Website>: Component {
     
     var body: Component {
         Header {
-            Navigation {
+            Div {
                 Div {
                     Link(url: "/") {
                         Image("/static/images/logo/logo.svg")
-                    }
-                }.class("nav__logo-container")
-                Div {
+                    }.class("blog-head-logo")
+                    Button {
+                        Node.i(
+                            .class("fa-solid fa-magnifying-glass")
+                        )
+                    }.class("blog-search blog-icon-btn")
                     Button {
                         Node.i(
                             .class("fa-solid fa-bars")
                         )
-                    }.class("nav__menu")
+                    }.class("blog-menu blog-icon-btn")
+                }.class("blog-head-brand")
+                Navigation {
                     List(Site.SectionID.allCases) { sectionID in
                         let section = context.sections[sectionID]
-                        return Link(section.title,
-                                    url: section.path.absoluteString
-                        ).class("nav__section-item")
-                    }.class("nav__section")
-                }.class("nav__content")
+                        return Link(section.title, url: section.path.absoluteString)
+                    }.class("nav")
+                }.class("blog-head-menu")
                 Div {
                     Button {
                         Node.i(
                             .class("fa-solid fa-magnifying-glass")
                         )
-                    }
-                }.class("nav__search")
-            }.class("nav")
+                    }.class("blog-search blog-icon-btn")
+                }.class("blog-head-action")
+            }.class("blog-head-inner inner")
             Script(.src("/js/Header/header-menu.js"))
             Script(.src("/js/Header/header-scroll.js"))
-        }.class("site-header")
+        }
+        .id("blog-head")
+        .class("blog-head outer")
     }
 }
