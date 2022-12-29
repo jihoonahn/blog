@@ -29,7 +29,10 @@ struct SiteHeader<Site: Website>: Component {
                 Navigation {
                     List(Site.SectionID.allCases) { sectionID in
                         let section = context.sections[sectionID]
-                        return Link(section.title, url: section.path.absoluteString)
+                        return Link(
+                            section.title,
+                            url: section.path.absoluteString
+                        ).class("nav-item")
                     }.class("nav")
                 }.class("blog-head-menu")
                 Div {
