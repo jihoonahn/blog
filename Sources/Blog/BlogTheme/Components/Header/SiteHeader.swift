@@ -43,8 +43,8 @@ struct SiteHeader<Site: Website>: Component {
                     }.class("blog-search blog-icon-btn")
                 }.class("blog-head-action")
             }.class("blog-head-inner inner")
-            Script(.src("/js/Header/header-menu.js"))
-            Script(.src("/js/Header/header-scroll.js"))
+            Script(.src("/static/js/Header/header-menu.js"))
+            Script(.src("/static/js/Header/header-scroll.js"))
         }
         .id("blog-head")
         .class("blog-head outer")
