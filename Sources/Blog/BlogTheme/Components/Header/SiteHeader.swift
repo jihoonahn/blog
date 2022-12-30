@@ -15,11 +15,6 @@ struct SiteHeader<Site: Website>: Component {
                             Span().class("line-2")
                         }.class("menu-icon")
                     }.class("menu-icon-container")
-//                    Button {
-//                        Node.i(
-//                            .class("fa-solid fa-bars")
-//                        )
-//                    }.class("blog-menu blog-icon-btn")
                     Link(url: "/") {
                         Image(
                             url: "/static/images/Icon/icon.svg",

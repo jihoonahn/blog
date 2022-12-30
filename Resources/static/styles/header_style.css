@@ -33,19 +33,21 @@
 }
 
 .menu-icon-container {
-    width: 20px;
-    height: 44px;
+    width: 32px;
+    height: 32px;
     display: flex;
     align-items: center;
+    text-align: center;
     cursor: pointer;
 }
 
 .menu-icon {
     position: relative;
-    width: 100%;
+    width: 16px;
 }
 
-.menu-icon .line-1, .menu-icon .line-2 {
+.menu-icon .line-1,
+.menu-icon .line-2 {
     position: absolute;
     height: 1px;
     width: 100%;
@@ -54,23 +56,6 @@
     transition-delay: 0ms, 160ms;
     transition-duration: 200ms;
 }
-
-.blog-head.active .blog-head-inner .blog-head-brand .menu-icon-container .menu-icon .line-1 {
-    top: 0;
-    transform: rotateZ(45deg);
-    transition-property: top, transform;
-    transition-delay: 0ms, 160ms;
-    transition-duration: 200ms;
-}
-
-.blog-head.active .blog-head-inner .blog-head-brand .menu-icon-container .menu-icon .line-2 {
-    top: 0;
-    transform: rotateZ(-45deg);
-    transition-property: top, transform;
-    transition-delay: 0ms, 160ms;
-    transition-duration: 200ms;
-}
-
 
 .menu-icon .line-1 {
     top: -4px;
@@ -105,18 +90,6 @@
      outline: none;
 }
 
-.blog-menu {
-    align-items: center;
-    background-color: transparent;
-    border: 0;
-    cursor: pointer;
-    display: inline-flex;
-    height: 32px;
-    justify-content: center;
-    outline: none;
-    padding: 0;
-    width: 32px;
-}
 
 .blog-head-menu {
     align-items: center;
@@ -154,7 +127,6 @@
     background: #EDEDED;
 }
 
-
 .blog-head-action {
     align-items: center;
     display: flex;
@@ -168,11 +140,8 @@
     .blog-head-brand .blog-search {
         display: none;
     }
-    .blog-head-brand .blog-menu {
+    .blog-head-brand .menu-icon-container {
         display: none;
-    }
-    .menu-icon {
-        overflow: hidden;
     }
 }
 
@@ -202,7 +171,23 @@
     }
     
     .blog-head.active .blog-head-menu {
+        background: #000;
         height: 100vh;
     }
     
+    .blog-head.active .blog-head-brand .menu-icon-container .menu-icon .line-1 {
+        top: 0;
+        transform: rotateZ(45deg);
+        transition-property: top, transform;
+        transition-delay: 0ms, 160ms;
+        transition-duration: 200ms;
+    }
+
+    .blog-head.active .blog-head-brand .menu-icon-container .menu-icon .line-2 {
+        top: 0;
+        transform: rotateZ(-45deg);
+        transition-property: top, transform;
+        transition-delay: 0ms, 160ms;
+        transition-duration: 200ms;
+    }
 }
