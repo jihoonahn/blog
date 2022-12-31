@@ -17,7 +17,6 @@
 
 .blog-head-inner {
     grid-template-columns: auto 1fr auto;
-    align-items: center;
     -moz-column-gap: 40px;
     column-gap: 40px;
     display: grid;
@@ -148,7 +147,7 @@
 @media (max-width: 767px) {
     
     #blog-head .blog-head-inner {
-        gap: 48px;
+        height: 100%;
         grid-template-columns: 1fr;
     }
     
@@ -163,16 +162,59 @@
         user-select: none;
     }
     
-    #blog-head .blog-head-action, #blog-head .blog-head-menu {
-        justify-content: center;
-        opacity: 0;
-        position: fixed;
-        visibility: hidden;
+    #blog-head .blog-head-menu {
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 0 0 10vh 0;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 1.1em;
     }
     
-    .blog-head.active .blog-head-menu {
-        background: #000;
+    #blog-head .blog-head-menu .nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+        font-weight: 500;
+    }
+    
+    #blog-head .blog-head-action {
+        flex-direction: column-reverse;
+        justify-content: center;
+        padding: 20px 0 32px;
+        text-align: left;
+    }
+    
+    #blog-head .blog-head-action,
+    #blog-head .blog-head-menu {
+        display: none;
+    }
+    
+    .active {
+        z-index: 1999;
+        background: #fff;
+        overflow: hidden;
         height: 100vh;
+    }
+    .active #blog-head {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 3999999;
+        overflow-y: scroll;
+    }
+    .active #blog-head .blog-head-inner {
+        grid-template-rows: auto 1fr auto;
+    }
+     #blog-head.active .blog-head-actions,
+     #blog-head.active .blog-head-menu {
+        display: flex;
     }
     
     .blog-head.active .blog-head-brand .menu-icon-container .menu-icon .line-1 {
