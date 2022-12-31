@@ -10,7 +10,7 @@ struct Blog: Website {
         
         var name: String {
             switch self {
-            case .posts: return "Posts"
+            case .posts: return "Home"
             case .debate: return "Debate"
             case .about: return "About"
             }

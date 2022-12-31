@@ -4,7 +4,7 @@ import Foundation
 
 struct BlogHTMLFactory: HTMLFactory {
     typealias Site = Blog
-
+    
     func makeIndexHTML(for index: Publish.Index,
                        context: Publish.PublishingContext<Blog>) throws -> Plot.HTML {
         HTML(
@@ -13,7 +13,15 @@ struct BlogHTMLFactory: HTMLFactory {
             .body {
                 SiteHeader(context: context)
                 Wrapper {
-                    H1(context.site.name)
+                    SiteMain {
+                        IndexPage(
+                            context: context,
+                            items: context.allItems(
+                                sortedBy: \.date,
+                                order: .descending)
+                            .filter { $0.sectionID == .posts }
+                        )
+                    }
                     Script(.src("/static/scripts/Channel_talk/Channel_talk.js"))
                 }
                 SiteFooter(context: context)
@@ -29,7 +37,9 @@ struct BlogHTMLFactory: HTMLFactory {
             .body {
                 SiteHeader(context: context)
                 Wrapper {
-                    H1(section.title)
+                    Div{
+                        H1(section.title)
+                    }
                     Script(.src("/static/scripts/Channel_talk/Channel_talk.js"))
                 }
                 SiteFooter(context: context)
@@ -45,8 +55,8 @@ struct BlogHTMLFactory: HTMLFactory {
             .body {
                 SiteHeader(context: context)
                 Wrapper {
-                    H1(item.title)
-                    Script(.src("/static/scripts/Channel_talk.js"))
+                    Post(item: item, context: context)
+                    Script(.src("/static/scripts/Channel_talk/Channel_talk.js"))
                 }
                 SiteFooter(context: context)
             }
@@ -60,7 +70,10 @@ struct BlogHTMLFactory: HTMLFactory {
             .head(for: page, context: context),
             .body {
                 SiteHeader(context: context)
-                Wrapper (page.body)
+                Wrapper {
+                    Page(page: page, context: context)
+                    Script(.src("/static/scripts/Channel_talk/Channel_talk.js"))
+                }
                 SiteFooter(context: context)
             }
         )
@@ -74,7 +87,8 @@ struct BlogHTMLFactory: HTMLFactory {
             .body {
                 SiteHeader(context: context)
                 Wrapper {
-                    Script(.src("/static/scripts/Channel_talk.js"))
+                    TagList(tags: page.tags.reversed(), context: context)
+                    Script(.src("/static/scripts/Channel_talk/Channel_talk.js"))
                 }
                 SiteFooter(context: context)
             }
@@ -89,7 +103,12 @@ struct BlogHTMLFactory: HTMLFactory {
             .body {
                 SiteHeader(context: context)
                 Wrapper {
-                    Script(.src("/static/scripts/Channel_talk.js"))
+                    TagDetail(items: context.items(taggedWith: page.tag,
+                                                   sortedBy: \.date),
+                              context: context,
+                              title: "\(page.tag.string.capitalized)"
+                    )
+                    Script(.src("/static/scripts/Channel_talk/Channel_talk.js"))
                 }
                 SiteFooter(context: context)
             }
