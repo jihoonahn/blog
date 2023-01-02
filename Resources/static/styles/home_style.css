@@ -8,7 +8,7 @@
     display: flex;
     flex-wrap: wrap;
     margin: 0 -20px;
-    padding: 85px 0 0 0;
+    padding: 20px 0 0 0;
 }
 
 .post-card {
@@ -142,9 +142,6 @@
 
 /* Adjust some margins for smaller screens */
 @media (max-width: 650px) {
-    .post-feed {
-        padding-top: 85px;
-    }
     .post-card {
         margin: 0 20px 5vw;
     }

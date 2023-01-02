@@ -143,9 +143,6 @@
 
 /* Adjust some margins for smaller screens */
 @media (max-width: 650px) {
-    .post-feed {
-        padding-top: 5vw;
-    }
     .post-card {
         margin: 0 20px 5vw;
     }

@@ -4,15 +4,17 @@ import Plot
 
 struct Blog: Website {
     enum SectionID: String, WebsiteSectionID {
-        case posts
-        case debate
+        case blog
+        case dev
         case about
-        
+        case contact
+
         var name: String {
             switch self {
-            case .posts: return "Home"
-            case .debate: return "Debate"
+            case .blog: return "Blog"
+            case .dev: return "Dev"
             case .about: return "About"
+            case .contact: return "Contact"
             }
         }
     }

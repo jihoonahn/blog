@@ -18,7 +18,7 @@ brew install publish
 ```
 
 ### Page
-- [Posts](https://blog.jihoon.me/)
+- [Blog](https://blog.jihoon.me/)
 - [Debate](https://blog.jihoon.me/debate)
 - [About](https://blog.jihoon.me/about)
 #### Hidden Page

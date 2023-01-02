@@ -19,7 +19,7 @@ struct BlogHTMLFactory: HTMLFactory {
                             items: context.allItems(
                                 sortedBy: \.date,
                                 order: .descending)
-                            .filter { $0.sectionID == .posts }
+                            .filter { $0.sectionID == .blog }
                         )
                     }
                     Script(.src("/static/scripts/Channel_talk/Channel_talk.js"))
@@ -71,6 +71,7 @@ struct BlogHTMLFactory: HTMLFactory {
             .body {
                 SiteHeader(context: context)
                 Wrapper {
+                    H2(page.title)
                     Page(page: page, context: context)
                     Script(.src("/static/scripts/Channel_talk/Channel_talk.js"))
                 }

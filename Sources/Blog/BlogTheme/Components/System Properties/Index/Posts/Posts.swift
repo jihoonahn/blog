@@ -6,13 +6,13 @@ struct Posts: Component {
     
     var item: Item<Blog>
     var context: PublishingContext<Blog>
-
+    
     var body: Component {
         Article {
             Link(url: item.path.absoluteString) {
                 Div()
                     .class("post-card-image")
-                    .style("background-image: url(/static/images/Post/\(item.path.string).svg)")
+                    .style("background-image: url(/static/images/Blog/\(item.path.string).svg)")
             }.class("post-card-image-link")
             Div {
                 Link(url: item.path.absoluteString) {

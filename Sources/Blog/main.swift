@@ -8,7 +8,7 @@ try Blog().publish(using: [
     .addMarkdownFiles(),
     .copyResources(),
     .generateHTML(withTheme: .blog),
-    .generateRSSFeed(including: [.posts]),
+    .generateRSSFeed(including: [.blog]),
     .generateSiteMap(),
     .deploy(using: .gitHub("JiHoonAHN/Blog"))
 ])
