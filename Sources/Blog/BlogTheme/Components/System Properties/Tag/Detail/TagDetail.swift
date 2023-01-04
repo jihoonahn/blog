@@ -7,7 +7,7 @@ struct TagDetail: Component {
     var title: String
     
     var body: Component {
-        Main {
+        SiteMain {
             Div {
                 Div {
                     H2(title)

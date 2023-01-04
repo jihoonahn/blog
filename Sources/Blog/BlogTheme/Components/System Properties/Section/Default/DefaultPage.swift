@@ -3,7 +3,7 @@ import Publish
 
 struct DefaultPage: Component {    
     var body: Component {
-        Main {
+        SiteMain {
             Div {
                 Section {
                     H1 {

@@ -1,17 +1,17 @@
 import Plot
 import Publish
 
-struct AboutPage: Component {
-    var page: Publish.Page
+struct DevPage: Component {
+    var section: Publish.Section<Blog>
     
     var body: Component {
-        Main {
+        SiteMain {
             Div {
                 Div {
-                    H2("About")
+                    H2("Dev")
                 }.class("site-about-header")
                 Div {
-                    Node.contentBody(page.body)
+                    Node.contentBody(section.body)
                 }.class("site-about-body")
             }.class("inner")
         }

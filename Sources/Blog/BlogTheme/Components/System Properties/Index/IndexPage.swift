@@ -6,7 +6,7 @@ struct IndexPage: Component {
     var items: [Item<Blog>]
 
     var body: Component {
-        Main {
+        SiteMain {
             Div {
                 Div {
                     for item in items {

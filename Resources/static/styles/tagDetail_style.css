@@ -21,20 +21,20 @@
 
 @media (min-width: 795px) {
 
-    .home-template .post-tagDetail-feed .post-card:nth-child(6n+1):not(.no-image) h2 {
+    .post-tagDetail-feed .post-card:nth-child(6n+1):not(.no-image) h2 {
         font-size: 20px;
     }
 
-    .home-template .post-tagDetail-feed .post-card:nth-child(6n+1):not(.no-image) p {
+    .post-tagDetail-feed .post-card:nth-child(6n+1):not(.no-image) p {
         font-size: 16px;
         line-height: 1.55em;
     }
 
-    .home-template .post-tagDetail-feed .post-card:nth-child(6n+1):not(.no-image) .post-card-content-link {
+    .post-tagDetail-feed .post-card:nth-child(6n+1):not(.no-image) .post-card-content-link {
         padding: 25px 25px 0;
     }
 
-    .home-template .post-tagDetail-feed .post-card:nth-child(6n+1):not(.no-image) .post-card-meta {
+    .post-tagDetail-feed .post-card:nth-child(6n+1):not(.no-image) .post-card-meta {
         padding: 0 25px 25px;
     }
 }

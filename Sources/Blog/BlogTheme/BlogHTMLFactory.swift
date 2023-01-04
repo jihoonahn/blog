@@ -13,15 +13,13 @@ struct BlogHTMLFactory: HTMLFactory {
             .body {
                 SiteHeader(context: context)
                 Wrapper {
-                    SiteMain {
-                        IndexPage(
-                            context: context,
-                            items: context.allItems(
-                                sortedBy: \.date,
-                                order: .descending)
-                            .filter { $0.sectionID == .blog }
-                        )
-                    }
+                    IndexPage(
+                        context: context,
+                        items: context.allItems(
+                            sortedBy: \.date,
+                            order: .descending)
+                        .filter { $0.sectionID == .blog }
+                    )
                     Script(.src("/static/scripts/Channel_talk/Channel_talk.js"))
                 }
                 SiteFooter(context: context)
@@ -37,9 +35,7 @@ struct BlogHTMLFactory: HTMLFactory {
             .body {
                 SiteHeader(context: context)
                 Wrapper {
-                    Div{
-                        H1(section.title)
-                    }
+                    SectionItem(section: section, context: context)
                     Script(.src("/static/scripts/Channel_talk/Channel_talk.js"))
                 }
                 SiteFooter(context: context)
@@ -70,11 +66,7 @@ struct BlogHTMLFactory: HTMLFactory {
             .head(for: page, context: context),
             .body {
                 SiteHeader(context: context)
-                Wrapper {
-                    H2(page.title)
-                    Page(page: page, context: context)
-                    Script(.src("/static/scripts/Channel_talk/Channel_talk.js"))
-                }
+                Wrapper(page.body)
                 SiteFooter(context: context)
             }
         )

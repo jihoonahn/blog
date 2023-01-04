@@ -6,7 +6,7 @@ struct TagList: Component {
     var context: PublishingContext<Blog>
     
     var body: Component {
-        Main {
+        SiteMain {
             Div {
                 Div {
                     H2("Tag")
