@@ -10,6 +10,7 @@ extension Node where Context == HTML.DocumentContext {
                 "/static/styles/home_style.css",
                 "/static/styles/post_style.css",
                 "/static/styles/about_style.css",
+                "/static/styles/sectionPage_style.css",
                 "/static/styles/errorPage_style.css",
                 "/static/styles/footer_style.css",
                 "/static/styles/tag_style.css",

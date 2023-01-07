@@ -10,10 +10,10 @@ struct AboutPage: Component {
                 Div {
                     H2("About")
                     Image("/static/images/Blog/about/about.svg")
-                }.class("site-about-header blog-canvas")
+                }.class("site-section-header blog-canvas")
                 Div {
                     Node.contentBody(section.body)
-                }.class("site-about-body")
+                }.class("site-section-body")
             }.class("inner")
         }
     }

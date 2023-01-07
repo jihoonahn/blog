@@ -7,24 +7,17 @@ struct SectionItem: Component {
     
     var body: Component {
         switch section.path.string {
-        case Blog.SectionID.blog.rawValue: return blog()
-        case Blog.SectionID.dev.rawValue: return DefaultPage()
-        case Blog.SectionID.about.rawValue: return AboutPage(section: section)
+        case Blog.SectionID.blog.rawValue:
+            return IndexPage(context: context, items: context.allItems(sortedBy: \.date, order: .descending)
+                .filter{ $0.sectionID == .blog })
+        case Blog.SectionID.dev.rawValue:
+            return DevPage(section: section)
+        case Blog.SectionID.about.rawValue:
+            return AboutPage(section: section)
+        case Blog.SectionID.contact.rawValue:
+            return ContactPage(section: section)
         default:
             return DefaultPage()
         }
-
-    }
-}
-
-private extension SectionItem {
-    func blog() -> Component {
-        return IndexPage(
-            context: context,
-            items: context.allItems(
-                sortedBy: \.date,
-                order: .descending)
-            .filter { $0.sectionID == .blog }
-        )
     }
 }

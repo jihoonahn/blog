@@ -106,3 +106,8 @@ div {
     background-size: cover;
     border-radius: 100%;
 }
+
+.site-main {
+    z-index: 100;
+    flex-grow: 1;
+}
