@@ -14,8 +14,8 @@ struct SectionItem: Component {
             return DevPage(section: section)
         case Blog.SectionID.about.rawValue:
             return AboutPage(section: section)
-        case Blog.SectionID.contact.rawValue:
-            return ContactPage(section: section)
+        case Blog.SectionID.info.rawValue:
+            return InfoPage(section: section)
         default:
             return DefaultPage()
         }

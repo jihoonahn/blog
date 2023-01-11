@@ -6,15 +6,15 @@ struct Blog: Website {
     enum SectionID: String, WebsiteSectionID {
         case blog
         case dev
+        case info
         case about
-        case contact
 
         var name: String {
             switch self {
             case .blog: return "Blog"
             case .dev: return "Dev"
+            case .info: return "Info"
             case .about: return "About"
-            case .contact: return "Contact"
             }
         }
     }

@@ -34,9 +34,11 @@
     background: white;
     border-radius: 10px;
     border: 1px solid #000;
+    transition: 0.2s ease-in-out;
 }
 
 .tag-all-category:hover {
     color: white;
     background: black;
+    transition: all 0.2s ease;
 }
