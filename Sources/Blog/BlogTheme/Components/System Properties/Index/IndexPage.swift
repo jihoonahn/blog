@@ -11,13 +11,16 @@ struct IndexPage: Component {
             Div {
                 Div {
                     Section {
-                        H2("Blog").class("post-feed-title")
+                        H2("Blog").class("post-title")
                         List(items) { item in
                             IndexPosts(item: item, context: context)
-                        }.class("post-feed-list")
-                    }.class("post-feed")
+                        }.class("post-section-list")
+                    }.class("post-section")
+                    ASide {
+                        H2("Profile").class("post-title")
+                    }.class("post-sidebar")
                 }.class("post-inner")
-            }.class("inner")
+            }
         }
     }
 }
