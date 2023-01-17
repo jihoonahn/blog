@@ -21,7 +21,7 @@ struct IndexPage: Component {
                         IndexProfile(context: context)
                     }.class("post-sidebar")
                 }.class("post-inner")
-            }
+            }.class("inner")
         }
     }
 }
