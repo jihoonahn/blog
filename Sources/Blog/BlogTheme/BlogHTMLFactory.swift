@@ -13,13 +13,7 @@ struct BlogHTMLFactory: HTMLFactory {
             .body {
                 SiteHeader(context: context)
                 Wrapper {
-                    IndexPage(
-                        context: context,
-                        items: context.allItems(
-                            sortedBy: \.date,
-                            order: .descending)
-                        .filter { $0.sectionID == .blog }
-                    )
+                    IndexPage(pageNumber: 1,context: context)
                     Script(.src("/static/scripts/Channel_talk/Channel_talk.js"))
                 }
                 SiteFooter(context: context)

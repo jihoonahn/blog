@@ -8,8 +8,7 @@ struct SectionItem: Component {
     var body: Component {
         switch section.path.string {
         case Blog.SectionID.blog.rawValue:
-            return IndexPage(context: context, items: context.allItems(sortedBy: \.date, order: .descending)
-                .filter{ $0.sectionID == .blog })
+            return IndexPage(pageNumber: 1, context: context)
         case Blog.SectionID.about.rawValue:
             return AboutPage(section: section)
         default:

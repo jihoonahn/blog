@@ -2,8 +2,8 @@ import Plot
 import Publish
 
 struct IndexPage: Component {
-    var context: PublishingContext<Blog>
-    var items: [Item<Blog>]
+    let pageNumber: Int
+    let context: PublishingContext<Blog>
     
     @ComponentBuilder
     var body: Component {
@@ -12,7 +12,7 @@ struct IndexPage: Component {
                 Div {
                     Section {
                         H2("posts").class("post-title")
-                        List(items) { item in
+                        List(context.paginatedItems[pageNumber - 1]) { item in
                             IndexPosts(item: item, context: context)
                         }.class("post-section-list")
                     }.class("post-section")
