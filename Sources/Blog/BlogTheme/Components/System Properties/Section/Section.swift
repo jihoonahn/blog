@@ -10,12 +10,8 @@ struct SectionItem: Component {
         case Blog.SectionID.blog.rawValue:
             return IndexPage(context: context, items: context.allItems(sortedBy: \.date, order: .descending)
                 .filter{ $0.sectionID == .blog })
-        case Blog.SectionID.dev.rawValue:
-            return DevPage(section: section)
         case Blog.SectionID.about.rawValue:
             return AboutPage(section: section)
-        case Blog.SectionID.info.rawValue:
-            return InfoPage(section: section)
         default:
             return DefaultPage()
         }

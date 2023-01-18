@@ -15,6 +15,7 @@
 @media (min-width: 768px) {
     .post-section {
         padding-right: 40px;
+        padding-left: 40px;
     }
 }
 
@@ -125,6 +126,8 @@
 }
 
 .post-sidebar {
+    padding-left: 40px;
+    padding-right: 48px;
     position: -webkit-sticky;
     position: sticky;
     overflow-y: auto;
