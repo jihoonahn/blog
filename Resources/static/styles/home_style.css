@@ -64,7 +64,7 @@
     display: block;
     min-width: 100%;
     max-width: 100%;
-    min-height: 100%;
+    min-height: 300px;
     max-height: 100%;
     object-fit: cover;
 }
@@ -126,8 +126,6 @@
 }
 
 .post-sidebar {
-    padding-left: 40px;
-    padding-right: 48px;
     position: -webkit-sticky;
     position: sticky;
     overflow-y: auto;
@@ -172,4 +170,26 @@
     box-shadow: 0 0 20px rgba(39,44,49,0.12), 0 3px 16px rgba(39, 44, 49,0.09);
     transition: all 0.2s ease;
     transform: translate3D(0, -15px, 0);
+}
+
+@media (min-width: 768px) {
+    .post-sidebar {
+        padding-left: 40px;
+        padding-right: 48px;
+    }
+}
+
+@media (max-width: 769px) {
+    .post-item-title {
+        font-size: 24px;
+    }
+    .post-feed-tag {
+        font-size: 13px;
+    }
+    .post-item-description {
+        font-size: 13px;
+    }
+    .post-item-time {
+        font-size: 12px;
+    }
 }
