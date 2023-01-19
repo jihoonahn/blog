@@ -1,7 +1,7 @@
 import Plot
 import Publish
 
-struct DefaultPage: Component {    
+struct ErrorPage: Component {
     var body: Component {
         SiteMain {
             Div {

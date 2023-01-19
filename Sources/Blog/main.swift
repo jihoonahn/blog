@@ -10,7 +10,7 @@ try Blog().publish(using: [
     .group([.generatePaginatedPages()]),
     .generateHTML(withTheme: .blog),
     .generateRSSFeed(including: [.blog]),
-    .move404FileForBlog(),
     .generateSiteMap(),
+    .move404FileForBlog(),
     .deploy(using: .gitHub("JiHoonAHN/Blog"))
 ])

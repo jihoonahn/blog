@@ -60,7 +60,9 @@ struct BlogHTMLFactory: HTMLFactory {
             .head(for: page, context: context),
             .body {
                 SiteHeader(context: context)
-                Wrapper(page.body)
+                Wrapper {
+                    PageItem(page: page, context: context)
+                }
                 SiteFooter(context: context)
             }
         )

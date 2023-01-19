@@ -12,7 +12,7 @@ struct SectionItem: Component {
         case Blog.SectionID.about.rawValue:
             return AboutPage(section: section)
         default:
-            return DefaultPage()
+            return Div { H1(section.title) }
         }
     }
 }
