@@ -9,7 +9,6 @@ extension PublishingStep where Site == Blog {
 
     private static func generatePaginatedIndexPages() -> Self {
         .step(named: "Generate paginated index pages") { context in
-            // dropFirst to avoid a duplicated Page 1 (Publish already added the first, original, index page)
             context.paginatedItems.indices.dropFirst().forEach { pageIndex in
                 context.addPage(
                     Page(

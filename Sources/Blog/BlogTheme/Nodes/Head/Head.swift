@@ -14,7 +14,8 @@ extension Node where Context == HTML.DocumentContext {
                 "/static/styles/errorPage_style.css",
                 "/static/styles/footer_style.css",
                 "/static/styles/tag_style.css",
-                "/static/styles/tagDetail_style.css"
+                "/static/styles/tagDetail_style.css",
+                "/static/styles/pagination_style.css"
             ]),
             .head(
                 .googleFont(),

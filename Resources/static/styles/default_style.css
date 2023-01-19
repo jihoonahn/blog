@@ -87,6 +87,14 @@ div {
     display: block;
 }
 
+blockquote {
+    color: #373953;
+    border-left: 2px solid #fff;
+    padding: 1em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
 .inner {
     margin: 0 auto;
     max-width: 1200px;
