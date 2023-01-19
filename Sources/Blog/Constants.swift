@@ -1,3 +1,3 @@
 struct Constants {
-    static let numberOfItemsPerIndexPage: Int = 5
+    static let numberOfItemsPerIndexPage: Int = 6
 }

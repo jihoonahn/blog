@@ -21,10 +21,10 @@ struct IndexPage: Component {
                         IndexProfile(context: context)
                     }.class("post-sidebar")
                 }.class("post-inner")
+                Pagination(activePage: pageNumber, numberOfPages: context.paginatedItems.count, pageURL: { pageNumber in
+                    context.index.paginatedPath(pageIndex: pageNumber - 1).absoluteString
+                })
             }.class("inner")
-            Pagination(activePage: pageNumber, numberOfPages: context.paginatedItems.count, pageURL: { pageNumber in
-                context.index.paginatedPath(pageIndex: pageNumber - 1).absoluteString
-            })
         }
     }
 }

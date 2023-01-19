@@ -31,7 +31,11 @@ struct Pagination: Component {
                     }
                     return ComponentGroup {
                         Link(url: link) {
-                            Span().class("vapor-icon icon-chevron-left")
+                            Span {
+                                Node.i(
+                                    .class("fa-solid fa-chevron-left")
+                                )
+                            }.class("pagination-arrow-icon")
                             Div {
                                 Text("Previous")
                             }.class("d-none d-lg-block")
@@ -82,7 +86,11 @@ struct Pagination: Component {
                             Div {
                                 Text("Next")
                             }.class("d-none d-lg-block")
-                            Span().class("vapor-icon icon-chevron-right")
+                            Span {
+                                Node.i(
+                                    .class("fa-solid fa-angle-right")
+                                )
+                            }.class("pagination-arrow-icon")
                         }.class("page-link page-link-next-previous d-flex page-link-next").accessibilityLabel("Next")
                     }
                 }.class(nextClassList)

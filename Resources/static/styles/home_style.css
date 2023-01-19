@@ -131,7 +131,6 @@
     position: -webkit-sticky;
     position: sticky;
     overflow-y: auto;
-    height: calc(100vh - 60px);
 }
 
 .profile-image {
