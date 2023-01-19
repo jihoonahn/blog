@@ -1,0 +1,44 @@
+.tag-title h2 {
+    font-size: 23px;
+    font-weight: 400;
+    display: flex;
+}
+
+.tag-title p {
+    display: flex;
+    color: #999;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+
+.post-tags {
+    height: auto;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.post-tags a {
+    text-decoration: none;
+}
+
+.tag-all-category {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 900;
+    padding: 10px;
+    margin: 5px;
+    color: black;
+    background: white;
+    border-radius: 10px;
+    border: 1px solid #000;
+    transition: 0.2s ease-in-out;
+}
+
+.tag-all-category:hover {
+    color: white;
+    background: black;
+    transition: all 0.2s ease;
+}

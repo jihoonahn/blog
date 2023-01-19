@@ -4,14 +4,12 @@ import Plot
 
 struct Blog: Website {
     enum SectionID: String, WebsiteSectionID {
-        case posts
-        case debate
+        case blog
         case about
-        
+
         var name: String {
             switch self {
-            case .posts: return "Posts"
-            case .debate: return "Debate"
+            case .blog: return "Blog"
             case .about: return "About"
             }
         }
@@ -26,5 +24,8 @@ struct Blog: Website {
     var description = "This is a personal blog for iOS Developer JiHoonAHN."
     var language: Language { .english }
     var imagePath: Path? { nil }
-    var socialMediaLinks: [SocialMediaLink] { [.github,.email] }
+    var favicon: Favicon? {
+        Favicon(path: "/favicon.ico", type: "image/x-icon")
+    }
+    var socialMediaLinks: [SocialMediaLink] { [.github, .stackoverflow, .twitter, .email] }
 }

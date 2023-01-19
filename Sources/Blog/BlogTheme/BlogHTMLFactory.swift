@@ -1,117 +1,104 @@
-import Publish
 import Plot
+import Publish
+import Foundation
 
 struct BlogHTMLFactory: HTMLFactory {
-    func makeIndexHTML(for index: Index, context: PublishingContext<Blog>) throws -> HTML {
+    typealias Site = Blog
+    
+    func makeIndexHTML(for index: Publish.Index,
+                       context: Publish.PublishingContext<Blog>) throws -> Plot.HTML {
         HTML(
             .lang(context.site.language),
-            .head(
-                for: context.site,
-                description: "JihoonAHN Blog records my growth process. I share all my knowledge and experiences with you."
-            ),
-            .body(
-                .grid(
-                    .header(for: context.site),
-                    .homePage(for: context.allItems(
-                        sortedBy: \.date,
-                        order: .descending)
-                        .filter { $0.sectionID == .posts },
-                        on: context.site),
-                    .footer(for: context.site)
-                )
-            )
+            .head(for: index, context: context),
+            .body {
+                SiteHeader(context: context)
+                Wrapper {
+                    IndexPage(pageNumber: 1,context: context)
+                    Script(.src("/static/scripts/Channel_talk/Channel_talk.js"))
+                }
+                SiteFooter(context: context)
+            }
         )
     }
     
-    func makeSectionHTML(for section: Section<Blog>, context: PublishingContext<Blog>) throws -> HTML {
+    func makeSectionHTML(for section: Publish.Section<Blog>,
+                         context: Publish.PublishingContext<Blog>) throws -> Plot.HTML {
         HTML(
             .lang(context.site.language),
-            .head(for: context.site),
-            .body(
-                .grid(
-                    .header(for: context.site),
-                    .div(.h1(.text(section.title))),
-                    .footer(for: context.site)
-                )
-            )
+            .head(for: section, context: context),
+            .body {
+                SiteHeader(context: context)
+                Wrapper {
+                    SectionItem(section: section, context: context)
+                    Script(.src("/static/scripts/Channel_talk/Channel_talk.js"))
+                }
+                SiteFooter(context: context)
+            }
         )
     }
     
-    func makeItemHTML(for item: Item<Blog>, context: PublishingContext<Blog>) throws -> HTML {
+    func makeItemHTML(for item: Publish.Item<Blog>,
+                      context: Publish.PublishingContext<Blog>) throws -> Plot.HTML {
         HTML(
             .lang(context.site.language),
-            .head(
-                for: context.site,
-                title: item.title,
-                description: item.description
-            ),
-            .body(
-                .grid(
-                    .header(for: context.site),
-                    .post(for: item, on: context.site),
-                    .footer(for: context.site)
-                )
-            )
+            .head(for: item, context: context),
+            .body {
+                SiteHeader(context: context)
+                Wrapper {
+                    Post(item: item, context: context)
+                    Script(.src("/static/scripts/Channel_talk/Channel_talk.js"))
+                }
+                SiteFooter(context: context)
+            }
         )
     }
     
-    func makePageHTML(for page: Page, context: PublishingContext<Blog>) throws -> HTML {
+    func makePageHTML(for page: Publish.Page,
+                      context: Publish.PublishingContext<Blog>) throws -> Plot.HTML {
         HTML(
             .lang(context.site.language),
-            .head(
-                for: context.site,
-                title: page.title,
-                description: page.description
-            ),
-            .body(
-                .grid(
-                    .header(for: context.site),
-                    .page(for: page, context: context),
-                    .footer(for: context.site)
-                )
-            )
+            .head(for: page, context: context),
+            .body {
+                SiteHeader(context: context)
+                Wrapper(page.body)
+                SiteFooter(context: context)
+            }
         )
     }
     
-    func makeTagListHTML(for page: TagListPage, context: PublishingContext<Blog>) throws -> HTML? {
+    func makeTagListHTML(for page: Publish.TagListPage,
+                         context: Publish.PublishingContext<Blog>) throws -> Plot.HTML? {
         HTML(
             .lang(context.site.language),
-            .head(
-                for: context.site,
-                title: "JiHoonAHN blog All Tags",
-                description: "All the tags on JiHoonAHN blog | \(context.allTags.map{ $0.string }.joined(separator: ", "))"
-            ),
-            .body(
-                .grid(
-                    .header(for: context.site),
-                    .tagList(for: page.tags.reversed(), on: context.site),
-                    .footer(for: context.site)
-                )
-            )
+            .head(for: page, context: context),
+            .body {
+                SiteHeader(context: context)
+                Wrapper {
+                    TagList(tags: page.tags.reversed(), context: context)
+                    Script(.src("/static/scripts/Channel_talk/Channel_talk.js"))
+                }
+                SiteFooter(context: context)
+            }
         )
     }
     
-    func makeTagDetailsHTML(for page: TagDetailsPage, context: PublishingContext<Blog>) throws -> HTML? {
+    func makeTagDetailsHTML(for page: Publish.TagDetailsPage,
+                            context: Publish.PublishingContext<Blog>) throws -> Plot.HTML? {
         HTML(
             .lang(context.site.language),
-            .head(
-                for: context.site,
-                title: "Tags | \(page.tag.string)",
-                description: "\(page.tag.string) | Found \(context.pages.count) posts"
-            ),
-            .body(
-                .grid(
-                    .header(for: context.site),
-                    .tagDetail(
-                        for: context.items(
-                            taggedWith: page.tag,
-                            sortedBy: \.date),
-                        on: context.site,
-                        title: "\(page.tag.string.capitalized)"
-                    ),
-                    .footer(for: context.site)
-                )
-            )
+            .head(for: page, context: context),
+            .body {
+                SiteHeader(context: context)
+                Wrapper {
+                    TagDetail(items: context.items(taggedWith: page.tag,
+                                                   sortedBy: \.date),
+                              context: context,
+                              selectedTag: page.tag,
+                              pageNumber: 1)
+                    Script(.src("/static/scripts/Channel_talk/Channel_talk.js"))
+                }
+                SiteFooter(context: context)
+            }
         )
     }
 }

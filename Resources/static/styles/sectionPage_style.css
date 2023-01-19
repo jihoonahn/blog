@@ -1,0 +1,22 @@
+.site-section-header {
+    display: column;
+}
+
+.site-section-header h2 {
+    text-align: left;
+    font-size: 23px;
+    font-weight: 400;
+}
+
+.site-section-header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.site-section-body {
+    max-width: 600px;
+    text-align: left;
+    margin: 0 auto;
+}

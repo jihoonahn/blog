@@ -1,0 +1,49 @@
+.site-footer {
+    background: #141414;
+    color: white;
+    position: relative;
+}
+
+.site-footer a {
+    text-decoration: none;
+    color: gray;
+}
+
+.site-footer__inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0.2rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 61rem;
+}
+
+.copyright {
+    color: #9E9E9E;
+    font-size: .64rem;
+    margin: auto 0.6rem;
+    padding: 0.4rem 0;
+}
+
+.copyright p {
+    text-align: left;
+    margin-block-start: 0.3em;
+    margin-block-end: 0.3em;
+}
+
+.social {
+    margin: 0 0.4rem;
+}
+
+.social_link {
+    display: inline-block;
+    text-align: center;
+    width: 1.8rem;
+    height: 1.8rem;
+}
+
+.social_link a {
+    color: white;
+    vertical-align: -25%;
+}

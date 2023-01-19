@@ -4,12 +4,12 @@ import SplashPublishPlugin
 import Plot
 
 try Blog().publish(using: [
-    .installPlugin(.splash(withClassPrefix: "")),
+    .optional(.copyResources()),
     .addMarkdownFiles(),
-    .copyResources(),
+    .installPlugin(.splash(withClassPrefix: "")),
+    .group([.generatePaginatedPages()]),
     .generateHTML(withTheme: .blog),
-    .generateRSSFeed(including: [.posts]),
-    .move404FileForBlog(),
+    .generateRSSFeed(including: [.blog]),
     .generateSiteMap(),
     .deploy(using: .gitHub("JiHoonAHN/Blog"))
 ])
