@@ -35,5 +35,3 @@ struct Posts: Component {
         }.class("post-card home-template")
     }
 }
-
-

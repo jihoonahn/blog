@@ -15,8 +15,10 @@ struct TagDetail: Component {
                     Paragraph("A collection of \(items.count) posts")
                 }.class("tagDetail-title")
                 Div {
-                    for item in items {
-                        Posts(item: item, context: context)
+                    if let selectedTag {
+                        for item in context.paginatedItems(for: selectedTag)[pageNumber - 1] {
+                            Posts(item: item, context: context)
+                        }
                     }
                 }.class("post-tagDetail-feed")
                 if let selectedTag {
