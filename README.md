@@ -17,9 +17,15 @@ Make sure you have publish installed:
 brew install publish
 ```
 
+## Spin up local server
+To spin up the project locally run
+```
+publish run
+```
+You can now access http://localhost:8000/
+
 ### Page
 - [Blog](https://blog.jihoon.me/)
-- [Debate](https://blog.jihoon.me/debate)
 - [About](https://blog.jihoon.me/about)
 #### Hidden Page
 - [Tags](https://blog.jihoon.me/tags/)
