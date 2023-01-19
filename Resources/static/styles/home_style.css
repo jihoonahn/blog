@@ -33,7 +33,7 @@
 }
 
 .post-section-list li {
-    padding-bottom: 5%;
+    padding-bottom: 8%;
 }
 
 .post-image {
@@ -64,7 +64,7 @@
     display: block;
     min-width: 100%;
     max-width: 100%;
-    min-height: 300px;
+    min-height: 100%;
     max-height: 100%;
     object-fit: cover;
 }
@@ -103,6 +103,7 @@
     line-height: 1.4;
     margin-top: 10px;
     margin-bottom: 10px;
+    text-align: left;
     -webkit-transition: 0.2s ease-in-out;
     transition: 0.2s ease-in-out;
 }
@@ -112,8 +113,8 @@
     color: #495968;
     font-size: 15px;
     font-weight: 300;
-    line-height: 27px;
     margin-top: 10px;
+    text-align: left;
     margin-bottom: 10px;
 }
 
@@ -181,15 +182,15 @@
 
 @media (max-width: 769px) {
     .post-item-title {
-        font-size: 24px;
+        font-size: 20px;
     }
     .post-feed-tag {
-        font-size: 13px;
+        font-size: 12px;
     }
     .post-item-description {
-        font-size: 13px;
+        font-size: 12px;
     }
     .post-item-time {
-        font-size: 12px;
+        font-size: 11px;
     }
 }
