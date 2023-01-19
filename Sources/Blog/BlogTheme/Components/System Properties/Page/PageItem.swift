@@ -8,7 +8,7 @@ struct PageItem: Component {
     var body: Component {
         switch page.path.string {
         case "404":
-            return DefaultPage()
+            return ErrorPage()
         default:
             return page.body
         }
