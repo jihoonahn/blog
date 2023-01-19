@@ -3,10 +3,11 @@ import Publish
 extension PublishingStep where Site == Blog {
     static func generatePaginatedPages() -> Self {
         .group([
-            .generatePaginatedIndexPages()
+            .generatePaginatedIndexPages(),
+            .generatePaginatedTagPages()
         ])
     }
-
+    
     private static func generatePaginatedIndexPages() -> Self {
         .step(named: "Generate paginated index pages") { context in
             context.paginatedItems.indices.dropFirst().forEach { pageIndex in
@@ -24,5 +25,26 @@ extension PublishingStep where Site == Blog {
             }
         }
     }
+    
+    private static func generatePaginatedTagPages() -> Self {
+        .step(named: "Generate paginated tag pages") { context in
+            context.allTags.forEach { tag in
+                context.paginatedItems(for: tag).indices.dropFirst().forEach { pageIndex in
+                    context.addPage(
+                        Page(
+                            path: context.site.paginatedPath(for: tag, pageIndex: pageIndex),
+                            content: .init(title: "Blog Tags", description: "Tags for JiHoonAHN's Blog", body: .init(components: {
+                                TagDetail(
+                                    items: context.paginatedItems(for: tag)[pageIndex],
+                                    context: context,
+                                    selectedTag: tag,
+                                    pageNumber: pageIndex + 1
+                                )
+                            }))
+                        )
+                    )
+                }
+            }
+        }
+    }
 }
-

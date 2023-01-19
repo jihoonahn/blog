@@ -93,8 +93,8 @@ struct BlogHTMLFactory: HTMLFactory {
                     TagDetail(items: context.items(taggedWith: page.tag,
                                                    sortedBy: \.date),
                               context: context,
-                              title: "\(page.tag.string.capitalized)"
-                    )
+                              selectedTag: page.tag,
+                              pageNumber: 1)
                     Script(.src("/static/scripts/Channel_talk/Channel_talk.js"))
                 }
                 SiteFooter(context: context)
