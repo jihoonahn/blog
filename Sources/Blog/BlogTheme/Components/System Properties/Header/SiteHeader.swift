@@ -42,10 +42,13 @@ struct SiteHeader<Site: Website>: Component {
                             .class("fa-solid fa-magnifying-glass")
                         )
                     }.class("blog-search blog-icon-btn")
-                }.class("blog-head-action")
+                }
+                .class("blog-head-action")
+                .id("docsearch")
             }.class("blog-head-inner inner")
             Script(.src("/static/scripts/Header/header-scroll.js"))
             Script(.src("/static/scripts/Header/header-menu.js"))
+            Script(.src("https://cdn.jsdelivr.net/npm/@docsearch/js@3"))
         }
         .id("blog-head")
         .class("blog-head outer")

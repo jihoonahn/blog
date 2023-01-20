@@ -20,7 +20,8 @@ extension Node where Context == HTML.DocumentContext {
             .head(
                 .googleFont(),
                 .fontAwesome(),
-                .jquery()
+                .jquery(),
+                .docSearch()
             )
         )
     }
