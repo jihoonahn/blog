@@ -62,6 +62,7 @@ struct BlogHTMLFactory: HTMLFactory {
                 SiteHeader(context: context)
                 Wrapper {
                     PageItem(page: page, context: context)
+                    Script(.src("/static/scripts/Channel_talk/Channel_talk.js"))
                 }
                 SiteFooter(context: context)
             }
