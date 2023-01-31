@@ -7,6 +7,13 @@ struct SocialMediaLink {
 }
 
 extension SocialMediaLink {
+    static var linkedIn: SocialMediaLink {
+        return SocialMediaLink(
+            title: "LinkedIn",
+            url: "https://www.linkedin.com/in/ahnjihoon/",
+            icon: "fa-brands fa-linkedin-in"
+        )
+    }
     static var twitter: SocialMediaLink {
         return SocialMediaLink(
             title: "Twitter",

@@ -25,6 +25,7 @@ description: Let's find out how to use RIBs!
 <img width = 50% src = "https://user-images.githubusercontent.com/68891494/201261727-94182b2a-e39b-4937-9955-10a6950dee41.png"></img>
 
 Root와 Main & Onboarding을 연결해주기 위해서 RootBuilder에서 작업을 해줍니다.
+
 ```swift
 func build() -> LaunchRouting {
     let component = RootComponent(dependency: dependency)
@@ -42,9 +43,11 @@ func build() -> LaunchRouting {
 에러가 발생하는 이유는 Component에서 MainDependency와 OnboardingDependency를 상속하지 않았기 때문에 발생합니다.
 
 RootBuilder 파일 안에 있는 RootComponent에 MainDependency와 OnboardingDependency를 상속해줍니다.
+
 ```swift
 extension RootComponent: MainDependency, OnboardingDependency {}
 ```
+
 이러면 에러가 사라질 것입니다!
 
 이후 RootRouter에서 각각 RIB의 Buildable과 Routing을 생성합니다.
@@ -72,6 +75,7 @@ final class RootRouter: LaunchRouter<RootInteractable, RootViewControllable>, Ro
 ```
 
 다시 Builder로 돌아와서 
+
 ```swift
 func build() -> LaunchRouting {
     let component = RootComponent(dependency: dependency)
@@ -87,6 +91,7 @@ func build() -> LaunchRouting {
     )
 }
 ```
+
 RootRouter에 미리 만들어 놓은 Builder를 넘겨주시면 됩니다.
 
 그다음.. (역시 RIBs는 세팅할게 많네요)
@@ -104,6 +109,7 @@ protocol RootInteractable: Interactable, OnboardingListener, MainListener {
 일단 시작하기 앞서, interactable 부분에 Listener를 상속 시킵니다.
 
 그리고 Interactor에서 Routing에 무엇을 attach 할지, detach할지 적어줍니다.
+
 ```swift
 protocol RootRouting: ViewableRouting {
     func attachOnboarding()
@@ -114,6 +120,7 @@ protocol RootRouting: ViewableRouting {
 ```
 
 그후 Attach 코드를 작성해주시면 됩니다.
+
 ```swift
 func attachOnboarding() {
     guard onboardingRouting == nil else { return }
@@ -141,6 +148,7 @@ func detachOnboarding() {
 이제 정말 실행되는지 확인해보겠습니다!
 
 Interactor로 가셔서 
+
 ```swift
 override func didBecomeActive() {
       super.didBecomeActive()
