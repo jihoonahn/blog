@@ -29,3 +29,7 @@ You can now access http://localhost:8000/
 - [About](https://blog.jihoon.me/about)
 #### Hidden Page
 - [Tags](https://blog.jihoon.me/tags/)
+
+
+## License
+**Blog** is under MIT license. See the [LICENSE](LICENSE) file for more info.
