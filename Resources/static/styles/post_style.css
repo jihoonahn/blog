@@ -67,11 +67,11 @@ pre code {
 }
 
 pre code .keyword {
-    color: rgba(252, 95, 193, 1);
+    color: rgba(253, 71, 88, 1);
 }
 
 pre code .type {
-    color: rgba(158, 241, 221, 1);
+    color: rgba(255, 219, 146, 1);
 }
 
 pre code .call {
@@ -79,19 +79,19 @@ pre code .call {
 }
 
 pre code .property {
-    color: #21ab9d;
+    color: rgba(111, 185, 87, 1);
 }
 
 pre code .number {
-    color: rgba(200, 184, 106, 1);
+    color: rgba(247, 247, 255, 1);
 }
 
 pre code .string {
-    color: rgba(250, 106, 102, 1);
+    color: rgba(253, 244, 255, 1);
 }
 
 pre code .comment {
-    color: #6b8a94;
+    color: rgba(107, 102, 107, 1);
 }
 
 pre code .dotAccess {
@@ -99,5 +99,5 @@ pre code .dotAccess {
 }
 
 pre code .preprocessing {
-    color: #b68a00;
+    color: #C77C49;
 }
