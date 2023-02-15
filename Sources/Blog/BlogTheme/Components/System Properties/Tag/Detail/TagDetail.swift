@@ -21,10 +21,12 @@ struct TagDetail: Component {
                         }
                     }
                 }.class("post-tagDetail-feed")
-                if let selectedTag {
-                    Pagination(activePage: pageNumber, numberOfPages: context.paginatedItems(for: selectedTag).count, pageURL: { pageNumber in
-                        context.site.paginatedPath(for: selectedTag, pageIndex: pageNumber - 1).absoluteString
-                    })
+                if context.allTags.count > Constants.numberOfItemsPerTagsPage {
+                    if let selectedTag {
+                        Pagination(activePage: pageNumber, numberOfPages: context.paginatedItems(for: selectedTag).count, pageURL: { pageNumber in
+                            context.site.paginatedPath(for: selectedTag, pageIndex: pageNumber - 1).absoluteString
+                        })
+                    }
                 }
             }.class("inner")
         }

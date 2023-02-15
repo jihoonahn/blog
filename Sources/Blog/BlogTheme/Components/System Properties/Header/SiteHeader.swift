@@ -4,7 +4,7 @@ import Publish
 struct SiteHeader<Site: Website>: Component {
     var context: PublishingContext<Site>
     var selectedSelectionID: Site.SectionID?
-    
+
     var body: Component {
         Header {
             Div {
