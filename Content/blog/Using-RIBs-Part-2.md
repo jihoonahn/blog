@@ -170,3 +170,6 @@ Onboarding에서 background 색상을 바꿔보겠습니다.
 글이 길어지는 관계로 다음 파트에서 작성하도록 하겠습니다!
 
 [전체코드](https://github.com/JiHoonAHN/Blog-Documment/tree/main/Architecture/RIBs/RIBs-2/ExRIBs)
+
+
+[공지] RIBs example과 글 작성이 너무 오래 걸리는 관계로 RIBs 관련 글을 좀 미루려고 합니다 ㅎㅎ..
