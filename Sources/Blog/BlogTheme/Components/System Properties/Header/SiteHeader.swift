@@ -21,11 +21,9 @@ struct SiteHeader<Site: Website>: Component {
                             description: "JiHoonAHN Blog"
                         )
                     }.class("blog-head-logo")
-                    Button {
-                        Node.i(
-                            .class("fa-solid fa-magnifying-glass")
-                        )
-                    }.class("blog-search blog-icon-btn")
+                    Div()
+                    .class("blog-search blog-icon-btn")
+                    .id("docsearch")
                 }.class("blog-head-brand")
                 Navigation {
                     List(Site.SectionID.allCases) { sectionID in
