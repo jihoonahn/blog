@@ -22,8 +22,7 @@ struct SiteHeader<Site: Website>: Component {
                         )
                     }.class("blog-head-logo")
                     Div()
-                    .class("blog-search blog-icon-btn")
-                    .id("docsearch")
+                    .class("blog-search blog-icon-btn docsearch")
                 }.class("blog-head-brand")
                 Navigation {
                     List(Site.SectionID.allCases) { sectionID in
@@ -36,8 +35,7 @@ struct SiteHeader<Site: Website>: Component {
                 }.class("blog-head-menu")
                 Div {
                     Div()
-                    .class("blog-head-action")
-                    .id("docsearch")
+                    .class("docsearch blog-head-action")
                 }.class("container")
             }.class("blog-head-inner inner")
             Script(.src("/static/scripts/Header/header-scroll.js"))
@@ -52,3 +50,14 @@ struct SiteHeader<Site: Website>: Component {
         .class("blog-head outer")
     }
 }
+
+//struct SiteHeader<Site: Website>: Component {
+//    var context: PublishingContext<Site>
+//    var selectedSelectionID: Site.SectionID?
+//
+//    var body: Component {
+//        Header {
+//
+//        }
+//    }
+//}
