@@ -7,7 +7,7 @@
     color: black;
     font-size: 15px;
     line-height: 1.3em;
-    z-index: 3000;
+    z-index: 199;
     padding-top: min(12px, 3.6vmin);
     padding-bottom: min(12px, 3.6vmin);
 }
@@ -17,7 +17,7 @@
 }
 
 .blog-head-inner {
-    grid-template-columns: auto 1fr auto;
+    grid-template-columns: 3fr 1fr;
     -moz-column-gap: 40px;
     column-gap: 40px;
     display: grid;
@@ -81,8 +81,6 @@
     display: inline-flex;
      align-items: center;
      justify-content: center;
-     width: 32px;
-     height: 32px;
      padding: 0;
      cursor: pointer;
      color: black;
@@ -138,9 +136,6 @@
 }
 
 @media (min-width: 768px) {
-    .blog-head-brand .blog-search {
-        display: none;
-    }
     .blog-head-brand .menu-icon-container {
         display: none;
     }
@@ -234,4 +229,22 @@
         transition-delay: 0ms, 160ms;
         transition-duration: 200ms;
     }
+    
+    /*Docsearch Active*/
+    .DocSearch--active #blog-head {
+        display: none;
+    }
 }
+
+
+/* Doc Search Theme */
+
+.algolia-autocomplete .algolia-docsearch-suggestion--category-header {
+  color: darkgray;
+  border: 1px solid gray;
+}
+.algolia-autocomplete .algolia-docsearch-suggestion--title {
+  font-weight: bold;
+  color: black;
+}
+

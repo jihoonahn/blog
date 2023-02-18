@@ -21,11 +21,9 @@ struct SiteHeader<Site: Website>: Component {
                             description: "JiHoonAHN Blog"
                         )
                     }.class("blog-head-logo")
-                    Button {
-                        Node.i(
-                            .class("fa-solid fa-magnifying-glass")
-                        )
-                    }.class("blog-search blog-icon-btn")
+                    Div()
+                        .id("docsearch")
+                        .class("blog-search blog-icon-btn")
                 }.class("blog-head-brand")
                 Navigation {
                     List(Site.SectionID.allCases) { sectionID in
@@ -36,19 +34,14 @@ struct SiteHeader<Site: Website>: Component {
                         ).class("nav-item")
                     }.class("nav")
                 }.class("blog-head-menu")
-                Div {
-                    Button {
-                        Node.i(
-                            .class("fa-solid fa-magnifying-glass")
-                        )
-                    }.class("blog-search blog-icon-btn")
-                }
-                .class("blog-head-action")
-                .id("docsearch")
             }.class("blog-head-inner inner")
             Script(.src("/static/scripts/Header/header-scroll.js"))
             Script(.src("/static/scripts/Header/header-menu.js"))
             Script(.src("https://cdn.jsdelivr.net/npm/@docsearch/js@3"))
+            Script(
+                .type("text/javascript"),
+                .src("/static/scripts/DocSearch/DocSearch.js")
+            )
         }
         .id("blog-head")
         .class("blog-head outer")
