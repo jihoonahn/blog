@@ -231,20 +231,10 @@
     }
     
     /*Docsearch Active*/
-    .DocSearch--active #blog-head {
+    .DocSearch--active #blog-head,
+    .DocSearch--active .wrapper,
+    .DocSearch--active .site-footer
+    {
         display: none;
     }
 }
-
-
-/* Doc Search Theme */
-
-.algolia-autocomplete .algolia-docsearch-suggestion--category-header {
-  color: darkgray;
-  border: 1px solid gray;
-}
-.algolia-autocomplete .algolia-docsearch-suggestion--title {
-  font-weight: bold;
-  color: black;
-}
-
