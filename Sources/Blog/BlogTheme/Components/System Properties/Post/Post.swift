@@ -31,6 +31,7 @@ struct Post: Component {
                     Node.contentBody(item.body)
                 }
             }.class("site-post-body")
+            NextAndPreview(context: context, item: item)
             Script(
                 .src("https://utteranc.es/client.js"),
                 .repo("JiHoonAHN/Blog"),
