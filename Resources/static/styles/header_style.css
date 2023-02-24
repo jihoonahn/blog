@@ -122,6 +122,7 @@
 }
 
 .blog-head-menu .nav a:hover {
+    transition: 0.3s ease-in-out;
     opacity: 0.5;
     background: #EDEDED;
 }

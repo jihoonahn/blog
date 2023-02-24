@@ -4,6 +4,12 @@ import Publish
 extension Node where Context == HTML.DocumentContext {
     static func head(for page: Location, context: PublishingContext<Blog>) -> Node {
         return .group(
+            .head(
+                .googleFont(),
+                .fontAwesome(),
+                .jquery(),
+                .docSearch()
+            ),
             .head(for: page, on: context.site, stylesheetPaths: [
                 "/static/styles/default_style.css",
                 "/static/styles/header_style.css",
@@ -16,14 +22,9 @@ extension Node where Context == HTML.DocumentContext {
                 "/static/styles/tag_style.css",
                 "/static/styles/tagDetail_style.css",
                 "/static/styles/pagination_style.css",
-                "/static/styles/nextAndPreview_style.css"
-            ]),
-            .head(
-                .googleFont(),
-                .fontAwesome(),
-                .jquery(),
-                .docSearch()
-            )
+                "/static/styles/nextAndPreview_style.css",
+                "/static/styles/docsearch_style.css"
+            ])
         )
     }
 }

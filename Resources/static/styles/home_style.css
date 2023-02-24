@@ -81,7 +81,7 @@
 }
 
 .post-link:hover .post-item-title {
-    color: red;
+    color: darkgray;
     transition: all 0.2s ease;
 }
 
