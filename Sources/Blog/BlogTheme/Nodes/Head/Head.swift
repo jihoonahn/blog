@@ -13,7 +13,6 @@ extension Node where Context == HTML.DocumentContext {
             .head(for: page, on: context.site, stylesheetPaths: [
                 "/static/styles/default_style.css",
                 "/static/styles/header_style.css",
-                "/static/styles/home_style.css",
                 "/static/styles/about_style.css",
                 "/static/styles/post_style.css",
                 "/static/styles/sectionPage_style.css",
@@ -23,7 +22,8 @@ extension Node where Context == HTML.DocumentContext {
                 "/static/styles/tagDetail_style.css",
                 "/static/styles/pagination_style.css",
                 "/static/styles/nextAndPreview_style.css",
-                "/static/styles/docsearch_style.css"
+                "/static/styles/docsearch_style.css",
+                "/static/styles/home_style.css"
             ])
         )
     }

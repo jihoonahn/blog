@@ -194,3 +194,8 @@
         font-size: 11px;
     }
 }
+
+.post-sidebar-tag .post-tags {
+    max-height: 200px;
+    overflow: scroll;
+}
