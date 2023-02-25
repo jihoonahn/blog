@@ -15,6 +15,6 @@ struct IndexCategories: Component {
                         .class("tag-all-category")
                 }
             }.class("post-tags")
-        }
+        }.class("post-sidebar-tag")
     }
 }
