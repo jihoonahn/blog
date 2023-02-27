@@ -18,7 +18,7 @@ struct Posts: Component {
                 Link(url: item.path.absoluteString) {
                     Header {
                         Span {
-                            Text(item.tags.map{ $0.string }.joined(separator: ". "))
+                            Text(item.tags.map{ $0.string }.joined(separator: ", "))
                         }.class("post-card-tags")
                         H2(item.title)
                             .class("post-card-title")

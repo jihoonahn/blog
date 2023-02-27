@@ -12,7 +12,7 @@ struct TagDetail: Component {
             Div {
                 Div {
                     H2(selectedTag?.description ?? "Tag")
-                    Paragraph("A collection of \(items.count) posts")
+                    Paragraph("A collection of \(context.allItems(sortedBy: \.title).filter { $0.tags.contains(selectedTag!) }.count ) posts")
                 }.class("tagDetail-title")
                 Div {
                     if let selectedTag {
@@ -21,7 +21,7 @@ struct TagDetail: Component {
                         }
                     }
                 }.class("post-tagDetail-feed")
-                if items.count > Constants.numberOfItemsPerTagsPage {
+                if items.count > Constants.numberOfItemsPerTagsPage || pageNumber > 1 {
                     if let selectedTag {
                         Pagination(activePage: pageNumber, numberOfPages: context.paginatedItems(for: selectedTag).count, pageURL: { pageNumber in
                             context.site.paginatedPath(for: selectedTag, pageIndex: pageNumber - 1).absoluteString
