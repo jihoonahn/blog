@@ -121,8 +121,6 @@ MVI는 단방향 아키텍처이며, Flux는 Composit한 조합을 통해 상태
 
 MVVM 아키텍처는 이런 문제를 해결할 수 없다고 생각합니다.
 
-그래서 저는 TCA 아키텍처가 가장 적절하다고 생각을 합니다.
-
 원문의 저자는 TCA에 대해 아직 시기 상조이며 과장될 수 있다는 우려의 생각을 하고 있습니다.
 
 너무 작은 단위의 프로젝트일 때 불필요한 Core 파일 내 State, Action, Reducer를 만들거나 하는 작업들이 꼭 선행으로 이뤄져야하기에 배보다 배꼽이 더 클수도 있다고 우려하는것 같습니다. (RIBs도 이런 문제 있었음)
@@ -138,4 +136,3 @@ MVVM 아키텍처는 이런 문제를 해결할 수 없다고 생각합니다.
 
 <img width="100%" alt="my-option" src="https://user-images.githubusercontent.com/73165292/196845524-2621e870-0fc8-4caf-b636-34aa2a452be9.png">
 </img>
-Footer
