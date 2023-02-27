@@ -55,7 +55,7 @@ h4 {
 
 ol {
     list-style: decimal;
-    margin: 0 0 1em;
+    margin: 0 1em 0 1em;
 }
 
 ul {
@@ -63,9 +63,8 @@ ul {
     list-style-type: disc;
     margin-block-start: 1em;
     margin-block-end: 1em;
-    margin-inline-start: 0px;
+    margin-inline-start: 1em;
     margin-inline-end: 0px;
-    padding-inline-start: 12px;
 }
 
 li {
