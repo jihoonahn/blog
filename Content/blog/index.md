@@ -1,4 +1,4 @@
 ---
 title: Blog
-description: JiHoonAHN's Blog
+description: Jihoonahn's Blog
 ---

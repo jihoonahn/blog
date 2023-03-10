@@ -33,7 +33,7 @@ extension PublishingStep where Site == Blog {
                     context.addPage(
                         Page(
                             path: context.site.paginatedPath(for: tag, pageIndex: pageIndex),
-                            content: .init(title: "Blog Tags", description: "Tags for JiHoonAHN's Blog", body: .init(components: {
+                            content: .init(title: "Blog Tags", description: "Tags for Jihoonahn's Blog", body: .init(components: {
                                 TagDetail(
                                     items: context.paginatedItems(for: tag)[pageIndex],
                                     context: context,

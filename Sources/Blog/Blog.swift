@@ -20,8 +20,8 @@ struct Blog: Website {
     }
     
     var url = URL(string: "https://blog.jihoon.me")!
-    var name = "JiHoonAHN Blog"
-    var description = "This is a personal blog for iOS Developer JiHoonAHN."
+    var name = "Jihoonahn Blog"
+    var description = "This is a personal blog for iOS Developer Jihoonahn."
     var language: Language { .english }
     var imagePath: Path? { nil }
     var favicon: Favicon? {
