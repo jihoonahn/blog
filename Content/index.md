@@ -1,1 +1,1 @@
-# Welcome to the JiHoonAHN Blog!
+# Welcome to the Jihoonahn Blog!

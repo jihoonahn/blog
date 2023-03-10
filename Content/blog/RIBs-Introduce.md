@@ -91,4 +91,4 @@ RIBs 간의 통신은 Interactor가 담당합니다.
 
 ### Template
 
-[공식 Template](https://github.com/uber/RIBs/tree/main/ios/tooling) | [직접 개선한 RIBs Template](https://github.com/JiHoonAHN/Xcode-Template/tree/main/ModernRIBs%20or%20RIBs)
+[공식 Template](https://github.com/uber/RIBs/tree/main/ios/tooling) | [직접 개선한 RIBs Template](https://github.com/Jihoonahn/Xcode-Template/tree/main/ModernRIBs%20or%20RIBs)
