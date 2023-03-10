@@ -24,7 +24,7 @@ extension SocialMediaLink {
     static var github: SocialMediaLink {
         return SocialMediaLink(
             title: "GitHub",
-            url: "https://github.com/JiHoonAHN",
+            url: "https://github.com/Jihoonahn",
             icon: "fa-brands fa-github"
         )
     }

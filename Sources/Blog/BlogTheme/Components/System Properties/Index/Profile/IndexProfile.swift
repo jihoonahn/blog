@@ -13,7 +13,7 @@ struct IndexProfile: Component {
                     Div {
                         Div {
                             Image("https://avatars.githubusercontent.com/u/68891494?v=4").class("profile-image")
-                            H3("JiHoonAHN")
+                            H3("Jihoonahn")
                             Paragraph("Swift Developer")
                         }.class("profile-style")
                     }.class("profile-inner")
