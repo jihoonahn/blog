@@ -1,8 +1,8 @@
 ---
-title: What is Swift
+title: Swift란?
 date: 2021-04-11 7:02
 tags: Tutorial, Swift, Theory
-description: Introducing what is Swift!
+description: Swift 언어에 대한 소개입니다.
 ---
 
 [Apple 공식 Swift](https://developer.apple.com/swift/)

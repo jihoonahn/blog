@@ -17,7 +17,7 @@ struct SiteHeader<Site: Website>: Component {
                     }.class("menu-icon-container")
                     Link(url: "/") {
                         Image(
-                            url: "/static/images/Icon/icon.svg",
+                            url: "/static/images/Icon/icon.svg", 
                             description: "Jihoonahn Blog"
                         )
                     }.class("blog-head-logo")
@@ -42,7 +42,7 @@ struct SiteHeader<Site: Website>: Component {
             Script(.src("https://cdn.jsdelivr.net/npm/@docsearch/js@3"))
             Script(
                 .type("text/javascript"),
-                .src("/static/scripts/DocSearch/DocSearch.js")
+                .src("/static/scripts/Doc_Search/DocSearch.js")
             )
         }
         .id("blog-head")

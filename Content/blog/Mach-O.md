@@ -2,7 +2,7 @@
 title: Mach-O
 date: 2022-10-23 11:00
 tags: Swift, Theory
-description: Studying Mach-O
+description: Mach-O에 대해서 배워봅시다.
 ---
 오늘은 Mach-O에 대해서 배워볼 것입니다.
 공부를 진행하는 도중 Mach-O에 대한 이야기가 많이 나오더라고요!
@@ -44,13 +44,11 @@ Header, Load Command, Segment Data 영역으로 나뉘어 있습니다.
 > 해당 Program이 실행될 수 있는 CPU 아키텍처, Excutable의 타입, 헤더 다음에 오는 Load Command의 갯수.. 등의 정보가 담겨 있습니다.
 
 
-<img width = 80% src = "https://blog.kakaocdn.net/dn/3Gzz1/btrwsJF7mtg/DMKukTeCJTFzV7mCq1jzH0/img.png"></img>
+<img width = 80% src = "https://user-images.githubusercontent.com/68891494/229299955-01c6f433-4849-4b5b-9e2e-cf733715128e.png"></img>
 
 예제를 봐봅시다.
 
 DerivedData 폴더에 프로젝트에 대한 Executable 파일이 생성되어 있습니다. 
-
-<img width = 100% src = "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fdq95D3%2Fbtrwp0IzNel%2Fm6lKteEfy9kNPXX5VNtmk0%2Fimg.png"></img>
 
 Mach-O 파일을 읽을 수 있게 otool이라는 Command Tool을 애플에서 제공합니다.
 

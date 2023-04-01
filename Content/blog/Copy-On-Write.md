@@ -2,7 +2,7 @@
 title: Copy On Write
 date: 2023-2-15 22:52
 tags: Swift, Theory, Memory
-description: How can I save memory?
+description: Copy On Write가 뭔지 알아봅시다.
 ---
 
 오늘은 COW (Copy On Write) 에 대해서 배워 볼 것입니다.

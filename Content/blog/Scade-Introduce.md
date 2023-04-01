@@ -1,8 +1,8 @@
 ---
-title: Scade introduce
+title: Scade 소개
 date: 2023-03-17 21:24
 tags: Swift, Cross Platform, Scade
-description: There's a way to cross-platform with Swift?
+description: Swift로 크로스플랫폼 만드는 방법을 아시나요?
 ---
 
 오늘의 Post는 Swift로 CrossPlatform 개발이 가능하게 하는 Scade에 대한 소개글입니다.

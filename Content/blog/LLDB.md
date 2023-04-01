@@ -2,7 +2,7 @@
 title: LLDB
 date: 2023-2-25 1:39
 tags: Swift, Debugging, Theory, Actual Use
-description: Debugging with LLDB
+description: LLDB를 이용해 디버깅하기
 ---
 
 오늘의 Post에서는 LLDB 에 대해서 공부해 볼 것입니다.
