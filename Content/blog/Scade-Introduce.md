@@ -41,8 +41,8 @@ Swift코드를 네이티브 iOS와 Android를 바이너리로 컴파일하여, �
 
 IDE 내부에서 FILE| Name | New Project 로 프로젝트를 생성해줍니다.
 
-<img width=50% alt="스크린샷 2023-03-18 오후 3 38 06" src="https://user-images.githubusercontent.com/68891494/226089798-20eb3b08-1c00-4aef-9c32-88c18c04909e.png"></img>
-<img width=50% alt="스크린샷 2023-03-18 오후 3 38 20" src="https://user-images.githubusercontent.com/68891494/226089897-4f4940d2-fc90-4e21-9da5-11f00456b2a4.png"></img>
+<img width=51% alt="스크린샷 2023-03-18 오후 3 38 06" src="https://user-images.githubusercontent.com/68891494/226089798-20eb3b08-1c00-4aef-9c32-88c18c04909e.png"></img>
+<img width=39% alt="스크린샷 2023-03-18 오후 3 38 20" src="https://user-images.githubusercontent.com/68891494/226089897-4f4940d2-fc90-4e21-9da5-11f00456b2a4.png"></img>
 
 Scade IDE에서 프로젝트를 생성해주면 됩니다.
 

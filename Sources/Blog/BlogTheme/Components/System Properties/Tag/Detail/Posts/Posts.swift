@@ -10,28 +10,18 @@ struct Posts: Component {
     var body: Component {
         Article {
             Link(url: item.path.absoluteString) {
-                Div()
-                    .class("post-card-image")
-                    .style("background-image: url(/static/images/Blog/\(item.path.string).svg)")
-            }.class("post-card-image-link")
-            Div {
-                Link(url: item.path.absoluteString) {
-                    Header {
-                        Span {
-                            Text(item.tags.map{ $0.string }.joined(separator: ", "))
-                        }.class("post-card-tags")
-                        H2(item.title)
-                            .class("post-card-title")
-                    }.class("post-card-header")
-                    Section {
-                        Paragraph(item.description)
-                    }.class("post-card-excerpt")
-                }.class("post-card-content-link")
-                Footer {
-                    Time(DateFormatter.blogTime.string(from: item.date))
-                        .class("post-card-meta-date")
-                }.class("post-card-footer")
-            }.class("post-card-content")
-        }.class("post-card home-template")
+                Div {
+                    Image("/static/images/Blog/\(item.path.string).svg")
+                }.class("post-article-image")
+                Div {
+                    Span {
+                        Text(item.tags.map{ $0.string }.joined(separator: ", "))
+                    }.class("post-feed-tag")
+                    H3(item.title).class("post-article-content-title")
+                    Paragraph(item.description).class("post-article-content-description")
+                    Time(DateFormatter.blogTime.string(from: item.date)).class("post-article-content-time")
+                }.class("post-article-content")
+            }.class("post-article-link")
+        }.class("post-article")
     }
 }
