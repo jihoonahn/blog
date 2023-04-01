@@ -72,6 +72,10 @@ li {
     text-align: -webkit-match-parent;
 }
 
+img {
+    border-radius: 10px;
+}
+
 a {
     color: black;
 }

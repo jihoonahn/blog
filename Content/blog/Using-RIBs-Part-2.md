@@ -1,8 +1,8 @@
 ---
-title: Using RIBs Part 2
+title: RIBs 사용해보기 Part 2
 date: 2022-11-04 01:02
 tags: Swift, Architecture, RIBs, Actual Use
-description: Let's find out how to use RIBs!
+description: RIBs의 간단한 사용 방법에 대해서 알아봅시다.
 ---
 
 저번 포스트에서는 RIBs를 사용하기 위해서 세팅하는 법에 대해서 배웠습니다.

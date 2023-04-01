@@ -1,8 +1,8 @@
 ---
-title: SwiftUI Need MVVM?
+title: SwiftUI에 MVVM이 필요할까요?
 date: 2022-9-21 12:00
 tags: Swift, Architecture, SwiftUI, Debate
-description: It's an issue that I see often these days. This is a post about whether SwiftUI and MVVM are necessary.
+description: 요즘 이슈가 되고 있는 내용으로, 과연 SwiftUI에는 MVVM이 필요한지에 대한 저의 주관적인 생각을 담은 글입니다.
 ---
 
 
@@ -10,53 +10,42 @@ description: It's an issue that I see often these days. This is a post about whe
 
 [「SwiftUIでMVVMを採用するのは止めよう」と思い至った理由 - Qiita](https://qiita.com/karamage/items/8a9c76caff187d3eb838)
 
-요즘에 주의 깊게 보고 있는 issue 이다.
+요즘에 주의 깊게 보고 있는 issue 입니다.
 
-위 글을 보면 SwiftUI에서 MVVM 사용을 멈추자는 의견을 제시하고 있다. 
+위 글을 보면 SwiftUI에서 MVVM 사용을 멈추자는 의견을 제시하고 있습니다. 
 
 [Stop using MVVM with SwiftUI](https://medium.com/@karamage/stop-using-mvvm-with-swiftui-2c46eb2cc8dc)
 
-→ 내가 처음으로 본 사이트이다.
+→ 제가 처음으로 본 사이트입니다.
 
-“SwiftUI에서 MVVM 사용 중지”라는 제목이 나를 끌어들이게 되었다.
+“SwiftUI에서 MVVM 사용 중지”라는 강력한 주제로 저의 관심을 끌었습니다.
 
 그 글은 꽤나 논리적인 글이라고 생각이 되었다. (진짜 많이 생각을 하게 만드는 글이라고 생각이 됩니다.)
 
 [Is MVVM an anti-pattern in SwiftUI?](https://www.reddit.com/r/swift/comments/m60pv7/is_mvvm_an_antipattern_in_swiftui/)
 
-Reddit에서도 issue가 된 내용이다.
+Reddit에서도 issue가 된 내용입니다.
 
 ### 여기서부터는 저의 생각이 들어갔습니다.
 
-SwiftUI는? 선언형 뷰 프로그래밍 방식입니다. **선언형 UI에서는 ViewModel은 필요할까**
+SwiftUI는? 선언형 뷰 프로그래밍 방식입니다.
 
-여러 글들을 보고 따로 공부와 여러가지 생각을 했습니다.
+**선언형 UI에서는 ViewModel은 필요할까** 라는 주제의 여러 글들을 보고 따로 공부와 여러가지 생각을 했습니다.
 
-옛날에는 “MVVM이 무조건 좋다” 라는 인식이 존재했다. 그런데 SwiftUI로 개발을 하면서 억지로 ViewModel을 만드는 상황이 발생하고 있다.
+옛날에는 “MVVM이 무조건 좋다” 라는 인식이 존재했습니다. 그런데 SwiftUI로 개발을 하면서 억지로 ViewModel을 만드는 상황이 발생하고 있습니다.
 
- ViewModel은 비즈니스 로직을 분리하는 목적으로 사용할 수 있기 때문에 ViewModel이 완전히 나쁘다 라고 하기는 어려울것 같다. 하지만 SwiftUI에서 **View가 자체적으로 Data Binding이 가능한 PropertyWrapper를 지원**한다.
+ ViewModel은 비즈니스 로직을 분리하는 목적으로 사용할 수 있기 때문에 ViewModel이 완전히 나쁘다 라고 하기는 어려울것 같습니다. 하지만 SwiftUI에서 **View가 자체적으로 Data Binding이 가능한 PropertyWrapper를 지원**하기 때문에 아래와 같이 생각합니다.
 
-```swift
-import SwiftUI
-struct ContentView: View {
-    @State var people = People()
-  
-  var body: some View {
-    Text(people.country)
-  ...
-  }
-}
-```
 
-코드에서 People이라는 모델 인스턴스가 @State 변수로 선언이 되어 있고, 해당 모델 값이 비즈니스 로직을 통해 바뀌면서 people  인스턴스의 값도 바뀌게 된것이다. 그럼 데이터 바인딩이 뷰에서 이미 되어있기에 뷰에 나타나는 text의 country가 바뀌게 된다.
+### SwiftUI에서의 View는 이미 View+ViewModel 입니다.
 
-### 즉 SwiftUI에서 View는 이미 View+ViewModel 이다.
+> ViewModel은 원래 상태를 View에 Binding하여 Reactive에 반영하기 위한 목적으로 도입되었지만, 선언적 UI에는 해당 기능이 포함되어 있으므로 ViewModel은 필요하지 않다고 생각합니다.
 
-### 우리가 왜 MVVM이 무조건 좋다고 생각했을까
+### 우리가 왜 MVVM이 무조건 좋다고 생각했을까요?
 
-이것은 기존 사용했던 UIKit을 보고 알수 있었다.
+이것은 기존 사용했던 UIKit을 보고 알 수 있었습니다.
 
-UIKit에서는 View와 ViewModel의 데이터 바인딩을 Observable을 생성하거나 React 구현체인 **RxSwift, Combine을 통해서 리액티브하게 뷰에 값을 반영**시켜주고 있었다.
+위에서 대답한 내용이지만 더 설명을 붙이자면, UIKit에서는 View와 ViewModel의 데이터 바인딩을 Observable을 생성하거나 React 구현체인 **RxSwift, Combine을 통해서 Reative하게 뷰에 값을 반영**시켜주고 있었습니다.
 
 기존 코드에서는 rx를 통해 데이터 바인딩을 해주는 코드를 사용했다. 흔하게 알고 있는 ViewModel을 통해서 뷰와 데이터 바인딩을 해주는 MVVM 구조입니다. ViewModel의 가장 중요한 역할은 데이터 바인딩입니다. 모델과 뷰 사이에 양방향 통신을 해주면서 바인딩을 시켜줍니다.
 
@@ -85,7 +74,7 @@ UIKit에서는 View와 ViewModel의 데이터 바인딩을 Observable을 생성�
 
 저는 이러한 동작이 정말 불필요하다고 생각을 합니다.
 
-요즘 React나 Vue 또는 Flutter에서도 MVVM이 사용되고 있지 않습니다. 
+요즘 React나 Vue 또는 Flutter에서도 MVVM이 사용되고 있지 않습니다.
 
 공통점으로 선언형 UI를 사용한다는 것을 알수 있습니다.
 
@@ -120,17 +109,6 @@ MVI는 단방향 아키텍처이며, Flux는 Composit한 조합을 통해 상태
 - Component들의 상태 관리 및 연결
 
 MVVM 아키텍처는 이런 문제를 해결할 수 없다고 생각합니다.
-
-원문의 저자는 TCA에 대해 아직 시기 상조이며 과장될 수 있다는 우려의 생각을 하고 있습니다.
-
-너무 작은 단위의 프로젝트일 때 불필요한 Core 파일 내 State, Action, Reducer를 만들거나 하는 작업들이 꼭 선행으로 이뤄져야하기에 배보다 배꼽이 더 클수도 있다고 우려하는것 같습니다. (RIBs도 이런 문제 있었음)
-
-그렇다 하더라도 효율적인 관리와 추후 유지보수와 확장성을 위해 도움이 되는 것이라는 전제하에서는 그런 구조를 지키는 것이 그렇다 하더라도 그런 것들이 효율적인 관리와 추후 유지보수와 확장성을 위해 도움이 되는 것이라는 전제 하에서는 그런 구조를 지키는 것이 상태 관리 기반의 단방향 아키테처에 부합하지 않을까 싶습니다.
-
-무조건 TCA를 사용해라 이게 아닙니다. 많은 방법 중에 TCA를 사용하는 방법이 있다는 말입니다.
-
-+ 요즘 찾아보는 것 중에 [Oneway](https://github.com/DevYeom/OneWay) 라는 아키텍처도 봤는데 그것은 사용을 해봐야 알 것 같습니다. 
-추가로 ReSwift + SwiftUI도 해보고 판단해보겠습니다.
 
 저는 이 논쟁에 대해 저의 생각을 답글에 달았습니다.
 

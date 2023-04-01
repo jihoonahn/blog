@@ -102,7 +102,6 @@
 .blog-head-menu .nav {
     align-items: center;
     display: inline-flex;
-    flex-wrap: wrap;
     gap: 32px;
     list-style: none;
     margin: 0;
