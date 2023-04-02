@@ -1,6 +1,6 @@
-<img width = 100% src = "https://user-images.githubusercontent.com/68891494/200553743-dafe4c22-ade9-448e-a1bb-5cae09347151.svg"></img>
+<img width = 100% src = "https://user-images.githubusercontent.com/68891494/229333021-bd645f55-dce6-4e02-98d5-a8d06950de41.svg"></img>
 
-# JiHoon Blog
+# Jihoonahn Blog
 
 ### Description
 > 저만의 특색이 있는 블로그를 가지고 싶어서 만들게 된 블로그 입니다. iOS 개발자에게 친숙한 Swift 언어와, [Publish](https://github.com/JohnSundell/Publish) 를 이용해서 블로그를 만들었습니다. 꾸준히 업로드 할 예정이며, 블로그 내에서도 여러가지 기능을 추가할 예정입니다. </br>
