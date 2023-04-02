@@ -3,7 +3,10 @@ title: About
 description: Nice to meet you, welcome to my blog. I am a junior developer who started iOS development in 2021. During this time, I worked with small and large teams on the project.
 ---
 
-### Short greeting
+> 
+
+
+## Short greeting
 
 Nice to meet you, welcome to my blog. I am a junior developer who started iOS development in 2021. During this time, I worked with small and large teams on the project.
 
@@ -14,8 +17,8 @@ I want to keep developing this blog and record my growth process.
 
 Although blog posts may be lacking, please take good care of us!
 
-If you have any questions, please feel free to contact us via email!
+If you have any questions, please feel free to contact us via email! <br/><br/>
 
-### Contact Me
+## Contact Me
 
 You can contact me via [Email](mailto:official@jihoon.me) and [LinkedIn](https://www.linkedin.com/in/ahnjihoon/).

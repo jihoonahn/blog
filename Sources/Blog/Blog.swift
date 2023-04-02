@@ -27,5 +27,5 @@ struct Blog: Website {
     var favicon: Favicon? {
         Favicon(path: "/favicon.ico", type: "image/x-icon")
     }
-    var socialMediaLinks: [SocialMediaLink] { [.github, .stackoverflow, .linkedIn, .twitter, .email] }
+    var socialMediaLinks: [SocialMediaLink] { [.github, .linkedIn, .twitter, .email, .rss] }
 }
