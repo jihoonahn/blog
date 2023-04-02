@@ -5,7 +5,7 @@ tags: Recollection, Announcement
 description: 와글와글 iOS 제 4회 발표 회고
 ---
 
-<iframe width="100%" height="380" src="https://www.youtube.com/embed/rDlcnt31re0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" height="350" src="https://www.youtube.com/embed/rDlcnt31re0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 이번 제 4회 와글와글 iOS에서 블로깅하는 방법에 대해서 발표를 했고, 이에 대한 회고 입니다. <br/><br/>
 

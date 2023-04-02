@@ -5,7 +5,6 @@ struct IndexPage: Component {
     let pageNumber: Int
     let context: PublishingContext<Blog>
     
-    @ComponentBuilder
     var body: Component {
         SiteMain {
             Div {

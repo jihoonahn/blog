@@ -7,8 +7,7 @@ description: MVVM 패턴에 대한 이론
 
 오늘은 iOS에서 가장 많이 사용하는 MVVM 패턴에 대해서 이론부분을 공부할 겁니다.
 
-일단 시작하겠습니다!
-
+일단 시작해보겠습니다!
 ---
 
 MVVM은 (Model - View - ViewModel)로 구성되어 있습니다.

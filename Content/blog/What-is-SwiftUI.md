@@ -5,7 +5,7 @@ tags: Tutorial, SwiftUI, Theory
 description: 선언형 UI로 생산성을 높여주는 SwiftUI에 대한 설명입니다.
 ---
 
-<iframe width="100%" height= "400" src="https://www.youtube.com/embed/psL_5RIBqnY?start=7603" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" height="350" src="https://www.youtube.com/embed/psL_5RIBqnY?start=7603" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 **본 영상은 WWDC 19이며 SwiftUI 소개되는 부분에서 시작이됩니다.**
 
 2019년 애플의 WWDC에서 처음 소개된 SwiftUI 는 모든 애플 운영체제용 앱을 개발하는데 있어서 완전히 새로운 방법을 제공합니다.
