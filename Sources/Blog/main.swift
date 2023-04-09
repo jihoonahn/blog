@@ -12,5 +12,5 @@ try Blog().publish(using: [
     .generateRSSFeed(including: [.blog]),
     .generateSiteMap(),
     .move404FileForBlog(),
-    .deploy(using: .gitHub("Jihoonahn/Blog"))
+    .deploy(using: .gitHub("Jihoonahn/Blog", useSSH: false))
 ])

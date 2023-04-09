@@ -28,6 +28,17 @@ struct SiteHeader<Site: Website>: Component {
                     }.class("DocSearch-Button-container")
                 }.class("blog-head-brand")
                 Navigation {
+//                    List {
+//                        ListItem {
+//                            Link("Portfolio", url: "https://naver.com")
+//                                .class("nav-item")
+//                        }
+//                        for sectionID in Site.SectionID.allCases {
+//                            let section = context.sections[sectionID]
+//                            Link(section.title, url: section.path.absoluteString)
+//                                .class("nav-item")
+//                        }
+//                    }.class("nav")
                     List(Site.SectionID.allCases) { sectionID in
                         let section = context.sections[sectionID]
                         return Link(

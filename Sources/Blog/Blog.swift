@@ -5,11 +5,13 @@ import Plot
 struct Blog: Website {
     enum SectionID: String, WebsiteSectionID {
         case blog
+        case series
         case about
 
         var name: String {
             switch self {
             case .blog: return "Blog"
+            case .series: return "Series"
             case .about: return "About"
             }
         }
