@@ -1,0 +1,34 @@
+name: deploy
+
+on:
+  push:
+    branches:
+      - main
+jobs:
+  blog-deploy:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: actions/cache@v3
+        with:
+          path: .build
+          key: ${{ runner.os }}-spm-${{ hashFiles('Package.resolved') }}
+          restore-keys: |
+            ${{ runner.os }}-spm-
+      
+      - name: Install dependencies
+        run: swift package update      
+      
+      - name: Setup Publish
+        run: brew install publish
+        
+      - name: blog Generate 
+        run: publish generate
+        
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GH_TOKEN }}
+          publish_dir: ./Output
+          publish_branch: master
