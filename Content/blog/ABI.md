@@ -10,7 +10,6 @@ description: Application Binary Interface에 대한 공부
 일단 시작해보겠습니다!
 
 ---
-
 ## ABI란?
 
 위에서도 말했던 Application Binary Interface 의 약자로 바이너리간의 인터페이스를 나타냅니다.
