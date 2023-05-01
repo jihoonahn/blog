@@ -3,6 +3,7 @@ title: SwiftUI 소개
 date: 2022-10-20 17:02
 tags: Tutorial, SwiftUI, Theory
 description: 선언형 UI로 생산성을 높여주는 SwiftUI에 대한 설명입니다.
+postImage: https://user-images.githubusercontent.com/68891494/235434685-0148b02d-5129-4ac1-b9e1-085cd6dc25c6.svg
 ---
 
 <iframe width="100%" height= "400" src="https://www.youtube.com/embed/psL_5RIBqnY?start=7603" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

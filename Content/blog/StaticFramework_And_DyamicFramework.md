@@ -3,6 +3,7 @@ title: StaticFramework & DynamicFramework
 date: 2022-10-24 16:17
 tags: Swift, Framework, Theory
 description: StaticFramework와 DynamicFramework의 차이점에 대해서 공부해봅시다.
+postImage: https://user-images.githubusercontent.com/68891494/235434672-ac117359-08f8-4d32-bc53-ea5c124a0c8b.svg
 ---
 
 오늘의 Post에서는 StaticFramework와 DynamicFramework 에 대해서 공부해 볼 것입니다.

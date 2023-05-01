@@ -12,7 +12,7 @@ struct TagDetail: Component {
             Div {
                 Div {
                     H2(selectedTag?.description ?? "Tag")
-                    Paragraph("A collection of \(context.allItems(sortedBy: \.title).filter { $0.tags.contains(selectedTag!) }.count ) posts")
+                    Paragraph("A collection of \(context.allItems(sortedBy: \.title).filter { $0.tags.contains(selectedTag ?? .init("")) }.count ) posts")
                 }.class("tagDetail-title")
                 Div {
                     if let selectedTag {

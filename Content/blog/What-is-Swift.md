@@ -3,6 +3,7 @@ title: Swift란?
 date: 2021-04-11 7:02
 tags: Tutorial, Swift, Theory
 description: Swift 언어에 대한 소개입니다.
+postImage: https://user-images.githubusercontent.com/68891494/235434682-9416e189-ffea-40a0-ad42-afeea28d91a4.svg
 ---
 
 [Apple 공식 Swift](https://developer.apple.com/swift/)

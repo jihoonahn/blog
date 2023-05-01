@@ -11,7 +11,8 @@ struct Post: Component {
             Header {
                 Div()
                     .class("site-post-head-image")
-                    .style("background-image: url(/static/images/Blog/\(item.path.string).svg)")
+                    .style("background-image: url(\(item.metadata.postImage)")
+
             }.class("site-post-head")
             Div {
                 H1 {

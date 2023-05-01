@@ -3,6 +3,7 @@ title: Swift Compiler
 date: 2022-10-21 00:49
 tags: Swift, Theory
 description: Swift는 어떻게 컴파일 될까요?
+postImage: https://user-images.githubusercontent.com/68891494/235434673-5269eca0-7efc-4221-8165-a85647f1cdac.svg
 ---
 
 오늘의 Post에서는 Swift Compiler 에 대해서 공부해 볼 것입니다.
