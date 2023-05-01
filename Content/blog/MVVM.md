@@ -3,6 +3,7 @@ title: MVVM 패턴
 date: 2023-2-16 1:15
 tags: Swift, Architecture, MVVM, Theory
 description: MVVM 패턴에 대한 이론
+postImage: https://user-images.githubusercontent.com/68891494/235434665-60bb5f54-f37b-4204-91e6-de8ddadc95f9.svg
 ---
 
 오늘은 iOS에서 가장 많이 사용하는 MVVM 패턴에 대해서 이론부분을 공부할 겁니다.

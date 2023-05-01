@@ -3,6 +3,7 @@ title: RIBs 소개
 date: 2022-10-25 14:09
 tags: Swift, Architecture, RIBs, Theory
 description: Uber에서 만든 RIBs라는 아키텍처에 대해서 공부해보자
+postImage: https://user-images.githubusercontent.com/68891494/235434670-6320516e-34ca-4700-9a5c-b1fc5e2b8e90.svg
 ---
 
 Uber에서 만든 RIBs에 대해서 공부해 보겠습니다.

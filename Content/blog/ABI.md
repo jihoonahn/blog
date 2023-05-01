@@ -3,6 +3,7 @@ title: ABI
 date: 2023-4-2 17:55
 tags: Swift, Binary
 description: Application Binary Interface에 대한 공부
+postImage: https://user-images.githubusercontent.com/68891494/235434656-0cb8b84f-3934-44e4-a832-79d112215374.svg
 ---
 
 오늘 **ABI** (Application Binary Interface)에서 어떤 역할을 하는지 알아보겠습니다.

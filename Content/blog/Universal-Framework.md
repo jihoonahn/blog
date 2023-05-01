@@ -3,6 +3,7 @@ title: Universal Framework
 date: 2023-4-2 18:30
 tags: Swift, Framework
 description: Universal Framework에 대한 공부
+postImage: https://user-images.githubusercontent.com/68891494/235434676-79ba17d3-06cc-4118-93d9-906fc768d450.svg
 ---
 
 이번 포스트에서는 Universal Framework에 대해서 공부 해보겠습니다.

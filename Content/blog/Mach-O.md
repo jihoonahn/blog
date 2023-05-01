@@ -3,6 +3,7 @@ title: Mach-O
 date: 2022-10-23 11:00
 tags: Swift, Theory
 description: Mach-O에 대해서 배워봅시다.
+postImage: https://user-images.githubusercontent.com/68891494/235434662-d39d802a-60c0-4965-8605-ff56e38b89d7.svg
 ---
 오늘은 Mach-O에 대해서 배워볼 것입니다.
 공부를 진행하는 도중 Mach-O에 대한 이야기가 많이 나오더라고요!

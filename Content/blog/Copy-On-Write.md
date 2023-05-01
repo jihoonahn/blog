@@ -3,6 +3,7 @@ title: Copy On Write
 date: 2023-2-15 22:52
 tags: Swift, Theory, Memory
 description: Copy On Write가 뭔지 알아봅시다.
+postImage: https://user-images.githubusercontent.com/68891494/235434658-8439a3ff-288a-4c1b-bac2-eb7160144313.svg
 ---
 
 오늘은 COW (Copy On Write) 에 대해서 배워 볼 것입니다.

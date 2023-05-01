@@ -11,7 +11,7 @@ struct IndexPosts: Component {
             Div {
                 Div {
                     Div {
-                        Image("/static/images/Blog/\(item.path.string).svg")
+                        Image(item.metadata.postImage)
                     }.class("post-image-inner")
                 }.class("post-image")
                 Span {
