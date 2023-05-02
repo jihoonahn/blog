@@ -11,7 +11,7 @@ struct Posts: Component {
         Article {
             Link(url: item.path.absoluteString) {
                 Div {
-                    Image("/static/images/Blog/\(item.path.string).svg")
+                    Image(item.metadata.postImage)
                 }.class("post-article-image")
                 Div {
                     Span {
