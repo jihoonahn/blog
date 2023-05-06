@@ -1,4 +1,4 @@
-<img width = 100% src = "https://user-images.githubusercontent.com/68891494/229333021-bd645f55-dce6-4e02-98d5-a8d06950de41.svg"></img>
+<img width = 100% src = "https://user-images.githubusercontent.com/68891494/236614772-4eb72460-dd3a-4510-883d-fe134c316e5b.svg"></img>
 
 # Jihoonahn Blog
 
