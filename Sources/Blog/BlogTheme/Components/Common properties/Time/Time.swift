@@ -10,6 +10,6 @@ struct Time: Component {
     }
     
     var body: Component {
-        Node<HTML.BodyContext>.time(.text(text))
+        Node<HTML.BodyContext>.nodeTime(.text(text))
     }
 }
