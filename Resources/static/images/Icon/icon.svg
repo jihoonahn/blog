@@ -1,14 +1,11 @@
 <svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
 <circle cx="127.5" cy="128.5" r="79.5" stroke="black" stroke-width="10"/>
-<mask id="mask0_272_85" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="53" y="54" width="149" height="149">
+<mask id="mask0_300_96" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="53" y="54" width="149" height="149">
 <circle cx="127.5" cy="128.5" r="69.5" fill="#D9D9D9" stroke="black" stroke-width="10"/>
 </mask>
-<g mask="url(#mask0_272_85)">
-<rect y="177.582" width="274.318" height="25.0806" fill="#7E9BFF"/>
-<rect y="152.501" width="274.318" height="25.0806" fill="#D67EFF"/>
-<rect y="128.081" width="274.318" height="24.4206" fill="#F36767"/>
-<rect y="103" width="274.318" height="25.0806" fill="#F29C4D"/>
-<rect y="78" width="274.318" height="25.0806" fill="#EDDD49"/>
-<rect y="54" width="274.318" height="25.0806" fill="#52CD5F"/>
+<g mask="url(#mask0_300_96)">
+<rect y="180.501" width="274.318" height="25.0806" fill="#708FFF"/>
+<rect y="155.421" width="274.318" height="25.0806" fill="#5364FF"/>
+<rect y="131" width="274.318" height="24.4206" fill="#74C5FF"/>
 </g>
 </svg>

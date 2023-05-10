@@ -17,7 +17,7 @@ struct SiteHeader<Site: Website>: Component {
                     }.class("menu-icon-container")
                     Link(url: "/") {
                         Image(
-                            url: "/static/images/Icon/icon.svg", 
+                            url: "/static/images/Icon/icon.svg",
                             description: "Jihoonahn Blog"
                         )
                     }.class("blog-head-logo")
