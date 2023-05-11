@@ -15,15 +15,12 @@ jobs:
           path: .build
           key: ${{ runner.os }}-spm-${{ hashFiles('Package.resolved') }}
           restore-keys: |
-            ${{ runner.os }}-spm-
-      
-      - name: Install dependencies
-        run: swift package update      
+            ${{ runner.os }}-spm-    
       
       - name: Setup Publish
         run: brew install publish
         
-      - name: blog Generate 
+      - name: Blog Generate 
         run: publish generate
         
       - name: Deploy
