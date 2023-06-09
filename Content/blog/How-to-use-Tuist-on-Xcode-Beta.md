@@ -95,9 +95,8 @@ sudo xcode-select -s /Applications/Xcode-beta.app/Contents/Developer
 
 <img width="50%" src="https://github.com/Jihoonahn/Blog/assets/68891494/ef3d3550-e18a-4d1b-8d76-2e8017574897"></img>
 
-그렇게 되면 정상적으로 ``tuist edit`` 명령어가 작동합니다.
+그렇게 되면 정상적으로 ``tuist edit`` 명령어가 작동합니다. <br/><br/>
 
---- 
 
 ## 후기
 
