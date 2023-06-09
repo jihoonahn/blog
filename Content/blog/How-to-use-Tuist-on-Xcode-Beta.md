@@ -3,7 +3,7 @@ title: Xcode-Beta에서 Tuist 사용방법
 date: 2023-6-10 00:03
 tags: Swift, Tuist, Beta
 description: Xcode Beta에서 Tuist를 사용방법에 대해서 알아봅시다.
-postImage: https://github.com/Jihoonahn/Blog/assets/68891494/488897f3-ad98-472c-ac6b-10ebfc0a4a75.svg
+postImage: https://github.com/Jihoonahn/Blog/assets/68891494/b3f86882-e474-413a-af1a-dd7b0c5d63a1
 ---
 
 오늘의 Xcode-Beta 버전에서 Tuist 사용방법에 대해서 막힌 부분과 해결방법에 대해서 이야기 해보려고 합니다.
