@@ -1,8 +1,8 @@
 ---
-title: Xcode-Beta에서 Tuist 사용방법
+title: Xcode-Beta에서 Tuist 사용기
 date: 2023-6-10 00:03
 tags: Swift, Tuist, Beta
-description: Xcode Beta에서 Tuist를 사용방법에 대해서 알아봅시다.
+description: Xcode Beta에서 tuist edit 명령어에서 에러나는 부분을 해결하는 방법에 대한 포스트입니다.
 postImage: https://github.com/Jihoonahn/Blog/assets/68891494/b3f86882-e474-413a-af1a-dd7b0c5d63a1
 ---
 
@@ -47,6 +47,8 @@ Xcode 앱을 실행시키는 코드이고, 현재 Xcode는 위 그림처럼 봉�
 
 ## 해결 방법
 
+### 1. Tuist 명령어만으로 해결하는 방법
+
 <img width="50%" src="https://github.com/Jihoonahn/Blog/assets/68891494/cd7a8e9c-59c0-435b-9ff2-bb124bb8d9f8"></img>
 
 ``tuist edit -h``를 실행시켜 명령어를 찾아봅시다.
@@ -72,3 +74,62 @@ logger.notice("Xcode project generated at \(workspacePath.pathString)", metadata
 <img width="80%" src="https://github.com/Jihoonahn/Blog/assets/68891494/21ac8d5b-9353-4d04-846f-edaa4103fc0d"></img>
 
 이런식으로 진행이 됬다면, Manifests.xcworkspace 파일을 눌러서, tuist 프로젝트를 수정할 수 있습니다.
+
+### 2. xcode-select의 path를 변경하는 방법
+
+<img width="50%" src="https://github.com/Jihoonahn/Blog/assets/68891494/7c9fb32e-6ea6-4154-99c3-fc4c470ad8f2"></img>
+
+
+이 방법은 [baekteun](https://github.com/baekteun) 이라는 후배가 영감을 준 방법입니다.
+
+
+터미널에서
+
+```bash
+sudo xcode-select -s /Applications/Xcode-beta.app/Contents/Developer
+```
+
+이렇게 xcode-select에서 path를 변경해 줍니다.
+
+그 이후 다시 ``tuist edit`` 명령어를 실행하면 됩니다.
+
+<img width="50%" src="https://github.com/Jihoonahn/Blog/assets/68891494/ef3d3550-e18a-4d1b-8d76-2e8017574897"></img>
+
+그렇게 되면 정상적으로 ``tuist edit`` 명령어가 작동합니다.
+
+--- 
+
+## 후기
+
+처음에 ``tuist edit`` 명령어가 작동하지 않아서 tuist의 명령어 코드를 보다가 첫번째 방법은 발견하게 되었고, 두번째 방법은 위에서 말했듯 후배에게 영감을 받아서 얻은 방법입니다.
+
+Tuist에서 ``Sources/TuistSupport/Xcode/XcodeController.swift`` 부분을 보게 되면, ``xcode-select -p`` 를 통해서 Xcode의 developer 파일 경로를 받아오는 방식입니다.
+```swift
+/// Returns the selected Xcode. It uses xcode-select to determine
+/// the Xcode that is selected in the environment.
+///
+/// - Returns: Selected Xcode.
+/// - Throws: An error if it can't be obtained.
+public func selected() throws -> Xcode? {
+    // Return cached value if available
+    if let cached = selectedXcode {
+        return cached
+    }
+
+    // e.g. /Applications/Xcode.app/Contents/Developer
+    guard let path = try? System.shared.capture(["xcode-select", "-p"]).spm_chomp() else {
+        return nil
+    }
+
+    let xcode = try Xcode.read(path: try AbsolutePath(validating: path).parentDirectory.parentDirectory)
+    selectedXcode = xcode
+    return xcode
+}
+```
+
+근데 처음에 시도할때는 ``xcode-select`` 명령어의 option에서 path를 따로 바꿀 수 있다는 사실을 망각하고 있었기 때문에, 다양한 방식을 찾은 거 같습니다.
+
+어쨋든 Xcode-beta 또는 다른 버전의 Xcode 앱을 설치하고 ``tuist edit`` 명령어가 작동하지 않아서 당황하신 분들을 위해서 이 글을 적었습니다.
+
+이 방식 외 더 좋은 방식에 대해서 알고 계신 분이 있다면, blog 댓글에 알려주세요.
+
