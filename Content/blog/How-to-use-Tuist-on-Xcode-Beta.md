@@ -3,7 +3,7 @@ title: Xcode-Beta에서 Tuist 사용기
 date: 2023-6-10 00:03
 tags: Swift, Tuist, Beta
 description: Xcode Beta에서 tuist edit 명령어에서 에러나는 부분을 해결하는 방법에 대한 포스트입니다.
-postImage: https://github.com/Jihoonahn/Blog/assets/68891494/1c07ba9a-133b-48b8-bf19-578e93183541
+postImage: https://github.com/Jihoonahn/Blog/assets/68891494/146e5423-da9c-47e4-ac1f-153166ed5672
 ---
 
 오늘의 Xcode-Beta 버전에서 Tuist 사용방법에 대해서 막힌 부분과 해결방법에 대해서 이야기 해보려고 합니다.
