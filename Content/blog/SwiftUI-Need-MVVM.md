@@ -6,22 +6,27 @@ description: 요즘 이슈가 되고 있는 내용으로, 과연 SwiftUI에는 M
 postImage: https://user-images.githubusercontent.com/68891494/235434674-872c1cf2-3ed0-4669-be1b-0d9901de98c2.svg
 ---
 
+이번 포스트에서는 하나의 이슈에 대해서 이야기 해보려고 합니다.
 
-[Stop using MVVM for SwiftUI](https://developer.apple.com/forums/thread/699003)
+요즘에 주의 깊게 보고 있는 issue 이고, 많은 iOS 개발자들의 의견을 달고 있는 이슈입니다.
 
-[「SwiftUIでMVVMを採用するのは止めよう」と思い至った理由 - Qiita](https://qiita.com/karamage/items/8a9c76caff187d3eb838)
+일단 시작해보겠습니다!
 
-요즘에 주의 깊게 보고 있는 issue 입니다.
+---
+
+<img width = 100% src = "https://github.com/Jihoonahn/Blog/assets/68891494/cb143b4f-90af-499b-9cd9-6fa2e6ede38c">
+
+[Stop using MVVM for SwiftUI (apple developer forms)](https://developer.apple.com/forums/thread/699003) <br/>
+[Stop using MVVM with SwiftUI (medium post)](https://medium.com/@karamage/stop-using-mvvm-with-swiftui-2c46eb2cc8dc)
+
 
 위 글을 보면 SwiftUI에서 MVVM 사용을 멈추자는 의견을 제시하고 있습니다. 
 
-[Stop using MVVM with SwiftUI](https://medium.com/@karamage/stop-using-mvvm-with-swiftui-2c46eb2cc8dc)
-
-→ 제가 처음으로 본 사이트입니다.
-
 “SwiftUI에서 MVVM 사용 중지”라는 강력한 주제로 저의 관심을 끌었습니다.
 
-그 글은 꽤나 논리적인 글이라고 생각이 되었다. (진짜 많이 생각을 하게 만드는 글이라고 생각이 됩니다.)
+글은 꽤나 논리적인 글이라고 생각이 되었습니다. SwiftUI내에서 MVVM의 사용을 의심하지 않았던 저에게는 진짜 많은 생각을 하게 만들었었습니다.
+
+<img width = 100% src = "https://github.com/Jihoonahn/Blog/assets/68891494/ad50e41a-aacd-4e00-a7ce-c747beeb731b">
 
 [Is MVVM an anti-pattern in SwiftUI?](https://www.reddit.com/r/swift/comments/m60pv7/is_mvvm_an_antipattern_in_swiftui/)
 
@@ -35,81 +40,98 @@ SwiftUI는? 선언형 뷰 프로그래밍 방식입니다.
 
 옛날에는 “MVVM이 무조건 좋다” 라는 인식이 존재했습니다. 그런데 SwiftUI로 개발을 하면서 억지로 ViewModel을 만드는 상황이 발생하고 있습니다.
 
- ViewModel은 비즈니스 로직을 분리하는 목적으로 사용할 수 있기 때문에 ViewModel이 완전히 나쁘다 라고 하기는 어려울것 같습니다. 하지만 SwiftUI에서 **View가 자체적으로 Data Binding이 가능한 PropertyWrapper를 지원**하기 때문에 아래와 같이 생각합니다.
+ ViewModel은 비즈니스 로직을 분리하는 목적으로 사용할 수 있기 때문에 ViewModel이 완전히 나쁘다 라고 하기는 어려울것 같습니다. 
+ 
+ 하지만 저는 SwiftUI의 View는 이미 View + ViewModel라고 생각하기 때문에 저는 불필요하다고 생각합니다. 
+ 
+ <br/>
 
 
 ### SwiftUI에서의 View는 이미 View+ViewModel 입니다.
 
-> ViewModel은 원래 상태를 View에 Binding하여 Reactive에 반영하기 위한 목적으로 도입되었지만, 선언적 UI에는 해당 기능이 포함되어 있으므로 ViewModel은 필요하지 않다고 생각합니다.
+```swift
+import SwiftUI
+
+struct Content: View {
+    @State var model = Themes.listModel
+
+    var body: some View {
+        List(model.items, action: model.selectItem) { item in
+            Image(item.image)
+            VStack(alignment: .leading) {
+                Text(item.title)
+                Text(item.subtitle)
+                    .color(.gray)
+            }
+        }
+    }
+}
+```
+medium 블로그 글의 예시를 가져왔습니다.
+
+예시처럼 SwiftUI의 View는 원래부터 데이터 바인딩 기능을 포함하고 있기 때문에, 모델 값을 View에 직접 Reactive하게 반영 할 수 있습니다.
+
+ViewModel은 원래 상태를 View에 Binding하여 Reactive에 반영하기 위한 목적으로 도입되었습니다.
+
+하지만 위 예시처럼 선언적 UI에는 해당 기능이 포함되어 있으므로 ViewModel은 필요하지 않다고 생각합니다.
+
+<br/>
 
 ### 우리가 왜 MVVM이 무조건 좋다고 생각했을까요?
 
 이것은 기존 사용했던 UIKit을 보고 알 수 있었습니다.
 
-위에서 대답한 내용이지만 더 설명을 붙이자면, UIKit에서는 View와 ViewModel의 데이터 바인딩을 Observable을 생성하거나 React 구현체인 **RxSwift, Combine을 통해서 Reative하게 뷰에 값을 반영**시켜주고 있었습니다.
+기존 코드에서는 rx를 통해 데이터 바인딩을 해주는 코드를 사용했습니다. (RxSwift를 사용했을 때)
+흔하게 알고 있는 ViewModel을 통해서 뷰와 데이터 바인딩을 해주는 MVVM 구조입니다.
 
-기존 코드에서는 rx를 통해 데이터 바인딩을 해주는 코드를 사용했다. 흔하게 알고 있는 ViewModel을 통해서 뷰와 데이터 바인딩을 해주는 MVVM 구조입니다. ViewModel의 가장 중요한 역할은 데이터 바인딩입니다. 모델과 뷰 사이에 양방향 통신을 해주면서 바인딩을 시켜줍니다.
+ViewModel의 가장 중요한 역할은 데이터 바인딩입니다. 모델과 뷰 사이에 양방향 통신을 해주면서 바인딩을 시켜줍니다.
 
 **하지만 SwiftUI에서는 View에서 다 해줄 수 있기 때문에 필요가 없다는 생각이 됩니다.**
+<br/>
 
-### SwiftUI의 View에서 다 처리하라고?
+### SwiftUI에 MVVM을 사용하는 것은 복잡도를 올리게 됩니다.
 
-선언형 UI에서 ViewModel의 주요 기능인 데이터 바인딩이 필요없어진것입니다. 그래서 ViewModel이라고 표현하는 것이 어색하다고 생각이 됩니다. SwiftUI에서 MVVM 구조를 도입하는 것이 중간 계층의 레이어를 하나 더 두게 되는 복잡성이 생깁니다. View와 Model 사이에 없어도 되는 ViewModel이 들어가면서 굳이 양방향 데이터 플로우 구조가 되게 해야할까요?
+SwiftUI에서 MVVM을 사용하게 되면, ViewModel이라는 레이어가 추가되기 때문에 복잡도가 증가합니다.
 
-요즘 핫하고 장점이 많은 단방향 아키텍처의 구조와는 거리가 멉니다.
+또한 Data Flow는 ViewModel이 View와 Model의 중간 레이어와 함께 배치되어서 양방향으로 동작하게 됩니다.
 
-**애플이 SwiftUI의 섹션에서 State와 Data Flow를 설명하면서도 보여준 예시가 있는데 이 또한 단방향 데이터 플로우를 권장하고 소개**합니다.
 
 <img width="100%" alt="my-option" src="https://user-images.githubusercontent.com/73165292/196845240-6b0ed156-f79f-4d70-9b13-fcabe343725b.png">
 </img>
 
-상태 즉 State를 관리해줌으로 View를 나타내주면서 모든 흐름이 단방향 구조가 됩니다.
-
-즉 상태 관리 기반의 단방향 구조라고 볼 수 있다.
+[Apple Document](https://developer.apple.com/documentation/swiftui/model-data)
 
 **선언형 UI를 사용하는 환경에서는 단방향 데이터 플로우 구조를 지향합니다.**
 
-현재 많은 개발자들이 아키텍처 패턴으로 MVVM을 사용합니다. 많은 자료들이 SwiftUI + MVVM을 사용하는 방법에 대해서 설명을 하고 있습니다. 하지만 저는 이러한 행위는 불필요하다고 생각합니다. 
+현재 많은 개발자들이 아키텍처 패턴으로 MVVM을 사용합니다.
 
-**SwiftUI에서 MVVM을 사용하는 것은 MVVM + MVVM 즉 이중 구현이 된다고 생각이 됩니다.**
+많은 자료들이 SwiftUI + MVVM을 사용하는 방법에 대해서 설명을 하고 있기도 합니다.
 
-저는 이러한 동작이 정말 불필요하다고 생각을 합니다.
+<br/>
 
-요즘 React나 Vue 또는 Flutter에서도 MVVM이 사용되고 있지 않습니다.
+## 이미 Vue나 React, Flutter 모두 MVVM을 사용하고 있지 않습니다.
 
-공통점으로 선언형 UI를 사용한다는 것을 알수 있습니다.
+세가지의 모두 공통점으로 선언형 UI를 사용한다는 것을 알 수 있습니다.
+
+그러면 MVVM 말고 SwiftUI에서 무엇을 사용해야 할까요?
 
 ### 그럼 뭘 사용하라는 건가
 
-ViewModel을 안사용하면 로직과 UI 분리는 어디서 담당해야할까?
+ViewModel을 사용하지 않는다면 비즈니스 로직과 UI 로직을 어떻게 어디서 분리해야 할까요?
 
 [Realm](https://www.youtube.com/watch?v=mTv96vqTDhc&t=756s)에서는 MVI 접근 방식을 지향한다고 합니다.
 
-원본에서 작성자는 두가지 방법을 제시합니다.
+3가지 방법을 생각해볼 수 있습니다.
 
-1. Model에서 이를 구현한다.
-2. Flux 개념의 Store로 분리한다.
+1. Model에서 이를 구현한다. (MV)
+2. MVI (Model-View-Intent)
+3. Flux 개념의 Store로 분리한다.
 
-1번도 가능은 하나 모델에 비즈니스 로직을 넣으면 단방향 데이터 플로우를 해치게 된다고 생각합니다.
+첫번째 방법은 선언적 UI에 어울리는 단방향 플로우의 장점을 챙겨가지 못하기 때문에 적합하지 않고,
 
-그래서 2번째 방법인 Flux적인 Store의 개념으로 분리해 거기서 View를 나타낼 상태 즉 State를 관리해주는 것이 적절하다고 생각합니다.
+그렇기 때문에 MVI 와 Flux 및 Store/Provider 패턴이 적합하다고 생각합니다.
 
-### 글 정리
-
-이 글을 적으면서도 참으로 많은 생각을 하게 됩니다. 
-
-**선언형 UI를 사용하는 환경에서는 MVI, Flux 정도가 잘 어울린다고 생각이 됩니다.**
-
-MVI는 단방향 아키텍처이며, Flux는 Composit한 조합을 통해 상태 관리를 하는 마찬가지로 단방향 아키텍처입니다.
-
-우리가 필요한 것들은
-
-- View와 비즈니스 로직 분리
-- 단방향의 데이터 플로우
-- 각 View를 통해 나타낼 Component의 설계 및 조합
-- Component들의 상태 관리 및 연결
-
-MVVM 아키텍처는 이런 문제를 해결할 수 없다고 생각합니다.
+---
 
 저는 이 논쟁에 대해 저의 생각을 답글에 달았습니다.
 
