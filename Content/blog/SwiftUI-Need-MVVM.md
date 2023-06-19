@@ -14,7 +14,7 @@ postImage: https://user-images.githubusercontent.com/68891494/235434674-872c1cf2
 
 ---
 
-<img width = 100% src = "https://github.com/Jihoonahn/Blog/assets/68891494/cb143b4f-90af-499b-9cd9-6fa2e6ede38c">
+<img width = 100% src = "https://github.com/Jihoonahn/Blog/assets/68891494/cb143b4f-90af-499b-9cd9-6fa2e6ede38c"></img>
 
 [Stop using MVVM for SwiftUI (apple developer forms)](https://developer.apple.com/forums/thread/699003) <br/>
 [Stop using MVVM with SwiftUI (medium post)](https://medium.com/@karamage/stop-using-mvvm-with-swiftui-2c46eb2cc8dc)
@@ -26,11 +26,13 @@ postImage: https://user-images.githubusercontent.com/68891494/235434674-872c1cf2
 
 글은 꽤나 논리적인 글이라고 생각이 되었습니다. SwiftUI내에서 MVVM의 사용을 의심하지 않았던 저에게는 진짜 많은 생각을 하게 만들었었습니다.
 
-<img width = 100% src = "https://github.com/Jihoonahn/Blog/assets/68891494/ad50e41a-aacd-4e00-a7ce-c747beeb731b">
+<img width = 100% src = "https://github.com/Jihoonahn/Blog/assets/68891494/ad50e41a-aacd-4e00-a7ce-c747beeb731b"></img>
 
 [Is MVVM an anti-pattern in SwiftUI?](https://www.reddit.com/r/swift/comments/m60pv7/is_mvvm_an_antipattern_in_swiftui/)
 
 Reddit에서도 issue가 된 내용입니다.
+
+<br/>
 
 ### 여기서부터는 저의 생각이 들어갔습니다.
 
