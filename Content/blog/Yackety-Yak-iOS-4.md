@@ -6,7 +6,7 @@ description: 와글와글 iOS 제 4회 발표 회고
 postImage: https://user-images.githubusercontent.com/68891494/235434687-7f7f3e8b-6beb-416e-8c23-5c3ca0bb7ad0.svg
 ---
 
-<iframe width="100%" height="380" src="https://www.youtube.com/embed/rDlcnt31re0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/rDlcnt31re0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 이번 제 4회 와글와글 iOS에서 블로깅하는 방법에 대해서 발표를 했고, 이에 대한 회고 입니다. <br/><br/>
 
@@ -56,7 +56,7 @@ postImage: https://user-images.githubusercontent.com/68891494/235434687-7f7f3e8b
 대망의 발표날이 찾아왔고, 저녁 7시 부터 발표를 시작할 준비를 하였습니다. 아침에 몇번 다시 내용을 확인하고, 발표에 대비를 하였으나, 점점 긴장을 하게되었습니다.
 발표하기 10분 전에 미리 디스코드 방에 들어가서, 미리 대기를 하였습니다.
 
-**발표 시작**
+## 발표 시작
 
 처음 진행을 할 때 8명으로 시작을 하였고, 추가적으로 3~4명 이상 진행 중에 들어오셨습니다. <br/>
 발표 진행을 시작하자마자 문제가 발생했습니다.. 😓 <br/>
@@ -82,4 +82,3 @@ postImage: https://user-images.githubusercontent.com/68891494/235434687-7f7f3e8b
 이번에 발표를 해보고, 다른 곳에서도 발표를 해보고 싶다는 생각을 하게 되었습니다. <br/>
 비록 이번에는 많은 부분이 부족했지만, 내가 알고 있는 것을 다른 사람과 공유하는 것에 대한 재미를 느끼게 되었고, 
 현재 발표에서 부족한 부분을 해결하기 위해서 더 많은 곳에서 발표하고 싶다는 생각을 하게 되었습니다.
- 
