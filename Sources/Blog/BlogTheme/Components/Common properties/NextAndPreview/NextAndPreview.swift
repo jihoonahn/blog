@@ -2,10 +2,10 @@ import Plot
 import Publish
 
 struct NextAndPreview: Component {
-    
+
     var context: PublishingContext<Blog>
     var item: Item<Blog>
-    
+
     var body: Component {
         Div {
             let items = context.allItems(sortedBy: \.date)
@@ -34,4 +34,3 @@ struct NextAndPreview: Component {
         }.class("nextAndPreview")
     }
 }
-//context.allItems(sortedBy: \.date)

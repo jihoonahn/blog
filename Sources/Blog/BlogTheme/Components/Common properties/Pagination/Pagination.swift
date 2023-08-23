@@ -6,14 +6,14 @@ struct Pagination: Component {
     let numberOfPages: Int
     let pageURL: (_ pageNumber: Int) -> String
     let isDemo: Bool
-    
+
     public init(activePage: Int, numberOfPages: Int, pageURL: @escaping (Int) -> String, isDemo: Bool = false) {
         self.activePage = activePage
         self.numberOfPages = numberOfPages
         self.pageURL = pageURL
         self.isDemo = isDemo
     }
-    
+
     var body: Component {
         Navigation {
             List {
@@ -99,7 +99,7 @@ struct Pagination: Component {
             }.class("pagination justify-content-center")
         }.accessibilityLabel("site-pagination")
     }
-    
+
     func generatePageURL(pageNumber: Int) -> String {
         if isDemo {
             return "#"
@@ -107,7 +107,7 @@ struct Pagination: Component {
             return pageURL(pageNumber)
         }
     }
-    
+
     func buildPageLink(pageNumber: Int) -> Component {
         var linkClassList = "page-item d-none d-lg-block"
         let generatingCurrentPageLink = pageNumber == activePage
@@ -128,7 +128,7 @@ struct Pagination: Component {
         pageLink = pageLink.class(linkClassList)
         return pageLink
     }
-    
+
     func buildEllipsisPageLink() -> Component {
         ListItem {
             Text("...")

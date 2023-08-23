@@ -2,9 +2,9 @@ import Plot
 import Publish
 
 struct TagList: Component {
-    var tags: [Tag]
-    var context: PublishingContext<Blog>
-    
+    let tags: [Tag]
+    let context: PublishingContext<Blog>
+
     var body: Component {
         SiteMain {
             Div {

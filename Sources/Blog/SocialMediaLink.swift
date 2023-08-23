@@ -14,13 +14,6 @@ extension SocialMediaLink {
             icon: "fa-brands fa-linkedin-in"
         )
     }
-    static var twitter: SocialMediaLink {
-        return SocialMediaLink(
-            title: "Twitter",
-            url: "https://twitter.com/jihoon_dev",
-            icon: "fa-brands fa-twitter"
-        )
-    }
     static var github: SocialMediaLink {
         return SocialMediaLink(
             title: "GitHub",
@@ -37,7 +30,7 @@ extension SocialMediaLink {
     static var email: SocialMediaLink {
         return SocialMediaLink(
             title: "Email",
-            url: "mailto:official@jihoon.me",
+            url: "mailto:jihoonahn.dev@gmail.com",
             icon: "fa-solid fa-envelope"
         )
     }

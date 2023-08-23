@@ -2,7 +2,7 @@ import Plot
 import Publish
 
 struct AboutPage: Component {
-    var section: Publish.Section<Blog>
+    let section: Publish.Section<Blog>
     
     var body: Component {
         SiteMain {

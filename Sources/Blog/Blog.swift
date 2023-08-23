@@ -14,11 +14,11 @@ struct Blog: Website {
             }
         }
     }
-    
+
     struct ItemMetadata: WebsiteItemMetadata {
         var postImage: String
     }
-    
+
     var url = URL(string: "https://blog.jihoon.me")!
     var name = "Jihoon.me"
     var description = "This is a personal blog for iOS Developer Jihoonahn."
@@ -27,5 +27,5 @@ struct Blog: Website {
     var favicon: Favicon? {
         Favicon(path: "/favicon.ico", type: "image/x-icon")
     }
-    var socialMediaLinks: [SocialMediaLink] { [.github, .linkedIn, .twitter, .email, .rss] }
+    var socialMediaLinks: [SocialMediaLink] { [.github, .linkedIn, .email, .rss] }
 }

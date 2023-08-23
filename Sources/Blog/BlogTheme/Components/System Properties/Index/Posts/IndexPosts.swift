@@ -5,7 +5,7 @@ import Publish
 struct IndexPosts: Component {
     var item: Item<Blog>
     var context: PublishingContext<Blog>
-    
+
     var body: Component {
         Link(url: item.path.absoluteString) {
             Div {
