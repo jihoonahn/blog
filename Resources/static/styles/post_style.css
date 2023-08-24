@@ -47,6 +47,16 @@
     color: #444;
     line-height: 1.8em;
 }
+
+.site-post-body p code {
+    margin: 0;
+    background-color: #6E768166;
+    padding: 0.2em 0.4em;
+    font-size: 95%;
+    white-space: break-spaces;
+    border-radius: 6px;
+}
+
 pre {
     margin-bottom: 1.5em;
     background-color: rgba(34, 37, 41, 1);
