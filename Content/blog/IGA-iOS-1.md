@@ -1,5 +1,5 @@
 ---
-title: 제 1회 IGA(iOS meets ML) 발표 회고록
+title: 제 1회 IGA 발표 회고록
 date: 2023-07-10 13:22
 tags: Recollection, Announcement
 description: IGA 발표 회고
