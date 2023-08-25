@@ -111,7 +111,7 @@ date는 언제 이 글을 작성했는지를 보여주고, description은 글에
 
 이렇게 `https://localhost:8000/tags`에 tag들이 추가 되고, tag를 누르면?
 
-<img width="100%"src="https://github.com/Jihoonahn/Blog/assets/68891494/9d4f0089-04bb-44b9-8052-5449e69d9bb4"></img>
+<img width="100%" src="https://github.com/Jihoonahn/Blog/assets/68891494/9d4f0089-04bb-44b9-8052-5449e69d9bb4"></img>
 
 tag를 가지고 있는 글들을 조회할 수도 있습니다. 
 
