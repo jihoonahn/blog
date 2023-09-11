@@ -136,4 +136,3 @@ Root 세팅하는것부터 시간이 어마어마하게 드네요
 ### RIBs Part1 프로젝트 코드
 이곳에서 지금까지 작성된 코드를 확인할 수 있어요!
 
-[전체 코드](https://github.com/Jihoonahn/Blog-Documment/tree/main/Architecture/RIBs/RIBs-1)
