@@ -48,7 +48,7 @@
     line-height: 1.8em;
 }
 
-.site-post-body p code {
+code {
     margin: 0;
     background-color: #6E768166;
     padding: 0.2em 0.4em;
@@ -69,6 +69,7 @@ pre code {
     display: block;
     padding: 0 20px;
     color:  rgba(215, 215, 215, 1);
+    background-color: rgba(34, 37, 41, 1);
     line-height: 1.4em;
     font-size: 0.95em;
     overflow-x: auto;
