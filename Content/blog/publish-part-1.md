@@ -191,6 +191,8 @@ try Example().publish(using: [
 
 `publish(using:)` 메서드에서 pipeline을 하나하나 사용자가 원하는대로 지정할 수 있습니다.
 
+위에서 진행한 내용은 [예시코드](https://github.com/Jihoonahn/Blog-Document/tree/main/Publish/part1) 를 확인할 수 있습니다.
+
 ---
 
 이번 글에서는 Publish 커스텀 중에서 구조를 이루는 부분에 대한 글을 적어봤습니다. <br/>
