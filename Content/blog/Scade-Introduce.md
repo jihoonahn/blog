@@ -10,6 +10,7 @@ postImage: https://user-images.githubusercontent.com/68891494/235434671-c0c5b725
 좀 많이 마이너해서.. 다들 처음 들어봤을 확률이 굉장히 높지만 흥미를 가질 수 있는 주제라서 글을 작성하게 되었습니다.
 
 ### What is Scade?
+
 Swift로 iOS 와 Android 개발을 동시에 할 수 있는 크로스 플랫폼입니다.
 
 <img width = 100% src = "https://user-images.githubusercontent.com/68891494/225908911-ad6d8638-99a4-496e-ad4e-ccc62238fe81.png"></img>
@@ -22,6 +23,7 @@ Scade의 [공식문서](https://docs.scade.io/docs) 입니다.
 ---
 
 ### 어떻게 동작되는 걸까?
+
 Swift코드를 네이티브 iOS와 Android를 바이너리로 컴파일하여, 앱을 빌드합니다. <br/>
 현재 기준 Scade는 Swift 5.4를 지원합니다.
 <img width = 100% src = "https://files.readme.io/448093c-scadecompiler.png"></img>

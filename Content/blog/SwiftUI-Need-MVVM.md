@@ -42,11 +42,11 @@ SwiftUI는? 선언형 뷰 프로그래밍 방식입니다.
 
 옛날에는 “MVVM이 무조건 좋다” 라는 인식이 존재했습니다. 그런데 SwiftUI로 개발을 하면서 억지로 ViewModel을 만드는 상황이 발생하고 있습니다.
 
- ViewModel은 비즈니스 로직을 분리하는 목적으로 사용할 수 있기 때문에 ViewModel이 완전히 나쁘다 라고 하기는 어려울것 같습니다. 
+ViewModel은 비즈니스 로직을 분리하는 목적으로 사용할 수 있기 때문에 ViewModel이 완전히 나쁘다 라고 하기는 어려울것 같습니다. 
  
- 하지만 저는 SwiftUI의 View는 이미 View + ViewModel라고 생각하기 때문에 저는 불필요하다고 생각합니다. 
+하지만 저는 SwiftUI의 View는 이미 View + ViewModel라고 생각하기 때문에 저는 불필요하다고 생각합니다. 
  
- <br/>
+<br/>
 
 
 ### SwiftUI에서의 View는 이미 View+ViewModel 입니다.

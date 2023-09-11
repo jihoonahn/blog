@@ -15,6 +15,7 @@ postImage: https://user-images.githubusercontent.com/68891494/235434662-d39d802a
 ---
 
 ## Mach-O
+
 Mach-O는 Apple OS에서 동작하는 컴파일된 프로그램에 대한 파일 포맷
 
 - 오브젝트 파일(.o)
@@ -42,6 +43,7 @@ Header, Load Command, Segment Data 영역으로 나뉘어 있습니다.
 하나씩 봐봅시다.
 
 ## Mach-O Header
+
 > 해당 Program이 실행될 수 있는 CPU 아키텍처, Excutable의 타입, 헤더 다음에 오는 Load Command의 갯수.. 등의 정보가 담겨 있습니다.
 
 

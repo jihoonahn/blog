@@ -31,7 +31,6 @@ postImage: https://github.com/Jihoonahn/Blog/assets/68891494/a7e492e3-c487-4f4f-
 
 결과적으로는 컨퍼런스 주제를 더 잘 녹여내자는 생각에 2번을 선택했습니다. <br/><br/>
 
-
 ## 발표 시작
 
 제 발표는 3번째였습니다.

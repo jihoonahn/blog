@@ -15,9 +15,11 @@ Framework에 대해서 공부하던 중에, Static Framework와 Dynamic Framewor
 ---
 
 ## Framework?
+
 Framework는 Dynamic shared Library, nib File, Image File, localized strings, header files 및 reference 문서와 같이 공유 리소스를 패키지로 캡슐화 하는 계층 구조 파일 디렉토리를 이야기합니다. 그리고 Framework도 Bundle이며 NSBundle로 접근이 가능합니다. 또한 리소스 사본은 프로세스 수에 상관 없이 항상 물리적으로 메모리에 상주하며 리소스 공유로 풋 프린트를 줄이고 성능을 향상 시킵니다. 
 
 ## Dynamic Framework
+
 <img width = 100% src = "https://user-images.githubusercontent.com/68891494/202763635-ff77e71c-10d7-4225-b23a-09c0385a52de.png"></img>
 
 Xcode에서 Framework를 생성하면 Default로 DyamicFramework 로 생성이 됩니다. Dynamic Framework는 동시에 여러 프레임워크 또는 프로그램에서 동일한 코드사본을 공유하고 사용을 하므로, 메모리를 효율적으로 관리합니다. 동적으로 연결되어 있어, 전체 빌드를 하지 않아도 새로운 프레임워크가 사용이 가능합니다.
@@ -27,6 +29,7 @@ Static Linker를 통해 ``Dynamic Library Reference``가 어플리케이션에 �
 <img width = 60% src = "https://minsone.github.io/image/2019/10/3.png"></img>
 
 ## Stactic Framework
+
 <img width = 100% src = "https://user-images.githubusercontent.com/68891494/202765011-411d8cf4-3dce-45b7-adb4-82103c03337c.png">
 </img>
 

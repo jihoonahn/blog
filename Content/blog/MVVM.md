@@ -16,12 +16,15 @@ MVVM은 (Model - View - ViewModel)로 구성되어 있습니다.
 각각의 역할을 알아보면
 
 ### Model
+
 - 데이터 구조를 정의하고 ViewModel에 결과를 알려주는 역할을 합니다.
 
 ### View 
+
 - View는 사용자와의 상호작용을 통해 이벤트가 일어나면 ViewModel에게 알려줍니다.
 
 ### ViewModel
+
 - ViewModel은 사용자의 상호작용을 view가 보내주면 이벤트에 맞는 처리를 하고 Model의 상태를 관리합니다.
 
 <img width = 100% src = "https://miro.medium.com/max/1400/1*J7_36YMEO8pNAYGyR53hkA.png"></img>

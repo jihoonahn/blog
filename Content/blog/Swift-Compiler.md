@@ -17,6 +17,7 @@ Swift 툴체인의 중심에는 Swift Compiler가 존재합니다.
 Swift Compiler의 책임은 소스 코드를 실행할 수 있는 Object 코드로 변경시킵니다.
 
 ### Data Flow 
+
 Swift Compiler는 LLVM이라는 Compiler의 기본구조에서 동작하며, 다음과 같은 data flow를 구성합니다.
 
 Swift와 같은 high-level 언어를 machine code로 변환하는 과정은 Lowering이라는 실제 하드웨어에서 효과적으로 동작합니다.

@@ -28,6 +28,7 @@ LLVM은 Low-level Virtual Machine의 약어로 LLVM은 intermediate / binary 기
 <br/>
 
 ## Commands
+
 LLDB에서는 유용한 명령어가 많기 때문에 오늘은 무슨 명령어가 있는지 알아보겠습니다.
 
 <img width = 100% src = "https://user-images.githubusercontent.com/68891494/221356567-0fcb2381-dfd9-459e-a2b4-bc11dfceb7e7.png"></img>
@@ -38,6 +39,7 @@ LLDB에서는 유용한 명령어가 많기 때문에 오늘은 무슨 명령어
 
 
 ##### LLDB의 기초 문법
+
 ```
 (lldb) command [subcommand] -option "this is argument"
 ```
@@ -48,5 +50,6 @@ LLDB에서는 유용한 명령어가 많기 때문에 오늘은 무슨 명령어
 
 
 ## Reference
+
 - [lldb.llvm.org](https://lldb.llvm.org/)
 - [Apple - LLDB Quick Start Guide](https://developer.apple.com/library/archive/documentation/IDEs/Conceptual/gdb_to_lldb_transition_guide/document/Introduction.html#//apple_ref/doc/uid/TP40012917-CH1-SW1)

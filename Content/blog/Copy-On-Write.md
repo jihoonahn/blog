@@ -23,6 +23,7 @@ Swift에서 큰 값 타입의 데이터를 변수에 대입하거나 매개변�
 하나의 참조만 있으면 복사가 아니라 해당 참조 내에서 값 변경이 일어나는 매커니즘을 설계했습니다. 
 
 ### Example
+
 ```swift
 import Foundation
 
@@ -67,6 +68,7 @@ Collection Type은 값이 바로 복사가 되지 않고 공유하다가 값의 
 ---
 
 ## OS에서 Copy On Write
+
 OS에서는 Copy On Write가 보통 fock()를 수행할 때 적용됩니다.
 
 <img width = 100% src = "https://www.cs.uic.edu/~jbell/CourseNotes/OperatingSystems/images/Chapter9/9_07_Page_C_Unmodified.jpg"></img>

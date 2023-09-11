@@ -13,6 +13,7 @@ postImage: https://github.com/Jihoonahn/Blog/assets/68891494/9dc5542c-a074-47f2-
 ---
 
 ## Beta를 사용했을때
+
 최근에 WWDC23이 공개되었습니다. macOS에서 발표된 내용을 보고 macOS 14와 Xcode 15의 변화에 대해서 보기 위해서, 업데이트를 했습니다.
 
 <img width="10%" src="https://github.com/Jihoonahn/Blog/assets/68891494/9042ff22-337c-459b-b01b-4ab7718c4bcd"></img>
@@ -26,6 +27,7 @@ macOS 14에서는 기존 Xcode 14.3.1(글 작성 기준)를 사용하지 못하�
 
 
 ## 어떤 문제가 있었나..
+
 그렇게, Xcode 15를 설치하고 Tuist를 실행 했을 때, 이런 문제가 있더군요.
 Tuist에서 ``tuist edit`` 명령어를 실행했을 때,
 

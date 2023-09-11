@@ -28,7 +28,6 @@ iPhone OS에서의 CPU와, macOS에서의 경우 시뮬레이터의 구동을 �
 - 쉬운 통합이 가능하다.
 - 쉽게 배포할 수 있다.
 
-
 ### 사용법
 
 Target 아래쪽에 있는 + 버튼을 누릅니다. 그 후 Other -> Aggregate를 추가합니다. (Framework와 XCFramework 둘다 생성해줍니다.)

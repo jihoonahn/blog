@@ -60,6 +60,7 @@ $ publish new
 ```
 $ publish run
 ```
+
 위 명령어를 통해서 웹사이트를 실행시키면
 
 <img width="100%" src="https://github.com/Jihoonahn/Blog/assets/68891494/0a9e2214-6c6f-4efc-9b16-6d56acd07051"></img>

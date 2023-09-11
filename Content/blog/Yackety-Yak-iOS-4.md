@@ -10,7 +10,6 @@ postImage: https://user-images.githubusercontent.com/68891494/235434687-7f7f3e8b
 
 이번 제 4회 와글와글 iOS에서 블로깅하는 방법에 대해서 발표를 했고, 이에 대한 회고 입니다. <br/><br/>
 
-
 ## 발표 준비
 
 발표 전 당시 저는 Publish에 관심도가 높아졌고, 다른 사람들에게 Publish 사용을 권하고 있었을 때 <br/>
