@@ -37,6 +37,7 @@
 .site-post-head-title a {
     color: #999;
     text-decoration: none;
+    padding: 5px;
 }
 
 .site-post-body {
