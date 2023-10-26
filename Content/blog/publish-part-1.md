@@ -12,6 +12,7 @@ postImage: https://github.com/Jihoonahn/Blog/assets/68891494/c463ed7f-c64d-45d0-
 
 ---
 
+기존 처음 Publish 프로젝트를 생성하고, `main.swift` 코드입니다.
 
 ```swift
 import Foundation
@@ -41,9 +42,6 @@ struct Example: Website {
 try Example().publish(withTheme: .foundation)
 
 ```
-
-기존 처음 Publish 프로젝트를 생성하고, `main.swift` 코드입니다.
-
 
 먼저 위 예시의 Example 구조체 부터 보겠습니다.
 
