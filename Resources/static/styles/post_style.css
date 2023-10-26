@@ -57,6 +57,12 @@ code {
     border-radius: 6px;
 }
 
+@media (max-width: 768px) {
+    .site-post-head {
+        height: 30vh;
+    }
+}
+
 pre {
     margin-bottom: 1.5em;
     background-color: rgba(34, 37, 41, 1);
