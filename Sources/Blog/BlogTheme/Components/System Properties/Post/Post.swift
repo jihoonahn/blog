@@ -12,7 +12,6 @@ struct Post: Component {
                 Div()
                     .class("site-post-head-image")
                     .style("background-image: url(\(item.metadata.postImage)")
-
             }.class("site-post-head")
             Div {
                 H1 {
@@ -23,7 +22,7 @@ struct Post: Component {
                     Span("|")
                         .class("date-divider")
                     for tag in item.tags {
-                        Link("\(tag.string). ", url: context.site.url(for: tag))
+                        Link(tag.string, url: context.site.url(for: tag))
                     }
                 }.class("site-post-full-meta")
             }.class("site-post-head-title")
