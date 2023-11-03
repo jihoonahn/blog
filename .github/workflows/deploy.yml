@@ -18,10 +18,10 @@ jobs:
             ${{ runner.os }}-spm-    
       
       - name: Setup Publish
-        run: brew install publish
+        run: make install
         
       - name: Blog Generate 
-        run: publish generate
+        run: make run
         
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
