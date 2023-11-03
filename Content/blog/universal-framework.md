@@ -6,15 +6,7 @@ description: Universal Framework에 대한 공부
 postImage: https://user-images.githubusercontent.com/68891494/235434676-79ba17d3-06cc-4118-93d9-906fc768d450.svg
 ---
 
-이번 포스트에서는 Universal Framework에 대해서 공부 해보겠습니다.
-
-옛날에 Framework를 만들 때 편하게 사용을 해서, 이번 포스트에 담아보는것이 좋겠다고 생각이 들었습니다. 
-
-일단 시작해보겠습니다!
-
----
-
-### Universal Framework (범용 프레임워크)
+## Universal Framework (범용 프레임워크)
 디바이스와 시뮬레이터에서 사용가능하도록 범용적으로 프레임워크를 만드는 것입니다. <br/>
 Device에서의 OS, SimulatorOS 둘 모두에 적용하기 위해서는 Valid Architecture가 모두 존재해야합니다. 
 iPhone OS에서의 CPU와, macOS에서의 경우 시뮬레이터의 구동을 위해서는 macOS의 CPU가 구현되어 맞춰줘야 합니다. <br/>

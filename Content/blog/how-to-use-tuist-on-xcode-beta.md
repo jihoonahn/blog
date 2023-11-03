@@ -6,12 +6,6 @@ description: Xcode Beta에서 tuist edit 명령어에서 에러나는 부분을 
 postImage: https://github.com/Jihoonahn/Blog/assets/68891494/9dc5542c-a074-47f2-85fb-8e45a0551d64
 ---
 
-오늘의 Xcode-Beta 버전에서 Tuist 사용방법에 대해서 막힌 부분과 해결방법에 대해서 이야기 해보려고 합니다.
-
-일단 시작해보겠습니다!
-
----
-
 ## Beta를 사용했을때
 
 최근에 WWDC23이 공개되었습니다. macOS에서 발표된 내용을 보고 macOS 14와 Xcode 15의 변화에 대해서 보기 위해서, 업데이트를 했습니다.

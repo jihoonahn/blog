@@ -6,10 +6,7 @@ description: Swift로 크로스플랫폼 만드는 방법을 아시나요?
 postImage: https://user-images.githubusercontent.com/68891494/235434671-c0c5b725-e201-4239-95d4-814a15670081.svg
 ---
 
-오늘의 Post는 Swift로 CrossPlatform 개발이 가능하게 하는 Scade에 대한 소개글입니다.
-좀 많이 마이너해서.. 다들 처음 들어봤을 확률이 굉장히 높지만 흥미를 가질 수 있는 주제라서 글을 작성하게 되었습니다.
-
-### What is Scade?
+## What is Scade?
 
 Swift로 iOS 와 Android 개발을 동시에 할 수 있는 크로스 플랫폼입니다.
 

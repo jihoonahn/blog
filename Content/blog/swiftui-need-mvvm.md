@@ -6,13 +6,7 @@ description: 요즘 이슈가 되고 있는 내용으로, 과연 SwiftUI에는 M
 postImage: https://user-images.githubusercontent.com/68891494/235434674-872c1cf2-3ed0-4669-be1b-0d9901de98c2.svg
 ---
 
-이번 포스트에서는 하나의 이슈에 대해서 이야기 해보려고 합니다.
-
-요즘에 주의 깊게 보고 있는 issue 이고, 많은 iOS 개발자들의 의견을 달고 있는 이슈입니다.
-
-일단 시작해보겠습니다!
-
----
+## SwiftUI MVVM issue?
 
 <img width = 100% src = "https://github.com/Jihoonahn/Blog/assets/68891494/cb143b4f-90af-499b-9cd9-6fa2e6ede38c"></img>
 

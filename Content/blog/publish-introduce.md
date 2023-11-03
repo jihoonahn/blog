@@ -6,12 +6,7 @@ description: Swift로 Static Site 만들기
 postImage: https://github.com/Jihoonahn/Blog/assets/68891494/6fbcf31d-c0f7-4aa9-ae4d-bdb9bc6f7ee8
 ---
 
-오늘은 Swift로 Static Site 만드는 법에 대해서 글을 작성할 것입니다. <br/>
-와글와글 이후에 작성하는 내용으로, Publish에 대해서 상세하게 다룰 예정입니다.
-
-일단 시작하겠습니다!
-
----
+## What is Publish 
 
 [Publish](https://github.com/JohnSundell/Publish.git)는 John Sundell님이 만든 정적사이트 생성기 입니다. <br/>
 Markdown Parser인 Ink와 Swift에서 HTML, XML, RSS를 작성하기 위한 DSL인 Plot을 사용합니다. <br/>
