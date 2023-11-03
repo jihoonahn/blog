@@ -12,7 +12,7 @@ struct ErrorPage: Component {
                     Paragraph("Page Not Found")
                         .class("error-description")
                     Link(url: "/") {
-                        Text("Go to the front page ->")
+                        Text("Go to the front page")
                     }.class("error-homebutton")
                 }.class("error-message")
             }.class("inner")
