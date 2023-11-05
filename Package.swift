@@ -1,10 +1,9 @@
-// swift-tools-version:5.7
-
+// swift-tools-version:5.9
 import PackageDescription
 
 let package = Package(
-    name: "Blog",
-    platforms: [.macOS(.v12)],
+    name: "blog",
+    platforms: [.macOS(.v13)],
     products: [
         .executable(
             name: "Blog",
@@ -12,16 +11,17 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/JohnSundell/Publish.git", from: "0.9.0"),
-        .package(url: "https://github.com/JohnSundell/SplashPublishPlugin.git", from: "0.2.0")
+        .package(url: "https://github.com/JohnSundell/Publish", from: "0.9.0"),
+        .package(url: "https://github.com/JohnSundell/SplashPublishPlugin", from: "0.2.0"),
     ],
     targets: [
         .executableTarget(
             name: "Blog",
             dependencies: [
-                "Publish",
-                "SplashPublishPlugin"
-            ]
+                .product(name: "SplashPublishPlugin", package: "SplashPublishPlugin"),
+                .product(name: "Publish", package: "publish"),
+            ],
+            path: "Sources"
         )
     ]
 )
