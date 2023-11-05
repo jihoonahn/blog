@@ -1,4 +1,6 @@
+import Foundation
 import Publish
+import Files
 import Plot
 
 extension Theme where Site == Blog {

@@ -1,8 +1,11 @@
-//
-//  File.swift
-//  
-//
-//  Created by Jihoonahn on 11/6/23.
-//
+import Plot
 
-import Foundation
+public protocol HTMLConvertable {
+    func build() -> HTML
+}
+
+extension HTML: HTMLConvertable {
+    public func build() -> HTML {
+        return self
+    }
+}

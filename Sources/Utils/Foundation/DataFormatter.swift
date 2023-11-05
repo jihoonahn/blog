@@ -1,6 +1,6 @@
 import Foundation
 
-public extension DateFormatter {
+extension DateFormatter {
     static var time: DateFormatter = {
         let formatter = DateFormatter()
         formatter.dateStyle = .long

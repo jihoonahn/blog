@@ -1,8 +1,15 @@
-//
-//  File.swift
-//  
-//
-//  Created by Jihoonahn on 11/6/23.
-//
+import Plot
 
-import Foundation
+struct Script: Component {
+    // MARK: - Properties
+    var nodes: [Node<HTML.ScriptContext>]
+
+    // MARK: - Initalizer
+    init(_ nodes: Node<HTML.ScriptContext>...) {
+        self.nodes = nodes
+    }
+
+    var body: Component {
+        Node<HTML.BodyContext>.script(nodes.node)
+    }
+}

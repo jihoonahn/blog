@@ -1,7 +1,9 @@
 import Foundation
+import SplashPublishPlugin
 import Publish
 import Plot
 
+@main
 struct Blog: Website {
     enum SectionID: String, WebsiteSectionID {
         case blog
@@ -24,8 +26,17 @@ struct Blog: Website {
     var description = "This is a personal blog for iOS Developer Jihoonahn."
     var language: Language { .english }
     var imagePath: Path? { nil }
-    var favicon: Favicon? {
-        Favicon(path: "/favicon.ico", type: "image/x-icon")
-    }
+    var favicon: Favicon? { Favicon(path: "/favicon.ico", type: "image/x-icon") }
     var socialMediaLinks: [SocialMediaLink] { [.github, .linkedIn, .email, .rss] }
+    
+    static func main() throws {
+        try Blog().publish(using: [
+            .optional(.copyResources()),
+            .addMarkdownFiles(),
+            .generateHTML(withTheme: .blog),
+            .generateRSSFeed(including: [.blog]),
+            .generateSiteMap(),
+            .deploy(using: .gitHub("Jihoonahn/Blog"))
+        ])
+    }
 }

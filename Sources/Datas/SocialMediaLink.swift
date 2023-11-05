@@ -8,27 +8,27 @@ struct SocialMediaLink {
 
 extension SocialMediaLink {
     static var linkedIn: SocialMediaLink {
-        return SocialMediaLink(
+        SocialMediaLink(
             title: "LinkedIn",
             url: "https://www.linkedin.com/in/ahnjihoon/",
             icon: "fa-brands fa-linkedin-in"
         )
     }
     static var github: SocialMediaLink {
-        return SocialMediaLink(
+        SocialMediaLink(
             title: "GitHub",
             url: "https://github.com/Jihoonahn",
             icon: "fa-brands fa-github"
         )
     }
     static var rss: SocialMediaLink {
-        return SocialMediaLink(
+        SocialMediaLink(
             title: "Rss",
             url: "https://blog.jihoon.me/feed.rss",
             icon: "fa-solid fa-rss")
     }
     static var email: SocialMediaLink {
-        return SocialMediaLink(
+        SocialMediaLink(
             title: "Email",
             url: "mailto:jihoonahn.dev@gmail.com",
             icon: "fa-solid fa-envelope"
