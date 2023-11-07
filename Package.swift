@@ -19,7 +19,8 @@ let package = Package(
             dependencies: [
                 .product(name: "Publish", package: "publish"),
             ],
-            path: "Sources"
+            path: "Sources",
+            exclude: ["Styles/input.css"]
         )
     ]
 )
