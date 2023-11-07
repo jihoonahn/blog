@@ -12,14 +12,12 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/JohnSundell/Publish", from: "0.9.0"),
-        .package(url: "https://github.com/tuist/SwiftyTailwind", from: "0.4.0")
     ],
     targets: [
         .executableTarget(
             name: "Blog",
             dependencies: [
                 .product(name: "Publish", package: "publish"),
-                .product(name: "SwiftyTailwind", package: "SwiftyTailwind")
             ],
             path: "Sources"
         )

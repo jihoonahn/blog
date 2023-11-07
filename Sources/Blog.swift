@@ -24,15 +24,10 @@ struct Blog: Website {
     var socialMediaLinks: [SocialMediaLink] { [.github, .linkedIn, .email, .rss] }
 }
 
-let tailwind = SwiftyTailwind()
-
-try Blog().publish(using: [
-    .installTailwind(),
-    .optional(.copyResources()),
-    .addMarkdownFiles(),
-    .group([.generatePaginatedPages()]),
-    .generateHTML(withTheme: .blog),
-    .generateRSSFeed(including: [.blog]),
-    .generateSiteMap(),
-    .deploy(using: .gitHub("Jihoonahn/Blog"))
-])
+try Blog().publish(
+    withTheme: .blog,
+    deployedUsing: .gitHub("jihoonahn/blog"),
+    additionalSteps: [
+        .generatePaginatedPages()
+    ]
+)
