@@ -13,6 +13,7 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/JohnSundell/Publish", from: "0.9.0"),
         .package(url: "https://github.com/JohnSundell/SplashPublishPlugin", from: "0.2.0"),
+        .package(url: "https://github.com/tuist/SwiftyTailwind", from: "0.4.0")
     ],
     targets: [
         .executableTarget(
@@ -20,6 +21,7 @@ let package = Package(
             dependencies: [
                 .product(name: "SplashPublishPlugin", package: "SplashPublishPlugin"),
                 .product(name: "Publish", package: "publish"),
+                .product(name: "SwiftyTailwind", package: "SwiftyTailwind")
             ],
             path: "Sources"
         )

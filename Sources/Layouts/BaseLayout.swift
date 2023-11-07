@@ -1,7 +1,7 @@
 import Plot
 import Publish
 
-struct Base: HTMLConvertable {
+struct BaseLayout: HTMLConvertable {
     // MARK: - Property
     var location: Location
     var context: PublishingContext<Blog>
@@ -25,6 +25,7 @@ struct Base: HTMLConvertable {
                 Main {
                     component()
                 }
+                .id("main")
                 Footer(context: context)
             }
         )
