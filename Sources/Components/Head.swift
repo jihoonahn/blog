@@ -8,7 +8,7 @@ extension Node where Context == HTML.DocumentContext {
                 )
             ),
             .head(for: page, on: context.site, stylesheetPaths: [
-                "output.css"
+                "styles.css"
             ])
         )
     }

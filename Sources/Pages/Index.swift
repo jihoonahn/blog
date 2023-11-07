@@ -12,6 +12,6 @@ struct IndexPage: Component {
             }
             .class("")
         }
-        .class("flex")
+        .class("bg-red font-serif leading-normal tracking-normal")
     }
 }
