@@ -4,6 +4,9 @@ module.exports = {
     "./Sources/*/*.swift"
   ],
   theme: {
+    fontFamily: {
+      'sans': ['Open Sans', 'sans-serif']
+    },
     extend: {},
   },
   plugins: [
