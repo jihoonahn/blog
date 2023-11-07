@@ -1,4 +1,8 @@
-import Plot
-import Publish
+struct TagListPage: Component {
+    let tags: [Tag]
+    let context: PublishingContext<Blog>
 
-struct TagsPage
+    var body: Component {
+        Div()
+    }
+}

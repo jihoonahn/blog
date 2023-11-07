@@ -1,8 +1,14 @@
-//
-//  File.swift
-//  
-//
-//  Created by Jihoonahn on 11/7/23.
-//
+struct SectionPage: Component {
+    var section: Publish.Section<Blog>
+    var context: PublishingContext<Blog>
 
-import Foundation
+    var body: Component {
+        switch section.path.string {
+        case Blog.SectionID.blog.rawValue:
+            return IndexPage(pageNumber: 1, context: context)
+        case Blog.SectionID.about.rawValue:
+            return AboutPage()
+        default: return Div()
+        }
+    }
+}

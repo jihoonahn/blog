@@ -1,5 +1,3 @@
-import Plot
-
 struct Time: Component {
     // MARK: - Properties
     var text: String

@@ -1,5 +1,3 @@
-import Plot
-
 struct Script: Component {
     // MARK: - Properties
     var nodes: [Node<HTML.ScriptContext>]

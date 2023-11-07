@@ -1,8 +1,4 @@
-import Plot
-import Publish
-
 struct BaseLayout: HTMLConvertable {
-    // MARK: - Property
     var location: Location
     var context: PublishingContext<Blog>
     var component: () -> Component

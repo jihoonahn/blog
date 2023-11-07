@@ -1,6 +1,4 @@
-import Publish
-
-public extension PublishingStep {
+extension PublishingStep {
     static func move404FileForBlog() -> Self {
         let stepName = "Move 404 file for Blog Pages"
 

@@ -1,8 +1,19 @@
-//
-//  File.swift
-//  
-//
-//  Created by Jihoonahn on 11/7/23.
-//
-
-import Foundation
+struct PageLayout: Component {
+    let title: String
+    let component: () -> Component
+    
+    public init(
+        title: String,
+        component: @escaping () -> Component
+    ) {
+        self.title = title
+        self.component = component
+    }
+    
+    var body: Component {
+        Div {
+            H1(title)
+            component()
+        }
+    }
+}

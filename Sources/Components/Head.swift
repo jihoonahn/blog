@@ -1,6 +1,3 @@
-import Plot
-import Publish
-
 extension Node where Context == HTML.DocumentContext {
     public static func head<W: Website>(for page: Location, context: PublishingContext<W>) -> Node {
         return .group(
@@ -11,7 +8,7 @@ extension Node where Context == HTML.DocumentContext {
                 )
             ),
             .head(for: page, on: context.site, stylesheetPaths: [
-                "/static/styles/blog.css",
+                "/output.css"
             ])
         )
     }

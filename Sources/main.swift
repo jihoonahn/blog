@@ -1,4 +1,3 @@
-@main
 struct Blog: Website {
     enum SectionID: String, WebsiteSectionID {
         case blog
@@ -23,24 +22,17 @@ struct Blog: Website {
     var imagePath: Path? { nil }
     var favicon: Favicon? { Favicon(path: "/favicon.ico", type: "image/x-icon") }
     var socialMediaLinks: [SocialMediaLink] { [.github, .linkedIn, .email, .rss] }
-    static let tailwind = SwiftyTailwind()
-    
-    static func main() throws {
-        try Blog().publish(using: [
-            .installPlugin(
-                .init(name: "Tailwind", installer: { context in
-                    let rootDirectory = try! AbsolutePath(validating: try context.folder(at: "/").path)
-                    try await tailwind.run(input: rootDirectory.appending(components: ["Style", "input.css"]),
-                                           output: rootDirectory.appending(components: ["Output", "output.css"]))
-                })
-            ),
-            .optional(.copyResources()),
-            .addMarkdownFiles(),
-            .group([.generatePaginatedPages()]),
-            .generateHTML(withTheme: .blog),
-            .generateRSSFeed(including: [.blog]),
-            .generateSiteMap(),
-            .deploy(using: .gitHub("Jihoonahn/Blog"))
-        ])
-    }
 }
+
+let tailwind = SwiftyTailwind()
+
+try Blog().publish(using: [
+    .installTailwind(),
+    .optional(.copyResources()),
+    .addMarkdownFiles(),
+    .group([.generatePaginatedPages()]),
+    .generateHTML(withTheme: .blog),
+    .generateRSSFeed(including: [.blog]),
+    .generateSiteMap(),
+    .deploy(using: .gitHub("Jihoonahn/Blog"))
+])

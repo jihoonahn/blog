@@ -1,8 +1,13 @@
-//
-//  File.swift
-//  
-//
-//  Created by Jihoonahn on 11/7/23.
-//
-
-import Foundation
+struct PagePage: Component {
+    let page: Page
+    let context: PublishingContext<Blog>
+    
+    var body: Component {
+        switch page.path.string {
+        case "404":
+            return ErrorPage()
+        default:
+            return page.body
+        }
+    }
+}

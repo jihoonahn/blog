@@ -1,8 +1,10 @@
-//
-//  File.swift
-//  
-//
-//  Created by Jihoonahn on 11/7/23.
-//
+struct TagDetailPage: Component {
+    let items: [Item<Blog>]
+    let context: PublishingContext<Blog>
+    let selectedTag: Tag?
+    let pageNumber: Int
 
-import Foundation
+    var body: Component {
+        Div()
+    }
+}

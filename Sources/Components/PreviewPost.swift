@@ -1,6 +1,3 @@
-import Plot
-import Publish
-
 struct PreviewPost: Component {
     var context: PublishingContext<Blog>
     var item: Item<Blog>

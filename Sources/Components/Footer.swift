@@ -1,6 +1,3 @@
-import Plot
-import Publish
-
 struct Footer: Component {
     var context: PublishingContext<Blog>
 

@@ -1,6 +1,3 @@
-import Plot
-import Publish
-
 struct Pagination: Component {
     let activePage: Int
     let numberOfPages: Int

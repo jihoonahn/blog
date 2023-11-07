@@ -1,8 +1,8 @@
-//
-//  File.swift
-//  
-//
-//  Created by Jihoonahn on 11/7/23.
-//
+struct PostLayout: Component {
+    var item: Item<Blog>
+    var context: PublishingContext<Blog>
 
-import Foundation
+    var body: Component {
+        Div()
+    }
+}

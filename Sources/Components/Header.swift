@@ -1,6 +1,3 @@
-import Plot
-import Publish
-
 struct Header: Component {
     var context: PublishingContext<Blog>
     
