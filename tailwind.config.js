@@ -1,8 +1,9 @@
-//
-//  File.swift
-//  blog
-//
-//  Created by Jihoonahn on 11/8/23.
-//
-
-import Foundation
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    './Output/**/*.{html,js}'
+  ],
+  theme: {
+  },
+  plugins: [],
+};
