@@ -6,3 +6,5 @@
 .publish
 Output
 .vscode
+/node_modules
+yarn.lock
