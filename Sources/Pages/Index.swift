@@ -10,7 +10,8 @@ struct IndexPage: Component {
                     context.index.paginatedPath(pageIndex: pageNumber-1).absoluteString
                 }
             }
-            .class("mx-auto w-full px-4 lg:px:0")
+            .class("")
         }
+        .class("flex")
     }
 }

@@ -23,8 +23,6 @@ struct PostsLayout: Component {
                 }
                 .class("posts-article")
             }
-            .class("posts-list")
         }
-        .class("posts-list-")
     }
 }

@@ -1,3 +1,4 @@
+@main
 struct Blog: Website {
     enum SectionID: String, WebsiteSectionID {
         case blog
@@ -22,12 +23,15 @@ struct Blog: Website {
     var imagePath: Path? { nil }
     var favicon: Favicon? { Favicon(path: "/favicon.ico", type: "image/x-icon") }
     var socialMediaLinks: [SocialMediaLink] { [.github, .linkedIn, .email, .rss] }
+    
+    static func main() {
+        try Blog().publish(
+            withTheme: .blog,
+            deployedUsing: .gitHub("jihoonahn/blog"),
+            additionalSteps: [
+                .generatePaginatedPages()
+            ]
+        )
+    }
 }
 
-try Blog().publish(
-    withTheme: .blog,
-    deployedUsing: .gitHub("jihoonahn/blog"),
-    additionalSteps: [
-        .generatePaginatedPages()
-    ]
-)
