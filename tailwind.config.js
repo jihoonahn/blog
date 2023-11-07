@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./Sources/*.{swift}"
+    "./Sources/*/*.swift"
   ],
   theme: {
     extend: {},
@@ -10,4 +10,3 @@ module.exports = {
     require('@tailwindcss/typography'),
   ],
 };
-
