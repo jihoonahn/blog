@@ -24,14 +24,24 @@ struct Blog: Website {
     var favicon: Favicon? { Favicon(path: "/favicon.ico", type: "image/x-icon") }
     var socialMediaLinks: [SocialMediaLink] { [.github, .linkedIn, .email, .rss] }
     
-    static func main() {
+    static func main() throws {
         try Blog().publish(
             withTheme: .blog,
             deployedUsing: .gitHub("jihoonahn/blog"),
             additionalSteps: [
-                .generatePaginatedPages()
+                .generatePaginatedPages(),
+                .step(named: "Tailwind", body: { step in
+                    try shellOut(
+                        to: "./tailwindcss",
+                        arguments: [
+                            "-i",
+                            "./Sources/Styles/input.css",
+                            "-o",
+                            "./Output/styles.css"
+                        ]
+                    )
+                })
             ]
         )
     }
 }
-
