@@ -25,7 +25,7 @@ module.exports = {
         'blog-c-pagination-button': 'rgba(210,210,215,0.2)',
         'blog-c-pagination-button-hover': 'rgba(210,210,215,0.5)',
         'blog-c-card': '#FFFFFF',
-        'blog-c-footer': '#1E1E1E',
+        'blog-c-footer': '#F5F5F7',
         'blog-c-brand': '#5364FF',
         'blog-c-divider': 'rgba(60, 60, 60, .12)'
       },
