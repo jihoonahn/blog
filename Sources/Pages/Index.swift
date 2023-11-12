@@ -7,11 +7,11 @@ struct IndexPage: Component {
             Section {
                 PostsLayout(item: context.paginatedItems[pageNumber-1], context: context)
                 Pagination(activePage: pageNumber, numberOfPages: context.paginatedItems.count) { num in
-                    context.index.paginatedPath(pageIndex: pageNumber-1).absoluteString
+                    context.index.paginatedPath(pageIndex: num - 1).absoluteString
                 }
             }
-            .class("")
+            .class("mx-auto w-full px-4 lg:px-0")
         }
-        .class("bg-red font-serif leading-normal tracking-normal")
+        .class("flex lg:flex-row border-t flex-col-reverse")
     }
 }

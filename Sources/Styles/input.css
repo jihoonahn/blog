@@ -1,3 +1,76 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    html {
+        @apply font-sans;
+        display: block;
+    }
+    body {
+        @apply bg-blog-c-bg;
+        width: 100%;
+        min-height: 100vh;
+        line-height: 24px;
+        font-size: 16px;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        @apply text-zinc-800 !important;
+    }
+    
+    p,
+    li,
+    strong,
+    blockquote,
+    table * {
+        @apply text-zinc-700;
+    }
+
+    .BlogNavBarMenuLink {
+        @apply leading-calc-blog-nav text-blog-c-nav-text hover:text-blog-c-brand;
+        display: block;
+        padding: 0 12px;
+        font-size: 13px;
+        transition: color .25s;
+        white-space: nowrap;
+    }
+
+    .BlogPagination {
+        @apply rounded-full bg-blog-c-pagination-button hover:bg-blog-c-pagination-button-hover;
+        transition: 250ms background-color linear,250ms color linear,250ms opacity linear;
+    }
+
+    .BlogDocsearch .DocSearch{
+        --docsearch-primary-color: '#5364FF';
+        --docsearch-highlight-color: '#5364FF';
+        --docsearch-text-color: '#213547';
+        --docsearch-muted-color: '#000000';
+        --docsearch-searchbox-shadow: none;
+        --docsearch-searchbox-focus-background: transparent;
+        --docsearch-key-gradient: transparent;
+        --docsearch-key-shadow: none;
+        --docsearch-modal-background: '#F9F9F9';
+        --docsearch-footer-background: '#FFFFFF';
+    }
+    
+    .BlogDocsearch .DocSearch-Button-Keys {
+        display: none;
+    }
+    
+    .BlogDocsearch .DocSearch-Button-Placeholder {
+        @apply hover:text-blog-c-brand;
+        font-size: 13px;
+        font-weight: 500;
+        padding: 0 0 0 6px;
+    }
+    
+    .BlogDocsearch .DocSearch-Search-Icon {
+        @apply md:mr-1.5 md:w-3.5 md:h-3.5;
+        top: 1px;
+    }
+}

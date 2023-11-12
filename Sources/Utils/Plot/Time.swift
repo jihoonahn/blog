@@ -1,6 +1,6 @@
 struct Time: Component {
     // MARK: - Properties
-    var text: String
+    let text: String
 
     // MARK: - Initalizer
     init(_ text: String) {

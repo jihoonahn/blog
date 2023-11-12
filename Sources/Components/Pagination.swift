@@ -13,122 +13,62 @@ struct Pagination: Component {
 
     var body: Component {
         Navigation {
-            List {
-                var pageLinks = [Component]()
-                var previousClassList = "page-item me-auto"
-                if activePage == 1 {
-                    previousClassList.append(" disabled")
+            Div {
+                Div {
+                    previewLink()
                 }
-                let previousLink = ListItem {
-                    let link: String
-                    if activePage == 1 {
-                        link = "#"
-                    } else {
-                        link = generatePageURL(pageNumber: activePage - 1)
-                    }
-                    return ComponentGroup {
-                        Link(url: link) {
-                            Span {
-                                Node.i(
-                                    .class("fa-solid fa-chevron-left")
-                                )
-                            }.class("pagination-arrow-icon")
-                            Div {
-                                Text("Previous")
-                            }.class("d-none d-lg-block")
-                        }.class("page-link page-link-next-previous d-flex page-link-previous").accessibilityLabel("Previous")
-                    }
-                }.class(previousClassList)
-                pageLinks.append(previousLink)
-                var builtEllipsisBeforeActivePage = false
-                var builtEllipsisAfterActivePage = false
-                for pageNumber in 1...numberOfPages {
-                    if numberOfPages > 9 {
-                        let activePageSet = [activePage - 1, activePage, activePage + 1]
-                        if (pageNumber > 3 && pageNumber <= numberOfPages - 3) && !activePageSet.contains(pageNumber) {
-                            if !builtEllipsisBeforeActivePage && pageNumber < activePage {
-                                builtEllipsisBeforeActivePage = true
-                            } else if !builtEllipsisAfterActivePage && pageNumber > activePage {
-                                builtEllipsisAfterActivePage = true
-                            } else {
-                                continue
-                            }
-                            let ellipsisLink = buildEllipsisPageLink()
-                            pageLinks.append(ellipsisLink)
-                            continue
-                        }
-                    }
-                    
-                    let pageLink = buildPageLink(pageNumber: pageNumber)
-                    pageLinks.append(pageLink)
+                .class("BlogPagination")
+                Div {
+                    Text("1/79")
                 }
-
-                let mobilePagination = ListItem {
-                    Text("Page \(activePage) of \(numberOfPages)")
-                }.class("page-item pagination-ellipsis d-lg-none")
-                pageLinks.append(mobilePagination)
-                var nextClassList = "page-item ms-auto"
-                if activePage == numberOfPages {
-                    nextClassList.append(" disabled")
+                .class("flex-1-0 text-center")
+                Div {
+                    nextLink()
                 }
-                let next = ListItem {
-                    let link: String
-                    if activePage == numberOfPages {
-                        link = "#"
-                    } else {
-                        link = generatePageURL(pageNumber: activePage + 1)
-                    }
-                    return ComponentGroup {
-                        Link(url: link) {
-                            Div {
-                                Text("Next")
-                            }.class("d-none d-lg-block")
-                            Span {
-                                Node.i(
-                                    .class("fa-solid fa-angle-right")
-                                )
-                            }.class("pagination-arrow-icon")
-                        }.class("page-link page-link-next-previous d-flex page-link-next").accessibilityLabel("Next")
-                    }
-                }.class(nextClassList)
-                pageLinks.append(next)
-                return ComponentGroup(members: pageLinks)
-            }.class("pagination justify-content-center")
-        }.accessibilityLabel("site-pagination")
+                .class("BlogPagination")
+            }
+            .class("flex relative px-4 items-center max-w-xs mx-auto my-0")
+        }
+        .id("pagination")
+        .class("my-16")
+        .accessibilityLabel("pagination number")
     }
-
-    func generatePageURL(pageNumber: Int) -> String {
+    
+    func generatePageURL(_ num: Int) -> String {
         if isDemo {
             return "#"
         } else {
-            return pageURL(pageNumber)
+            return pageURL(num)
         }
     }
-
-    func buildPageLink(pageNumber: Int) -> Component {
-        var linkClassList = "page-item d-none d-lg-block"
-        let generatingCurrentPageLink = pageNumber == activePage
-        var pageLink: Component = ListItem {
-            if generatingCurrentPageLink {
-                Span {
-                    Text("\(pageNumber)")
-                }.class("page-link")
-            } else {
-                Link("\(pageNumber)", url: generatePageURL(pageNumber: pageNumber)).class("page-link")
-            }
+    
+    func previewLink() -> Component {
+        let link: String
+        if activePage == 1 {
+            link = "#"
+        } else {
+            link = generatePageURL(activePage - 1)
         }
-        if generatingCurrentPageLink {
-            linkClassList.append(" active")
-            pageLink = pageLink.attribute(named: "aria-current", value: "page")
+        let pageLink: Component = Link(url: link) {
+            Image("/static/icons/arrow-left.svg")
+                .class("h-4 w-4")
         }
-        
-        pageLink = pageLink.class(linkClassList)
+        .class("flex h-9 w-9 items-center justify-center")
         return pageLink
     }
 
-    func buildEllipsisPageLink() -> Component {
-        ListItem {
-            Text("...")
-        }.class("page-item pagination-ellipsis d-none d-lg-block ms-1 me-1")
+    func nextLink() -> Component {
+        let link: String
+        if activePage == numberOfPages {
+            link = "#"
+        } else {
+            link = generatePageURL(activePage + 1)
+        }
+        let pageLink: Component = Link(url: link) {
+            Image("/static/icons/arrow-right.svg")
+                .class("h-4 w-4")
+        }
+        .class("flex h-9 w-9 items-center justify-center")
+        return pageLink
     }
 }

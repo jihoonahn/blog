@@ -1,6 +1,6 @@
 struct Script: Component {
     // MARK: - Properties
-    var nodes: [Node<HTML.ScriptContext>]
+    let nodes: [Node<HTML.ScriptContext>]
 
     // MARK: - Initalizer
     init(_ nodes: Node<HTML.ScriptContext>...) {

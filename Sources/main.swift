@@ -16,7 +16,7 @@ struct Blog: Website {
     }
 
     var url = URL(string: "https://blog.jihoon.me")!
-    var name = "Jihoon.me"
+    var name = "blog.jihoon.me"
     var description = "This is a personal blog for iOS Developer Jihoonahn."
     var language: Language { .english }
     var imagePath: Path? { nil }

@@ -3,6 +3,11 @@ struct PostLayout: Component {
     var context: PublishingContext<Blog>
 
     var body: Component {
-        Div()
+        Section {
+            Article {
+                
+            }
+            .class("block")
+        }
     }
 }

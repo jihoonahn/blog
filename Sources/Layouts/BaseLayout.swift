@@ -13,7 +13,7 @@ struct BaseLayout: HTMLConvertable {
         self.component = component
     }
     
-    func build() -> Plot.HTML {
+    func build() -> HTML {
         HTML(
             .head(for: location, context: context),
             .body {
