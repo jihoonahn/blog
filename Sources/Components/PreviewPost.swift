@@ -12,21 +12,32 @@ struct PreviewPost: Component {
                     Link(url: items[index - 1].path.absoluteString) {
                         Div {
                             Paragraph("Preview Post")
-                            H3(items[index-1].title).class("preview-title")
-                        }.class("preview-textdir")
-                    }.class("preview-link")
+                                .class("text-gray-500 m-0.5")
+                            H3(items[index-1].title)
+                                .class("text-2xl font-medium m-0.5")
+                        }
+                        .class("flex-1 flex flex-col leading-none min-w-0 items-start")
+                    }
+                    .class("flex cursor-pointer rounded-[10px] bg-blog-c-preview-page w-full h-full p-4 min-h-[4.2rem] items-center")
                 }
-            }.class("preview-container")
+            }
+            .class("min-w-0 flex-1 mt-4 md:mt-0 md:ml-8 ")
             Div {
                 if index < last {
                     Link(url: items[index + 1].path.absoluteString) {
                         Div {
                             Paragraph("Next Post")
-                            H3(items[index+1].title).class("next-title")
-                        }.class("next-textdir")
-                    }.class("next-link")
+                                .class("text-gray-500 m-0.5")
+                            H3(items[index + 1].title)
+                                .class("text-2xl font-medium m-0.5")
+                        }
+                        .class("flex-1 flex flex-col leading-none min-w-0 items-end")
+                    }
+                    .class("flex cursor-pointer bg-blog-c-preview-page w-full h-full rounded-[10px] p-4 flex-row-reverse items-center min-h-[4.2rem]")
                 }
-            }.class("next-container")
-        }.class("nextAndPreview")
+            }
+            .class("min-w-0 flex-1 mt-4 md:mt-0 md:ml-8")
+        }
+        .class("flex flex-col-reverse px-4 mt-11 mb-4 max-w-3xl mx-auto md:flex-row md:px-0")
     }
 }
