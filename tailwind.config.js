@@ -24,6 +24,7 @@ module.exports = {
         'blog-c-time-text': '#6e6e73',
         'blog-c-pagination-button': 'rgba(210,210,215,0.2)',
         'blog-c-pagination-button-hover': 'rgba(210,210,215,0.5)',
+        'blog-c-preview-page': '#F6F8FA',
         'blog-c-card': '#FFFFFF',
         'blog-c-footer': '#F5F5F7',
         'blog-c-brand': '#5364FF',
