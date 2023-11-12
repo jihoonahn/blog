@@ -31,6 +31,17 @@
         @apply text-zinc-700;
     }
 
+    .utterances {
+        border-radius: 10px;
+        background: #f6f8fa;
+        max-width: 700px;
+    }
+
+    .utterances-frame {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
     .BlogNavBarMenuLink {
         @apply leading-calc-blog-nav text-blog-c-nav-text hover:text-blog-c-brand;
         display: block;

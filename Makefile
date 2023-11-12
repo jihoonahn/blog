@@ -11,4 +11,4 @@ run:
 	publish generate
 tailwind:
 	@echo "👻 Start TailWindCSS inside $(EXECUTABLE_NAME)"
-	./tailwindcss -i Sources/Styles/input.css -o Output/styles.css --watch
+	./tailwindcss -i Sources/Styles/global.css -o Output/styles.css --watch
