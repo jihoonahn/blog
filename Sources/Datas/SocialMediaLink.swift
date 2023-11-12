@@ -11,27 +11,27 @@ extension SocialMediaLink {
         SocialMediaLink(
             title: "LinkedIn",
             url: "https://www.linkedin.com/in/ahnjihoon/",
-            icon: "static/icons/linkedin.svg"
+            icon: "/static/icons/linkedin.svg"
         )
     }
     static var github: SocialMediaLink {
         SocialMediaLink(
             title: "GitHub",
             url: "https://github.com/jihoonahn",
-            icon: "static/icons/github.svg"
+            icon: "/static/icons/github.svg"
         )
     }
     static var rss: SocialMediaLink {
         SocialMediaLink(
             title: "Rss",
             url: "https://blog.jihoon.me/feed.rss",
-            icon: "static/icons/rss-solid.svg")
+            icon: "/static/icons/rss-solid.svg")
     }
     static var email: SocialMediaLink {
         SocialMediaLink(
             title: "Email",
             url: "mailto:jihoonahn.dev@gmail.com",
-            icon: "static/icons/envelope-solid.svg"
+            icon: "/static/icons/envelope-solid.svg"
         )
     }
 }
