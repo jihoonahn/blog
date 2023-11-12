@@ -19,7 +19,7 @@ struct Pagination: Component {
                 }
                 .class("BlogPagination")
                 Div {
-                    Text("1/79")
+                    Text("\(activePage) / \(numberOfPages)")
                 }
                 .class("flex-1-0 text-center")
                 Div {

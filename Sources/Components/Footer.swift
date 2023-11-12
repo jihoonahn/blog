@@ -9,7 +9,7 @@ struct Footer: Component {
                         Paragraph {
                             Text("Copyright © ")
                             Link("Jihoonahn", url: "https://github.com/jihoonahn")
-                                .class("text-stone-500")
+                                .class("text-stone-700")
                         }
                         .class("text-stone-600")
                     }
