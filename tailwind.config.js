@@ -22,6 +22,8 @@ module.exports = {
         'blog-c-nav-text': '#1d1d1f',
         'blog-c-tag-text': '#8e8e93',
         'blog-c-time-text': '#6e6e73',
+        'blog-c-pagination-button': 'rgba(210,210,215,0.2)',
+        'blog-c-pagination-button-hover': 'rgba(210,210,215,0.5)',
         'blog-c-card': '#FFFFFF',
         'blog-c-footer': '#1E1E1E',
         'blog-c-brand': '#5364FF',
@@ -48,7 +50,10 @@ module.exports = {
         '30': 30,
         '40': 40,
         '50': 50
-      }
+      },
+      flex: {
+        '1-0': '1 0 1px'
+      },
     },
   },
   plugins: [
