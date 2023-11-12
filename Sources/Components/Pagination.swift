@@ -30,7 +30,7 @@ struct Pagination: Component {
             .class("flex relative px-4 items-center max-w-xs mx-auto my-0")
         }
         .id("pagination")
-        .class("my-16")
+        .class("mt-16 mb-8")
         .accessibilityLabel("pagination number")
     }
     

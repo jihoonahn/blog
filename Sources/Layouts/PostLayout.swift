@@ -40,6 +40,27 @@ struct PostLayout: Component {
                     }
                 }
                 PreviewPost(context: context, item: item)
+                Script(
+                    .src("https://utteranc.es/client.js"),
+                    .repo("jihoonahn/blog"),
+                    .issue_term("pathname"),
+                    .label("comments"),
+                    .theme("github-light"),
+                    .crossorigin("anonymous"),
+                    .async()
+                )
+                .style("""
+                .utterances {
+                    border-radius: 10px;
+                    background: #f6f8fa;
+                    max-width: 768px;
+                }
+
+                .utterances-frame {
+                    padding-left: 1rem;
+                    padding-right: 1rem;
+                }
+                """)
             }
         }
     }

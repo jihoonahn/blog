@@ -34,7 +34,7 @@ try Blog().publish(
                 to: "./tailwindcss",
                 arguments: [
                     "-i",
-                    "./Sources/Styles/input.css",
+                    "./Sources/Styles/global.css",
                     "-o",
                     "./Output/styles.css"
                 ]

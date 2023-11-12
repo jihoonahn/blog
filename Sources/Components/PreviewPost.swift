@@ -21,7 +21,7 @@ struct PreviewPost: Component {
                     .class("flex cursor-pointer rounded-[10px] bg-blog-c-preview-page w-full h-full p-4 min-h-[4.2rem] items-center")
                 }
             }
-            .class("min-w-0 flex-1 mt-4 md:mt-0 md:ml-8 ")
+            .class("min-w-0 flex-1 mt-4 md:mt-0")
             Div {
                 if index < last {
                     Link(url: items[index + 1].path.absoluteString) {
