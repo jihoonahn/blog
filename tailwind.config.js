@@ -28,6 +28,7 @@ module.exports = {
         'blog-c-card': '#FFFFFF',
         'blog-c-footer': '#F5F5F7',
         'blog-c-brand': '#5364FF',
+        'blog-c-utterances': '#F6F8FA',
         'blog-c-divider': 'rgba(60, 60, 60, .12)'
       },
       height: {
