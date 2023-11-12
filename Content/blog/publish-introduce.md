@@ -3,7 +3,7 @@ title: Publish 소개
 date: 2023-08-22 16:51
 tags: Swift, Publish, Web, Theory
 description: Swift로 Static Site 만들기
-postImage: https://github.com/Jihoonahn/Blog/assets/68891494/6fbcf31d-c0f7-4aa9-ae4d-bdb9bc6f7ee8
+postImage: https://github.com/jihoonahn/blog/assets/68891494/3404041c-f48c-4471-a9cb-6e3d00d3bfaf
 ---
 
 ## What is Publish 

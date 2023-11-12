@@ -3,7 +3,7 @@ title: Skip 소개
 date: 2023-11-02 20:24
 tags: Swift, Cross Platform, Skip
 description: Scade의 대체제 Skip에 대해서 알아봅시다.
-postImage: https://github.com/jihoonahn/Blog/assets/68891494/bc0aef7a-46a5-493e-8c3a-d061383672a6
+postImage: https://github.com/jihoonahn/blog/assets/68891494/01343ce4-54a6-456f-8f94-6b24e706de49
 ---
 
 ## Scade 공식 Slack에서..

@@ -3,7 +3,7 @@ title: 와글와글 제4회 발표 회고록
 date: 2023-02-11 5:25
 tags: Recollection, Announcement
 description: 와글와글 iOS 제 4회 발표 회고
-postImage: https://user-images.githubusercontent.com/68891494/235434687-7f7f3e8b-6beb-416e-8c23-5c3ca0bb7ad0.svg
+postImage: https://github.com/jihoonahn/blog/assets/68891494/332ea2ed-6ff6-4154-b33f-abec0b26a6b5
 ---
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/rDlcnt31re0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

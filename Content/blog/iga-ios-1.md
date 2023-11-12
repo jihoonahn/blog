@@ -3,7 +3,7 @@ title: 제 1회 IGA 발표 회고록
 date: 2023-07-10 13:22
 tags: Recollection, Announcement
 description: IGA 발표 회고
-postImage: https://github.com/Jihoonahn/Blog/assets/68891494/a7e492e3-c487-4f4f-bed7-9f4e70a65932
+postImage: https://github.com/jihoonahn/blog/assets/68891494/083d7040-3ed2-4b8a-9ba3-6af7e66878d9
 ---
 
 <iframe width="100%" height="400" src="https://www.youtube.com/embed/ugNe2yFBRDM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

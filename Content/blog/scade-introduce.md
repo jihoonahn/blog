@@ -3,7 +3,7 @@ title: Scade 소개
 date: 2023-03-17 21:24
 tags: Swift, Cross Platform, Scade
 description: Swift로 크로스플랫폼 만드는 방법을 아시나요?
-postImage: https://user-images.githubusercontent.com/68891494/235434671-c0c5b725-e201-4239-95d4-814a15670081.svg
+postImage: https://github.com/jihoonahn/blog/assets/68891494/1f836083-815e-4bc1-b92e-89cf2251a221
 ---
 
 ## What is Scade?

@@ -3,7 +3,7 @@ title: Publish 사용하기 part 2
 date: 2023-10-26 14:48
 tags: Swift, Publish, Web, Theory
 description: Swift publish 커스텀하기
-postImage: https://github.com/Jihoonahn/Blog/assets/68891494/981b1ca7-6859-4aed-b89a-a49cbd48b017
+postImage: https://github.com/jihoonahn/blog/assets/68891494/0c4b40f7-bde3-4f90-ab09-60a3eca33476
 ---
 
 ## Publish 구조 작성하기
