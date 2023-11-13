@@ -73,8 +73,7 @@ publish에서 제공하는 기본 화면이 보이게 됩니다.
 
 이렇게 수정하고 다시 빌드 해보면?
 
-<img width="50%" src="https://github.com/Jihoonahn/Blog/assets/68891494/54ad6448-b59a-448d-83a2-d19434d758df"></img>
-<img width="50%" src="https://github.com/Jihoonahn/Blog/assets/68891494/38ba74d9-1267-48d1-a4bb-df94a9f57318"></img>
+<img width="100%" src="https://github.com/jihoonahn/blog/assets/68891494/707f8bc8-cc8b-4202-8444-3baef852be14"></img>
 
 이렇게 내용이 잘 적용이 된것을 확인 할 수 있습니다.
 

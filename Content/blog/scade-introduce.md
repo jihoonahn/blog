@@ -68,10 +68,9 @@ Scade IDE 우측에 있는 옵션들을 수정하여, Component를 설정 할 �
 ### 실행
 한번 Android와 iOS에서 잘 돌아가는지 확인해 보겠습니다.
 
-<img width=30% src = "https://user-images.githubusercontent.com/68891494/226190161-740185f6-9375-40de-aec8-ba1d46580936.png"></img>
-<img width=30% src = "https://user-images.githubusercontent.com/68891494/226190164-d5458e5c-9a96-4998-8c02-9037a8d4a2bc.png"></img>
+<img width=100% src = "https://github.com/jihoonahn/blog/assets/68891494/eddc178e-3b54-431d-8931-6b73c77fe6f6"></img>
 
-좌 Android Emulator, 우 iOS Simulator
+좌 iOS Simulator, 우 Android Emulator
 
 같은 UI로 잘 돌아가는 것을 확인 할 수 있습니다. 
 
