@@ -10,7 +10,7 @@ postImage: https://github.com/jihoonahn/blog/assets/68891494/0e65fb0b-e71a-4253-
 
 최근에 WWDC23이 공개되었습니다. macOS에서 발표된 내용을 보고 macOS 14와 Xcode 15의 변화에 대해서 보기 위해서, 업데이트를 했습니다.
 
-<img width="10%" src="https://github.com/Jihoonahn/Blog/assets/68891494/9042ff22-337c-459b-b01b-4ab7718c4bcd"></img>
+<img width="10%" src="https://github.com/jihoonahn/Blog/assets/68891494/9042ff22-337c-459b-b01b-4ab7718c4bcd"></img>
 
 그렇게 봉인된.. Xcode..
 
@@ -23,7 +23,7 @@ macOS 14에서는 기존 Xcode 14.3.1(글 작성 기준)를 사용하지 못하�
 ## 어떤 문제가 있었나..
 
 그렇게, Xcode 15를 설치하고 Tuist를 실행 했을 때, 이런 문제가 있더군요.
-Tuist에서 ``tuist edit`` 명령어를 실행했을 때,
+Tuist에서 `tuist edit` 명령어를 실행했을 때,
 
 <img width="100%" src="https://github.com/Jihoonahn/Blog/assets/68891494/c22e5b50-273a-45ab-a96e-484d715b014a"></img>
 
@@ -43,7 +43,7 @@ try opener.open(path: workspacePath, application: selectedXcode.path, wait: true
 
 Xcode 앱을 실행시키는 코드이고, 현재 Xcode는 위 그림처럼 봉인(?)당했기 때문에 Xcode앱을 열 수 없는 것입니다. <br/>
 
-나머지 명령어에서는 문제가 없었지만, ``tuist edit`` 명령어에서만 문제가 생기더라고요. <br/>
+나머지 명령어에서는 문제가 없었지만, `tuist edit` 명령어에서만 문제가 생기더라고요. <br/>
 이 문제에 대한 해결 방법은 없을까요? <br/>
 
 
@@ -53,7 +53,7 @@ Xcode 앱을 실행시키는 코드이고, 현재 Xcode는 위 그림처럼 봉�
 
 <img width="100%" src="https://github.com/Jihoonahn/Blog/assets/68891494/cd7a8e9c-59c0-435b-9ff2-bb124bb8d9f8"></img>
 
-``tuist edit -h``를 실행시켜 명령어를 찾아봅시다.
+`tuist edit -h`를 실행시켜 명령어를 찾아봅시다.
 
 Tuist 공식 깃허브 코드에서는 permanent가 true면, Xcode앱을 실행시키지 않습니다.
 
@@ -67,7 +67,7 @@ let workspacePath = try projectEditor.edit(
 logger.notice("Xcode project generated at \(workspacePath.pathString)", metadata: .success)
 ```
 
-그렇기 떄문에, ``tuist edit --permanent`` 명령어를 실행하면?
+그렇기 떄문에, `tuist edit --permanent` 명령어를 실행하면?
 
 <img width="100%" src="https://github.com/Jihoonahn/Blog/assets/68891494/f71302cb-91ad-4e0c-a665-52dde3574409"></img>
 
@@ -93,18 +93,18 @@ sudo xcode-select -s /Applications/Xcode-beta.app/Contents/Developer
 
 이렇게 xcode-select에서 path를 변경해 줍니다.
 
-그 이후 다시 ``tuist edit`` 명령어를 실행하면 됩니다.
+그 이후 다시 `tuist edit` 명령어를 실행하면 됩니다.
 
 <img width="100%" src="https://github.com/Jihoonahn/Blog/assets/68891494/ef3d3550-e18a-4d1b-8d76-2e8017574897"></img>
 
-그렇게 되면 정상적으로 ``tuist edit`` 명령어가 작동합니다. <br/><br/>
+그렇게 되면 정상적으로 `tuist edit` 명령어가 작동합니다. <br/><br/>
 
 
 ## 후기
 
-처음에 ``tuist edit`` 명령어가 작동하지 않아서 tuist의 명령어 코드를 보다가 첫번째 방법은 발견하게 되었고, 두번째 방법은 위에서 말했듯 후배에게 영감을 받아서 얻은 방법입니다.
+처음에 `tuist edit` 명령어가 작동하지 않아서 tuist의 명령어 코드를 보다가 첫번째 방법은 발견하게 되었고, 두번째 방법은 위에서 말했듯 후배에게 영감을 받아서 얻은 방법입니다.
 
-Tuist에서 ``Sources/TuistSupport/Xcode/XcodeController.swift`` 부분을 보게 되면, ``xcode-select -p`` 를 통해서 Xcode의 developer 파일 경로를 받아오는 방식입니다.
+Tuist에서 `Sources/TuistSupport/Xcode/XcodeController.swift` 부분을 보게 되면, `xcode-select -p` 를 통해서 Xcode의 developer 파일 경로를 받아오는 방식입니다.
 ```swift
 /// Returns the selected Xcode. It uses xcode-select to determine
 /// the Xcode that is selected in the environment.
@@ -128,9 +128,9 @@ public func selected() throws -> Xcode? {
 }
 ```
 
-근데 처음에 시도할때는 ``xcode-select`` 명령어의 option에서 path를 따로 바꿀 수 있다는 사실을 망각하고 있었기 때문에, 다양한 방식을 찾은 거 같습니다.
+근데 처음에 시도할때는 `xcode-select` 명령어의 option에서 path를 따로 바꿀 수 있다는 사실을 망각하고 있었기 때문에, 다양한 방식을 찾은 거 같습니다.
 
-어쨋든 Xcode-beta 또는 다른 버전의 Xcode 앱을 설치하고 ``tuist edit`` 명령어가 작동하지 않아서 당황하신 분들을 위해서 이 글을 적었습니다.
+어쨋든 Xcode-beta 또는 다른 버전의 Xcode 앱을 설치하고 `tuist edit` 명령어가 작동하지 않아서 당황하신 분들을 위해서 이 글을 적었습니다.
 
 이 방식 외 더 좋은 방식에 대해서 알고 계신 분이 있다면, blog 댓글에 알려주세요.
 

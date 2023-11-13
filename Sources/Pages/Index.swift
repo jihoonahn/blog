@@ -12,6 +12,6 @@ struct IndexPage: Component {
             }
             .class("mx-auto w-full px-4 lg:px-0")
         }
-        .class("flex lg:flex-row border-t flex-col-reverse")
+        .class("flex lg:flex-row flex-col-reverse")
     }
 }

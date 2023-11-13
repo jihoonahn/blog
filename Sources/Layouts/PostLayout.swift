@@ -8,37 +8,38 @@ struct PostLayout: Component {
                 Div {
                     Div {
                         Div {
-                            
+                            Time(DateFormatter.time.string(from: item.date))
+                                .class("text-gray-500 text-sm")
                         }
-                        .class("")
                     }
-                    .class("")
+                    .class("component md:w-[654px]")
                     Div {
                         Div {
-                            
+                            H1(item.title)
+                                .class("font-semibold text-heading-2 md:text-heading-1")
                         }
-                        .class("")
                     }
-                    .class("")
+                    .class("component md:w-[654px]")
                     Div {
                         Div {
-                            
+                            Text(item.description)
                         }
-                        .class("")
+                        .class("text-lg md:text-2xl mx-auto")
                     }
-                    .class("")
+                    .class("component md:w-[654px]")
                 }
-                .class("")
                 Figure {
                     Div {
                         Image(item.metadata.postImage)
                     }
                 }
+                .class("component rounded-xl overflow-hidden min-w-[85%] lg:min-w-[320px]")
                 Div {
                     Div {
-//                        Node.contentBody(item.body)
+                        Node.contentBody(item.body)
                     }
                 }
+                .class("mx-auto w-[85%] text-left mt-8 md:w-[700px]")
                 PreviewPost(context: context, item: item)
                 Script(
                     .src("https://utteranc.es/client.js"),
@@ -49,18 +50,18 @@ struct PostLayout: Component {
                     .crossorigin("anonymous"),
                     .async()
                 )
-                .style("""
-                .utterances {
-                    border-radius: 10px;
-                    background: #f6f8fa;
-                    max-width: 768px;
-                }
-
-                .utterances-frame {
-                    padding-left: 1rem;
-                    padding-right: 1rem;
-                }
-                """)
+//                .style("""
+//                .utterances {
+//                    border-radius: 10px;
+//                    background: #f6f8fa;
+//                    max-width: 768px;
+//                }
+//
+//                .utterances-frame {
+//                    padding-left: 1rem;
+//                    padding-right: 1rem;
+//                }
+//                """)
             }
         }
     }

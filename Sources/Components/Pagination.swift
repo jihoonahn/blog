@@ -51,7 +51,7 @@ struct Pagination: Component {
         }
         let pageLink: Component = Link(url: link) {
             Image("/static/icons/arrow-left.svg")
-                .class("h-4 w-4")
+                .class("h-4 w-4 p-0")
         }
         .class("flex h-9 w-9 items-center justify-center")
         return pageLink
@@ -66,7 +66,7 @@ struct Pagination: Component {
         }
         let pageLink: Component = Link(url: link) {
             Image("/static/icons/arrow-right.svg")
-                .class("h-4 w-4")
+                .class("h-4 w-4 p-0")
         }
         .class("flex h-9 w-9 items-center justify-center")
         return pageLink

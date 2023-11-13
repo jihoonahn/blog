@@ -16,8 +16,8 @@ struct Blog: Website {
     }
 
     var url = URL(string: "https://blog.jihoon.me")!
-    var name = "blog.jihoon.me"
-    var description = "This is a personal blog for iOS Developer Jihoonahn."
+    var name = "jihoon.me"
+    var description = "This is a personal blog for iOS Developer jihoonahn."
     var language: Language { .english }
     var imagePath: Path? { nil }
     var favicon: Favicon? { Favicon(path: "/favicon.ico", type: "image/x-icon") }
@@ -28,17 +28,7 @@ try Blog().publish(
     withTheme: .blog,
     deployedUsing: .gitHub("jihoonahn/blog"),
     additionalSteps: [
-        .generatePaginatedPages(),
-        .step(named: "Tailwind", body: { step in
-            try shellOut(
-                to: "./tailwindcss",
-                arguments: [
-                    "-i",
-                    "./Sources/Styles/global.css",
-                    "-o",
-                    "./Output/styles.css"
-                ]
-            )
-        })
+        .paginatedPages(),
+        .tailwindcss()
     ]
 )

@@ -1,5 +1,5 @@
 extension PublishingStep where Site == Blog {
-    static func generatePaginatedPages() -> Self {
+    static func paginatedPages() -> Self {
         .group([
             .generatePaginatedIndexPages(),
             .generatePaginatedTagPages()

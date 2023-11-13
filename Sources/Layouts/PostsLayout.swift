@@ -25,8 +25,8 @@ struct PostsLayout: Component {
                     .class("group")
                 }
             }
-            .class("flex max-w-screen-md flex-col gap-y-4 md:gap-y-6 lg:gap-y-8")
+            .class("flex max-w-screen-md flex-col gap-y-4 list-none md:gap-y-6 lg:gap-y-8")
         }
-        .class("flex flex-col items-center gap-20 pt-20")
+        .class("flex flex-col items-center gap-20")
     }
 }

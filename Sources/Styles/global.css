@@ -3,6 +3,11 @@
 @tailwind utilities;
 
 @layer base {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
     html {
         @apply font-sans;
         display: block;
@@ -14,21 +19,156 @@
         line-height: 24px;
         font-size: 16px;
     }
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        @apply text-zinc-800 !important;
+
+    h1 {
+        font-size: 2em;
+        margin: 0.67em 0;
+    }
+
+    h2 {
+        display: block;
+        font-size: 1.5em;
+        margin-block-start: 0.83em;
+        margin-block-end: 0.83em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+    }
+
+    h3 {
+        display: block;
+        font-size: 1.25em;
+        margin-block-start: 1.45em;
+        margin-block-end: 1.45em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+    }
+
+    h4 {
+        display: block;
+        margin-block-start: 1.33em;
+        margin-block-end: 1.33em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+    }
+
+    ol {
+        list-style: decimal;
+        margin: 0 1em 0 1em;
+    }
+
+    ul {
+        display: block;
+        list-style-type: disc;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 1em;
+        margin-inline-end: 0px;
+    }
+
+    li {
+        display: list-item;
+        text-align: -webkit-match-parent;
+    }
+
+    img,
+    video {
+      max-width: 100%;
+      height: auto;
+      padding: 0.25rem 0;
+      border-radius: 10px;
+    }
+
+    a {
+        color: black;
+    }
+
+    p {
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+
+    div {
+        display: block;
+    }
+
+    blockquote {
+        color: #373953;
+        border-left: 5px solid #333;
+        padding: 0 1em;
+        margin-top: 2em;
+        margin-bottom: 2em;
+        border-radius: 5px;
     }
     
-    p,
-    li,
-    strong,
-    blockquote,
-    table * {
-        @apply text-zinc-700;
+    code {
+        margin: 0;
+        background-color: #6E768166;
+        padding: 0.2em 0.4em;
+        font-size: 95%;
+        white-space: break-spaces;
+        border-radius: 6px;
+    }
+    
+    pre {
+        margin-bottom: 1.5em;
+        background-color: rgba(34, 37, 41, 1);
+        padding: 16px 0;
+        border-radius: 8px;
+    }
+    
+    pre code {
+        font-family: monospace;
+        display: block;
+        padding: 0 20px;
+        color:  rgba(215, 215, 215, 1);
+        background-color: rgba(34, 37, 41, 1);
+        line-height: 1.4em;
+        font-size: 0.95em;
+        overflow-x: auto;
+        white-space: pre;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    pre code .keyword {
+        color: rgba(253, 71, 88, 1);
+    }
+
+    pre code .type {
+        color: rgba(255, 219, 146, 1);
+    }
+
+    pre code .call {
+        color: rgba(158, 241, 221, 1);
+    }
+
+    pre code .property {
+        color: rgba(111, 185, 87, 1);
+    }
+
+    pre code .number {
+        color: rgba(247, 247, 255, 1);
+    }
+
+    pre code .string {
+        color: rgba(253, 244, 255, 1);
+    }
+
+    pre code .comment {
+        color: rgba(107, 102, 107, 1);
+    }
+
+    pre code .dotAccess {
+        color: rgba(158, 241, 221, 1);
+    }
+
+    pre code .preprocessing {
+        color: #C77C49;
     }
 
     .utterances {
@@ -42,6 +182,10 @@
         padding-right: 1rem;
     }
 
+    .component {
+        @apply w-[85%] my-6 md:my-8 lg:my-11 mx-auto overflow-auto lg:w-[980px];
+    }
+    
     .BlogNavBarMenuLink {
         @apply leading-calc-blog-nav text-blog-c-nav-text hover:text-blog-c-brand;
         display: block;
