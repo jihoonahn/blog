@@ -3,11 +3,6 @@
 @tailwind utilities;
 
 @layer base {
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
     html {
         @apply font-sans;
         display: block;
@@ -171,6 +166,10 @@
         color: #C77C49;
     }
 
+    .blogMobileNav {
+        height: 100vh;
+    }
+    
     .utterances {
         border-radius: 10px;
         background: #f6f8fa;
@@ -186,7 +185,7 @@
         @apply w-[85%] my-6 md:my-8 lg:my-11 mx-auto overflow-auto lg:w-[980px];
     }
     
-    .BlogNavBarMenuLink {
+    .blogNavBarMenuLink {
         @apply leading-calc-blog-nav text-blog-c-nav-text hover:text-blog-c-brand;
         display: block;
         padding: 0 12px;
@@ -195,12 +194,12 @@
         white-space: nowrap;
     }
 
-    .BlogPagination {
+    .blogPagination {
         @apply rounded-full bg-blog-c-pagination-button hover:bg-blog-c-pagination-button-hover;
         transition: 250ms background-color linear,250ms color linear,250ms opacity linear;
     }
 
-    .BlogDocsearch .DocSearch{
+    .blogDocsearch .DocSearch{
         --docsearch-primary-color: '#5364FF';
         --docsearch-highlight-color: '#5364FF';
         --docsearch-text-color: '#213547';
@@ -213,18 +212,18 @@
         --docsearch-footer-background: '#FFFFFF';
     }
     
-    .BlogDocsearch .DocSearch-Button-Keys {
+    .blogDocsearch .DocSearch-Button-Keys {
         display: none;
     }
     
-    .BlogDocsearch .DocSearch-Button-Placeholder {
+    .blogDocsearch .DocSearch-Button-Placeholder {
         @apply hover:text-blog-c-brand;
         font-size: 13px;
         font-weight: 500;
         padding: 0 0 0 6px;
     }
     
-    .BlogDocsearch .DocSearch-Search-Icon {
+    .blogDocsearch .DocSearch-Search-Icon {
         @apply md:mr-1.5 md:w-3.5 md:h-3.5;
         top: 1px;
     }

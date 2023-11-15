@@ -50,18 +50,6 @@ struct PostLayout: Component {
                     .crossorigin("anonymous"),
                     .async()
                 )
-//                .style("""
-//                .utterances {
-//                    border-radius: 10px;
-//                    background: #f6f8fa;
-//                    max-width: 768px;
-//                }
-//
-//                .utterances-frame {
-//                    padding-left: 1rem;
-//                    padding-right: 1rem;
-//                }
-//                """)
             }
         }
     }

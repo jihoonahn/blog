@@ -8,10 +8,13 @@ struct PostsLayout: Component {
                 Article {
                     Link(url: item.path.absoluteString) {
                         Div {
-                            Image(item.metadata.postImage)
-                                .class("w-full h-auto")
+                            Figure {
+                                Image(item.metadata.postImage)
+                                    .class("py-0 transition duration-300 ease-in-out group-hover:scale-105")
+                            }
+                            .class("h-full object-cover w-auto")
                         }
-                        .class("rounded-2xl overflow-hidden transition-transform transform-gpu group-hover:scale-[1.03]")
+                        .class("block rounded-3xl overflow-hidden")
                         Div {
                             Paragraph(item.tags.map{ $0.string }.joined(separator: ", "))
                                 .class("text-blog-c-tag-text text-xs my-1")
@@ -25,7 +28,7 @@ struct PostsLayout: Component {
                     .class("group")
                 }
             }
-            .class("flex max-w-screen-md flex-col gap-y-4 list-none md:gap-y-6 lg:gap-y-8")
+            .class("flex max-w-screen-md flex-col m-0 gap-y-4 list-none md:gap-y-6 lg:gap-y-8")
         }
         .class("flex flex-col items-center gap-20")
     }

@@ -17,7 +17,7 @@ struct Pagination: Component {
                 Div {
                     previewLink()
                 }
-                .class("BlogPagination")
+                .class("blogPagination")
                 Div {
                     Text("\(activePage) / \(numberOfPages)")
                 }
@@ -25,7 +25,7 @@ struct Pagination: Component {
                 Div {
                     nextLink()
                 }
-                .class("BlogPagination")
+                .class("blogPagination")
             }
             .class("flex relative px-4 items-center max-w-xs mx-auto my-0")
         }

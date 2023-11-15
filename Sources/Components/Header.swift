@@ -14,26 +14,37 @@ struct Header: Component {
                         Div {
                             Div()
                                 .id("docsearch")
-                                .class("BlogDocsearch")
+                                .class("blogDocsearch")
                         }
                         .class("flex items-center pl-4")
-                        Navigation {
-                            Link(url: "/") {
-                                Text("Blog")
+                        Button {
+                            Span {
+                                Span().class("top-0 left-0 absolute w-full h-0.5 bg-blog-c-nav-text translate-x-0 translate-y-0")
+                                Span().class("top-1.5 left-0 absolute w-full h-0.5 bg-blog-c-nav-text translate-x-0 translate-y-0")
+                                Span().class("top-3 left-0 absolute w-full h-0.5 bg-blog-c-nav-text translate-x-0 translate-y-0")
                             }
-                            .class("BlogNavBarMenuLink")
-                            Link(url: "/about") {
-                                Text("About")
-                            }
-                            .class("BlogNavBarMenuLink")
+                            .class("relative h-4 w-4")
                         }
-                        .class("hidden md:flex")
+                        .id("mobileNavButton")
+                        .accessibilityLabel("Mobile navigation")
+                        .class("cursor-pointer flex w-10 h-blog-nav items-center justify-center md:hidden")
                     }
                     .class("flex justify-end items-center grow")
+                    Navigation {
+                        Link(url: "/") {
+                            Text("Blog")
+                        }
+                        .class("blogNavBarMenuLink")
+                        Link(url: "/about") {
+                            Text("About")
+                        }
+                        .class("blogNavBarMenuLink")
+                    }
+                    .class("colum hidden md:flex")
                 }
                 .class("flex justify-between mx-auto my-0 max-w-3xl")
             }
-            .class("bg-blog-c-nav backdrop-saturate-125 backdrop-blur-xl pl-6 pr-4")
+            .class("pl-6 pr-4")
             Script(.src("https://cdn.jsdelivr.net/npm/@docsearch/js@3"))
             Script(.src("/static/scripts/header.js"))
             Script(
@@ -41,6 +52,7 @@ struct Header: Component {
                 .src("/static/scripts/docSearch.js")
             )
         }
-        .class("fixed top-0 left-0 w-full z-20")
+        .id("header")
+        .class("fixed top-0 left-0 w-full z-20 bg-blog-c-nav backdrop-saturate-125 backdrop-blur-xl")
     }
 }
