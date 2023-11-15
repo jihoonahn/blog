@@ -10,7 +10,7 @@ struct TagListPage: Component {
                 List(tags) { tag in
                     ListItem {
                         Link(tag.string, url: context.site.url(for: tag))
-                            .class("p-2.5 border-2 bg-white border-stone-600 rounded-lg hover:bg-black text-black hover:text-white")
+                            .class("p-2.5 border-2 border-stone-600 bg-white rounded-lg text-black transition duration-200 ease-in-out hover:bg-black hover:text-white")
                     }
                     .class("inline-block mx-1 my-3")
                 }
