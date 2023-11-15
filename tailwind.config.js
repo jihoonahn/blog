@@ -2,6 +2,7 @@
 module.exports = {
   content: [
     "./Sources/*/*.swift",
+    "./Sources/**/*/*.swift",
     "./Sources/Styles/global.css"
   ],
   theme: {
@@ -28,7 +29,8 @@ module.exports = {
         'blog-c-preview-page': '#F6F8FA',
         'blog-c-card': '#FFFFFF',
         'blog-c-footer': '#F5F5F7',
-        'blog-c-brand': '#5364FF',
+        'blog-c-brand-blue': '#5364FF',
+        'blog-c-brand-sky': '#708FFF',
         'blog-c-utterances': '#F6F8FA',
         'blog-c-divider': 'rgba(60, 60, 60, .12)'
       },
