@@ -5,6 +5,14 @@ struct TagDetailPage: Component {
     let pageNumber: Int
 
     var body: Component {
-        Div()
+        Section {
+            Div {
+                ArchiveLayout(
+                    title: selectedTag?.string ?? "Tag Archive",
+                    items: items,
+                    context: context
+                )
+            }
+        }
     }
 }
