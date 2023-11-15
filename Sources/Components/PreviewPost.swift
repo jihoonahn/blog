@@ -14,7 +14,7 @@ struct PreviewPost: Component {
                             Paragraph("Preview Post")
                                 .class("text-gray-500 m-0.5")
                             H3(items[index-1].title)
-                                .class("text-2xl font-medium m-0.5")
+                                .class("text-black text-2xl font-medium m-0.5")
                         }
                         .class("flex-1 flex flex-col leading-none min-w-0 items-start")
                     }
@@ -29,7 +29,7 @@ struct PreviewPost: Component {
                             Paragraph("Next Post")
                                 .class("text-gray-500 m-0.5")
                             H3(items[index + 1].title)
-                                .class("text-2xl font-medium m-0.5")
+                                .class("text-black text-2xl font-medium m-0.5")
                         }
                         .class("flex-1 flex flex-col leading-none min-w-0 items-end")
                     }

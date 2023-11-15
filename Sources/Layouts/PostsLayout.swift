@@ -19,7 +19,7 @@ struct PostsLayout: Component {
                             Paragraph(item.tags.map{ $0.string }.joined(separator: ", "))
                                 .class("text-blog-c-tag-text text-xs my-1")
                             H3(item.title)
-                                .class("text-heading-3 font-semibold my-3")
+                                .class("text-heading-3 font-semibold text-black my-3")
                             Time(DateFormatter.time.string(from: item.date))
                                 .class("text-base font-light text-blog-c-time-text")
                         }

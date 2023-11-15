@@ -7,7 +7,7 @@ struct ErrorPage: Component {
                         Span {
                             Text("404")
                         }
-                        .class("text-blog-c-brand")
+                        .class("text-blog-c-brand-blue")
                     }
                     .class("mb-8 font-bold text-9xl")
                     Paragraph("Sorry, we couldn't find this page.")

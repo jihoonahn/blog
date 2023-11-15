@@ -13,7 +13,7 @@ struct PageLayout: Component {
     var body: Component {
         Div {
             H1(title)
-                .class("text-heading-2")
+                .class("text-heading-2 font-semibold")
             component()
         }
         .class("px-4 sm:px-8 max-w-3xl mx-auto")

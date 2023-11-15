@@ -31,6 +31,7 @@ struct PostLayout: Component {
                 Figure {
                     Div {
                         Image(item.metadata.postImage)
+                            .class("p-0")
                     }
                 }
                 .class("component rounded-xl overflow-hidden min-w-[85%] lg:min-w-[320px]")

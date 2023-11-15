@@ -1,17 +1,15 @@
 struct AboutPage: Component {
     var body: Component {
-        PageLayout(
-            title: "About"
-        ) {
+        PageLayout(title: "About") {
             Div {
                 Image("/static/images/about.svg")
                 Paragraph {
                     Text("This blog is created using ")
                     Link("Publish", url: "https://github.com/JohnSundell/Publish")
-                        .class("text-blog-c-brand")
+                        .class("text-blog-c-brand-blue")
                     Text(" and ")
                     Link("Tailwind CSS", url: "https://tailwindcss.com/")
-                        .class("text-blog-c-brand")
+                        .class("text-blog-c-brand-blue")
                     Text(".")
                 }
                 .class("text-center")
@@ -24,10 +22,10 @@ struct AboutPage: Component {
                 Paragraph {
                     Text("You can contact me via ")
                     Link("Email", url: "mailto:jihoonahn.dev@gmail.com")
-                        .class("text-blog-c-brand")
+                        .class("text-blog-c-brand-blue")
                     Text(" and ")
                     Link("LinkedIn", url: "https://www.linkedin.com/in/ahnjihoon/")
-                        .class("text-blog-c-brand")
+                        .class("text-blog-c-brand-blue")
                     Text(".")
                 }
             }
