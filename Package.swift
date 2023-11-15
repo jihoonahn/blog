@@ -20,7 +20,7 @@ let package = Package(
                 .product(name: "Publish", package: "publish"),
             ],
             path: "Sources",
-            exclude: ["Styles/input.css"]
+            exclude: ["Styles/global.css"]
         )
     ]
 )
