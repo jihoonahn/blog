@@ -1,10 +1,10 @@
 struct PostsLayout: Component {
-    let item: [Item<Blog>]
+    let items: [Item<Blog>]
     let context: PublishingContext<Blog>
 
     var body: Component {
         Div {
-            List(item) { item in
+            List(items) { item in
                 Article {
                     Link(url: item.path.absoluteString) {
                         Div {

@@ -5,7 +5,7 @@ struct IndexPage: Component {
     var body: Component {
         Div {
             Section {
-                PostsLayout(item: context.paginatedItems[pageNumber-1], context: context)
+                PostsLayout(items: context.paginatedItems[pageNumber-1], context: context)
                 Pagination(activePage: pageNumber, numberOfPages: context.paginatedItems.count) { num in
                     context.index.paginatedPath(pageIndex: num - 1).absoluteString
                 }
