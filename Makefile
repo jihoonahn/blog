@@ -11,4 +11,4 @@ run:
 	publish generate
 tailwind:
 	@echo "👻 Start TailWindCSS inside $(EXECUTABLE_NAME)"
-	./tailwindcss -i Sources/Styles/global.css -o Output/styles.css --watch
+	npx tailwindcss build Sources/Styles/global.css -o Output/styles.css -c tailwind.config.js
