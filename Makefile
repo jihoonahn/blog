@@ -8,7 +8,7 @@ start:
 	publish run
 run: 
 	@echo "🍎 run $(EXECUTABLE_NAME)..."
-	publish generate
+	swift run Blog
 tailwind:
 	@echo "👻 Start TailWindCSS inside $(EXECUTABLE_NAME)"
 	npx tailwindcss build Sources/Styles/global.css -o Output/styles.css -c tailwind.config.js
