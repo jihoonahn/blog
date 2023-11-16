@@ -28,7 +28,6 @@ try Blog().publish(
     withTheme: .blog,
     deployedUsing: .gitHub("jihoonahn/blog"),
     additionalSteps: [
-        .paginatedPages(),
-        .tailwindcss()
+        .paginatedPages()
     ]
 )
