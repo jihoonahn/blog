@@ -32,7 +32,12 @@ extension PublishingStep where Site == Blog {
                         Page(
                             path: context.site.paginatedPath(for: tag, pageIndex: pageIndex),
                             content: .init(title: "Blog Tags", description: "Tags for Jihoonahn's Blog", body: .init(components: {
-                                Div()
+                                TagDetailPage(
+                                    items: context.paginatedItems(for: tag)[pageIndex],
+                                    context: context,
+                                    selectedTag: tag,
+                                    pageNumber: pageIndex + 1
+                                )
                             }))
                         )
                     )

@@ -17,11 +17,11 @@ struct PostsLayout: Component {
                         .class("block rounded-3xl overflow-hidden")
                         Div {
                             Paragraph(item.tags.map{ $0.string }.joined(separator: ", "))
-                                .class("text-blog-c-tag-text text-xs my-1")
+                                .class("text-blog-c-tag-text text-xs md:text-sm my-1")
                             H3(item.title)
-                                .class("text-heading-3 font-semibold text-black my-3")
+                                .class("text-heading-4 md:text-heading-3 font-semibold text-black my-3")
                             Time(DateFormatter.time.string(from: item.date))
-                                .class("text-base font-light text-blog-c-time-text")
+                                .class("text-sm md:text-base font-light text-blog-c-time-text")
                         }
                         .class("p-4")
                     }

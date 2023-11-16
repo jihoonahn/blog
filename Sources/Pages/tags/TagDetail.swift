@@ -12,6 +12,13 @@ struct TagDetailPage: Component {
                     items: items,
                     context: context
                 )
+                if items.count > Constants.numberOfItemsPerTagsPage || pageNumber > 1 {
+                    if let selectedTag {
+                        Pagination(activePage: pageNumber, numberOfPages: context.paginatedItems(for: selectedTag).count) { num in
+                            context.site.paginatedPath(for: selectedTag, pageIndex: num - 1).absoluteString
+                        }
+                    }
+                }
             }
         }
     }
