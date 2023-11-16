@@ -14,6 +14,7 @@ window.onload = function() {
   attachEvent('#mobileNavButton', 'click', function(_, elem) {
     document.body.classList.toggle('overflow-hidden');
     document.querySelector('#blogNavScreen')?.classList.toggle('hidden');
+    document.querySelector('#mobileNavButton')?.classList.toggle('expanded');
   });
 
   function applyHeaderStylesOnResize() {
