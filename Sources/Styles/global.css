@@ -186,10 +186,7 @@
     }
     
     .blogNavBarMenuLink {
-        @apply leading-calc-blog-nav text-blog-c-nav-text hover:text-blog-c-brand-blue;
-        display: block;
-        padding: 0 12px;
-        font-size: 13px;
+        @apply text-blog-c-nav-text hover:text-blog-c-brand-blue;
         transition: color .25s;
         white-space: nowrap;
     }
@@ -217,8 +214,7 @@
     }
     
     .blogDocsearch .DocSearch-Button-Placeholder {
-        @apply hover:text-blog-c-brand-blue;
-        font-size: 13px;
+        @apply text-xs hover:text-blog-c-brand-blue;
         font-weight: 500;
         padding: 0 0 0 6px;
     }
