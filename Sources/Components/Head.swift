@@ -24,7 +24,7 @@ extension Node where Context == HTML.DocumentContext {
                 .rel(.stylesheet),
                 .href("https://cdn.jsdelivr.net/npm/@docsearch/css@3")
             ),
-            .stylesheet("styles.css"),
+            .stylesheet("/styles.css"),
             .viewport(.accordingToDevice),
             .unwrap(site.favicon, { .favicon($0) }),
             .unwrap(Path.defaultForRSSFeed, { path in
