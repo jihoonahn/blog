@@ -17,11 +17,16 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-spm-    
       
-      - name: Setup Publish
-        run: make install
-        
-      - name: Blog Generate 
+      - name: Setup Nodejs
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      
+      - name: Blog Generate
         run: make run
+        
+      - name: Run Tailwind CSS
+        run: make tailwind
         
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
