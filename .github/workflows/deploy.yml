@@ -22,7 +22,7 @@ jobs:
         with:
           node-version: '20'
       
-      - name: Blog Generate
+      - name: Generate blog
         run: make run
         
       - name: Run Tailwind CSS
