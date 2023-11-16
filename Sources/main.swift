@@ -24,10 +24,13 @@ struct Blog: Website {
     var socialMediaLinks: [SocialMediaLink] { [.github, .linkedIn, .email, .rss] }
 }
 
-try Blog().publish(
-    withTheme: .blog,
-    deployedUsing: .gitHub("jihoonahn/blog"),
-    additionalSteps: [
-        .paginatedPages()
-    ]
-)
+try Blog().publish(using: [
+    .optional(.copyResources()),
+    .addMarkdownFiles(),
+    .paginatedPages(),
+    .generateHTML(withTheme: .blog),
+    .generateRSSFeed(including: [.blog]),
+    .generateSiteMap(),
+    .move404File(),
+    .deploy(using: .gitHub("jihoonahn/blog"))
+])
