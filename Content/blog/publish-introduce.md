@@ -3,15 +3,10 @@ title: Publish 소개
 date: 2023-08-22 16:51
 tags: Swift, Publish, Web, Theory
 description: Swift로 Static Site 만들기
-postImage: https://github.com/Jihoonahn/Blog/assets/68891494/6fbcf31d-c0f7-4aa9-ae4d-bdb9bc6f7ee8
+postImage: https://github.com/jihoonahn/blog/assets/68891494/3404041c-f48c-4471-a9cb-6e3d00d3bfaf
 ---
 
-오늘은 Swift로 Static Site 만드는 법에 대해서 글을 작성할 것입니다. <br/>
-와글와글 이후에 작성하는 내용으로, Publish에 대해서 상세하게 다룰 예정입니다.
-
-일단 시작하겠습니다!
-
----
+## What is Publish 
 
 [Publish](https://github.com/JohnSundell/Publish.git)는 John Sundell님이 만든 정적사이트 생성기 입니다. <br/>
 Markdown Parser인 Ink와 Swift에서 HTML, XML, RSS를 작성하기 위한 DSL인 Plot을 사용합니다. <br/>
@@ -78,8 +73,7 @@ publish에서 제공하는 기본 화면이 보이게 됩니다.
 
 이렇게 수정하고 다시 빌드 해보면?
 
-<img width="50%" src="https://github.com/Jihoonahn/Blog/assets/68891494/54ad6448-b59a-448d-83a2-d19434d758df"></img>
-<img width="50%" src="https://github.com/Jihoonahn/Blog/assets/68891494/38ba74d9-1267-48d1-a4bb-df94a9f57318"></img>
+<img width="100%" src="https://github.com/jihoonahn/blog/assets/68891494/707f8bc8-cc8b-4202-8444-3baef852be14"></img>
 
 이렇게 내용이 잘 적용이 된것을 확인 할 수 있습니다.
 

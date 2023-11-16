@@ -3,13 +3,10 @@ title: Scade 소개
 date: 2023-03-17 21:24
 tags: Swift, Cross Platform, Scade
 description: Swift로 크로스플랫폼 만드는 방법을 아시나요?
-postImage: https://user-images.githubusercontent.com/68891494/235434671-c0c5b725-e201-4239-95d4-814a15670081.svg
+postImage: https://github.com/jihoonahn/blog/assets/68891494/1f836083-815e-4bc1-b92e-89cf2251a221
 ---
 
-오늘의 Post는 Swift로 CrossPlatform 개발이 가능하게 하는 Scade에 대한 소개글입니다.
-좀 많이 마이너해서.. 다들 처음 들어봤을 확률이 굉장히 높지만 흥미를 가질 수 있는 주제라서 글을 작성하게 되었습니다.
-
-### What is Scade?
+## What is Scade?
 
 Swift로 iOS 와 Android 개발을 동시에 할 수 있는 크로스 플랫폼입니다.
 
@@ -71,10 +68,9 @@ Scade IDE 우측에 있는 옵션들을 수정하여, Component를 설정 할 �
 ### 실행
 한번 Android와 iOS에서 잘 돌아가는지 확인해 보겠습니다.
 
-<img width=30% src = "https://user-images.githubusercontent.com/68891494/226190161-740185f6-9375-40de-aec8-ba1d46580936.png"></img>
-<img width=30% src = "https://user-images.githubusercontent.com/68891494/226190164-d5458e5c-9a96-4998-8c02-9037a8d4a2bc.png"></img>
+<img width=100% src = "https://github.com/jihoonahn/blog/assets/68891494/eddc178e-3b54-431d-8931-6b73c77fe6f6"></img>
 
-좌 Android Emulator, 우 iOS Simulator
+좌 iOS Simulator, 우 Android Emulator
 
 같은 UI로 잘 돌아가는 것을 확인 할 수 있습니다. 
 

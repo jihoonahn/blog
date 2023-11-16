@@ -2,20 +2,16 @@
 title: Publish 사용하기 part 1
 date: 2023-09-12 04:03
 tags: Swift, Publish, Web, Theory
-description: Swift publish 커스텀하기
-postImage: https://github.com/Jihoonahn/Blog/assets/68891494/c463ed7f-c64d-45d0-8900-fd5a8d99ce85
+description: Swift publish 구조 살펴보기
+postImage: https://github.com/jihoonahn/blog/assets/68891494/b671b6fb-65cf-438e-8552-46b19489fdeb
 ---
 
-오늘은 publish를 커스텀하는 방법에 대해서 글을 작성할 것입니다. <br/>
-
-일단 시작하겠습니다!
-
----
+## Publish 구조 살펴보기
 
 기존 처음 Publish 프로젝트를 생성하고, `main.swift` 코드입니다.
 
 ```swift
-import Foundation
+import Foundatio
 import Publish
 import Plot
 
