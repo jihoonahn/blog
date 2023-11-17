@@ -21,6 +21,7 @@ window.onload = function() {
     if (lastKnownInnerWidth<768) {
       document.body.classList.remove('overflow-hidden');
       document.querySelector('#blogNavScreen')?.classList.add('hidden');
+      document.querySelector('#mobileNavButton')?.classList.remove('expanded');
     }
   }
 
