@@ -8,6 +8,7 @@ function attachEvent(selector, event, fn) {
 }
 
 window.onload = function() {
+
   let lastKnownInnerWidth = window.innerWidth
   let ticking = true;
 
