@@ -1,1 +1,1 @@
-# Jihoonahn Blog ⎈
+# Jihoonahn Blog
