@@ -47,7 +47,7 @@ struct BlogHTMLFactory: HTMLFactory {
         context: Publish.PublishingContext<Blog>
     ) throws -> HTML? {
         BaseLayout(for: page, context: context) {
-            TagListPage(tags: page.tags.reversed(), context: context)
+            TagListPage(tags: page.tags, context: context)
         }
     }
     

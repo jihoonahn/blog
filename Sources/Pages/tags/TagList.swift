@@ -1,5 +1,5 @@
 struct TagListPage: Component {
-    let tags: [Tag]
+    let tags: Set<Tag>
     let context: PublishingContext<Blog>
 
     var body: Component {
