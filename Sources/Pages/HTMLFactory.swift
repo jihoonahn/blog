@@ -57,7 +57,7 @@ struct BlogHTMLFactory: HTMLFactory {
         context: Publish.PublishingContext<Blog>
     ) throws -> HTML? {
         BaseLayout(for: page, context: context) {
-            TagDetailPage(
+            TagDetailsPage(
                 items: context.items(
                     taggedWith: page.tag,
                     sortedBy: \.date
