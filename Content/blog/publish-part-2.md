@@ -961,7 +961,8 @@ items: context.items(
 
 위에서 진행한 내용은 [예시코드](https://github.com/Jihoonahn/Blog-Document/tree/main/Publish/part2) 를 확인할 수 있습니다.
 
---- 
+---
+
 이번 글에서는 Publish에서 HTML을 작성하는 방법과, 직접 예제를 만들어보며 Publish를 이용해서 실질적인 웹사이트를 만들어 봤습니다.
 
 다음글에서는 Publish로 만든 웹사이트를 배포하는 법에 대해서 작성할 예정입니다.
