@@ -16,7 +16,7 @@ struct PostLayout: Component {
                     Div {
                         Div {
                             H1(item.title)
-                                .class("leading-normal font-semibold text-heading-2 md:text-heading-1")
+                                .class("m-0 leading-normal font-semibold text-heading-2 md:text-heading-1")
                         }
                     }
                     .class("component md:w-[654px]")
