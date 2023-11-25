@@ -13,15 +13,15 @@ window.onload = function() {
 
   attachEvent('#mobileNavButton', 'click', function(_, elem) {
     document.body.classList.toggle('overflow-hidden');
-    document.querySelector('#blogNavScreen')?.classList.toggle('hidden');
-    document.querySelector('#mobileNavButton')?.classList.toggle('expanded');
+    document.getElementById('blogNavScreen')?.classList.toggle('hidden');
+    document.getElementById('mobileNavButton')?.classList.toggle('expanded');
   });
 
   function applyHeaderStylesOnResize() {
     if (lastKnownInnerWidth<768) {
       document.body.classList.remove('overflow-hidden');
-      document.querySelector('#blogNavScreen')?.classList.add('hidden');
-      document.querySelector('#mobileNavButton')?.classList.remove('expanded');
+      document.getElementById('blogNavScreen')?.classList.add('hidden');
+      document.getElementById('mobileNavButton')?.classList.remove('expanded');
     }
   }
 
@@ -32,5 +32,5 @@ window.onload = function() {
 window.onpageshow = function() {
     const navButton = document.getElementById('mobileNavButton');
     document.body.classList.remove('overflow-hidden');
-    document.querySelector('#header nav')?.classList.add('hidden');
+    document.getElementById('header nav')?.classList.add('hidden');
 };
