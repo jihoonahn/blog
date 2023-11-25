@@ -18,7 +18,7 @@ struct Blog: Website {
     var url = URL(string: "https://blog.jihoon.me")!
     var name = "jihoon.me"
     var description = "This is a personal blog for iOS Developer jihoonahn."
-    var language: Language { .english }
+    var language: Language { .korean }
     var imagePath: Path? { nil }
     var favicon: Favicon? { Favicon(path: "/favicon.ico", type: "image/x-icon") }
     var socialMediaLinks: [SocialMediaLink] { [.github, .linkedIn, .email, .rss] }
