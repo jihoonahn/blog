@@ -9,6 +9,7 @@
     "sitemap_alternate_links": true,
     "stop_urls": ["/404"],
     "selectors": {
+        "lvl0": "Blog",
         "lvl1": "h1",
         "lvl2": "article h2",
         "lvl3": "article h3",
