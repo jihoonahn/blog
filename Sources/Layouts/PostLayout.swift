@@ -31,10 +31,10 @@ struct PostLayout: Component {
                 Figure {
                     Div {
                         Image(item.metadata.postImage)
-                            .class("p-0")
+                            .class("my-0")
                     }
                 }
-                .class("component rounded-xl overflow-hidden min-w-[85%] lg:min-w-[320px]")
+                .class("component rounded-xl border border-gray-200 overflow-hidden min-w-[85%] lg:min-w-[320px]")
                 Div {
                     Div {
                         Node.contentBody(item.body)

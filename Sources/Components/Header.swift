@@ -7,10 +7,16 @@ struct Header: Component {
                 Div {
                     Link(url: "/") {
                         Image("/static/images/icon.svg")
-                            .class("max-h-11 p-0")
+                            .class("max-h-11 my-0")
                     }
                     .class("flex items-center h-blog-nav")
                     Div {
+                        Div {
+                            Div()
+                                .id("docsearch")
+                                .class("blogDocsearch")
+                        }
+                        .class("flex items-center pl-4")
                         Button {
                             Span {
                                 Span().class("transition duration-200 top-0 left-0 absolute w-full h-0.5 bg-blog-c-nav-text ease translate-x-0 translate-y-0 group-[.expanded]:rotate-45 group-[.expanded]:translate-y-0 group-[.expanded]:top-1.5")
@@ -34,6 +40,7 @@ struct Header: Component {
                         }
                         .class("flex list-none m-0")
                     }
+                    .id("blogNav")
                     .class("hidden md:flex")
                 }
                 .class("flex justify-between mx-auto my-0 max-w-3xl")

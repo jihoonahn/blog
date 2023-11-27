@@ -10,11 +10,11 @@ struct PostsLayout: Component {
                         Div {
                             Figure {
                                 Image(item.metadata.postImage)
-                                    .class("py-0 transition duration-300 ease-in-out group-hover:scale-105")
+                                    .class("my-0 transition duration-300 ease-in-out group-hover:scale-105")
                             }
                             .class("h-full object-cover w-auto")
                         }
-                        .class("block rounded-3xl overflow-hidden")
+                        .class("block border border-gray-200 rounded-3xl overflow-hidden")
                         Div {
                             Paragraph(item.tags.map{ $0.string }.joined(separator: ", "))
                                 .class("text-blog-c-tag-text text-xs md:text-sm my-1")

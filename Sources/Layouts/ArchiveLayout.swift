@@ -12,9 +12,9 @@ struct ArchiveLayout: Component {
                     Link(url: item.path.absoluteString) {
                         Figure {
                             Image(item.metadata.postImage)
-                                .class("rounded-lg md:rounded-2xl p-0")
+                                .class("m-0")
                         }
-                        .class("my-auto self-start w-[130px] md:w-[265px]")
+                        .class("my-auto border border-gray-200 rounded-lg md:rounded-2xl overflow-hidden self-start w-[130px] md:w-[265px]")
                         Div {
                             Paragraph(item.tags.map{ $0.string }.joined(separator: ","))
                                 .class("text-blog-c-tag-text text-xs md:text-sm text-black m-0")

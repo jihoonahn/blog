@@ -14,6 +14,7 @@ extension Node where Context == HTML.DocumentContext {
         }
 
         return .head(
+            .attribute(named: "lang", value: context.site.language.rawValue),
             .encoding(.utf8),
             .siteName(site.name),
             .url(site.url(for: page)),
