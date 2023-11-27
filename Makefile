@@ -15,3 +15,7 @@ run:
 tailwind:
 	@echo "👻 Start TailWindCSS inside $(EXECUTABLE_NAME)"
 	npx tailwindcss build Sources/Styles/global.css -o Output/styles.css -c tailwind.config.js
+
+docsearch:
+	@echo "❄️ Running Docsearch docker"
+	docker run -it --env-file=.env -e "CONFIG=$(cat docsearch.config.json | jq -r tostring)" algolia/docsearch-scraper
