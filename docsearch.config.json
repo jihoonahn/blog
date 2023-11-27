@@ -9,12 +9,6 @@
     "sitemap_alternate_links": true,
     "stop_urls": ["/404"],
     "selectors": {
-        "lvl0": {
-            "selector": "(//header[contains(@id, 'header')] //nav //ul //a /text())[last()]",
-            "type": "xpath",
-            "global": true,
-            "default_value": "Blog"
-        },
         "lvl1": "h1",
         "lvl2": "article h2",
         "lvl3": "article h3",
