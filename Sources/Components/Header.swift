@@ -79,7 +79,7 @@ struct Header: Component {
             Script(.src("/static/scripts/header.js"))
             Script(
                 .type("text/javascript"),
-                .src("/static/scripts/docSearch.js")
+                .src("/static/scripts/docsearch.js")
             )
         }
         .id("header")
