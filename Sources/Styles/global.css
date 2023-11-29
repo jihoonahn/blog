@@ -183,7 +183,7 @@
     }
 
     .component {
-        @apply w-[85%] my-6 md:my-8 lg:my-11 mx-auto overflow-auto lg:w-[980px];
+        @apply text-center w-[85%] my-6 md:my-8 lg:my-11 mx-auto overflow-auto lg:w-[980px];
     }
     
     .blogNavBarMenuLink {
