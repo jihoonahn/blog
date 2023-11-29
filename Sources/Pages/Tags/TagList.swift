@@ -4,7 +4,7 @@ struct TagListPage: Component {
 
     var body: Component {
         PageLayout(title: "Tag") {
-            Div {
+            ComponentGroup {
                 Paragraph("A collection of \(tags.count) tags.")
                     .class("text-gray-700")
                 List(tags) { tag in

@@ -3,15 +3,13 @@ struct IndexPage: Component {
     let context: PublishingContext<Blog>
     
     var body: Component {
-        Div {
-            Section {
+        PageLayout(title: "Post") {
+            ComponentGroup {
                 PostsLayout(items: context.paginatedItems[pageNumber-1], context: context)
                 Pagination(activePage: pageNumber, numberOfPages: context.paginatedItems.count) { num in
                     context.index.paginatedPath(pageIndex: num - 1).absoluteString
                 }
             }
-            .class("mx-auto w-full px-6 lg:px-0")
         }
-        .class("flex lg:flex-row flex-col-reverse")
     }
 }

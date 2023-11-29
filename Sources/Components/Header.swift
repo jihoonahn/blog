@@ -36,7 +36,7 @@ struct Header: Component {
                                 context.sections[sectionID].title,
                                 url: context.sections[sectionID].path.absoluteString
                             )
-                            .class("blogNavBarMenuLink block py-0 px-3 text-xs leading-calc-blog-nav")
+                            .class("blogNavItem blogNavBarMenuLink block py-0 px-3 text-xs leading-calc-blog-nav")
                         }
                         .class("flex list-none m-0")
                     }
@@ -52,7 +52,7 @@ struct Header: Component {
                                     context.sections[sectionID].title,
                                     url: context.sections[sectionID].path.absoluteString
                                 )
-                                .class("block py-3 blogNavBarMenuLink border-b border-zinc-500 border-solid")
+                                .class("blogNavItem block py-3 blogNavBarMenuLink border-b border-zinc-500 border-solid")
                             }
                             .class("list-none m-0")
                         }

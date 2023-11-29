@@ -11,8 +11,9 @@ struct PageLayout: Component {
     }
     
     var body: Component {
-        Div {
+        Section {
             H1(title)
+                .id("pageTitle")
                 .class("text-heading-2 font-semibold")
             component()
         }
