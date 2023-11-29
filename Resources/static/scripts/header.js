@@ -8,10 +8,10 @@ function attachEvent(selector, event, fn) {
 }
 
 window.onload = function() {
-  let lastKnownInnerWidth = window.innerWidth
+  let lastKnownInnerWidth = window.innerWidth;
   let ticking = true;
 
-  attachEvent('#mobileNavButton', 'click', function(_, elem) {
+  attachEvent('#mobileNavButton', 'click', function() {
     document.body.classList.toggle('overflow-hidden');
     document.getElementById('blogNavScreen')?.classList.toggle('hidden');
     document.getElementById('mobileNavButton')?.classList.toggle('expanded');
@@ -30,7 +30,6 @@ window.onload = function() {
 };
 
 window.onpageshow = function() {
-    const navButton = document.getElementById('mobileNavButton');
-    document.body.classList.remove('overflow-hidden');
-    document.getElementById('header nav')?.classList.add('hidden');
+  document.body.classList.remove('overflow-hidden');
+  document.getElementById('header nav')?.classList.add('hidden');
 };
