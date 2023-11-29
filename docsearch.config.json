@@ -9,14 +9,19 @@
     "sitemap_alternate_links": true,
     "stop_urls": ["/404"],
     "selectors": {
-        "lvl0": "Blog",
-        "lvl1": "h1",
+        "lvl0": {
+            "selector": "//h1[contains(@id, 'pageTitle')]",
+            "type": "xpath",
+            "global": true,
+            "default_value": "Blog"
+        },
+        "lvl1": "article h1",
         "lvl2": "article h2",
         "lvl3": "article h3",
         "lvl4": "article h4",
         "lvl5": "article h5",
         "lvl6": "article h6",
-        "text": "article p, article li, article td, article blockquote, ul a"
+        "text": "section p, section li, section td, section blockquote"
     },
     "strip_chars": " .,;:#"
 }
