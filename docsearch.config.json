@@ -7,7 +7,7 @@
         "https://blog.jihoon.me/sitemap.xml"
     ],
     "sitemap_alternate_links": true,
-    "stop_urls": ["/404"],
+    "stop_urls": ["/404", "/tags/"],
     "selectors": {
         "lvl0": {
             "selector": "//h1[contains(@id, 'pageTitle')]",
