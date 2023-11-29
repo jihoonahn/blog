@@ -13,6 +13,7 @@
             "selector": "//h1[contains(@id, 'pageTitle')]",
             "type": "xpath",
             "global": true,
+            "default_value": "Blog"
         },
         "lvl1": "article h1",
         "lvl2": "article h2",
