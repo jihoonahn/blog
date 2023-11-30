@@ -3,7 +3,7 @@ name: docsearch
 on:
   push:
     branches:
-      - main
+      - gh-pages
 
 concurrency:
   group: docsearch-${{ github.ref }}
