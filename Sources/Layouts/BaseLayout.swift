@@ -15,6 +15,7 @@ struct BaseLayout: HTMLConvertable {
     
     func build() -> HTML {
         HTML(
+            .lang(context.site.language),
             .head(for: location, context: context),
             .body {
                 Header(context: context)
