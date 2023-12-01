@@ -3,7 +3,7 @@ struct IndexPage: Component {
     let context: PublishingContext<Blog>
     
     var body: Component {
-        PageLayout(title: "Post") {
+        PageLayout(title: "Posts") {
             ComponentGroup {
                 PostsLayout(items: context.paginatedItems[pageNumber-1], context: context)
                 Pagination(activePage: pageNumber, numberOfPages: context.paginatedItems.count) { num in
