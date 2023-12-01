@@ -1,6 +1,6 @@
 struct BlogHTMLFactory: HTMLFactory {
     typealias Site = Blog
-    
+
     @HTMLBuilder 
     func makeIndexHTML(
         for index: Publish.Index,
@@ -10,7 +10,7 @@ struct BlogHTMLFactory: HTMLFactory {
             IndexPage(pageNumber: 1, context: context)
         }
     }
-    
+
     @HTMLBuilder 
     func makeSectionHTML(
         for section: Publish.Section<Blog>,
@@ -20,7 +20,7 @@ struct BlogHTMLFactory: HTMLFactory {
             SectionPage(section: section, context: context)
         }
     }
-    
+
     @HTMLBuilder 
     func makeItemHTML(
         for item: Publish.Item<Blog>,
@@ -30,7 +30,7 @@ struct BlogHTMLFactory: HTMLFactory {
             PostPage(item: item, context: context)
         }
     }
-    
+
     @HTMLBuilder 
     func makePageHTML(
         for page: Publish.Page,
@@ -40,7 +40,7 @@ struct BlogHTMLFactory: HTMLFactory {
             PagePage(page: page, context: context)
         }
     }
-    
+
     @HTMLBuilder 
     func makeTagListHTML(
         for page: Publish.TagListPage,
@@ -50,7 +50,7 @@ struct BlogHTMLFactory: HTMLFactory {
             TagListPage(tags: page.tags, context: context)
         }
     }
-    
+
     @HTMLBuilder 
     func makeTagDetailsHTML(
         for page: Publish.TagDetailsPage,

@@ -2,7 +2,7 @@ extension Node where Context == HTML.DocumentContext {
     public static func head<W: Website>(for page: Location, context: PublishingContext<W>) -> Node {
         let site = context.site
         var title = page.title
-        
+
         if title.isEmpty {
             title = site.name
         }

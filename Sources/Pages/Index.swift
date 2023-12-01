@@ -1,7 +1,7 @@
 struct IndexPage: Component {
     let pageNumber: Int
     let context: PublishingContext<Blog>
-    
+
     var body: Component {
         PageLayout(title: "Posts") {
             ComponentGroup {

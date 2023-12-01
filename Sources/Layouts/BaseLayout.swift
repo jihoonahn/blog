@@ -12,7 +12,7 @@ struct BaseLayout: HTMLConvertable {
         self.context = context
         self.component = component
     }
-    
+
     func build() -> HTML {
         HTML(
             .lang(context.site.language),

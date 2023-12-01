@@ -1,7 +1,7 @@
 struct PreviewPost: Component {
     var context: PublishingContext<Blog>
     var item: Item<Blog>
-    
+
     var body: Component {
         Div {
             let items = context.allItems(sortedBy: \.date)

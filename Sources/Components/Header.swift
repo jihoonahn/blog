@@ -1,6 +1,6 @@
 struct Header: Component {
     var context: PublishingContext<Blog>
-    
+
     var body: Component {
         Plot.Header {
             Div {

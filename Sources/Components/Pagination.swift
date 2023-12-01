@@ -33,7 +33,7 @@ struct Pagination: Component {
         .class("mt-16 mb-8")
         .accessibilityLabel("pagination number")
     }
-    
+
     func generatePageURL(_ num: Int) -> String {
         if isDemo {
             return "#"
@@ -41,7 +41,7 @@ struct Pagination: Component {
             return pageURL(num)
         }
     }
-    
+
     func previewLink() -> Component {
         let link: String
         if activePage == 1 {
