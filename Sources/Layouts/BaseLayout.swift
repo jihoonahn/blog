@@ -19,10 +19,13 @@ struct BaseLayout: HTMLConvertable {
             .head(for: location, context: context),
             .body {
                 Header(context: context)
-                Main { component() }
-                    .id("main")
-                    .class("relative z-10 flex flex-1 flex-col min-h-screen pt-20 pb-14")
+                Main {
+                    component()
+                }
+                .id("main")
+                .class("relative z-10 flex flex-1 flex-col min-h-screen pt-20 pb-14")
                 Footer(context: context)
+                BasicScripts()
             }
         )
     }

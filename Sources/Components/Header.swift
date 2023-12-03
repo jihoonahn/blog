@@ -76,7 +76,6 @@ struct Header: Component {
             }
             .class("pl-6 pr-4")
             Script(.src("https://cdn.jsdelivr.net/npm/@docsearch/js@3"))
-            Script(.src("/static/scripts/header.js"))
             Script(
                 .type("text/javascript"),
                 .src("/static/scripts/docsearch.js")

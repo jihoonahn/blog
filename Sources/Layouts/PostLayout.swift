@@ -64,7 +64,6 @@ struct PostLayout: Component {
                 }
                 .class("mx-auto w-[85%] text-left mt-8 md:w-[700px]")
                 PreviewPost(context: context, item: item)
-                Script(.src("/static/scripts/post.js"))
                 Script(
                     .src("https://utteranc.es/client.js"),
                     .repo("jihoonahn/blog"),
