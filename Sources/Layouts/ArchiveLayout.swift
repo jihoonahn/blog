@@ -10,12 +10,12 @@ struct ArchiveLayout: Component {
                         Image(item.metadata.postImage)
                             .class("m-0")
                     }
-                    .class("my-auto border border-gray-200 rounded-lg md:rounded-2xl overflow-hidden self-start w-[130px] md:w-[265px]")
+                    .class("my-auto border border-gray-200 rounded-lg md:rounded-2xl overflow-hidden self-start w-[30%] md:w-[350px]")
                     Div {
                         Paragraph(item.tags.map{ $0.string }.joined(separator: ","))
-                            .class("text-blog-c-tag-text text-xs md:text-sm text-black m-0")
+                            .class("text-blog-c-tag-text text-xs md:text-sm text-black m-0 break-all")
                         H3(item.title)
-                            .class("text-black text-base md:text-heading-3 mb-2 mt-2")
+                            .class("text-black text-base md:text-heading-3 mb-2 mt-2 break-all")
                         Time(DateFormatter.time.string(from: item.date))
                             .class("text-sm md:text-base font-light text-blog-c-time-text")
                     }
