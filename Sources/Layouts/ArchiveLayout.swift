@@ -25,6 +25,6 @@ struct ArchiveLayout: Component {
             }
             .class("m-0 list-none")
         }
-        .class("border-b border-solid border-gray-300")
+        .class("border-b border-solid border-gray-300 md:w-[43rem]")
     }
 }
