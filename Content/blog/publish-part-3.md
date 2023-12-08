@@ -109,7 +109,7 @@ $ publish deploy
 
 이렇게 Deploy가 완료가 됬다는 내용과 함께
 
-<img width=100% src="https://github.com/jihoonahn/ExamplePublish/assets/68891494/38468078-8095-4f96-9038-1c8c8b09c050"></img>
+<img width=100% src="https://github.com/jihoonahn/blog/assets/68891494/696fd9de-df43-4b1d-8581-422e077698e0"></img>
 - ❌ 포스트 올라간 후에 삭제될 Repository입니다.
 
 이렇게 gh-pages에 잘 배포가 되는것을 확인 할 수 있습니다.
