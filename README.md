@@ -24,12 +24,14 @@ publish run
 ```
 You can now access http://localhost:8000/
 
-### Page
+## Page
 - [Blog](https://blog.jihoon.me/)
 - [About](https://blog.jihoon.me/about)
 #### Hidden Page
 - [Tags](https://blog.jihoon.me/tags/)
 
+## Document
+[**blog-document**](https://github.com/jihoonahn/blog-document) is a repository of documents with example codes for your blog.
 
 ## License
 **Blog** is under MIT license. See the [LICENSE](LICENSE) file for more info.
