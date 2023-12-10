@@ -25,7 +25,7 @@ struct Blog: Website {
 }
 
 try Blog().publish(using: [
-    .installPlugin(.splash(withClassPrefix: "")),
+    .codeBlock(),
     .optional(.copyResources()),
     .addMarkdownFiles(),
     .paginatedPages(),
