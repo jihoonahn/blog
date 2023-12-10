@@ -82,6 +82,6 @@ struct Header: Component {
             )
         }
         .id("header")
-        .class("fixed top-0 left-0 w-full z-20 bg-blog-c-nav backdrop-saturate-125 backdrop-blur-xl")
+        .class("relative md:fixed top-0 left-0 w-full z-20 bg-blog-c-nav backdrop-saturate-125 backdrop-blur-xl")
     }
 }

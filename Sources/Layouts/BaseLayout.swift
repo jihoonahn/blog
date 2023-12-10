@@ -23,7 +23,7 @@ struct BaseLayout: HTMLConvertable {
                     component()
                 }
                 .id("main")
-                .class("relative z-10 flex flex-1 flex-col min-h-screen pt-20 pb-14")
+                .class("relative z-10 flex flex-1 flex-col min-h-screen pt-3 md:pt-20 pb-14")
                 Footer(context: context)
                 BasicScripts()
             }
