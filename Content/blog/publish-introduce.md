@@ -64,7 +64,7 @@ publish에서 제공하는 기본 화면이 보이게 됩니다.
 
 실행 시키고 나면, Output 폴더가 생기게 됩니다.
 
-<img width="50%" src="https://github.com/Jihoonahn/Blog/assets/68891494/d4239408-0148-427a-99f7-17cbfd2d87d2"></img>
+<img width="100%" src="https://github.com/Jihoonahn/Blog/assets/68891494/d4239408-0148-427a-99f7-17cbfd2d87d2"></img>
 
 그리고 내용 같은 경우는 `Content` 폴더 안에서 입력이 가능합니다. <br/>
 일단 방금 만든 예시로, 첫번째 post 파일을 수정해 보겠습니다.

@@ -36,9 +36,9 @@ postImage: https://github.com/jihoonahn/blog/assets/68891494/332ea2ed-6ff6-4154-
 
 이런 목차로 진행하기로 정하고 발표 세부 내용을 작성하였습니다.<br/>
 
-<img width="48.25%" src="https://user-images.githubusercontent.com/68891494/229304866-8fb2c86f-efec-4e13-a649-0c0a6ec6d44f.png"></img>
+<img width="100%%" src="https://user-images.githubusercontent.com/68891494/229304866-8fb2c86f-efec-4e13-a649-0c0a6ec6d44f.png"></img>
 
-<img width="48%" src="https://user-images.githubusercontent.com/68891494/229304874-9710b33b-bea3-41f8-922b-d6573346f8d4.png"></img>
+<img width="100%" src="https://user-images.githubusercontent.com/68891494/229304874-9710b33b-bea3-41f8-922b-d6573346f8d4.png"></img>
 
 
 이번 발표에서는 "왜 Publish인가?" 라는 것에 대한 저의 의견이 담는 것이 중요했습니다. <br/>
@@ -73,7 +73,7 @@ postImage: https://github.com/jihoonahn/blog/assets/68891494/332ea2ed-6ff6-4154-
 제가 느끼기에는 아주 긴 발표시간이 지나가고, 개인적으로 긴장해버린 것 때문에 걱정을 많이 했고, 많은 아쉬움이 남았습니다. <br/>
 그래도 첫 발표를 끝냈다는 생각에 저에게 어떤 부분이 부족하고, 나중의 발표에서 어떤 부분을 주의해야할 지도 알게되는 시간이였습니다. <br/>
 
-<img width="50%" src="https://user-images.githubusercontent.com/68891494/229306762-6f3d2cfb-d7fc-47aa-9146-c5fea892c778.png"></img>
+<img width="100%" src="https://user-images.githubusercontent.com/68891494/229306762-6f3d2cfb-d7fc-47aa-9146-c5fea892c778.png"></img>
 리이오님이 좋은 자리를 마련해주셔서, 좋은 경험이 됬습니다. (감사합니다.. 🙏) <br/><br/>
 
 ## 느낀점

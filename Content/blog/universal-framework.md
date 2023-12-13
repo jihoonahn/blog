@@ -26,16 +26,16 @@ Target 아래쪽에 있는 + 버튼을 누릅니다. 그 후 Other -> Aggregate�
 
 <img width="100%" src="https://user-images.githubusercontent.com/68891494/230734262-75b7f72f-2fcb-4e3c-b4ab-540aef965dbe.png"></img>
 
-<img width="49%" src="https://user-images.githubusercontent.com/68891494/230734362-64553040-5617-4c18-88b3-fda6d5e38cdc.png"></img>
+<img width="100%" src="https://user-images.githubusercontent.com/68891494/230734362-64553040-5617-4c18-88b3-fda6d5e38cdc.png"></img>
 
-<img width="49%" src="https://user-images.githubusercontent.com/68891494/230734363-8b0e9098-a026-4ed1-8ef8-aa298ecf3c5c.png"></img>
+<img width="100%" src="https://user-images.githubusercontent.com/68891494/230734363-8b0e9098-a026-4ed1-8ef8-aa298ecf3c5c.png"></img>
 <br/>
 
 ## Add Script
 각각의 Aggregate에 Script를 추가해줍니다.
 
-<img width="49%" src="https://user-images.githubusercontent.com/68891494/230735301-2f7b56e2-f9d7-4265-b4a6-53f4faa975f2.png"></img>
-<img width="49%" src="https://user-images.githubusercontent.com/68891494/230735305-e7f7eb72-bdec-4032-af50-554bdc78fafb.png"></img>
+<img width="100%" src="https://user-images.githubusercontent.com/68891494/230735301-2f7b56e2-f9d7-4265-b4a6-53f4faa975f2.png"></img>
+<img width="100%" src="https://user-images.githubusercontent.com/68891494/230735305-e7f7eb72-bdec-4032-af50-554bdc78fafb.png"></img>
 
 
 

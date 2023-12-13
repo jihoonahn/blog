@@ -41,12 +41,12 @@ Swift코드를 네이티브 iOS와 Android를 바이너리로 컴파일하여, �
 
 IDE 내부에서 FILE| Name | New Project 로 프로젝트를 생성해줍니다.
 
-<img width=51% alt="스크린샷 2023-03-18 오후 3 38 06" src="https://user-images.githubusercontent.com/68891494/226089798-20eb3b08-1c00-4aef-9c32-88c18c04909e.png"></img>
-<img width=39% alt="스크린샷 2023-03-18 오후 3 38 20" src="https://user-images.githubusercontent.com/68891494/226089897-4f4940d2-fc90-4e21-9da5-11f00456b2a4.png"></img>
+<img width=100% alt="스크린샷 2023-03-18 오후 3 38 06" src="https://user-images.githubusercontent.com/68891494/226089798-20eb3b08-1c00-4aef-9c32-88c18c04909e.png"></img>
+<img width=100% alt="스크린샷 2023-03-18 오후 3 38 20" src="https://user-images.githubusercontent.com/68891494/226089897-4f4940d2-fc90-4e21-9da5-11f00456b2a4.png"></img>
 
 Scade IDE에서 프로젝트를 생성해주면 됩니다.
 
-<img width=30% src = "https://user-images.githubusercontent.com/68891494/226188230-d29f816d-d73a-42b0-803d-ec8498550584.png"></img>
+<img width=100% src = "https://user-images.githubusercontent.com/68891494/226188230-d29f816d-d73a-42b0-803d-ec8498550584.png"></img>
 
 Scade같은 경우 3가지 종류의 로 빌드가 가능합니다. <br/>
 자체 시뮬레이터인 Scade Simulator, iOS의 Simulator, Android Emulator
@@ -57,11 +57,11 @@ Scade같은 경우 3가지 종류의 로 빌드가 가능합니다. <br/>
 
 우측 + 버튼을 눌러서 Component를 가져올 수 있습니다.
 
-<img width = 40% src = "https://user-images.githubusercontent.com/68891494/226189421-2d4ff86a-4841-4091-9b52-11c74ecb27d1.png"></img>
+<img width = 100% src = "https://user-images.githubusercontent.com/68891494/226189421-2d4ff86a-4841-4091-9b52-11c74ecb27d1.png"></img>
 
 원하는 컴포넌트를 Drag & Drop 해주면 됩니다. (Storyboard와 같은 느낌이죠?)
 
-<img width=80% src = "https://user-images.githubusercontent.com/68891494/226189572-c1c21fb6-0568-4466-9aed-8877b4c1f87a.png"></img>
+<img width=100% src = "https://user-images.githubusercontent.com/68891494/226189572-c1c21fb6-0568-4466-9aed-8877b4c1f87a.png"></img>
 
 Scade IDE 우측에 있는 옵션들을 수정하여, Component를 설정 할 수도 있습니다.
 

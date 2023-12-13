@@ -42,8 +42,8 @@ postImage: https://github.com/jihoonahn/blog/assets/68891494/083d7040-3ed2-4b8a-
 
 어느정도 떨긴 했지만 최대한 많은 내용을 전달하고자 하는 생각으로 발표를 시작하게 되었습니다.
 
-<img width=49% src="https://github.com/Jihoonahn/Blog/assets/68891494/a70212a0-c9cb-42f4-8a1e-6674acd71103"></img>
-<img width=49% src="https://github.com/Jihoonahn/Blog/assets/68891494/4bba15b6-63cb-4d70-8f07-45e55f77a40e"></img>
+<img width=100% src="https://github.com/Jihoonahn/Blog/assets/68891494/a70212a0-c9cb-42f4-8a1e-6674acd71103"></img>
+<img width=100% src="https://github.com/Jihoonahn/Blog/assets/68891494/4bba15b6-63cb-4d70-8f07-45e55f77a40e"></img>
 
 발표는 다음 순서로 진행이 됬습니다.
 
