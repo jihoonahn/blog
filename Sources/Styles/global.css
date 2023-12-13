@@ -68,12 +68,16 @@
         text-align: -webkit-match-parent;
     }
 
-    img,
+    img, 
     video {
       max-width: 100%;
       height: auto;
       margin: 0.25rem 0;
       border-radius: 10px;
+    }
+    iframe {
+      @apply h-52 sm:h-80 md:h-96;
+      width: 100%;
     }
 
     a {
