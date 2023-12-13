@@ -6,7 +6,7 @@ description: 와글와글 iOS 제 4회 발표 회고
 postImage: https://github.com/jihoonahn/blog/assets/68891494/332ea2ed-6ff6-4154-b33f-abec0b26a6b5
 ---
 
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/rDlcnt31re0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/rDlcnt31re0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 이번 제 4회 와글와글 iOS에서 블로깅하는 방법에 대해서 발표를 했고, 이에 대한 회고 입니다. <br/><br/>
 

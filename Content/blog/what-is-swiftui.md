@@ -6,7 +6,7 @@ description: 선언형 UI로 생산성을 높여주는 SwiftUI에 대한 설명�
 postImage: https://github.com/jihoonahn/blog/assets/68891494/7f11ad70-f1fe-4d98-b1a4-8e98a3cf1f9b
 ---
 
-<iframe width="100%" height= "400" src="https://www.youtube.com/embed/psL_5RIBqnY?start=7603" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/psL_5RIBqnY?start=7603" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 **본 영상은 WWDC 19이며 SwiftUI 소개되는 부분에서 시작이됩니다.**
 

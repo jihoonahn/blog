@@ -6,7 +6,7 @@ description: IGA 발표 회고
 postImage: https://github.com/jihoonahn/blog/assets/68891494/083d7040-3ed2-4b8a-9ba3-6af7e66878d9
 ---
 
-<iframe width="100%" height="400" src="https://www.youtube.com/embed/ugNe2yFBRDM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/ugNe2yFBRDM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 이번 제 1회 iOS IGA에서 CLI 구축 방법에 대해서 발표를 했고, 이에 대한 회고 입니다. <br/><br/>
 
