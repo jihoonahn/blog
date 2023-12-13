@@ -49,6 +49,13 @@ module.exports = {
         'lg': '0.75rem',
         'xl': '1.5rem',
       },
+      screens: {
+        'sm': '640px',
+        'md': '768px',
+        'lg': '1024px',
+        'xl': '1280px',
+        '2xl': '1536px'
+      },
       zindex: {
         '10': 10,
         '20': 20,
