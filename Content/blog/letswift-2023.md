@@ -121,13 +121,13 @@ ppt 74 페이지였지만, 40분에는 한참 미치지 못하는 22분으로 �
 발표는 이런식으로 구성이 되었습니다.
 
 ```
- 1. Swift로 Cross Platform을 하게된 배경
- 2. What is Scade 
- 3. Scade는 무엇을 제공해줄까요?
- 4. Scade 설정 방법
- 5. Scade 시작해볼까요?
- 6. Scade는 어떻게 동작해요?
- 7. 마무리
+1. Swift로 Cross Platform을 하게된 배경
+2. What is Scade 
+3. Scade는 무엇을 제공해줄까요?
+4. Scade 설정 방법
+5. Scade 시작해볼까요?
+6. Scade는 어떻게 동작해요?
+7. 마무리
 ```
 
 총 99장의 ppt로 진행 되었습니다.
