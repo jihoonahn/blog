@@ -10,7 +10,7 @@ struct PostsLayout: Component {
                         Div {
                             Figure {
                                 Image(item.metadata.postImage)
-                                    .class("my-0 transition duration-300 ease-in-out group-hover:scale-105")
+                                    .class("m-0 transition duration-300 ease-in-out group-hover:scale-105")
                             }
                             .class("h-full object-cover w-auto md:w-[43rem]")
                         }
