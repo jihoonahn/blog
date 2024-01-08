@@ -1,4 +1,8 @@
-User-agent: *
+User-agent: Googlebot
+User-agent: Yeti
+User-agent: Daum
+User-agent: Bingbot
+User-agent: DuckDuckBot
 Allow: /blog/
 Allow: /About/
 Disallow: /tags/
