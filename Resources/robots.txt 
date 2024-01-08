@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /blog/
+Allow: /About/
+Disallow: /tags/
+Sitemap: https://blog.jihoon.me/sitemap.xml
