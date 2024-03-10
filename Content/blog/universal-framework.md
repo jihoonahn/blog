@@ -89,13 +89,13 @@ open "${PROJECT_DIR}"
 
 ## Run
 
-<img width="50%" src="https://user-images.githubusercontent.com/68891494/230735382-bb57dcae-094d-41fd-bbac-a67d58238720.png"></img>
+<img width="100%" src="https://user-images.githubusercontent.com/68891494/230735382-bb57dcae-094d-41fd-bbac-a67d58238720.png"></img>
 
 각각 원하는 Aggregate Scheme를 선택하고 빌드하면 됩니다.
 
 
-<img width="49%" src="https://user-images.githubusercontent.com/68891494/230735710-e91d3125-07ac-4725-a878-64c378dcfa28.png"></img>
-<img width="49%" src="https://user-images.githubusercontent.com/68891494/230735711-ad3a28d2-a6c9-4d8f-a44a-b6ac63ebfaa8.png"></img>
+<img width="100%" src="https://user-images.githubusercontent.com/68891494/230735710-e91d3125-07ac-4725-a878-64c378dcfa28.png"></img>
+<img width="100%" src="https://user-images.githubusercontent.com/68891494/230735711-ad3a28d2-a6c9-4d8f-a44a-b6ac63ebfaa8.png"></img>
 
 좌 Framework Aggregate로 빌드 했을 때, 우 XCFramework Aggregate로 빌드 했을 때 
 <br/>
