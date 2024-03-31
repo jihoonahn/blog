@@ -104,9 +104,7 @@ ppt 74 페이지였지만, 40분에는 한참 미치지 못하는 22분으로 �
 
 ## 발표 시작
 
-<p align="center">
-<img width = 70% src="https://github.com/jihoonahn/blog/assets/68891494/728042d8-54dc-441f-abb5-aca951338a0c"></img>
-</p>
+<img width = 100% src="https://github.com/jihoonahn/blog/assets/68891494/728042d8-54dc-441f-abb5-aca951338a0c"></img>
 
 저의 발표는 2시40분에 `대화의실 2`에서 진행되었습니다.
 
