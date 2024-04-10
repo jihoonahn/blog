@@ -201,7 +201,11 @@
         transition: 250ms background-color linear,250ms color linear,250ms opacity linear;
     }
 
-    .blogDocsearch .DocSearch{
+    .blogDocsearch .DocSearch-Button {
+        background: transparent;
+    }
+
+    .blogDocsearch .DocSearch {
         --docsearch-primary-color: '#5364FF';
         --docsearch-highlight-color: '#5364FF';
         --docsearch-text-color: '#213547';
