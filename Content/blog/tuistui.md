@@ -1,9 +1,16 @@
+---
+title: TuistUI
+date: 2025-04-08 23:29
+tags: swift, tuist, plugin, tuistui
+description: Tuist를 SwiftUI 처럼 사용할 수 있는 DSL Plugin인 제가 만든 TuistUI를 소개합니다.
+postImage: https://github.com/user-attachments/assets/0751f541-5b07-451b-ac85-85f6a7d5561a
+---
+
 # TuistUI
 
 잠시 군대 복무 때문에 블로그 작성과 활동에 제약(개발 환경 등등)이 생겨서 글을 작성하지 못한 상태였으나, 이제 곧 전역을 준비하며.. 다시 시작 해볼려고 합니다. 이번에는 제가 애정있는 프로젝트이자, 군대에서도 유지보수를 했었고, 외출/외박때도 열심히 기능을 생각하던 애착 프로젝트를 소개할려고 합니다.
 
 > TuistUI는 Tuist를 SwiftUI처럼 가독성 있게 사용하기 위해 만든 Tuist DSL Plugin입니다.
-> 
 
 TuistUI를 사용하기 위해서는 `Config.swift` 에 아래 코드를 추가하면 됩니다.
 
