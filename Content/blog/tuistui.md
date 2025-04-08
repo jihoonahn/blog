@@ -1,7 +1,7 @@
 ---
 title: TuistUI
 date: 2025-04-08 23:29
-tags: swift, tuist, plugin, tuistui
+tags: Swift, Tuist, Plugin, Tuistui
 description: Tuist를 SwiftUI 처럼 사용할 수 있는 DSL Plugin인 제가 만든 TuistUI를 소개합니다.
 postImage: https://github.com/user-attachments/assets/0751f541-5b07-451b-ac85-85f6a7d5561a
 ---
