@@ -20,7 +20,6 @@ let package = Package(
         .package(url: "https://github.com/vapor/fluent-postgres-driver", from: "2.11.0"),
         .package(url: "https://github.com/vapor/jwt-kit", from: "5.2.0"),
         .package(url: "https://github.com/swiftwasm/JavaScriptKit", from: "0.36.0"),
-        .package(url: "https://github.com/apple/swift-nio", from: "2.86.2"),
     ],
     targets: [
         .executableTarget(

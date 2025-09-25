@@ -1,4 +1,4 @@
-# Jihoonahn Blog Server
+# Blog Server
 
 Vapor 프레임워크를 사용한 블로그 백엔드 서버입니다.
 
