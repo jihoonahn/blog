@@ -1,4 +1,4 @@
-// swift-tools-version:5.7
+// swift-tools-version:6.2
 import PackageDescription
 
 let package = Package(
@@ -6,23 +6,40 @@ let package = Package(
     platforms: [.macOS(.v13)],
     products: [
         .executable(
-            name: "Blog",
-            targets: ["Blog"]
+            name: "App",
+            targets: ["App"]
+        ),
+        .executable(
+            name: "Server",
+            targets: ["Server"]
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/JohnSundell/Publish", from: "0.9.0"),
-        .package(url: "https://github.com/Johnsundell/Splash", from: "0.16.0")
+        .package(url: "https://github.com/vapor/vapor", from: "4.117.0"),
+        .package(url: "https://github.com/vapor/fluent", from: "4.12.0"),
+        .package(url: "https://github.com/vapor/fluent-postgres-driver", from: "2.11.0"),
+        .package(url: "https://github.com/vapor/jwt-kit", from: "5.2.0"),
+        .package(url: "https://github.com/swiftwasm/JavaScriptKit", from: "0.36.0"),
+        .package(url: "https://github.com/apple/swift-nio", from: "2.86.2"),
     ],
     targets: [
         .executableTarget(
-            name: "Blog",
+            name: "App",
             dependencies: [
-                .product(name: "Publish", package: "publish"),
-                .product(name: "Splash", package: "Splash")
+                .product(name: "JavaScriptKit", package: "JavaScriptKit"),
+                "Shared"
+            ]
+        ),
+        .executableTarget(
+            name: "Server",
+            dependencies: [
+                .product(name: "Vapor", package: "vapor"),
+                .product(name: "Fluent", package: "fluent"),
+                .product(name: "FluentPostgresDriver", package: "fluent-postgres-driver"),
+                .product(name: "JWTKit", package: "jwt-kit"),
+                "Shared"
             ],
-            path: "Sources",
-            exclude: ["Styles/global.css"]
-        )
+        ),
+        .target(name: "Shared")
     ]
 )
