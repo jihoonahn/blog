@@ -53,16 +53,39 @@ func configure(_ app: Application) async throws {
 
 private func createDefaultAdmin(_ app: Application) async throws {
     let existingAdmin = try await Admin.query(on: app.db).first()
+    let envEmail = Environment.get("ADMIN_EMAIL")
+    let envPassword = Environment.get("ADMIN_PASSWORD")
+    
+    app.logger.info("Existing admin found: \(existingAdmin?.email ?? "none")")
+    app.logger.info("Environment ADMIN_EMAIL: \(envEmail ?? "not set")")
+    app.logger.info("Environment ADMIN_PASSWORD: \(envPassword != nil ? "set" : "not set")")
     
     if existingAdmin == nil {
-        let defaultEmail = Environment.get("ADMIN_EMAIL") ?? "admin@blog.com"
-        let defaultPassword = Environment.get("ADMIN_PASSWORD") ?? "admin123"
+        // 새로운 admin 생성
+        let defaultEmail = envEmail ?? "admin@blog.com"
+        let defaultPassword = envPassword ?? "admin123"
+        
+        app.logger.info("Creating admin with email: \(defaultEmail)")
+        
         let passwordHash = try Bcrypt.hash(defaultPassword)
         
         let admin = Admin(email: defaultEmail, passwordHash: passwordHash, name: "Admin")
         try await admin.save(on: app.db)
         
-        app.logger.info("Default Admin Account: \(defaultEmail)")
+        app.logger.info("Default Admin Account created: \(defaultEmail)")
+    } else if let envEmail = envEmail, let envPassword = envPassword {
+        // 환경 변수가 설정되어 있고 기존 admin이 있으면 업데이트
+        if existingAdmin?.email != envEmail {
+            app.logger.info("Updating existing admin from \(existingAdmin?.email ?? "unknown") to \(envEmail)")
+            
+            existingAdmin?.email = envEmail
+            existingAdmin?.passwordHash = try Bcrypt.hash(envPassword)
+            try await existingAdmin?.save(on: app.db)
+            
+            app.logger.info("Admin account updated to: \(envEmail)")
+        }
+    } else {
+        app.logger.info("Admin already exists, skipping creation")
     }
 }
 
