@@ -1,4 +1,0 @@
-module _CJavaScriptEventLoopTestSupport {
-    umbrella "/Users/jihoonahn/Desktop/blog/.build/checkouts/JavaScriptKit/Sources/_CJavaScriptEventLoopTestSupport/include"
-    export *
-}

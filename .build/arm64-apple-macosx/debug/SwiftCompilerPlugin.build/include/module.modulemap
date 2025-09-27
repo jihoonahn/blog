@@ -1,3 +1,0 @@
-module SwiftCompilerPlugin {
-    header "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftCompilerPlugin.build/include/SwiftCompilerPlugin-Swift.h"
-}

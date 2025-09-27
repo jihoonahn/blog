@@ -1,3 +1,0 @@
-module X509 {
-    header "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/X509.build/include/X509-Swift.h"
-}

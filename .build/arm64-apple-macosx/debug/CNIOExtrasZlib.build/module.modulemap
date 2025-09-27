@@ -1,4 +1,0 @@
-module CNIOExtrasZlib {
-    umbrella header "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio-extras/Sources/CNIOExtrasZlib/include/CNIOExtrasZlib.h"
-    export *
-}

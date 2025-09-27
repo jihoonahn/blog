@@ -1,3 +1,0 @@
-module HTTPTypes {
-    header "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/HTTPTypes.build/include/HTTPTypes-Swift.h"
-}

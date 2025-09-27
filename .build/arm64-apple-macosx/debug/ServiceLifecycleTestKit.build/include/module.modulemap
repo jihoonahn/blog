@@ -1,3 +1,0 @@
-module ServiceLifecycleTestKit {
-    header "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/ServiceLifecycleTestKit.build/include/ServiceLifecycleTestKit-Swift.h"
-}

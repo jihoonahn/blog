@@ -1,3 +1,0 @@
-module _NIOFileSystem {
-    header "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/_NIOFileSystem.build/include/_NIOFileSystem-Swift.h"
-}

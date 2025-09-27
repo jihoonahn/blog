@@ -1,3 +1,0 @@
-module _NIOBase64 {
-    header "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/_NIOBase64.build/include/_NIOBase64-Swift.h"
-}

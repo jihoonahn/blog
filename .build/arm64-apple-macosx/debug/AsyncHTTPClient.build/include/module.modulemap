@@ -1,3 +1,0 @@
-module AsyncHTTPClient {
-    header "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/AsyncHTTPClient.build/include/AsyncHTTPClient-Swift.h"
-}
