@@ -1,0 +1,3 @@
+module Collections {
+    header "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/Collections.build/include/Collections-Swift.h"
+}

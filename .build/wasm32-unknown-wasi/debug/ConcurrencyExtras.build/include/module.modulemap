@@ -1,0 +1,3 @@
+module ConcurrencyExtras {
+    header "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/ConcurrencyExtras.build/include/ConcurrencyExtras-Swift.h"
+}

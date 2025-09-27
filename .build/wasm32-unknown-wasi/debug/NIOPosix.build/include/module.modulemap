@@ -1,0 +1,3 @@
+module NIOPosix {
+    header "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/include/NIOPosix-Swift.h"
+}

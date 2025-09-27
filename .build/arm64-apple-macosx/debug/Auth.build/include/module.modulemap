@@ -1,0 +1,3 @@
+module Auth {
+    header "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/Auth.build/include/Auth-Swift.h"
+}

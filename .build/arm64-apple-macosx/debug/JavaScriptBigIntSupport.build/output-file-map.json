@@ -1,0 +1,19 @@
+{
+  "": {
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptBigIntSupport.build/master.swiftdeps"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/JavaScriptKit/Sources/JavaScriptBigIntSupport/Int64+I64.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptBigIntSupport.build/Int64+I64.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptBigIntSupport.build/Int64+I64.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptBigIntSupport.build/Int64+I64~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptBigIntSupport.build/Int64+I64.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptBigIntSupport.build/Int64+I64.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/JavaScriptKit/Sources/JavaScriptBigIntSupport/JSBigInt+I64.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptBigIntSupport.build/JSBigInt+I64.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptBigIntSupport.build/JSBigInt+I64.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptBigIntSupport.build/JSBigInt+I64~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptBigIntSupport.build/JSBigInt+I64.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptBigIntSupport.build/JSBigInt+I64.dia"
+  }
+}

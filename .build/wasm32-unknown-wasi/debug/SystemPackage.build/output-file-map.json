@@ -1,0 +1,215 @@
+{
+  "": {
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/master.swiftdeps"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-system/Sources/System/Errno.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/Errno.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/Errno.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/Errno~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/Errno.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/Errno.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-system/Sources/System/ErrnoWindows.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/ErrnoWindows.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/ErrnoWindows.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/ErrnoWindows~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/ErrnoWindows.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/ErrnoWindows.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-system/Sources/System/FileDescriptor.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FileDescriptor.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FileDescriptor.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FileDescriptor~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FileDescriptor.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FileDescriptor.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-system/Sources/System/FileHelpers.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FileHelpers.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FileHelpers.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FileHelpers~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FileHelpers.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FileHelpers.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-system/Sources/System/FileOperations.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FileOperations.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FileOperations.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FileOperations~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FileOperations.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FileOperations.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-system/Sources/System/FilePath/FilePath.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FilePath.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FilePath.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FilePath~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FilePath.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FilePath.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-system/Sources/System/FilePath/FilePathComponentView.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FilePathComponentView.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FilePathComponentView.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FilePathComponentView~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FilePathComponentView.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FilePathComponentView.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-system/Sources/System/FilePath/FilePathComponents.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FilePathComponents.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FilePathComponents.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FilePathComponents~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FilePathComponents.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FilePathComponents.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-system/Sources/System/FilePath/FilePathParsing.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FilePathParsing.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FilePathParsing.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FilePathParsing~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FilePathParsing.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FilePathParsing.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-system/Sources/System/FilePath/FilePathString.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FilePathString.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FilePathString.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FilePathString~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FilePathString.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FilePathString.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-system/Sources/System/FilePath/FilePathSyntax.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FilePathSyntax.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FilePathSyntax.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FilePathSyntax~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FilePathSyntax.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FilePathSyntax.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-system/Sources/System/FilePath/FilePathTemp.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FilePathTemp.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FilePathTemp.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FilePathTemp~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FilePathTemp.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FilePathTemp.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-system/Sources/System/FilePath/FilePathTempPosix.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FilePathTempPosix.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FilePathTempPosix.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FilePathTempPosix~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FilePathTempPosix.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FilePathTempPosix.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-system/Sources/System/FilePath/FilePathTempWindows.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FilePathTempWindows.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FilePathTempWindows.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FilePathTempWindows~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FilePathTempWindows.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FilePathTempWindows.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-system/Sources/System/FilePath/FilePathWindows.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FilePathWindows.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FilePathWindows.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FilePathWindows~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FilePathWindows.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FilePathWindows.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-system/Sources/System/FilePermissions.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FilePermissions.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FilePermissions.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FilePermissions~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FilePermissions.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/FilePermissions.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-system/Sources/System/Internals/Backcompat.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/Backcompat.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/Backcompat.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/Backcompat~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/Backcompat.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/Backcompat.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-system/Sources/System/Internals/CInterop.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/CInterop.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/CInterop.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/CInterop~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/CInterop.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/CInterop.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-system/Sources/System/Internals/Constants.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/Constants.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/Constants.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/Constants~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/Constants.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/Constants.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-system/Sources/System/Internals/Exports.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/Exports.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/Exports.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/Exports~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/Exports.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/Exports.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-system/Sources/System/Internals/Mocking.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/Mocking.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/Mocking.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/Mocking~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/Mocking.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/Mocking.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-system/Sources/System/Internals/RawBuffer.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/RawBuffer.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/RawBuffer.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/RawBuffer~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/RawBuffer.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/RawBuffer.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-system/Sources/System/Internals/Syscalls.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/Syscalls.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/Syscalls.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/Syscalls~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/Syscalls.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/Syscalls.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-system/Sources/System/Internals/WindowsSyscallAdapters.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/WindowsSyscallAdapters.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/WindowsSyscallAdapters.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/WindowsSyscallAdapters~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/WindowsSyscallAdapters.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/WindowsSyscallAdapters.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-system/Sources/System/MachPort.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/MachPort.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/MachPort.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/MachPort~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/MachPort.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/MachPort.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-system/Sources/System/PlatformString.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/PlatformString.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/PlatformString.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/PlatformString~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/PlatformString.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/PlatformString.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-system/Sources/System/SystemString.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/SystemString.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/SystemString.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/SystemString~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/SystemString.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/SystemString.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-system/Sources/System/Util+StringArray.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/Util+StringArray.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/Util+StringArray.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/Util+StringArray~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/Util+StringArray.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/Util+StringArray.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-system/Sources/System/Util.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/Util.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/Util.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/Util~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/Util.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/Util.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-system/Sources/System/UtilConsumers.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/UtilConsumers.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/UtilConsumers.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/UtilConsumers~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/UtilConsumers.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/SystemPackage.build/UtilConsumers.dia"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "": {
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/Logging.build/master.swiftdeps"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-log/Sources/Logging/Locks.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/Logging.build/Locks.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/Logging.build/Locks.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/Logging.build/Locks~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/Logging.build/Locks.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/Logging.build/Locks.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-log/Sources/Logging/LogHandler.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/Logging.build/LogHandler.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/Logging.build/LogHandler.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/Logging.build/LogHandler~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/Logging.build/LogHandler.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/Logging.build/LogHandler.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-log/Sources/Logging/Logging.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/Logging.build/Logging.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/Logging.build/Logging.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/Logging.build/Logging~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/Logging.build/Logging.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/Logging.build/Logging.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-log/Sources/Logging/MetadataProvider.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/Logging.build/MetadataProvider.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/Logging.build/MetadataProvider.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/Logging.build/MetadataProvider~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/Logging.build/MetadataProvider.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/Logging.build/MetadataProvider.dia"
+  }
+}

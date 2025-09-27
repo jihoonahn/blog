@@ -1,0 +1,54 @@
+{
+  "": {
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptEventLoop.build/master.swiftdeps"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/JavaScriptKit/Sources/JavaScriptEventLoop/JSSending.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptEventLoop.build/JSSending.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptEventLoop.build/JSSending.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptEventLoop.build/JSSending~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptEventLoop.build/JSSending.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptEventLoop.build/JSSending.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/JavaScriptKit/Sources/JavaScriptEventLoop/JavaScriptEventLoop+ExecutorFactory.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptEventLoop.build/JavaScriptEventLoop+ExecutorFactory.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptEventLoop.build/JavaScriptEventLoop+ExecutorFactory.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptEventLoop.build/JavaScriptEventLoop+ExecutorFactory~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptEventLoop.build/JavaScriptEventLoop+ExecutorFactory.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptEventLoop.build/JavaScriptEventLoop+ExecutorFactory.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/JavaScriptKit/Sources/JavaScriptEventLoop/JavaScriptEventLoop+LegacyHooks.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptEventLoop.build/JavaScriptEventLoop+LegacyHooks.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptEventLoop.build/JavaScriptEventLoop+LegacyHooks.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptEventLoop.build/JavaScriptEventLoop+LegacyHooks~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptEventLoop.build/JavaScriptEventLoop+LegacyHooks.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptEventLoop.build/JavaScriptEventLoop+LegacyHooks.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/JavaScriptKit/Sources/JavaScriptEventLoop/JavaScriptEventLoop.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptEventLoop.build/JavaScriptEventLoop.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptEventLoop.build/JavaScriptEventLoop.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptEventLoop.build/JavaScriptEventLoop~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptEventLoop.build/JavaScriptEventLoop.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptEventLoop.build/JavaScriptEventLoop.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/JavaScriptKit/Sources/JavaScriptEventLoop/JobQueue.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptEventLoop.build/JobQueue.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptEventLoop.build/JobQueue.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptEventLoop.build/JobQueue~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptEventLoop.build/JobQueue.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptEventLoop.build/JobQueue.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/JavaScriptKit/Sources/JavaScriptEventLoop/WebWorkerDedicatedExecutor.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptEventLoop.build/WebWorkerDedicatedExecutor.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptEventLoop.build/WebWorkerDedicatedExecutor.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptEventLoop.build/WebWorkerDedicatedExecutor~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptEventLoop.build/WebWorkerDedicatedExecutor.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptEventLoop.build/WebWorkerDedicatedExecutor.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/JavaScriptKit/Sources/JavaScriptEventLoop/WebWorkerTaskExecutor.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptEventLoop.build/WebWorkerTaskExecutor.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptEventLoop.build/WebWorkerTaskExecutor.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptEventLoop.build/WebWorkerTaskExecutor~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptEventLoop.build/WebWorkerTaskExecutor.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptEventLoop.build/WebWorkerTaskExecutor.dia"
+  }
+}

@@ -1,0 +1,3 @@
+module IssueReportingTestSupport {
+    header "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/IssueReportingTestSupport.build/include/IssueReportingTestSupport-Swift.h"
+}

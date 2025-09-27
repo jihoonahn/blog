@@ -1,0 +1,26 @@
+{
+  "": {
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/_NIODataStructures.build/master.swiftdeps"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio/Sources/_NIODataStructures/Heap.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/_NIODataStructures.build/Heap.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/_NIODataStructures.build/Heap.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/_NIODataStructures.build/Heap~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/_NIODataStructures.build/Heap.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/_NIODataStructures.build/Heap.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio/Sources/_NIODataStructures/PriorityQueue.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/_NIODataStructures.build/PriorityQueue.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/_NIODataStructures.build/PriorityQueue.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/_NIODataStructures.build/PriorityQueue~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/_NIODataStructures.build/PriorityQueue.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/_NIODataStructures.build/PriorityQueue.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio/Sources/_NIODataStructures/_TinyArray.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/_NIODataStructures.build/_TinyArray.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/_NIODataStructures.build/_TinyArray.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/_NIODataStructures.build/_TinyArray~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/_NIODataStructures.build/_TinyArray.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/_NIODataStructures.build/_TinyArray.dia"
+  }
+}

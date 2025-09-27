@@ -1,0 +1,320 @@
+{
+  "": {
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/master.swiftdeps"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-syntax/Sources/SwiftParser/Attributes.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Attributes.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Attributes.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Attributes~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Attributes.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Attributes.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-syntax/Sources/SwiftParser/Availability.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Availability.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Availability.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Availability~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Availability.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Availability.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-syntax/Sources/SwiftParser/CharacterInfo.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/CharacterInfo.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/CharacterInfo.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/CharacterInfo~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/CharacterInfo.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/CharacterInfo.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-syntax/Sources/SwiftParser/CollectionNodes+Parsable.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/CollectionNodes+Parsable.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/CollectionNodes+Parsable.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/CollectionNodes+Parsable~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/CollectionNodes+Parsable.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/CollectionNodes+Parsable.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-syntax/Sources/SwiftParser/Declarations.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Declarations.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Declarations.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Declarations~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Declarations.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Declarations.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-syntax/Sources/SwiftParser/Directives.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Directives.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Directives.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Directives~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Directives.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Directives.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-syntax/Sources/SwiftParser/ExpressionInterpretedAsVersionTuple.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/ExpressionInterpretedAsVersionTuple.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/ExpressionInterpretedAsVersionTuple.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/ExpressionInterpretedAsVersionTuple~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/ExpressionInterpretedAsVersionTuple.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/ExpressionInterpretedAsVersionTuple.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-syntax/Sources/SwiftParser/Expressions.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Expressions.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Expressions.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Expressions~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Expressions.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Expressions.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-syntax/Sources/SwiftParser/IncrementalParseTransition.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/IncrementalParseTransition.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/IncrementalParseTransition.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/IncrementalParseTransition~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/IncrementalParseTransition.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/IncrementalParseTransition.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-syntax/Sources/SwiftParser/IsValidIdentifier.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/IsValidIdentifier.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/IsValidIdentifier.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/IsValidIdentifier~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/IsValidIdentifier.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/IsValidIdentifier.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-syntax/Sources/SwiftParser/Lexer/Cursor.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Cursor.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Cursor.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Cursor~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Cursor.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Cursor.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-syntax/Sources/SwiftParser/Lexer/Lexeme.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Lexeme.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Lexeme.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Lexeme~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Lexeme.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Lexeme.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-syntax/Sources/SwiftParser/Lexer/LexemeSequence.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/LexemeSequence.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/LexemeSequence.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/LexemeSequence~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/LexemeSequence.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/LexemeSequence.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-syntax/Sources/SwiftParser/Lexer/Lexer.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Lexer.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Lexer.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Lexer~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Lexer.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Lexer.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-syntax/Sources/SwiftParser/Lexer/RegexLiteralLexer.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/RegexLiteralLexer.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/RegexLiteralLexer.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/RegexLiteralLexer~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/RegexLiteralLexer.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/RegexLiteralLexer.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-syntax/Sources/SwiftParser/Lexer/UnicodeScalarExtensions.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/UnicodeScalarExtensions.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/UnicodeScalarExtensions.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/UnicodeScalarExtensions~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/UnicodeScalarExtensions.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/UnicodeScalarExtensions.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-syntax/Sources/SwiftParser/Lookahead.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Lookahead.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Lookahead.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Lookahead~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Lookahead.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Lookahead.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-syntax/Sources/SwiftParser/LoopProgressCondition.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/LoopProgressCondition.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/LoopProgressCondition.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/LoopProgressCondition~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/LoopProgressCondition.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/LoopProgressCondition.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-syntax/Sources/SwiftParser/Modifiers.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Modifiers.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Modifiers.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Modifiers~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Modifiers.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Modifiers.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-syntax/Sources/SwiftParser/Names.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Names.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Names.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Names~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Names.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Names.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-syntax/Sources/SwiftParser/Nominals.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Nominals.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Nominals.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Nominals~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Nominals.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Nominals.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-syntax/Sources/SwiftParser/Parameters.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Parameters.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Parameters.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Parameters~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Parameters.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Parameters.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-syntax/Sources/SwiftParser/ParseSourceFile.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/ParseSourceFile.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/ParseSourceFile.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/ParseSourceFile~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/ParseSourceFile.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/ParseSourceFile.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-syntax/Sources/SwiftParser/Parser.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Parser.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Parser.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Parser~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Parser.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Parser.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-syntax/Sources/SwiftParser/Patterns.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Patterns.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Patterns.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Patterns~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Patterns.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Patterns.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-syntax/Sources/SwiftParser/Recovery.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Recovery.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Recovery.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Recovery~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Recovery.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Recovery.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-syntax/Sources/SwiftParser/Specifiers.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Specifiers.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Specifiers.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Specifiers~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Specifiers.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Specifiers.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-syntax/Sources/SwiftParser/Statements.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Statements.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Statements.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Statements~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Statements.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Statements.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-syntax/Sources/SwiftParser/StringLiteralRepresentedLiteralValue.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/StringLiteralRepresentedLiteralValue.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/StringLiteralRepresentedLiteralValue.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/StringLiteralRepresentedLiteralValue~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/StringLiteralRepresentedLiteralValue.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/StringLiteralRepresentedLiteralValue.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-syntax/Sources/SwiftParser/StringLiterals.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/StringLiterals.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/StringLiterals.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/StringLiterals~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/StringLiterals.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/StringLiterals.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-syntax/Sources/SwiftParser/SwiftParserCompatibility.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/SwiftParserCompatibility.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/SwiftParserCompatibility.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/SwiftParserCompatibility~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/SwiftParserCompatibility.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/SwiftParserCompatibility.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-syntax/Sources/SwiftParser/SwiftVersion.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/SwiftVersion.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/SwiftVersion.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/SwiftVersion~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/SwiftVersion.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/SwiftVersion.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-syntax/Sources/SwiftParser/SyntaxUtils.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/SyntaxUtils.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/SyntaxUtils.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/SyntaxUtils~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/SyntaxUtils.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/SyntaxUtils.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-syntax/Sources/SwiftParser/TokenConsumer.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/TokenConsumer.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/TokenConsumer.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/TokenConsumer~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/TokenConsumer.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/TokenConsumer.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-syntax/Sources/SwiftParser/TokenPrecedence.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/TokenPrecedence.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/TokenPrecedence.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/TokenPrecedence~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/TokenPrecedence.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/TokenPrecedence.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-syntax/Sources/SwiftParser/TokenSpec.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/TokenSpec.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/TokenSpec.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/TokenSpec~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/TokenSpec.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/TokenSpec.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-syntax/Sources/SwiftParser/TokenSpecSet.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/TokenSpecSet.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/TokenSpecSet.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/TokenSpecSet~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/TokenSpecSet.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/TokenSpecSet.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-syntax/Sources/SwiftParser/TopLevel.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/TopLevel.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/TopLevel.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/TopLevel~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/TopLevel.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/TopLevel.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-syntax/Sources/SwiftParser/TriviaParser.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/TriviaParser.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/TriviaParser.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/TriviaParser~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/TriviaParser.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/TriviaParser.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-syntax/Sources/SwiftParser/Types.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Types.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Types.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Types~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Types.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Types.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-syntax/Sources/SwiftParser/generated/ExperimentalFeatures.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/ExperimentalFeatures.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/ExperimentalFeatures.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/ExperimentalFeatures~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/ExperimentalFeatures.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/ExperimentalFeatures.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-syntax/Sources/SwiftParser/generated/IsLexerClassified.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/IsLexerClassified.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/IsLexerClassified.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/IsLexerClassified~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/IsLexerClassified.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/IsLexerClassified.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-syntax/Sources/SwiftParser/generated/LayoutNodes+Parsable.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/LayoutNodes+Parsable.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/LayoutNodes+Parsable.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/LayoutNodes+Parsable~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/LayoutNodes+Parsable.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/LayoutNodes+Parsable.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-syntax/Sources/SwiftParser/generated/Parser+TokenSpecSet.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Parser+TokenSpecSet.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Parser+TokenSpecSet.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Parser+TokenSpecSet~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Parser+TokenSpecSet.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/Parser+TokenSpecSet.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-syntax/Sources/SwiftParser/generated/TokenSpecStaticMembers.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/TokenSpecStaticMembers.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/TokenSpecStaticMembers.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/TokenSpecStaticMembers~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/TokenSpecStaticMembers.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftParser.build/TokenSpecStaticMembers.dia"
+  }
+}

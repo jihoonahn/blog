@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/IssueReportingPackageSupport.build/master.swiftdeps"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/xctest-dynamic-overlay/Sources/IssueReportingPackageSupport/_Test.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/IssueReportingPackageSupport.build/_Test.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/IssueReportingPackageSupport.build/_Test.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/IssueReportingPackageSupport.build/_Test~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/IssueReportingPackageSupport.build/_Test.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/IssueReportingPackageSupport.build/_Test.dia"
+  }
+}

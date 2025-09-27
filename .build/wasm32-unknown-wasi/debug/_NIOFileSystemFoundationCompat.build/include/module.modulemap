@@ -1,0 +1,3 @@
+module _NIOFileSystemFoundationCompat {
+    header "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/_NIOFileSystemFoundationCompat.build/include/_NIOFileSystemFoundationCompat-Swift.h"
+}

@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/_NIOConcurrency.build/master.swiftdeps"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio/Sources/_NIOConcurrency/Empty.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/_NIOConcurrency.build/Empty.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/_NIOConcurrency.build/Empty.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/_NIOConcurrency.build/Empty~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/_NIOConcurrency.build/Empty.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/_NIOConcurrency.build/Empty.dia"
+  }
+}

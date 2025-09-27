@@ -1,0 +1,40 @@
+{
+  "": {
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/NIOResumableUpload.build/master.swiftdeps"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio-extras/Sources/NIOResumableUpload/HTTPResumableUpload.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/NIOResumableUpload.build/HTTPResumableUpload.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/NIOResumableUpload.build/HTTPResumableUpload.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/NIOResumableUpload.build/HTTPResumableUpload~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/NIOResumableUpload.build/HTTPResumableUpload.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/NIOResumableUpload.build/HTTPResumableUpload.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio-extras/Sources/NIOResumableUpload/HTTPResumableUploadChannel.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/NIOResumableUpload.build/HTTPResumableUploadChannel.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/NIOResumableUpload.build/HTTPResumableUploadChannel.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/NIOResumableUpload.build/HTTPResumableUploadChannel~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/NIOResumableUpload.build/HTTPResumableUploadChannel.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/NIOResumableUpload.build/HTTPResumableUploadChannel.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio-extras/Sources/NIOResumableUpload/HTTPResumableUploadContext.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/NIOResumableUpload.build/HTTPResumableUploadContext.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/NIOResumableUpload.build/HTTPResumableUploadContext.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/NIOResumableUpload.build/HTTPResumableUploadContext~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/NIOResumableUpload.build/HTTPResumableUploadContext.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/NIOResumableUpload.build/HTTPResumableUploadContext.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio-extras/Sources/NIOResumableUpload/HTTPResumableUploadHandler.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/NIOResumableUpload.build/HTTPResumableUploadHandler.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/NIOResumableUpload.build/HTTPResumableUploadHandler.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/NIOResumableUpload.build/HTTPResumableUploadHandler~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/NIOResumableUpload.build/HTTPResumableUploadHandler.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/NIOResumableUpload.build/HTTPResumableUploadHandler.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio-extras/Sources/NIOResumableUpload/HTTPResumableUploadProtocol.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/NIOResumableUpload.build/HTTPResumableUploadProtocol.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/NIOResumableUpload.build/HTTPResumableUploadProtocol.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/NIOResumableUpload.build/HTTPResumableUploadProtocol~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/NIOResumableUpload.build/HTTPResumableUploadProtocol.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/NIOResumableUpload.build/HTTPResumableUploadProtocol.dia"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "": {
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOEmbedded.build/master.swiftdeps"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio/Sources/NIOEmbedded/AsyncTestingChannel.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOEmbedded.build/AsyncTestingChannel.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOEmbedded.build/AsyncTestingChannel.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOEmbedded.build/AsyncTestingChannel~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOEmbedded.build/AsyncTestingChannel.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOEmbedded.build/AsyncTestingChannel.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio/Sources/NIOEmbedded/AsyncTestingEventLoop.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOEmbedded.build/AsyncTestingEventLoop.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOEmbedded.build/AsyncTestingEventLoop.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOEmbedded.build/AsyncTestingEventLoop~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOEmbedded.build/AsyncTestingEventLoop.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOEmbedded.build/AsyncTestingEventLoop.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio/Sources/NIOEmbedded/Embedded.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOEmbedded.build/Embedded.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOEmbedded.build/Embedded.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOEmbedded.build/Embedded~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOEmbedded.build/Embedded.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOEmbedded.build/Embedded.dia"
+  }
+}

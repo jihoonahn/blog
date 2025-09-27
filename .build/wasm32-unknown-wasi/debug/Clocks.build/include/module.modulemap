@@ -1,0 +1,3 @@
+module Clocks {
+    header "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/Clocks.build/include/Clocks-Swift.h"
+}

@@ -1,0 +1,3 @@
+module NIOHTTPTypesHTTP2 {
+    header "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOHTTPTypesHTTP2.build/include/NIOHTTPTypesHTTP2-Swift.h"
+}

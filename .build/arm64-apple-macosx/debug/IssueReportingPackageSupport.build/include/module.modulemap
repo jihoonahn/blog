@@ -1,0 +1,3 @@
+module IssueReportingPackageSupport {
+    header "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/IssueReportingPackageSupport.build/include/IssueReportingPackageSupport-Swift.h"
+}

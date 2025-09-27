@@ -1,0 +1,40 @@
+{
+  "": {
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOTLS.build/master.swiftdeps"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio/Sources/NIOTLS/ApplicationProtocolNegotiationHandler.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOTLS.build/ApplicationProtocolNegotiationHandler.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOTLS.build/ApplicationProtocolNegotiationHandler.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOTLS.build/ApplicationProtocolNegotiationHandler~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOTLS.build/ApplicationProtocolNegotiationHandler.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOTLS.build/ApplicationProtocolNegotiationHandler.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio/Sources/NIOTLS/NIOTypedApplicationProtocolNegotiationHandler.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOTLS.build/NIOTypedApplicationProtocolNegotiationHandler.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOTLS.build/NIOTypedApplicationProtocolNegotiationHandler.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOTLS.build/NIOTypedApplicationProtocolNegotiationHandler~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOTLS.build/NIOTypedApplicationProtocolNegotiationHandler.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOTLS.build/NIOTypedApplicationProtocolNegotiationHandler.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio/Sources/NIOTLS/ProtocolNegotiationHandlerStateMachine.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOTLS.build/ProtocolNegotiationHandlerStateMachine.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOTLS.build/ProtocolNegotiationHandlerStateMachine.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOTLS.build/ProtocolNegotiationHandlerStateMachine~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOTLS.build/ProtocolNegotiationHandlerStateMachine.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOTLS.build/ProtocolNegotiationHandlerStateMachine.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio/Sources/NIOTLS/SNIHandler.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOTLS.build/SNIHandler.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOTLS.build/SNIHandler.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOTLS.build/SNIHandler~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOTLS.build/SNIHandler.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOTLS.build/SNIHandler.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio/Sources/NIOTLS/TLSEvents.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOTLS.build/TLSEvents.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOTLS.build/TLSEvents.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOTLS.build/TLSEvents~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOTLS.build/TLSEvents.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOTLS.build/TLSEvents.dia"
+  }
+}

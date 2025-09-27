@@ -1,0 +1,47 @@
+{
+  "": {
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/NIOHTTPCompression.build/master.swiftdeps"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio-extras/Sources/NIOHTTPCompression/HTTPCompression.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/NIOHTTPCompression.build/HTTPCompression.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/NIOHTTPCompression.build/HTTPCompression.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/NIOHTTPCompression.build/HTTPCompression~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/NIOHTTPCompression.build/HTTPCompression.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/NIOHTTPCompression.build/HTTPCompression.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio-extras/Sources/NIOHTTPCompression/HTTPDecompression.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/NIOHTTPCompression.build/HTTPDecompression.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/NIOHTTPCompression.build/HTTPDecompression.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/NIOHTTPCompression.build/HTTPDecompression~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/NIOHTTPCompression.build/HTTPDecompression.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/NIOHTTPCompression.build/HTTPDecompression.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio-extras/Sources/NIOHTTPCompression/HTTPRequestCompressor.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/NIOHTTPCompression.build/HTTPRequestCompressor.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/NIOHTTPCompression.build/HTTPRequestCompressor.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/NIOHTTPCompression.build/HTTPRequestCompressor~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/NIOHTTPCompression.build/HTTPRequestCompressor.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/NIOHTTPCompression.build/HTTPRequestCompressor.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio-extras/Sources/NIOHTTPCompression/HTTPRequestDecompressor.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/NIOHTTPCompression.build/HTTPRequestDecompressor.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/NIOHTTPCompression.build/HTTPRequestDecompressor.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/NIOHTTPCompression.build/HTTPRequestDecompressor~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/NIOHTTPCompression.build/HTTPRequestDecompressor.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/NIOHTTPCompression.build/HTTPRequestDecompressor.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio-extras/Sources/NIOHTTPCompression/HTTPResponseCompressor.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/NIOHTTPCompression.build/HTTPResponseCompressor.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/NIOHTTPCompression.build/HTTPResponseCompressor.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/NIOHTTPCompression.build/HTTPResponseCompressor~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/NIOHTTPCompression.build/HTTPResponseCompressor.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/NIOHTTPCompression.build/HTTPResponseCompressor.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio-extras/Sources/NIOHTTPCompression/HTTPResponseDecompressor.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/NIOHTTPCompression.build/HTTPResponseDecompressor.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/NIOHTTPCompression.build/HTTPResponseDecompressor.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/NIOHTTPCompression.build/HTTPResponseDecompressor~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/NIOHTTPCompression.build/HTTPResponseDecompressor.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/NIOHTTPCompression.build/HTTPResponseDecompressor.dia"
+  }
+}

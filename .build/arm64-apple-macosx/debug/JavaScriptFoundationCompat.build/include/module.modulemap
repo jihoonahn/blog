@@ -1,0 +1,3 @@
+module JavaScriptFoundationCompat {
+    header "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptFoundationCompat.build/include/JavaScriptFoundationCompat-Swift.h"
+}

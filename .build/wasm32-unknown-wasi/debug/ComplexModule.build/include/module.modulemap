@@ -1,0 +1,3 @@
+module ComplexModule {
+    header "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/ComplexModule.build/include/ComplexModule-Swift.h"
+}

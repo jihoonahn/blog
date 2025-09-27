@@ -1,0 +1,3 @@
+module Realtime {
+    header "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/Realtime.build/include/Realtime-Swift.h"
+}

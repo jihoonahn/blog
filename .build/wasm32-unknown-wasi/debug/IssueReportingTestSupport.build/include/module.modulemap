@@ -1,0 +1,3 @@
+module IssueReportingTestSupport {
+    header "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/IssueReportingTestSupport.build/include/IssueReportingTestSupport-Swift.h"
+}

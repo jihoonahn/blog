@@ -1,0 +1,3 @@
+module ServiceLifecycleTestKit {
+    header "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/ServiceLifecycleTestKit.build/include/ServiceLifecycleTestKit-Swift.h"
+}

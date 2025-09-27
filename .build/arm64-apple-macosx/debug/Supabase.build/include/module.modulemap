@@ -1,0 +1,3 @@
+module Supabase {
+    header "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/Supabase.build/include/Supabase-Swift.h"
+}

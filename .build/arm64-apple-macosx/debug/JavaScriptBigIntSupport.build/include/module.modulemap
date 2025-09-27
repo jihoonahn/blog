@@ -1,0 +1,3 @@
+module JavaScriptBigIntSupport {
+    header "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptBigIntSupport.build/include/JavaScriptBigIntSupport-Swift.h"
+}

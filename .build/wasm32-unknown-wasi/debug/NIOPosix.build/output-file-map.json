@@ -1,0 +1,397 @@
+{
+  "": {
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/master.swiftdeps"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio/Sources/NIOPosix/BSDSocketAPICommon.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/BSDSocketAPICommon.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/BSDSocketAPICommon.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/BSDSocketAPICommon~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/BSDSocketAPICommon.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/BSDSocketAPICommon.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio/Sources/NIOPosix/BSDSocketAPIPosix.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/BSDSocketAPIPosix.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/BSDSocketAPIPosix.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/BSDSocketAPIPosix~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/BSDSocketAPIPosix.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/BSDSocketAPIPosix.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio/Sources/NIOPosix/BSDSocketAPIWindows.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/BSDSocketAPIWindows.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/BSDSocketAPIWindows.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/BSDSocketAPIWindows~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/BSDSocketAPIWindows.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/BSDSocketAPIWindows.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio/Sources/NIOPosix/BaseSocket.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/BaseSocket.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/BaseSocket.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/BaseSocket~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/BaseSocket.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/BaseSocket.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio/Sources/NIOPosix/BaseSocketChannel+SocketOptionProvider.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/BaseSocketChannel+SocketOptionProvider.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/BaseSocketChannel+SocketOptionProvider.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/BaseSocketChannel+SocketOptionProvider~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/BaseSocketChannel+SocketOptionProvider.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/BaseSocketChannel+SocketOptionProvider.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio/Sources/NIOPosix/BaseSocketChannel.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/BaseSocketChannel.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/BaseSocketChannel.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/BaseSocketChannel~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/BaseSocketChannel.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/BaseSocketChannel.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio/Sources/NIOPosix/BaseStreamSocketChannel.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/BaseStreamSocketChannel.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/BaseStreamSocketChannel.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/BaseStreamSocketChannel~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/BaseStreamSocketChannel.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/BaseStreamSocketChannel.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio/Sources/NIOPosix/Bootstrap.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/Bootstrap.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/Bootstrap.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/Bootstrap~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/Bootstrap.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/Bootstrap.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio/Sources/NIOPosix/ControlMessage.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/ControlMessage.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/ControlMessage.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/ControlMessage~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/ControlMessage.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/ControlMessage.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio/Sources/NIOPosix/DatagramVectorReadManager.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/DatagramVectorReadManager.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/DatagramVectorReadManager.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/DatagramVectorReadManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/DatagramVectorReadManager.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/DatagramVectorReadManager.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio/Sources/NIOPosix/Errors+Any.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/Errors+Any.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/Errors+Any.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/Errors+Any~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/Errors+Any.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/Errors+Any.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio/Sources/NIOPosix/FileDescriptor.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/FileDescriptor.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/FileDescriptor.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/FileDescriptor~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/FileDescriptor.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/FileDescriptor.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio/Sources/NIOPosix/GetaddrinfoResolver.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/GetaddrinfoResolver.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/GetaddrinfoResolver.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/GetaddrinfoResolver~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/GetaddrinfoResolver.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/GetaddrinfoResolver.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio/Sources/NIOPosix/HappyEyeballs.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/HappyEyeballs.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/HappyEyeballs.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/HappyEyeballs~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/HappyEyeballs.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/HappyEyeballs.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio/Sources/NIOPosix/IO.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/IO.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/IO.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/IO~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/IO.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/IO.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio/Sources/NIOPosix/IntegerBitPacking.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/IntegerBitPacking.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/IntegerBitPacking.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/IntegerBitPacking~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/IntegerBitPacking.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/IntegerBitPacking.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio/Sources/NIOPosix/IntegerTypes.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/IntegerTypes.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/IntegerTypes.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/IntegerTypes~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/IntegerTypes.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/IntegerTypes.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio/Sources/NIOPosix/Linux.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/Linux.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/Linux.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/Linux~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/Linux.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/Linux.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio/Sources/NIOPosix/LinuxCPUSet.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/LinuxCPUSet.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/LinuxCPUSet.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/LinuxCPUSet~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/LinuxCPUSet.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/LinuxCPUSet.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio/Sources/NIOPosix/LinuxUring.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/LinuxUring.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/LinuxUring.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/LinuxUring~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/LinuxUring.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/LinuxUring.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio/Sources/NIOPosix/MultiThreadedEventLoopGroup.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/MultiThreadedEventLoopGroup.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/MultiThreadedEventLoopGroup.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/MultiThreadedEventLoopGroup~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/MultiThreadedEventLoopGroup.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/MultiThreadedEventLoopGroup.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio/Sources/NIOPosix/NIOPosixSendableMetatype.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/NIOPosixSendableMetatype.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/NIOPosixSendableMetatype.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/NIOPosixSendableMetatype~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/NIOPosixSendableMetatype.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/NIOPosixSendableMetatype.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio/Sources/NIOPosix/NIOThreadPool.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/NIOThreadPool.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/NIOThreadPool.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/NIOThreadPool~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/NIOThreadPool.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/NIOThreadPool.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio/Sources/NIOPosix/NonBlockingFileIO.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/NonBlockingFileIO.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/NonBlockingFileIO.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/NonBlockingFileIO~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/NonBlockingFileIO.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/NonBlockingFileIO.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio/Sources/NIOPosix/PendingDatagramWritesManager.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/PendingDatagramWritesManager.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/PendingDatagramWritesManager.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/PendingDatagramWritesManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/PendingDatagramWritesManager.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/PendingDatagramWritesManager.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio/Sources/NIOPosix/PendingWritesManager.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/PendingWritesManager.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/PendingWritesManager.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/PendingWritesManager~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/PendingWritesManager.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/PendingWritesManager.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio/Sources/NIOPosix/PipeChannel.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/PipeChannel.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/PipeChannel.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/PipeChannel~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/PipeChannel.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/PipeChannel.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio/Sources/NIOPosix/PipePair.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/PipePair.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/PipePair.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/PipePair~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/PipePair.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/PipePair.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio/Sources/NIOPosix/Pool.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/Pool.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/Pool.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/Pool~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/Pool.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/Pool.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio/Sources/NIOPosix/PosixSingletons+ConcurrencyTakeOver.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/PosixSingletons+ConcurrencyTakeOver.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/PosixSingletons+ConcurrencyTakeOver.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/PosixSingletons+ConcurrencyTakeOver~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/PosixSingletons+ConcurrencyTakeOver.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/PosixSingletons+ConcurrencyTakeOver.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio/Sources/NIOPosix/PosixSingletons.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/PosixSingletons.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/PosixSingletons.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/PosixSingletons~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/PosixSingletons.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/PosixSingletons.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio/Sources/NIOPosix/RawSocketBootstrap.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/RawSocketBootstrap.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/RawSocketBootstrap.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/RawSocketBootstrap~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/RawSocketBootstrap.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/RawSocketBootstrap.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio/Sources/NIOPosix/Resolver.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/Resolver.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/Resolver.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/Resolver~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/Resolver.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/Resolver.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio/Sources/NIOPosix/Selectable.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/Selectable.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/Selectable.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/Selectable~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/Selectable.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/Selectable.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio/Sources/NIOPosix/SelectableChannel.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/SelectableChannel.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/SelectableChannel.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/SelectableChannel~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/SelectableChannel.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/SelectableChannel.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio/Sources/NIOPosix/SelectableEventLoop.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/SelectableEventLoop.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/SelectableEventLoop.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/SelectableEventLoop~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/SelectableEventLoop.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/SelectableEventLoop.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio/Sources/NIOPosix/SelectorEpoll.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/SelectorEpoll.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/SelectorEpoll.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/SelectorEpoll~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/SelectorEpoll.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/SelectorEpoll.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio/Sources/NIOPosix/SelectorGeneric.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/SelectorGeneric.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/SelectorGeneric.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/SelectorGeneric~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/SelectorGeneric.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/SelectorGeneric.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio/Sources/NIOPosix/SelectorKqueue.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/SelectorKqueue.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/SelectorKqueue.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/SelectorKqueue~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/SelectorKqueue.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/SelectorKqueue.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio/Sources/NIOPosix/SelectorUring.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/SelectorUring.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/SelectorUring.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/SelectorUring~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/SelectorUring.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/SelectorUring.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio/Sources/NIOPosix/SelectorWSAPoll.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/SelectorWSAPoll.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/SelectorWSAPoll.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/SelectorWSAPoll~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/SelectorWSAPoll.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/SelectorWSAPoll.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio/Sources/NIOPosix/ServerSocket.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/ServerSocket.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/ServerSocket.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/ServerSocket~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/ServerSocket.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/ServerSocket.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio/Sources/NIOPosix/Socket.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/Socket.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/Socket.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/Socket~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/Socket.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/Socket.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio/Sources/NIOPosix/SocketChannel.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/SocketChannel.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/SocketChannel.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/SocketChannel~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/SocketChannel.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/SocketChannel.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio/Sources/NIOPosix/SocketProtocols.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/SocketProtocols.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/SocketProtocols.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/SocketProtocols~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/SocketProtocols.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/SocketProtocols.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio/Sources/NIOPosix/StructuredConcurrencyHelpers.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/StructuredConcurrencyHelpers.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/StructuredConcurrencyHelpers.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/StructuredConcurrencyHelpers~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/StructuredConcurrencyHelpers.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/StructuredConcurrencyHelpers.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio/Sources/NIOPosix/System.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/System.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/System.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/System~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/System.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/System.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio/Sources/NIOPosix/Thread.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/Thread.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/Thread.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/Thread~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/Thread.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/Thread.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio/Sources/NIOPosix/ThreadPosix.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/ThreadPosix.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/ThreadPosix.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/ThreadPosix~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/ThreadPosix.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/ThreadPosix.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio/Sources/NIOPosix/ThreadWindows.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/ThreadWindows.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/ThreadWindows.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/ThreadWindows~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/ThreadWindows.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/ThreadWindows.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio/Sources/NIOPosix/UnsafeTransfer.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/UnsafeTransfer.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/UnsafeTransfer.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/UnsafeTransfer~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/UnsafeTransfer.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/UnsafeTransfer.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio/Sources/NIOPosix/Utilities.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/Utilities.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/Utilities.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/Utilities~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/Utilities.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/Utilities.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio/Sources/NIOPosix/VsockAddress.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/VsockAddress.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/VsockAddress.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/VsockAddress~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/VsockAddress.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/VsockAddress.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio/Sources/NIOPosix/VsockChannelEvents.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/VsockChannelEvents.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/VsockChannelEvents.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/VsockChannelEvents~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/VsockChannelEvents.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/VsockChannelEvents.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio/Sources/NIOPosix/Windows.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/Windows.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/Windows.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/Windows~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/Windows.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/Windows.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/DerivedSources/resource_bundle_accessor.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/resource_bundle_accessor.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/resource_bundle_accessor.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/resource_bundle_accessor~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/resource_bundle_accessor.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOPosix.build/resource_bundle_accessor.dia"
+  }
+}

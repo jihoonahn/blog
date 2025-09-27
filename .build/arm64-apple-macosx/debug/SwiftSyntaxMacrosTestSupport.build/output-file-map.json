@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftSyntaxMacrosTestSupport.build/master.swiftdeps"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-syntax/Sources/SwiftSyntaxMacrosTestSupport/Assertions.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftSyntaxMacrosTestSupport.build/Assertions.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftSyntaxMacrosTestSupport.build/Assertions.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftSyntaxMacrosTestSupport.build/Assertions~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftSyntaxMacrosTestSupport.build/Assertions.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftSyntaxMacrosTestSupport.build/Assertions.dia"
+  }
+}

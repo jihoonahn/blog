@@ -1,0 +1,3 @@
+module NIOHTTPCompression {
+    header "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOHTTPCompression.build/include/NIOHTTPCompression-Swift.h"
+}

@@ -1,0 +1,3 @@
+module _CertificateInternals {
+    header "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/_CertificateInternals.build/include/_CertificateInternals-Swift.h"
+}

@@ -1,0 +1,173 @@
+{
+  "": {
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/master.swiftdeps"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/JavaScriptKit/Sources/JavaScriptKit/BasicObjects/JSArray.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSArray.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSArray.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSArray~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSArray.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSArray.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/JavaScriptKit/Sources/JavaScriptKit/BasicObjects/JSDate.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSDate.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSDate.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSDate~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSDate.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSDate.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/JavaScriptKit/Sources/JavaScriptKit/BasicObjects/JSError.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSError.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSError.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSError~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSError.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSError.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/JavaScriptKit/Sources/JavaScriptKit/BasicObjects/JSPromise.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSPromise.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSPromise.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSPromise~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSPromise.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSPromise.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/JavaScriptKit/Sources/JavaScriptKit/BasicObjects/JSTimer.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSTimer.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSTimer.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSTimer~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSTimer.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSTimer.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/JavaScriptKit/Sources/JavaScriptKit/BasicObjects/JSTypedArray.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSTypedArray.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSTypedArray.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSTypedArray~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSTypedArray.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSTypedArray.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/JavaScriptKit/Sources/JavaScriptKit/BridgeJSInstrincics.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/BridgeJSInstrincics.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/BridgeJSInstrincics.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/BridgeJSInstrincics~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/BridgeJSInstrincics.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/BridgeJSInstrincics.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/JavaScriptKit/Sources/JavaScriptKit/ConstructibleFromJSValue.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/ConstructibleFromJSValue.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/ConstructibleFromJSValue.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/ConstructibleFromJSValue~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/ConstructibleFromJSValue.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/ConstructibleFromJSValue.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/JavaScriptKit/Sources/JavaScriptKit/ConvertibleToJSValue.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/ConvertibleToJSValue.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/ConvertibleToJSValue.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/ConvertibleToJSValue~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/ConvertibleToJSValue.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/ConvertibleToJSValue.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/JavaScriptKit/Sources/JavaScriptKit/Deprecated.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/Deprecated.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/Deprecated.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/Deprecated~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/Deprecated.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/Deprecated.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/JavaScriptKit/Sources/JavaScriptKit/Features.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/Features.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/Features.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/Features~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/Features.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/Features.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/JavaScriptKit/Sources/JavaScriptKit/FundamentalObjects/JSBigInt.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSBigInt.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSBigInt.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSBigInt~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSBigInt.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSBigInt.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/JavaScriptKit/Sources/JavaScriptKit/FundamentalObjects/JSClosure.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSClosure.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSClosure.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSClosure~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSClosure.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSClosure.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/JavaScriptKit/Sources/JavaScriptKit/FundamentalObjects/JSFunction.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSFunction.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSFunction.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSFunction~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSFunction.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSFunction.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/JavaScriptKit/Sources/JavaScriptKit/FundamentalObjects/JSObject.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSObject.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSObject.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSObject~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSObject.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSObject.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/JavaScriptKit/Sources/JavaScriptKit/FundamentalObjects/JSString.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSString.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSString.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSString~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSString.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSString.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/JavaScriptKit/Sources/JavaScriptKit/FundamentalObjects/JSSymbol.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSSymbol.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSSymbol.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSSymbol~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSSymbol.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSSymbol.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/JavaScriptKit/Sources/JavaScriptKit/FundamentalObjects/JSThrowingFunction.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSThrowingFunction.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSThrowingFunction.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSThrowingFunction~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSThrowingFunction.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSThrowingFunction.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/JavaScriptKit/Sources/JavaScriptKit/JSBridgedType.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSBridgedType.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSBridgedType.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSBridgedType~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSBridgedType.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSBridgedType.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/JavaScriptKit/Sources/JavaScriptKit/JSException.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSException.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSException.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSException~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSException.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSException.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/JavaScriptKit/Sources/JavaScriptKit/JSValue.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSValue.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSValue.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSValue~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSValue.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSValue.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/JavaScriptKit/Sources/JavaScriptKit/JSValueDecoder.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSValueDecoder.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSValueDecoder.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSValueDecoder~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSValueDecoder.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/JSValueDecoder.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/JavaScriptKit/Sources/JavaScriptKit/Macros.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/Macros.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/Macros.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/Macros~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/Macros.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/Macros.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/JavaScriptKit/Sources/JavaScriptKit/ThreadLocal.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/ThreadLocal.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/ThreadLocal.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/ThreadLocal~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/ThreadLocal.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/JavaScriptKit.build/ThreadLocal.dia"
+  }
+}

@@ -1,0 +1,3 @@
+module NIOWebSocket {
+    header "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOWebSocket.build/include/NIOWebSocket-Swift.h"
+}

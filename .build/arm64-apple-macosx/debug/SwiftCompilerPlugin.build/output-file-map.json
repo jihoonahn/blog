@@ -1,0 +1,12 @@
+{
+  "": {
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftCompilerPlugin.build/master.swiftdeps"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-syntax/Sources/SwiftCompilerPlugin/CompilerPlugin.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftCompilerPlugin.build/CompilerPlugin.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftCompilerPlugin.build/CompilerPlugin.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftCompilerPlugin.build/CompilerPlugin~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftCompilerPlugin.build/CompilerPlugin.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/arm64-apple-macosx/debug/SwiftCompilerPlugin.build/CompilerPlugin.dia"
+  }
+}

@@ -1,0 +1,30 @@
+---
+import "@styles/global.css";
+
+import { getLangFromUrl } from "@i18n/utils";
+import Head from "@components/global/Head.astro";
+import Navigation from "@components/global/Navigation.astro";
+import Footer from "@components/global/Footer.astro";
+import type { MetaData } from "~/types";
+
+export interface Props {
+  metadata?: MetaData;
+}
+
+const { metadata = {} } = Astro.props;
+const lang = getLangFromUrl(Astro.url);
+---
+
+<!doctype html>
+<html lang={lang} class="scroll-smooth">
+  <head>
+    <Head metadata={metadata} />
+  </head>
+  <body class="min-h-screen bg-white text-gray-900 antialiased">
+    <Navigation />
+    <main>
+      <slot />
+    </main>
+    <Footer lang={lang} />
+  </body>
+</html>

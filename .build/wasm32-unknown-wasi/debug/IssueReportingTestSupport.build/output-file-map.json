@@ -1,0 +1,19 @@
+{
+  "": {
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/IssueReportingTestSupport.build/master.swiftdeps"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/xctest-dynamic-overlay/Sources/IssueReportingTestSupport/SwiftTesting.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/IssueReportingTestSupport.build/SwiftTesting.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/IssueReportingTestSupport.build/SwiftTesting.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/IssueReportingTestSupport.build/SwiftTesting~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/IssueReportingTestSupport.build/SwiftTesting.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/IssueReportingTestSupport.build/SwiftTesting.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/xctest-dynamic-overlay/Sources/IssueReportingTestSupport/XCTest.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/IssueReportingTestSupport.build/XCTest.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/IssueReportingTestSupport.build/XCTest.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/IssueReportingTestSupport.build/XCTest~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/IssueReportingTestSupport.build/XCTest.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/IssueReportingTestSupport.build/XCTest.dia"
+  }
+}

@@ -1,0 +1,3 @@
+module AsyncHTTPClient {
+    header "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/AsyncHTTPClient.build/include/AsyncHTTPClient-Swift.h"
+}

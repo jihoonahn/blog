@@ -1,0 +1,3 @@
+module Atomics {
+    header "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/Atomics.build/include/Atomics-Swift.h"
+}

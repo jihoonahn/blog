@@ -1,0 +1,3 @@
+module HeapModule {
+    header "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/HeapModule.build/include/HeapModule-Swift.h"
+}

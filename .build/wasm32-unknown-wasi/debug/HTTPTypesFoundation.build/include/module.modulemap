@@ -1,0 +1,3 @@
+module HTTPTypesFoundation {
+    header "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/HTTPTypesFoundation.build/include/HTTPTypesFoundation-Swift.h"
+}

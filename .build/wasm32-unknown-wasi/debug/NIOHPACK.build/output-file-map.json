@@ -1,0 +1,82 @@
+{
+  "": {
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOHPACK.build/master.swiftdeps"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/DynamicHeaderTable.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOHPACK.build/DynamicHeaderTable.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOHPACK.build/DynamicHeaderTable.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOHPACK.build/DynamicHeaderTable~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOHPACK.build/DynamicHeaderTable.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOHPACK.build/DynamicHeaderTable.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/HPACKDecoder.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOHPACK.build/HPACKDecoder.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOHPACK.build/HPACKDecoder.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOHPACK.build/HPACKDecoder~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOHPACK.build/HPACKDecoder.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOHPACK.build/HPACKDecoder.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/HPACKEncoder.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOHPACK.build/HPACKEncoder.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOHPACK.build/HPACKEncoder.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOHPACK.build/HPACKEncoder~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOHPACK.build/HPACKEncoder.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOHPACK.build/HPACKEncoder.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/HPACKErrors.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOHPACK.build/HPACKErrors.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOHPACK.build/HPACKErrors.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOHPACK.build/HPACKErrors~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOHPACK.build/HPACKErrors.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOHPACK.build/HPACKErrors.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/HPACKHeader.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOHPACK.build/HPACKHeader.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOHPACK.build/HPACKHeader.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOHPACK.build/HPACKHeader~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOHPACK.build/HPACKHeader.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOHPACK.build/HPACKHeader.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/HeaderTables.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOHPACK.build/HeaderTables.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOHPACK.build/HeaderTables.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOHPACK.build/HeaderTables~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOHPACK.build/HeaderTables.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOHPACK.build/HeaderTables.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/HuffmanCoding.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOHPACK.build/HuffmanCoding.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOHPACK.build/HuffmanCoding.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOHPACK.build/HuffmanCoding~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOHPACK.build/HuffmanCoding.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOHPACK.build/HuffmanCoding.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/HuffmanTables.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOHPACK.build/HuffmanTables.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOHPACK.build/HuffmanTables.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOHPACK.build/HuffmanTables~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOHPACK.build/HuffmanTables.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOHPACK.build/HuffmanTables.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/IndexedHeaderTable.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOHPACK.build/IndexedHeaderTable.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOHPACK.build/IndexedHeaderTable.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOHPACK.build/IndexedHeaderTable~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOHPACK.build/IndexedHeaderTable.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOHPACK.build/IndexedHeaderTable.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/IntegerCoding.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOHPACK.build/IntegerCoding.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOHPACK.build/IntegerCoding.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOHPACK.build/IntegerCoding~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOHPACK.build/IntegerCoding.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOHPACK.build/IntegerCoding.dia"
+  },
+  "/Users/jihoonahn/Desktop/blog/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/StaticHeaderTable.swift": {
+    "dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOHPACK.build/StaticHeaderTable.d",
+    "object": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOHPACK.build/StaticHeaderTable.swift.o",
+    "swiftmodule": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOHPACK.build/StaticHeaderTable~partial.swiftmodule",
+    "swift-dependencies": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOHPACK.build/StaticHeaderTable.swiftdeps",
+    "diagnostics": "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/NIOHPACK.build/StaticHeaderTable.dia"
+  }
+}

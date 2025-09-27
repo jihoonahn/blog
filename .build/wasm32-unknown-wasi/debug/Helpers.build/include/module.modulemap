@@ -1,0 +1,3 @@
+module Helpers {
+    header "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/Helpers.build/include/Helpers-Swift.h"
+}

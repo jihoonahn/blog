@@ -1,0 +1,3 @@
+module UnixSignals {
+    header "/Users/jihoonahn/Desktop/blog/.build/wasm32-unknown-wasi/debug/UnixSignals.build/include/UnixSignals-Swift.h"
+}
