@@ -2,43 +2,48 @@
 import PackageDescription
 
 let package = Package(
-    name: "blog",
+    name: "swift-blog",
     platforms: [.macOS(.v13)],
     products: [
         .executable(
+            name: "Blog",
+            targets: ["Blog"]
+        ),
+        .library(
             name: "App",
             targets: ["App"]
         ),
-        .executable(
-            name: "Server",
-            targets: ["Server"]
+        .library(
+            name: "Domain",
+            targets: ["Domain"]
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/vapor/vapor", from: "4.117.0"),
-        .package(url: "https://github.com/vapor/fluent", from: "4.12.0"),
-        .package(url: "https://github.com/vapor/fluent-postgres-driver", from: "2.11.0"),
-        .package(url: "https://github.com/vapor/jwt-kit", from: "5.2.0"),
-        .package(url: "https://github.com/swiftwasm/JavaScriptKit", from: "0.36.0"),
+        .package(url: "https://github.com/supabase-community/supabase-swift", from: "2.33.1"),
+        .package(url: "https://github.com/swift-server/async-http-client", from: "1.28.0")
     ],
     targets: [
         .executableTarget(
-            name: "App",
+            name: "Blog",
             dependencies: [
-                .product(name: "JavaScriptKit", package: "JavaScriptKit"),
-                "Shared"
+                .target(name: "App"),
+                .target(name: "Domain")
             ]
         ),
-        .executableTarget(
-            name: "Server",
+               .target(
+                   name: "App",
+                   dependencies: [
+                       .target(name: "Domain"),
+                       .product(name: "AsyncHTTPClient", package: "async-http-client")
+                   ],
+                   path: "Sources/App"
+               ),
+        .target(
+            name: "Domain",
             dependencies: [
-                .product(name: "Vapor", package: "vapor"),
-                .product(name: "Fluent", package: "fluent"),
-                .product(name: "FluentPostgresDriver", package: "fluent-postgres-driver"),
-                .product(name: "JWTKit", package: "jwt-kit"),
-                "Shared"
+                .product(name: "Supabase", package: "supabase-swift"),
             ],
-        ),
-        .target(name: "Shared")
+            path: "Sources/Domain"
+        )
     ]
 )

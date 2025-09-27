@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swift Blog - Personal Blog built with Swift WASM</title>
+    <meta name="description" content="Swift WASM과 Supabase를 사용하여 구축된 개인 블로그입니다.">
+    <meta name="keywords" content="swift, wasm, blog, supabase, javascriptkit">
+    <meta name="author" content="Jihoon Ahn">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://your-blog.netlify.app/">
+    <meta property="og:title" content="Swift Blog">
+    <meta property="og:description" content="Swift WASM과 Supabase를 사용하여 구축된 개인 블로그입니다.">
+    <meta property="og:image" content="/og-image.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://your-blog.netlify.app/">
+    <meta property="twitter:title" content="Swift Blog">
+    <meta property="twitter:description" content="Swift WASM과 Supabase를 사용하여 구축된 개인 블로그입니다.">
+    <meta property="twitter:image" content="/og-image.jpg">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-spinner">
+            <div class="spinner"></div>
+            <p>Loading ...</p>
+        </div>
+    </div>
+
+    <!-- Main App Container -->
+    <div id="app" class="app-container" style="display: none;"/>
+
+
+    <!-- Notification Container -->
+    <div id="notification-container" class="notification-container"></div>
+
+    <!-- Scripts -->
+    <script type="module" src="/index.js"></script>
+</body>
+</html>

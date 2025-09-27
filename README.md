@@ -1,35 +1,75 @@
-# Blog Server
+# Swift Blog
 
-Vapor 프레임워크를 사용한 블로그 백엔드 서버입니다.
+Swift WASM과 Supabase를 사용한 Personal Blog입니다.
 
 ## 기술 스택
 
-- **Vapor 4.117.0+**: Swift 웹 프레임워크
-- **Fluent**: ORM (Object-Relational Mapping)
-- **PostgreSQL**: 데이터베이스
-- **JWT Kit**: JWT 토큰 인증
-- **Bcrypt**: 비밀번호 해싱
+- **Swift 6.2+**: 메인 프로그래밍 언어
+- **JavaScriptKit**: Swift와 JavaScript 간 브릿지
+- **Supabase**: 백엔드 서비스 (데이터베이스, 인증, 스토리지)
+- **Tailwind CSS**: 스타일링
+- **Vite**: 프론트엔드 빌드 도구
+- **Netlify**: 배포 플랫폼
 
 ## 주요 기능
 
-- **Admin 인증 시스템**: JWT 기반 로그인/리프레시
-- **포스트 관리**: CRUD 작업 (생성, 읽기, 수정, 삭제, 발행)
-- **이미지 업로드**: 관리자용 이미지 관리
-- **댓글 시스템**: 익명 댓글 작성 및 관리
-- **CORS 지원**: 크로스 오리진 요청 처리
+- **SPA (Single Page Application)**: 클라이언트 사이드 라우팅
+- **관리자 패널**: 포스트, 댓글, 카테고리, 태그 관리
+- **댓글 시스템**: 실시간 댓글 작성 및 관리
+- **반응형 디자인**: 모바일 친화적 UI
+- **SEO 최적화**: 메타 태그 및 구조화된 데이터
+- **다크 모드**: 사용자 선호도에 따른 테마 전환
+- **검색 기능**: 포스트 및 콘텐츠 검색
+- **태그 및 카테고리**: 콘텐츠 분류 및 필터링
 
-## 서버 실행 방법
+## 시작하기
 
-### 1. 기본 실행
+### 1. 프로젝트 설정
 
 ```bash
-swift run Server serve --port 8080
+# 저장소 클론
+git clone https://github.com/yourusername/swift-blog.git
+cd swift-blog
+
+# 의존성 설치
+make setup
 ```
 
-### 2. 새로 시작 (데이터베이스 초기화)
+### 2. 환경 변수 설정
+
+`.env` 파일을 생성하고 다음 변수들을 설정하세요:
 
 ```bash
-./start-fresh.sh
+# Supabase 설정
+SUPABASE_URL=https://your-project.supabase.co
+SUPABASE_ANON_KEY=your-anon-key
+SUPABASE_SERVICE_ROLE_KEY=your-service-role-key
+
+# 블로그 설정
+BLOG_SITE_NAME="My Personal Blog"
+BLOG_SITE_DESCRIPTION="A personal blog built with Swift WASM and Supabase"
+BLOG_SITE_URL=https://your-blog.netlify.app
+BLOG_ADMIN_EMAIL=admin@yourblog.com
+
+# 관리자 설정
+ADMIN_USERNAME=admin
+ADMIN_PASSWORD=your-secure-password
+ADMIN_DISPLAY_NAME="Blog Administrator"
+
+# 보안 설정
+JWT_SECRET=your-jwt-secret-key
+SESSION_SECRET=your-session-secret-key
+```
+
+### 3. 개발 서버 실행
+
+```bash
+# 개발 모드로 실행
+make dev
+
+# 또는 개별 실행
+make dev-swift    # Swift WASM 빌드
+make dev-frontend # 프론트엔드 개발 서버
 ```
 
 ## 환경 변수 설정
