@@ -1,155 +1,213 @@
-/*
-  The CSS in this style tag is based off of Bear Blog's default CSS.
-  https://github.com/HermanMartinus/bearblog/blob/297026a877bc2ab2b3bdfbd6b9f7961c350917dd/templates/styles/blog/default.css
-  License MIT: https://github.com/HermanMartinus/bearblog/blob/master/LICENSE.md
- */
+@import "tailwindcss";
 
+/* ===== TAILWIND THEME CUSTOMIZATION ===== */
+@theme {
+  /* Custom Color Palette */
+  --color-primary-light-gray: #E6E6E6;
+  --color-primary-gray: #D4D4D4;
+  --color-primary-dark-gray: #4D4D4A;
+  --color-primary-black: #212121;
+  
+  /* Neutral Colors */
+  --color-neutral-white: #FFFFFF;
+  --color-neutral-100: #F5F5F5;
+  --color-neutral-150: #F0F0F0;
+  --color-neutral-200: #EBEBEB;
+  --color-neutral-250: #E0E0E0;
+  --color-neutral-300: #DBDBDB;
+  --color-neutral-350: #D8D8D8;
+  --color-neutral-400: #CECECE;
+  --color-neutral-450: #BBBBBB;
+  --color-neutral-500: #A4A4A4;
+  --color-neutral-550: #8D8D8D;
+  --color-neutral-600: #6C6C6C;
+  --color-neutral-650: #5B5B5B;
+  --color-neutral-700: #404040;
+  --color-neutral-750: #333333;
+  --color-neutral-800: #2A2A2A;
+  --color-neutral-850: #222222;
+  --color-neutral-900: #1A1A1A;
+  --color-neutral-950: #111111;
+  --color-neutral-black: #000000;
+  
+  /* Blue Palette */
+  --color-blue-100: #DEE5FF;
+  --color-blue-200: #C3D0FF;
+  --color-blue-300: #A9BCFF;
+  --color-blue-400: #90A8FF;
+  --color-blue-500: #7694FF;
+  --color-blue-600: #5B7FFF;
+  --color-blue-700: #3E68FF;
+  --color-blue-800: #2351F7;
+  --color-blue-900: #1D44CE;
+  --color-blue-1000: #1837A8;
+  
+  /* Purple Palette */
+  --color-purple-100: #EFDFFF;
+  --color-purple-200: #E3C7FF;
+  --color-purple-300: #D6AEFF;
+  --color-purple-400: #C995FF;
+  --color-purple-500: #BD7BFF;
+  --color-purple-600: #AF60FF;
+  --color-purple-700: #9E3FFF;
+  --color-purple-800: #891CF9;
+  --color-purple-900: #7318D0;
+  --color-purple-1000: #5E13AB;
+  
+  /* Teal Palette */
+  --color-teal-100: #C9ECF0;
+  --color-teal-200: #9EDDE4;
+  --color-teal-300: #71CDD7;
+  --color-teal-400: #54BAC6;
+  --color-teal-500: #4BA7B1;
+  --color-teal-600: #42949D;
+  --color-teal-700: #398088;
+  --color-teal-800: #316D74;
+  --color-teal-900: #295b61;
+  --color-teal-1000: #214a4e;
+  
+  /* Green Palette */
+  --color-green-100: #ADF7B0;
+  --color-green-200: #5BEE62;
+  --color-green-300: #2FDC37;
+  --color-green-400: #2AC632;
+  --color-green-500: #26B12D;
+  --color-green-600: #229D28;
+  --color-green-700: #1D8822;
+  --color-green-800: #19751D;
+  --color-green-900: #156119;
+  --color-green-1000: #114f14;
+  
+  /* Animation Variables */
+  --animate-float: float 6s ease-in-out infinite;
+  --animate-glow: glow 3s ease-in-out infinite;
+  --animate-shimmer: shimmer 2s infinite;
+  --animate-gradient-shift: gradient-shift 3s ease-in-out infinite;
+}
+
+/* ===== THEME SYSTEM ===== */
 :root {
-	--accent: #2337ff;
-	--accent-dark: #000d8a;
-	--black: 15, 18, 25;
-	--gray: 96, 115, 159;
-	--gray-light: 229, 233, 240;
-	--gray-dark: 34, 41, 57;
-	--gray-gradient: rgba(var(--gray-light), 50%), #fff;
-	--box-shadow:
-		0 2px 6px rgba(var(--gray), 25%), 0 8px 24px rgba(var(--gray), 33%), 0 16px 32px
-		rgba(var(--gray), 33%);
-}
-@font-face {
-	font-family: "Atkinson";
-	src: url("/fonts/atkinson-regular.woff") format("woff");
-	font-weight: 400;
-	font-style: normal;
-	font-display: swap;
-}
-@font-face {
-	font-family: "Atkinson";
-	src: url("/fonts/atkinson-bold.woff") format("woff");
-	font-weight: 700;
-	font-style: normal;
-	font-display: swap;
-}
-body {
-	font-family: "Atkinson", sans-serif;
-	margin: 0;
-	padding: 0;
-	text-align: left;
-	background: linear-gradient(var(--gray-gradient)) no-repeat;
-	background-size: 100% 600px;
-	word-wrap: break-word;
-	overflow-wrap: break-word;
-	color: rgb(var(--gray-dark));
-	font-size: 20px;
-	line-height: 1.7;
-}
-main {
-	width: 720px;
-	max-width: calc(100% - 2em);
-	margin: auto;
-	padding: 3em 1em;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	margin: 0 0 0.5rem 0;
-	color: rgb(var(--black));
-	line-height: 1.2;
-}
-h1 {
-	font-size: 3.052em;
-}
-h2 {
-	font-size: 2.441em;
-}
-h3 {
-	font-size: 1.953em;
-}
-h4 {
-	font-size: 1.563em;
-}
-h5 {
-	font-size: 1.25em;
-}
-strong,
-b {
-	font-weight: 700;
-}
-a {
-	color: var(--accent);
-}
-a:hover {
-	color: var(--accent);
-}
-p {
-	margin-bottom: 1em;
-}
-.prose p {
-	margin-bottom: 2em;
-}
-textarea {
-	width: 100%;
-	font-size: 16px;
-}
-input {
-	font-size: 16px;
-}
-table {
-	width: 100%;
-}
-img {
-	max-width: 100%;
-	height: auto;
-	border-radius: 8px;
-}
-code {
-	padding: 2px 5px;
-	background-color: rgb(var(--gray-light));
-	border-radius: 2px;
-}
-pre {
-	padding: 1.5em;
-	border-radius: 8px;
-}
-pre > code {
-	all: unset;
-}
-blockquote {
-	border-left: 4px solid var(--accent);
-	padding: 0 0 0 20px;
-	margin: 0px;
-	font-size: 1.333em;
-}
-hr {
-	border: none;
-	border-top: 1px solid rgb(var(--gray-light));
-}
-@media (max-width: 720px) {
-	body {
-		font-size: 18px;
-	}
-	main {
-		padding: 1em;
-	}
+  /* Light Theme Colors (기본값) */
+  --bg-primary: var(--color-neutral-white);
+  --bg-secondary: var(--color-neutral-100);
+  --bg-tertiary: var(--color-neutral-200);
+  --text-primary: var(--color-neutral-900);
+  --text-secondary: var(--color-neutral-700);
+  --text-tertiary: var(--color-neutral-600);
+  --border-primary: var(--color-neutral-300);
+  --border-secondary: var(--color-neutral-400);
+  --accent-primary: var(--color-blue-600);
+  --accent-secondary: var(--color-purple-600);
+  --shadow-primary: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --shadow-secondary: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
 }
 
-.sr-only {
-	border: 0;
-	padding: 0;
-	margin: 0;
-	position: absolute !important;
-	height: 1px;
-	width: 1px;
-	overflow: hidden;
-	/* IE6, IE7 - a 0 height clip, off to the bottom right of the visible 1px box */
-	clip: rect(1px 1px 1px 1px);
-	/* maybe deprecated but we need to support legacy browsers */
-	clip: rect(1px, 1px, 1px, 1px);
-	/* modern browsers, clip-path works inwards from each corner */
-	clip-path: inset(50%);
-	/* added line to stop words getting smushed together (as they go onto separate lines and some screen readers do not understand line feeds as a space */
-	white-space: nowrap;
+/* 다크 테마 */
+html[data-theme="dark"] {
+  --bg-primary: var(--color-neutral-950);
+  --bg-secondary: var(--color-neutral-900);
+  --bg-tertiary: var(--color-neutral-800);
+  --text-primary: var(--color-neutral-white);
+  --text-secondary: var(--color-neutral-300);
+  --text-tertiary: var(--color-neutral-500);
+  --border-primary: var(--color-neutral-700);
+  --border-secondary: var(--color-neutral-600);
+  --accent-primary: var(--color-blue-600);
+  --accent-secondary: var(--color-purple-600);
+  --shadow-primary: 0 1px 3px 0 rgb(0 0 0 / 0.3), 0 1px 2px -1px rgb(0 0 0 / 0.3);
+  --shadow-secondary: 0 4px 6px -1px rgb(0 0 0 / 0.3), 0 2px 4px -2px rgb(0 0 0 / 0.3);
+}
+
+/* 시스템 다크 테마 감지 */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    --bg-primary: var(--color-neutral-950);
+    --bg-secondary: var(--color-neutral-900);
+    --bg-tertiary: var(--color-neutral-800);
+    --text-primary: var(--color-neutral-white);
+    --text-secondary: var(--color-neutral-300);
+    --text-tertiary: var(--color-neutral-500);
+    --border-primary: var(--color-neutral-700);
+    --border-secondary: var(--color-neutral-600);
+    --accent-primary: var(--color-blue-600);
+    --accent-secondary: var(--color-purple-600);
+    --shadow-primary: 0 1px 3px 0 rgb(0 0 0 / 0.3), 0 1px 2px -1px rgb(0 0 0 / 0.3);
+    --shadow-secondary: 0 4px 6px -1px rgb(0 0 0 / 0.3), 0 2px 4px -2px rgb(0 0 0 / 0.3);
+  }
+}
+
+/* ===== BASE STYLES ===== */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-family-inter);
+  background: var(--bg-primary);
+  background-attachment: fixed;
+  color: var(--text-primary);
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+/* ===== COMPONENTS ===== */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.glass-card {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-primary);
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: var(--shadow-primary);
+  transition: all 0.3s ease;
+  position: relative;
+  backdrop-filter: blur(10px);
+}
+
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 500;
+  text-decoration: none;
+  border: 1px solid var(--accent-primary);
+  background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+  color: white;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg, var(--accent-secondary), var(--accent-primary));
+  transform: translateY(-1px);
+}
+
+/* ===== UTILITIES ===== */
+.text-gradient {
+  background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.floating {
+  animation: var(--animate-float);
+}
+
+.glow {
+  animation: var(--animate-glow);
 }

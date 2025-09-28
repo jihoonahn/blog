@@ -1,10 +1,11 @@
 ---
 import "@styles/global.css";
 
-import { getLangFromUrl } from "@i18n/utils";
+import { getLangFromUrl } from "@i18n/utils.ts";
 import Head from "@components/global/Head.astro";
 import Navigation from "@components/global/Navigation.astro";
 import Footer from "@components/global/Footer.astro";
+import ThemeToggle from "@components/common/ThemeToggle.astro";
 import type { MetaData } from "~/types";
 
 export interface Props {
@@ -20,7 +21,7 @@ const lang = getLangFromUrl(Astro.url);
   <head>
     <Head metadata={metadata} />
   </head>
-  <body class="min-h-screen bg-white text-gray-900 antialiased">
+  <body class="min-h-screen antialiased">
     <Navigation />
     <main>
       <slot />

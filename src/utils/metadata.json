@@ -1,0 +1,9 @@
+{
+    "title": "jihoon.me",
+    "description": "Personal Website",
+    "url": "https://jihoon.me",
+    "robots": {
+        "index": true,
+        "follow": true
+    }
+}
