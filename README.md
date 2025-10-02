@@ -1,221 +1,247 @@
-# Swift Blog
+# Website
 
-Swift 6.0으로 만든 정적 사이트 생성기 (Static Site Generator)
+A modern, static site built entirely in Swift, featuring a beautiful design and powerful functionality.
 
-## ✨ 특징
+[![Swift](https://img.shields.io/badge/Swift-6.2-orange.svg)](https://swift.org)
+[![Platform](https://img.shields.io/badge/Platform-macOS-lightgrey.svg)](https://developer.apple.com/macos/)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-- 🚀 **Swift 6.0** - 최신 Swift 기능 활용 (Sendable, Strict Concurrency)
-- 📝 **Markdown 지원** - 마크다운 파일을 자동으로 HTML로 변환
-- 🎨 **Tailwind CSS** - 유틸리티 기반 CSS 프레임워크
-- ⚡ **Vite** - 빠른 개발 서버
-- 🌳 **중첩 구조** - JSON 스타일의 페이지 구조
-- 🎯 **커스텀 레이아웃** - Swift로 작성하는 HTML 템플릿
+## ✨ Features
 
-## 📦 설치
+- 🎨 **Beautiful Design**: Modern, responsive design with Tailwind CSS
+- 📝 **Markdown Support**: Write posts in Markdown with YAML front matter
+- 🔍 **Search Integration**: DocSearch integration for powerful site search
+- 📱 **Mobile Responsive**: Optimized for all device sizes
+- 🎯 **SEO Optimized**: Automatic RSS feeds and sitemap generation
+- ⚡ **Fast Generation**: Lightning-fast static site generation
+- 🎨 **Syntax Highlighting**: Beautiful code blocks with custom syntax highlighting
+- 🔗 **Social Links**: Linktree-style social media integration
+- 📊 **Post Navigation**: Previous/Next post navigation
+- 🎭 **Copy Code**: One-click code copying functionality
 
-### 1. Swift 의존성 설치
+## 🛠️ Tech Stack
 
-```bash
-swift build
-```
+- **Language**: Swift 6.0
+- **Web Framework**: Custom Plot-inspired DSL
+- **Styling**: Tailwind CSS v4
+- **Build Tool**: Vite
+- **File System**: swift-file
+- **Command Execution**: swift-command
+- **Markdown**: swift-markdown
+- **Logging**: swift-log
 
-### 2. Node.js 의존성 설치
+## 📦 Installation
 
-```bash
-npm install
-```
+### Prerequisites
 
-## 🚀 사용법
+- macOS 13.0+
+- Swift 6.0+
+- Node.js 18+ (for Tailwind CSS)
+- npm or yarn
 
-### 블로그 빌드
+### Setup
 
-```bash
-# 1. Tailwind CSS 빌드
-npm run css:build
+1. **Clone the repository**
 
-# 2. Swift 블로그 생성
-swift run Blog
-
-# 또는 한 번에
-npm run css:build && swift run Blog
-```
-
-### 개발 모드
-
-```bash
-# Tailwind CSS watch 모드
-npm run css:watch
-
-# 다른 터미널에서 프리뷰 서버 실행
-swift run Blog preview
-```
-
-### Vite 개발 서버 사용
-
-```bash
-npm run dev
-```
-
-## 📁 프로젝트 구조
-
-```
-swiftblog/
-├── Sources/
-│   ├── Blog/              # 메인 실행 파일
-│   │   ├── main.swift
-│   │   ├── Pages/         # 페이지 정의
-│   │   ├── Layouts/       # 레이아웃 컴포넌트
-│   │   ├── Components/    # 재사용 컴포넌트
-│   │   └── Styles/        # CSS 파일
-│   │       ├── input.css  # Tailwind 입력
-│   │       └── global.css # 추가 스타일
-│   ├── Generator/         # 사이트 생성 엔진
-│   │   ├── Generator.swift
-│   │   ├── Content.swift
-│   │   ├── Post.swift
-│   │   └── MarkdownParse.swift
-│   ├── Web/              # HTML DSL 라이브러리
-│   └── Content/          # 마크다운 블로그 포스트
-│       ├── *.md
-│       └── tutorials/
-│           └── *.md
-├── Public/               # 정적 파일 (dist에 복사됨)
-│   ├── favicon.ico
-│   └── styles.css       # Tailwind가 생성
-├── dist/                # 빌드 결과물
-├── Package.swift        # Swift 패키지
-├── package.json         # Node.js 패키지
-├── tailwind.config.js   # Tailwind 설정
-├── vite.config.js       # Vite 설정
-└── postcss.config.js    # PostCSS 설정
-```
-
-## 📝 콘텐츠 작성
-
-### 1. 마크다운 파일 생성
-
-```bash
-# Sources/Content/ 폴더에 마크다운 파일 추가
-echo "# My New Post" > Sources/Content/my-post.md
-```
-
-### 2. 중첩 폴더 지원
-
-```bash
-mkdir -p Sources/Content/tutorials
-echo "# Tutorial 1" > Sources/Content/tutorials/tutorial-1.md
-```
-
-→ 자동으로 `dist/blog/tutorials/tutorial-1.html` 생성
-
-### 3. 페이지 정의 (main.swift)
-
-```swift
-let pages = [
-    Page(
-        name: "Blog",
-        path: "blog",
-        html: blogIndex(),
-        children: try content.load()  // 자동으로 마크다운 로드
-    )
-]
-```
-
-## 🎨 스타일링
-
-### Tailwind CSS 사용
-
-1. **input.css 편집** (`Sources/Blog/Styles/input.css`)
-2. **빌드**:
    ```bash
-   npm run css:build
+   git clone https://github.com/jihoonahn/website.git
+   cd website
    ```
 
-### 커스텀 CSS 추가
+2. **Install dependencies**
 
-- `Sources/Blog/Styles/global.css` - 자동으로 `dist/`에 복사됨
-- `Public/` 폴더의 모든 파일 - `dist/` 루트에 복사됨
+   ```bash
+   # Install Node.js dependencies
+   npm install
 
-## 🛠️ NPM 스크립트
+   # Build the project
+   swift build
+   ```
 
-```bash
-# Tailwind CSS 빌드
-npm run css:build
+3. **Generate your blog**
 
-# Tailwind CSS watch 모드 (자동 재빌드)
-npm run css:watch
+   ```bash
+   swift run Website
+   ```
 
-# Vite 개발 서버 (HMR 지원)
-npm run dev
+4. **Preview locally** (optional)
+   ```bash
+   swift run Website preview
+   ```
 
-# Vite 프로덕션 빌드
-npm run build
+## 📁 Project Structure
 
-# Vite 프리뷰
-npm run preview
+```
+swift-blog-generator/
+├── Sources/
+│   ├── Website/           # Main website module
+│   │   ├── Pages/         # Page components
+│   │   ├── Components/    # Reusable components
+│   │   ├── Layouts/       # Page layouts
+│   │   ├── Styles/        # CSS styles
+│   │   └── Contents/      # Markdown content
+│   ├── Generator/         # Site generation logic
+│   └── Web/              # Web framework (Plot-inspired)
+├── Public/               # Static assets
+├── dist/                 # Generated website
+└── package.json          # Node.js dependencies
 ```
 
-## 🔧 Swift 명령어
+## 📝 Writing Posts
 
-```bash
-# 블로그 빌드
-swift run Blog
+Create Markdown files in `Sources/Website/Contents/` with YAML front matter:
 
-# 프리뷰 서버 (Python)
-swift run Blog preview
+````markdown
+---
+title: "Hello Swift 6.0!"
+date: 2025-01-01
+tags: ["swift", "programming"]
+image: "/image/hello-swift.jpg"
+description: "Exploring the new features in Swift 6.0"
+---
 
-# 빌드 & 테스트
-swift build
-swift test
+# Hello Swift 6.2!
+
+This is a sample blog post written in Markdown...
+
+```swift
+func hello() {
+    print("Hello, Swift 6.2!")
+}
+```
+````
+
+````
+
+## 🎨 Customization
+
+### Styling
+
+The blog uses Tailwind CSS v4 for styling. Customize the design by editing:
+
+- `Sources/Website/Styles/global.css` - Global styles and theme
+- `tailwind.config.js` - Tailwind configuration
+
+### Components
+
+Add new components in `Sources/Website/Components/`:
+
+```swift
+struct MyComponent: Component {
+    var body: Component {
+        Div {
+            Text("Hello, World!")
+        }
+        .class("my-custom-class")
+    }
+}
+````
+
+### Pages
+
+Create new pages in `Sources/Website/Pages/`:
+
+```swift
+@HTMLBuilder
+func myPage() -> HTML {
+    let metadata = SiteMetaData(title: "My Page")
+
+    Layout(metadata: metadata) {
+        Main {
+            H1("Welcome to My Page")
+        }
+    }
+}
 ```
 
-## 📦 의존성
+## 🚀 Deployment
 
-### Swift
+### GitHub Pages
 
-- **swift-markdown** - 마크다운 파싱
-- **swift-log** - 로깅
-- **swift-file** - 파일 시스템
-- **swift-command** - 커맨드 실행
+1. Generate your site:
 
-### Node.js
+   ```bash
+   swift run Website
+   ```
 
-- **tailwindcss** - CSS 프레임워크
-- **vite** - 빌드 도구
-- **postcss** - CSS 후처리
-- **autoprefixer** - CSS 벤더 프리픽스
+2. Push the `dist/` folder to your GitHub Pages repository
 
-## 🚀 워크플로우
+### Netlify
 
-### 개발
+1. Connect your repository to Netlify
+2. Set build command: `swift run Website`
+3. Set publish directory: `dist`
 
-```bash
-# 터미널 1: Tailwind watch
-npm run css:watch
+### Vercel
 
-# 터미널 2: Swift 빌드 & 프리뷰
-swift run Blog preview
+1. Add `vercel.json`:
+   ```json
+   {
+     "buildCommand": "swift run Website",
+     "outputDirectory": "dist"
+   }
+   ```
 
-# 또는 Vite 사용
-npm run dev
+## 🔧 Configuration
+
+### Site Metadata
+
+Edit `Sources/Generator/Metadata/SiteMetadata.swift`:
+
+```swift
+public struct SiteMetaData: Metadata {
+    public let title: String
+    public let description: String
+    public let url: String
+    public let favicon: Favicon?
+}
 ```
 
-### 프로덕션 빌드
+### RSS Feed
 
-```bash
-# CSS 빌드
-npm run css:build
+The RSS feed is automatically generated at `/feed.rss` with all your posts.
 
-# 블로그 생성
-swift run Blog
+### Sitemap
 
-# 결과물: dist/ 폴더
-```
+A sitemap is automatically generated at `/sitemap.xml` for SEO.
 
-## 📄 라이선스
+## 🎯 Features in Detail
 
-MIT License
+### Search Integration
 
-## 👤 Author
+The blog includes DocSearch integration for powerful site search:
 
-@jihoonahn
+- Press `Ctrl+K` (or `Cmd+K` on Mac) to open search
+- Search across all posts and pages
+- Keyboard navigation support
+
+### Code Highlighting
+
+Beautiful syntax highlighting for multiple languages:
+
+- Swift
+- JavaScript
+- Python
+- HTML/CSS
+- And more!
+
+### Social Links
+
+Linktree-style social media integration on the About page:
+
+- GitHub
+- LinkedIn
+- Email
+- Custom links
+
+### Post Navigation
+
+Navigate between posts with Previous/Next buttons:
+
+- Automatically sorted by date
+- Responsive design
+- Smooth transitions
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

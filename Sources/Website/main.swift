@@ -53,8 +53,8 @@ do {
         print("⌨️  Press Ctrl+C to stop the server\n")
         
 
-        let python = Alias(executableURL: "/usr/bin/python3")
-        python.run(["-m", "http.server", "8000", "--directory", "dist"])
+        @Command(\.bash) var bash
+        bash.run(["-m", "http.server", "8000", "--directory", "dist"])
         
         print("✅ Preview server is running at http://localhost:8000")
         print("   Serving files from: dist/\n")

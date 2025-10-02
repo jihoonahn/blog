@@ -62,7 +62,7 @@ public final class Generator: Sendable {
         logger.info("Setting up dist folder...")
 
         let fileManager = FileManager.default
-
+        
         if fileManager.fileExists(atPath: distPath) {
             try fileManager.removeItem(atPath: distPath)
         }
@@ -75,25 +75,14 @@ public final class Generator: Sendable {
     private func buildTailwindCSS() throws {
         logger.info("Building Tailwind CSS...")
 
-        let process = Process()
-        process.executableURL = URL(fileURLWithPath: "/usr/bin/env")
-        process.arguments = ["npm", "run", "css:build"]
+        @Command(\.bash) var bash
         
-        let pipe = Pipe()
-        process.standardOutput = pipe
-        process.standardError = pipe
-        
-        try process.run()
-        process.waitUntilExit()
-        
-        if process.terminationStatus == 0 {
+        let result = bash.run(["npm", "run", "css:build"])
+        switch result {
+        case .success(_, _):
             logger.info("✅ Tailwind CSS built successfully")
-        } else {
-            let data = pipe.fileHandleForReading.readDataToEndOfFile()
-            if let output = String(data: data, encoding: .utf8) {
-                logger.warning("⚠️  Tailwind build warning: \(output)")
-            }
-            // Tailwind 빌드 실패해도 계속 진행
+        case .failure(_, let error):
+            logger.warning("⚠️  Tailwind build error: \(error)")
             logger.info("ℹ️  Continuing without Tailwind CSS...")
         }
     }
@@ -101,13 +90,13 @@ public final class Generator: Sendable {
     private func copyPublicFiles() throws {
         logger.info("Copying public files...")
         
-        let fileManager = FileManager.default
-        
-        guard fileManager.fileExists(atPath: publicPath) else {
+        let publicFolder = try? Folder(path: Path(publicPath))
+        guard publicFolder != nil else {
             logger.info("ℹ️  No Public folder found, skipping")
             return
         }
         
+        let fileManager = FileManager.default
         let contents = try fileManager.contentsOfDirectory(atPath: publicPath)
         var copiedCount = 0
         
@@ -127,6 +116,7 @@ public final class Generator: Sendable {
         
         logger.info("✅ Copied \(copiedCount) file(s) from Public folder")
     }
+    
     
     private func generatePages() throws {
         logger.info("Generating static pages...")
@@ -185,6 +175,7 @@ public final class Generator: Sendable {
     
     private func generatePage(_ page: Page, basePath: String) throws {
         let fullPath = "\(basePath)/\(page.path)"
+        
         let fileManager = FileManager.default
         
         if let children = page.children {
