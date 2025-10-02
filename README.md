@@ -1,62 +1,221 @@
-# Astro Starter Kit: Blog
+# Swift Blog
 
-```sh
-npm create astro@latest -- --template blog
+Swift 6.0으로 만든 정적 사이트 생성기 (Static Site Generator)
+
+## ✨ 특징
+
+- 🚀 **Swift 6.0** - 최신 Swift 기능 활용 (Sendable, Strict Concurrency)
+- 📝 **Markdown 지원** - 마크다운 파일을 자동으로 HTML로 변환
+- 🎨 **Tailwind CSS** - 유틸리티 기반 CSS 프레임워크
+- ⚡ **Vite** - 빠른 개발 서버
+- 🌳 **중첩 구조** - JSON 스타일의 페이지 구조
+- 🎯 **커스텀 레이아웃** - Swift로 작성하는 HTML 템플릿
+
+## 📦 설치
+
+### 1. Swift 의존성 설치
+
+```bash
+swift build
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+### 2. Node.js 의존성 설치
 
-Features:
-
-- ✅ Minimal styling (make it your own!)
-- ✅ 100/100 Lighthouse performance
-- ✅ SEO-friendly with canonical URLs and OpenGraph data
-- ✅ Sitemap support
-- ✅ RSS Feed support
-- ✅ Markdown & MDX support
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-├── public/
-├── src/
-│   ├── components/
-│   ├── content/
-│   ├── layouts/
-│   └── pages/
-├── astro.config.mjs
-├── README.md
-├── package.json
-└── tsconfig.json
+```bash
+npm install
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## 🚀 사용법
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+### 블로그 빌드
 
-The `src/content/` directory contains "collections" of related Markdown and MDX documents. Use `getCollection()` to retrieve posts from `src/content/blog/`, and type-check your frontmatter using an optional schema. See [Astro's Content Collections docs](https://docs.astro.build/en/guides/content-collections/) to learn more.
+```bash
+# 1. Tailwind CSS 빌드
+npm run css:build
 
-Any static assets, like images, can be placed in the `public/` directory.
+# 2. Swift 블로그 생성
+swift run Blog
 
-## 🧞 Commands
+# 또는 한 번에
+npm run css:build && swift run Blog
+```
 
-All commands are run from the root of the project, from a terminal:
+### 개발 모드
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+```bash
+# Tailwind CSS watch 모드
+npm run css:watch
 
-## 👀 Want to learn more?
+# 다른 터미널에서 프리뷰 서버 실행
+swift run Blog preview
+```
 
-Check out [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+### Vite 개발 서버 사용
 
-## Credit
+```bash
+npm run dev
+```
 
-This theme is based off of the lovely [Bear Blog](https://github.com/HermanMartinus/bearblog/).
+## 📁 프로젝트 구조
+
+```
+swiftblog/
+├── Sources/
+│   ├── Blog/              # 메인 실행 파일
+│   │   ├── main.swift
+│   │   ├── Pages/         # 페이지 정의
+│   │   ├── Layouts/       # 레이아웃 컴포넌트
+│   │   ├── Components/    # 재사용 컴포넌트
+│   │   └── Styles/        # CSS 파일
+│   │       ├── input.css  # Tailwind 입력
+│   │       └── global.css # 추가 스타일
+│   ├── Generator/         # 사이트 생성 엔진
+│   │   ├── Generator.swift
+│   │   ├── Content.swift
+│   │   ├── Post.swift
+│   │   └── MarkdownParse.swift
+│   ├── Web/              # HTML DSL 라이브러리
+│   └── Content/          # 마크다운 블로그 포스트
+│       ├── *.md
+│       └── tutorials/
+│           └── *.md
+├── Public/               # 정적 파일 (dist에 복사됨)
+│   ├── favicon.ico
+│   └── styles.css       # Tailwind가 생성
+├── dist/                # 빌드 결과물
+├── Package.swift        # Swift 패키지
+├── package.json         # Node.js 패키지
+├── tailwind.config.js   # Tailwind 설정
+├── vite.config.js       # Vite 설정
+└── postcss.config.js    # PostCSS 설정
+```
+
+## 📝 콘텐츠 작성
+
+### 1. 마크다운 파일 생성
+
+```bash
+# Sources/Content/ 폴더에 마크다운 파일 추가
+echo "# My New Post" > Sources/Content/my-post.md
+```
+
+### 2. 중첩 폴더 지원
+
+```bash
+mkdir -p Sources/Content/tutorials
+echo "# Tutorial 1" > Sources/Content/tutorials/tutorial-1.md
+```
+
+→ 자동으로 `dist/blog/tutorials/tutorial-1.html` 생성
+
+### 3. 페이지 정의 (main.swift)
+
+```swift
+let pages = [
+    Page(
+        name: "Blog",
+        path: "blog",
+        html: blogIndex(),
+        children: try content.load()  // 자동으로 마크다운 로드
+    )
+]
+```
+
+## 🎨 스타일링
+
+### Tailwind CSS 사용
+
+1. **input.css 편집** (`Sources/Blog/Styles/input.css`)
+2. **빌드**:
+   ```bash
+   npm run css:build
+   ```
+
+### 커스텀 CSS 추가
+
+- `Sources/Blog/Styles/global.css` - 자동으로 `dist/`에 복사됨
+- `Public/` 폴더의 모든 파일 - `dist/` 루트에 복사됨
+
+## 🛠️ NPM 스크립트
+
+```bash
+# Tailwind CSS 빌드
+npm run css:build
+
+# Tailwind CSS watch 모드 (자동 재빌드)
+npm run css:watch
+
+# Vite 개발 서버 (HMR 지원)
+npm run dev
+
+# Vite 프로덕션 빌드
+npm run build
+
+# Vite 프리뷰
+npm run preview
+```
+
+## 🔧 Swift 명령어
+
+```bash
+# 블로그 빌드
+swift run Blog
+
+# 프리뷰 서버 (Python)
+swift run Blog preview
+
+# 빌드 & 테스트
+swift build
+swift test
+```
+
+## 📦 의존성
+
+### Swift
+
+- **swift-markdown** - 마크다운 파싱
+- **swift-log** - 로깅
+- **swift-file** - 파일 시스템
+- **swift-command** - 커맨드 실행
+
+### Node.js
+
+- **tailwindcss** - CSS 프레임워크
+- **vite** - 빌드 도구
+- **postcss** - CSS 후처리
+- **autoprefixer** - CSS 벤더 프리픽스
+
+## 🚀 워크플로우
+
+### 개발
+
+```bash
+# 터미널 1: Tailwind watch
+npm run css:watch
+
+# 터미널 2: Swift 빌드 & 프리뷰
+swift run Blog preview
+
+# 또는 Vite 사용
+npm run dev
+```
+
+### 프로덕션 빌드
+
+```bash
+# CSS 빌드
+npm run css:build
+
+# 블로그 생성
+swift run Blog
+
+# 결과물: dist/ 폴더
+```
+
+## 📄 라이선스
+
+MIT License
+
+## 👤 Author
+
+@jihoonahn
