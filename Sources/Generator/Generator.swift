@@ -8,10 +8,10 @@ import Web
 public struct Page: Sendable {
     public let name: String
     public let path: String
-    public let html: HTML?
+    public let html: Web.HTML?
     public let children: [Page]?
     
-    public init(name: String, path: String, html: HTML) {
+    public init(name: String, path: String, html: Web.HTML) {
         self.name = name
         self.path = path
         self.html = html
@@ -25,7 +25,7 @@ public struct Page: Sendable {
         self.children = children
     }
     
-    public init(name: String, path: String, html: HTML, children: [Page]) {
+    public init(name: String, path: String, html: Web.HTML, children: [Page]) {
         self.name = name
         self.path = path
         self.html = html

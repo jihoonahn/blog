@@ -4,10 +4,10 @@ import Web
 
 public struct Content {
     public let path: String
-    public let layout: (@Sendable (Post, [Post]) -> HTML)
+    public let layout: (@Sendable (Post, [Post]) -> Web.HTML)
     public private(set) var posts: [Post] = []
     
-    public init(path: String = "Sources/Website/Contents", _ layout: @escaping @Sendable (Post, [Post]) -> HTML) {
+    public init(path: String = "Sources/Website/Contents", _ layout: @escaping @Sendable (Post, [Post]) -> Web.HTML) {
         self.path = path
         self.layout = layout
     }

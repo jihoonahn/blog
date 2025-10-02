@@ -40,6 +40,16 @@ public struct RSSGenerator {
                 <guid>\(postUrl)</guid>
                 <pubDate>\(dateFormatter.string(from: post.metadata.date))</pubDate>
                 <description>\(description)</description>
+            """
+            
+            // 이미지가 있는 경우 추가
+            if let image = post.metadata.image {
+                rssContent += """
+                <enclosure url="\(image)" type="image/jpeg"/>
+                """
+            }
+            
+            rssContent += """
             </item>
             """
         }
