@@ -16,6 +16,10 @@ extension Node where Context == HTML.DocumentContext {
             .description(description),
             .twitterCardType(.summaryLargeImage),
             .link(
+                .rel(.canonical),
+                .href(url)
+            ),
+            .link(
                 .rel(.stylesheet),
                 .href("https://cdn.jsdelivr.net/npm/@docsearch/css@4")
             ),
@@ -26,7 +30,6 @@ extension Node where Context == HTML.DocumentContext {
                 let title = "Subscribe to \(site.title)"
                 return .rssFeedLink(Path(path).absolutePath.rawValue, title: title)
             })
-
         )
     }
 }
