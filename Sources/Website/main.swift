@@ -1,45 +1,39 @@
 import Foundation
 import Generator
 import Web
-import Command
 
 let arguments = CommandLine.arguments
 
-// 사용 가능한 포트를 찾는 함수
-func findAvailablePort(startingFrom port: Int) -> Int {
-    for testPort in port...(port + 100) {
-        let socket = socket(AF_INET, SOCK_STREAM, 0)
-        if socket == -1 { continue }
-        
-        var addr = sockaddr_in()
-        addr.sin_family = sa_family_t(AF_INET)
-        addr.sin_port = in_port_t(testPort).bigEndian
-        addr.sin_addr.s_addr = in_addr_t(INADDR_LOOPBACK).bigEndian
-        
-        let result = withUnsafePointer(to: &addr) {
-            $0.withMemoryRebound(to: sockaddr.self, capacity: 1) {
-                bind(socket, $0, socklen_t(MemoryLayout<sockaddr_in>.size))
-            }
-        }
-        
-        close(socket)
-        
-        if result == 0 {
-            return testPort
-        }
-    }
-    
-    // 모든 포트가 사용 중이면 기본 포트 반환
-    return port
-}
-
-var content = Content { post, allPosts in
+var content = Content(postsPerPage: postsPerPage) { post, allPosts in
     PostLayout(post: post, allPosts: allPosts)
         .build()
 }
 
 let contentPages = try content.load()
 let allPosts = content.posts
+
+var paginationPages: [Page] = []
+let postsPerPage = 2
+let totalPages = max(1, Int(ceil(Double(allPosts.count) / Double(postsPerPage))))
+
+for pageNumber in 1...totalPages {
+    let pageHTML = postIndex(posts: allPosts, page: pageNumber, postsPerPage: postsPerPage)
+    let pagePath = pageNumber == 1 ? "posts" : "posts/page/\(pageNumber)"
+    let pageName = pageNumber == 1 ? "Posts" : "Posts Page \(pageNumber)"
+    
+    paginationPages.append(Page(
+        name: pageName,
+        path: pagePath,
+        html: pageHTML,
+        children: pageNumber == 1 ? contentPages : [
+            Page(
+                name: pageName,
+                path: "index.html",
+                html: pageHTML
+            )
+        ]
+    ))
+}
 
 let pages = [
     Page(
@@ -51,13 +45,8 @@ let pages = [
         name: "Page Not Found",
         path: "404.html",
         html: error()
-    ),
-    Page(
-        name: "Posts",
-        path: "posts",
-        html: postIndex(posts: allPosts),
-        children: contentPages
-    ),
+    )
+] + paginationPages + [
     Page(
         name: "About",
         path: "about",
@@ -106,4 +95,29 @@ do {
 } catch {
     print("❌ Error: \(error.localizedDescription)")
     exit(1)
+}
+
+func findAvailablePort(startingFrom port: Int) -> Int {
+    for testPort in port...(port + 100) {
+        let socket = socket(AF_INET, SOCK_STREAM, 0)
+        if socket == -1 { continue }
+
+        var addr = sockaddr_in()
+        addr.sin_family = sa_family_t(AF_INET)
+        addr.sin_port = in_port_t(testPort).bigEndian
+        addr.sin_addr.s_addr = in_addr_t(INADDR_LOOPBACK).bigEndian
+        
+        let result = withUnsafePointer(to: &addr) {
+            $0.withMemoryRebound(to: sockaddr.self, capacity: 1) {
+                bind(socket, $0, socklen_t(MemoryLayout<sockaddr_in>.size))
+            }
+        }
+        
+        close(socket)
+        
+        if result == 0 {
+            return testPort
+        }
+    }
+    return port
 }

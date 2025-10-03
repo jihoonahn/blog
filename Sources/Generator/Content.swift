@@ -5,10 +5,12 @@ import Web
 public struct Content {
     public let path: String
     public let layout: (@Sendable (Post, [Post]) -> Web.HTML)
+    public let postsPerPage: Int
     public private(set) var posts: [Post] = []
     
-    public init(path: String = "Sources/Website/Contents", _ layout: @escaping @Sendable (Post, [Post]) -> Web.HTML) {
+    public init(path: String = "Sources/Website/Contents", postsPerPage: Int = 10, _ layout: @escaping @Sendable (Post, [Post]) -> Web.HTML) {
         self.path = path
+        self.postsPerPage = postsPerPage
         self.layout = layout
     }
 
@@ -114,4 +116,5 @@ public struct Content {
 
         return pages.sorted { $0.name < $1.name }
     }
+    
 }
