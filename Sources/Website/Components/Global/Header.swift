@@ -17,12 +17,18 @@ struct Header: Component {
             .class("flex space-x-3 header-container")
             
             Div {
-                Div {
-                    Div().id("docsearch")
+                Button {
+                    SearchIcon()
                 }
                 .class("flex items-center justify-center hover:bg-neutral-800 hover:text-neutral-400 rounded-full transition-colors duration-200 text-neutral-600 w-12 h-12")
+                .attribute(named: "onclick", value: "document.querySelector('#docsearch button').click()")
             }
             .class("header-container")
+            
+            // Hidden DocSearch container
+            Div()
+                .id("docsearch")
+                .class("hidden")
             Script()
                 .attribute(named: "src", value: "https://cdn.jsdelivr.net/npm/@docsearch/js@4")
             Script()
