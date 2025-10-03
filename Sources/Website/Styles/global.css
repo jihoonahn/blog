@@ -547,6 +547,22 @@ body {
   box-shadow: var(--shadow-secondary);
 }
 
+/* Iframes */
+.markdown-content iframe {
+  width: 100%;
+  height: 14rem;
+  border-radius: 0.5rem;
+  margin: 1.5rem 0;
+  box-shadow: var(--shadow-secondary);
+  border: 1px solid var(--border-primary);
+}
+
+@media (min-width: 768px) {
+  .markdown-content iframe {
+      height: 24rem;
+  }
+}
+
 /* Strong and Emphasis */
 .markdown-content strong {
   font-weight: 600;

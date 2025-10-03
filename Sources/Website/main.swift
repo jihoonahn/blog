@@ -13,7 +13,7 @@ let contentPages = try content.load()
 let allPosts = content.posts
 
 var paginationPages: [Page] = []
-let postsPerPage = 2
+let postsPerPage = 10
 let totalPages = max(1, Int(ceil(Double(allPosts.count) / Double(postsPerPage))))
 
 for pageNumber in 1...totalPages {

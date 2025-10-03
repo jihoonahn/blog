@@ -17,12 +17,14 @@ struct Header: Component {
             .class("flex space-x-3 header-container")
             
             Div {
-                Button {
-                    SearchIcon()
+                Div {
+                    Div().id("docsearch")
                 }
                 .class("flex items-center justify-center hover:bg-neutral-800 hover:text-neutral-400 rounded-full transition-colors duration-200 text-neutral-600 w-12 h-12")
             }
             .class("header-container")
+            Script()
+                .attribute(named: "src", value: "https://cdn.jsdelivr.net/npm/@docsearch/js@4")
         }
         .class("fixed top-8 left-0 right-0 flex justify-between items-center px-6 max-w-2xl mx-auto z-9999")
     }

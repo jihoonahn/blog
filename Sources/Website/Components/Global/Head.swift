@@ -17,7 +17,7 @@ extension Node where Context == HTML.DocumentContext {
             .twitterCardType(.summaryLargeImage),
             .link(
                 .rel(.stylesheet),
-                .href("https://cdn.jsdelivr.net/npm/@docsearch/css@3")
+                .href("https://cdn.jsdelivr.net/npm/@docsearch/css@4")
             ),
             .stylesheet("/global.css"),
             .viewport(.accordingToDevice),
