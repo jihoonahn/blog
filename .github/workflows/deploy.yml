@@ -1,40 +1,47 @@
-name: deploy
+name: Deploy Blog
 
 on:
   push:
     branches:
       - main
+  workflow_dispatch:
 
 concurrency:
   group: deploy-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
-  blog-deploy:
-    runs-on: macos-13
+  build-and-deploy:
+    runs-on: macos-latest
     steps:
-      - uses: actions/checkout@v4
-      - name: Select Xcode 15
-        run: sudo xcode-select -s /Applications/Xcode_15.0.1.app
-      
-      - name: Setup Nodejs
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Swift
+        uses: swift-actions/setup-swift@v2
+        with:
+          swift-version: "5.9"
+
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
-      
-      - name: Generate blog
-        run: make run
-      
-      - name: Install dependencies
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install Tailwind CSS dependencies
         run: npm install
-      
-      - name: Run Tailwind CSS
-        run: make tailwind
-        
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+
+      - name: Build Tailwind CSS
+        run: npx tailwindcss -i ./Sources/Website/Styles/global.css -o ./dist/global.css --minify
+
+      - name: Build and generate website
+        run: swift run Website
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          github_token: ${{ secrets.GH_TOKEN }}
-          publish_dir: ./Output
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
           publish_branch: gh-pages
-          cname: blog.jihoon.me
+          cname: jihoon.me
+          force_orphan: true

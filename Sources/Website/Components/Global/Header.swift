@@ -25,7 +25,10 @@ struct Header: Component {
             .class("header-container")
             Script()
                 .attribute(named: "src", value: "https://cdn.jsdelivr.net/npm/@docsearch/js@4")
+            Script()
+                .attribute(named: "type", value: "text/javascript")
+                .attribute(named: "src", value: "/scripts/docsearch.js")
         }
-        .class("fixed top-8 left-0 right-0 flex justify-between items-center px-6 max-w-2xl mx-auto z-9999")
+        .class("fixed top-8 left-0 right-0 flex justify-between items-center px-6 max-w-2xl mx-auto z-99")
     }
 }
