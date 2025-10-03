@@ -55,12 +55,5 @@ let package = Package(
                 .enableUpcomingFeature("StrictConcurrency")
             ]
         ),
-        .testTarget(
-            name: "WebTests",
-            dependencies: ["Web"],
-            swiftSettings: [
-                .enableUpcomingFeature("StrictConcurrency")
-            ]
-        ),
     ]
 )
