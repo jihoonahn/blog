@@ -2,9 +2,9 @@ document.addEventListener("DOMContentLoaded", function () {
   if (typeof docsearch !== "undefined") {
     docsearch({
       container: "#docsearch",
-      appId: "46IWXDIK1T",
-      indexName: "website",
-      apiKey: "cc465f762d87fbe1c53554e511ae67e6",
+      appId: "DOAQK3DEFT",
+      indexName: "website_pages",
+      apiKey: "f2f6b3d392f55f48aa6f9d3939f2cd98",
       debug: true,
     });
   }
