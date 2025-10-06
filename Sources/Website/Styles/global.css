@@ -638,6 +638,7 @@ body {
   --docsearch-text-color: var(--text-primary) !important;
   --docsearch-key-gradient: var(--bg-tertiary) !important;
   --docsearch-key-shadow: none !important;
+  --docsearch-hit-highlight-color: none !important;
 }
 
 /* DocSearch Modal Overlay */
@@ -687,7 +688,6 @@ body {
 .DocSearch-Hit {
   background: transparent !important;
   border-bottom: 1px solid var(--border-primary) !important;
-  padding: 0.75rem 1rem !important;
   transition: background-color 0.2s ease !important;
 }
 
@@ -697,7 +697,7 @@ body {
 
 .DocSearch-Hit[aria-selected="true"] {
   background: var(--bg-tertiary) !important;
-  border-color: var(--accent-primary) !important;
+  border-color: none !important;
 }
 
 /* DocSearch Hit Content */
