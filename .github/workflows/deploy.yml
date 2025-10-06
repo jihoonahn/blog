@@ -1,4 +1,4 @@
-name: Deploy Website
+name: Deploy
 
 on:
   push:
@@ -40,8 +40,43 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
           publish_branch: gh-pages
           cname: jihoon.me
           force_orphan: true
+
+  crawl:
+    needs: build-and-deploy
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+
+    steps:
+      - name: Wait for deployment
+        run: sleep 30
+
+      - name: Verify website is accessible
+        run: |
+          curl -f -s -o /dev/null https://jihoon.me || {
+            echo "Website is not yet accessible, waiting additional 30 seconds..."
+            sleep 30
+          }
+
+      - name: Trigger DocSearch Crawling
+        run: |
+          echo "Triggering DocSearch crawling for updated website..."
+          response=$(curl -s -w "%{http_code}" -X POST "https://crawler.algolia.com/api/1/crawlers/DOAQK3DEFT/reindex" \
+            -H "Authorization: Bearer ${{ secrets.DOCSEARCH_API_KEY }}" \
+            -H "Content-Type: application/json" \
+            -d '{"force": true}')
+
+          http_code="${response: -3}"
+          if [ "$http_code" -eq 200 ] || [ "$http_code" -eq 201 ]; then
+            echo "✅ DocSearch crawling triggered successfully"
+          else
+            echo "❌ Failed to trigger DocSearch crawling. HTTP code: $http_code"
+            echo "Response: ${response%???}"
+            exit 1
+          fi
+
+      - name: Notify completion
+        run: echo "🎉 DocSearch crawling has been triggered for the updated website. Search index will be updated shortly."
