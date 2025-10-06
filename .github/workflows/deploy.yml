@@ -45,7 +45,7 @@ jobs:
           cname: jihoon.me
           force_orphan: true
 
-  crawl:
+  docsearch-crawl:
     needs: build-and-deploy
     runs-on: ubuntu-latest
     if: github.ref == 'refs/heads/main'
