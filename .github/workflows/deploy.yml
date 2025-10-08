@@ -48,7 +48,7 @@ jobs:
 
   docsearch-crawl:
     needs: build-and-deploy
-    runs-on: ubuntu-latest
+    runs-on: macos-15
     if: github.ref == 'refs/heads/main'
 
     steps:
@@ -62,8 +62,10 @@ jobs:
             sleep 30
           }
 
-      - name: Install Algolia CLI
-        run: npm install -g @algolia/cli
+      - name: Install Algolia CLI via Homebrew
+        run: |
+          brew tap algolia/algolia-cli
+          brew install algolia
 
       - name: Trigger DocSearch Crawler (via Algolia CLI)
         env:
