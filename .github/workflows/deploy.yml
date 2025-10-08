@@ -62,22 +62,17 @@ jobs:
             sleep 30
           }
 
-      - name: Trigger DocSearch Crawling
-        run: |
-          echo "Triggering DocSearch crawling for updated website..."
-          response=$(curl -s -w "%{http_code}" -X POST "https://crawler.algolia.com/api/1/crawlers/8056d134-dd88-478d-9ebc-decf9fa15518/reindex" \
-            -H "Authorization: Bearer ${{ secrets.DOCSEARCH_API_KEY }}" \
-            -H "Content-Type: application/json" \
-            -d '{"force": true}')
+      - name: Install Algolia CLI
+        run: npm install -g @algolia/cli
 
-          http_code="${response: -3}"
-          if [ "$http_code" -eq 200 ] || [ "$http_code" -eq 201 ]; then
-            echo "✅ DocSearch crawling triggered successfully"
-          else
-            echo "❌ Failed to trigger DocSearch crawling. HTTP code: $http_code"
-            echo "Response: ${response%???}"
-            exit 1
-          fi
+      - name: Trigger DocSearch Crawler (via Algolia CLI)
+        env:
+          ALGOLIA_APPLICATION_ID: DOAQK3DEFT
+          ALGOLIA_ADMIN_API_KEY: ${{ secrets.DOCSEARCH_API_KEY }}
+        run: |
+          echo "🚀 Triggering DocSearch crawler..."
+          algolia crawler:reindex 8056d134-dd88-478d-9ebc-decf9fa15518
+          echo "✅ DocSearch crawler reindex triggered successfully!"
 
       - name: Notify completion
         run: echo "🎉 DocSearch crawling has been triggered for the updated website. Search index will be updated shortly."
