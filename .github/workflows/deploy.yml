@@ -65,7 +65,7 @@ jobs:
       - name: Trigger DocSearch Crawling
         run: |
           echo "Triggering DocSearch crawling for updated website..."
-          response=$(curl -s -w "%{http_code}" -X POST "https://crawler.algolia.com/api/1/crawlers/DOAQK3DEFT/reindex" \
+          response=$(curl -s -w "%{http_code}" -X POST "https://crawler.algolia.com/api/1/crawlers/8056d134-dd88-478d-9ebc-decf9fa15518/reindex" \
             -H "Authorization: Bearer ${{ secrets.DOCSEARCH_API_KEY }}" \
             -H "Content-Type: application/json" \
             -d '{"force": true}')
