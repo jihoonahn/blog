@@ -70,7 +70,8 @@ jobs:
       - name: Trigger DocSearch Crawler (via Algolia CLI)
         env:
           ALGOLIA_APPLICATION_ID: DOAQK3DEFT
-          ALGOLIA_ADMIN_API_KEY: ${{ secrets.DOCSEARCH_API_KEY }}
+          ALGOLIA_CRAWLER_USER_ID: ${{ secrets.DOCSEARCH_USER_ID }}
+          ALGOLIA_CRAWLER_API_KEY: ${{ secrets.DOCSEARCH_API_KEY }}
         run: |
           echo "🚀 Triggering DocSearch crawler..."
           algolia crawler reindex 8056d134-dd88-478d-9ebc-decf9fa15518
